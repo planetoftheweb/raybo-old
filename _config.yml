@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "Planet of the Web"
 description: > # this means to ignore newlines until "email:"
-   Github Pages for Ray Villalobos
+   Ray Villalobos, Father of 8, Lynda.com Staff Author & Speaker
 
 email: ray@planetoftheweb.com
 #blog logo
@@ -31,12 +31,19 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-  - icon:	facebook
-    url:	https://facebook.com/iviewsource
+  - icon: facebook
+    url:  https://facebook.com/iviewsource
     desc: Connect with me facebook
     share_url: //www.facebook.com/sharer.php
     share_title: ?t=
     share_link: "&amp;u="
+
+  - icon: linkedin
+    url:  https://linkedin.com/in/planetoftheweb
+    desc: Connect with me on LinkedIn
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/planetoftheweb
