@@ -3,9 +3,9 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Planet of the Web"
+title: "Ray Villalobos"
 description: > # this means to ignore newlines until "email:"
-   Ray Villalobos, Father of 8, Lynda.com Staff Author & Speaker
+   Father of 8, Lynda.com Staff Author & Speaker
 
 email: ray@planetoftheweb.com
 #blog logo
