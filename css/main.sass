@@ -10,8 +10,8 @@
 
 $rs: 16px
 
-$font-serif: Linux Libertine
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-serif: Merriweather
+$font-sans: Bree Serif, sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -25,7 +25,7 @@ $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 
 body
-  font-family: $font-sans
+  font-family: $font-serif
   margin: 0
   padding: 0
   text-rendering: optimizeLegibility
@@ -138,8 +138,9 @@ body
     &:last-child
       border-bottom: 0px
     .post-title
+      font-family: $font-sans
       letter-spacing: -0.02em
-      font-weight: 700
+      font-weight: 300
       font-style: normal
       display: block
       font-size: 28px
@@ -147,9 +148,10 @@ body
       margin: 0 0
       a
         text-decoration: none
-        color: #333332
+        color: #145A6D
         &:hover
           text-decoration: none
+          color: #E76C5A
     .post-excerpt
       letter-spacing: -0.02em
       font-weight: 300
@@ -166,6 +168,7 @@ body
         text-decoration: none
         &:hover
           text-decoration: underline
+          color: #E76C5A
 .container.featured
   padding-bottom: 40px
 
@@ -194,7 +197,7 @@ body
     color: #999
     text-decoration: none
     &:hover
-      color: #333
+      color: #E76C5A
 
 .post-reading
   position: absolute
@@ -227,7 +230,7 @@ body
     color: #666
     text-decoration: none
     &:hover
-      color: #333
+      color: #E76C5A
 .post
   .article-image
     position: absolute
@@ -294,7 +297,7 @@ body
       a
         color: rgba(255,255,255,0.75)
         &:hover
-          color: rgba(255,255,255,1)
+          color: #E76C5A
     .fa-angle-down
       font-size: 32px
       margin: 64px auto 0
