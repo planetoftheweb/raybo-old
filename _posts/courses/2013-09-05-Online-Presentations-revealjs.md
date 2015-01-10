@@ -14,7 +14,7 @@ description: ""
 
 For web designers and developers, tools like PowerPoint and Keynote lack the power that's available to web browsers. Reveal.js allows you to create presentations that use the full power of the web, providing syntax highlighting for code, mobile pinch and swipe support, CSS theming, and the ability to integrate with other libraries and frameworks like jQuery and EaselJS. Explore reveal.js with Ray Villalobos, as he shows how to build slideshows with a text editor and a browser, and incorporate audio and video, animation, and CSS styling.
 
-### Topics include:
+### Topics include
 
 - Downloading and installing reveal.js
 - Adding audio and video to your presentation

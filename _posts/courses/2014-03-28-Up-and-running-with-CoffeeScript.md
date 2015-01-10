@@ -10,8 +10,8 @@ url: http://www.lynda.com/Developer-Web-Design-tutorials/Up-Running-CoffeeScript
 github: https://github.com/planetoftheweb/coffeescript
 youtube: 4eooHNZiHtc
 image: /assets/images/courses/Up-Running-AngularJS_thumb.jpg
-synopsis: 
-description: 
+synopsis:
+description:
 
 
 ---
@@ -20,7 +20,7 @@ description:
 
 Learning CoffeeScript allows front-end developers to write JavaScript more beautifully and efficiently. It gives your code an extra zing. This course teaches the best features from the CoffeeScript language, like splats and ranges, plus how to write common JavaScript commands more efficiently using CoffeeScript. Author Ray Villalobos also shows how to work with Gulp.js, a streaming build system for not only CoffeeScript, but also Sass, LESS, JavaScript, and CSS.
 
-### Topics include:
+### Topics include
 
 - What is CoffeeScript?
 - Setting up a project with Gulp.js

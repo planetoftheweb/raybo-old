@@ -8,10 +8,8 @@ description: > # this means to ignore newlines until "email:"
    Father of 8, Lynda.com Staff Author & Speaker
 
 email: ray@planetoftheweb.com
-#blog logo
-logo: "/assets/images/powship.png"
-# blog cover
-cover: "/assets/images/hero.jpg"
+logo: "/assets/images/powship.png" #blog logo
+cover: "/assets/images/hero.jpg" # blog cover
 
 name: 'Ray Villalobos'
 author: 'Ray Villalobos'
@@ -19,7 +17,7 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://planetoftheweb.github.io" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
@@ -32,7 +30,7 @@ social:
     share_link: "&amp;url="
 
   - icon: facebook
-    url:  https://facebook.com/iviewsource
+    url:  https://facebook.com/viewsource
     desc: Connect with me facebook
     share_url: //www.facebook.com/sharer.php
     share_title: ?t=
@@ -41,20 +39,23 @@ social:
   - icon: linkedin
     url:  https://linkedin.com/in/planetoftheweb
     desc: Connect with me on LinkedIn
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/planetoftheweb
     desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
 
   - icon:	google-plus
     url:	https://plus.google.com/+RayVillalobos0
     desc:	Add me on google+
-    share_url:
-    share_title:
-    share_link:
+
+  - icon:	dribbble
+    url:	https://dribbble.com/planetoftheweb
+    desc:	Follow me on dribbble
+
+  - icon:	flickr
+    url:	https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/
+    desc:	My flickr portfolio
+
+  - icon:	youtube
+    url:	https://www.youtube.com/user/planetoftheweb
+    desc:	Subscribe to my youtube channel

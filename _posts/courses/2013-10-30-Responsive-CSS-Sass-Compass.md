@@ -7,15 +7,15 @@ tags: Developer Web Design Development JavaScript
 length: 3h 22m
 level: Intermediate
 url: http://www.lynda.com/CSS-tutorials/Responsive-CSS-Sass-Compass/140777-2.html
-github: 
+github:
 image: /assets/images/courses/Responsive-CSS-Sass-Compass_thumb.jpg
-synopsis: 
-description: 
+synopsis:
+description:
 ---
 
 Using a framework helps simplify your workflow and makes writing CSS fun again. Learn how Compass (powered by Sass) can help you build responsive layouts that are easier, faster, and more compatible than using CSS alone. In this course, Ray Villalobos shows how to automate your workflow with Grunt.js, scaffold your HTML, modularize your Sass with partials, and get started styling with variables and mixins. Plus, learn how to create a mobile-first grid with Susy—without adding nonsemantic HTML markup.
 
-### Topics include:
+### Topics include
 
 - What are Sass and Compass?
 - Adding version control

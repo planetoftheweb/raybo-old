@@ -1,8 +1,7 @@
 ---
 ---
-
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic|Open+Sans:300,700,300,300italic,400italic,800,700italic)
 @import 'syntax-highlighting'
-
 @import 'bourbon/bourbon'
 
 .cf
@@ -10,8 +9,9 @@
 
 $rs: 16px
 
-$font-serif: Merriweather
-$font-sans: Bree Serif, sans-serif
+$font-serif: Merriweather, serif
+$font-sans: 'Bree Serif', sans-serif
+$font-head: 'Open Sans', sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -97,6 +97,7 @@ body
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     box-shadow: 0 1px 1px rgba(0,0,0,0.3)
   .blog-title
+    font-family: $font-head
     margin: 0
     padding: $rs*5.25 $rs $rs/2
     font-size: 50px
@@ -114,7 +115,7 @@ body
     line-height: 1.5
     color: #666
     text-align: center
-    font-weight: 400
+    font-weight: 300
   .custom-links
     margin: 0 0 50px
     text-align: center
@@ -139,7 +140,6 @@ body
       border-bottom: 0px
     .post-title
       font-family: $font-sans
-      letter-spacing: -0.02em
       font-weight: 300
       font-style: normal
       display: block
@@ -209,7 +209,7 @@ body
   color: rgba(0,0,0,0.25)
   font-size: 14px
   letter-spacing: -0.02em
-  font-weight: 400
+  font-weight: 300
   font-style: normal
   font-family: $font-sans
   z-index: 999
@@ -262,7 +262,8 @@ body
         left: $rs
         right: $rs
     .post-title
-      font-weight: 700
+      font-family: $font-head
+      font-weight: 300
       font-style: normal
       letter-spacing: -0.04em
       font-size: 50px
@@ -285,8 +286,7 @@ body
       display: inline
     .post-meta-text
       color: rgba(255,255,255,0.75)
-      letter-spacing: -0.02em
-      font-weight: 400
+      font-weight: 300
       font-style: normal
       text-shadow: 0px 1px 4px rgba(0,0,0,0.25), 0px 0px 1px rgba(0,0,0,0.5)
       font-size: 14px
@@ -311,7 +311,8 @@ body
       font-family: $font-sans
       padding-top: 60px
     .post-title
-      font-weight: 700
+      font-family: $font-head
+      font-weight: 300
       font-style: normal
       letter-spacing: -0.04em
       font-size: 50px
@@ -333,8 +334,7 @@ body
       display: inline
     .post-meta-text
       color: #b3b3b1
-      letter-spacing: -0.02em
-      font-weight: 400
+      font-weight: 300
       font-style: normal
       font-size: 14px
       overflow: hidden
@@ -355,7 +355,8 @@ body
       line-height: 1.3
       margin: 0
       font-family: $font-sans
-      margin-bottom: 4px
+      margin-bottom: 14px
+      color: #DF7A47
     h2, h1
       letter-spacing: -0.02em
       font-weight: 700
@@ -365,7 +366,7 @@ body
       padding-top: 31px
       margin-bottom: 4px
     p
-      font-weight: 400
+      font-weight: 300
       font-style: normal
       font-size: 22px
       line-height: 30px
@@ -385,7 +386,7 @@ body
       margin: 0
       padding: 0 0 30px
     figcaption
-      font-weight: 400
+      font-weight: 300
       font-style: italic
       font-size: 16px
       line-height: 1.3
@@ -408,24 +409,22 @@ body
       padding-left: 20px
       p
         letter-spacing: 0.01rem
-        font-weight: 400
+        font-weight: 300
         font-style: italic
         mborder-left: 3px solid #57ad68
         mpadding-left: 20px
         mmargin-left: -26px
         padding-bottom: 3px
     ul, ol
-      padding: 0 0 30px
+      padding: 0
       margin: 0
     li
       padding: 0
-      font-weight: 400
+      font-weight: 300
       font-style: normal
-      font-size: 23px
-      line-height: 30px
-      margin-left: 30px
-      margin-bottom: 12px
-      padding-top: 2px
+      font-size: 1.2em
+      line-height: 1.8em
+      margin-left: 20px
       p
         padding: 0 0 golden-ratio(1rem,  1)
     ol li
@@ -474,7 +473,7 @@ body
       p
         font-size: 14px
         line-height: 1.3
-        font-weight: 400
+        font-weight: 300
         padding: 0
         margin: 0
         padding-left: 100px
@@ -559,7 +558,7 @@ body
       line-height: 1.5
       color: #fff
       text-align: center
-      font-weight: 400
+      font-weight: 300
       text-shadow: 0px 1px 16px rgba(0,0,0,0.5), 0px 0px 1px rgba(0,0,0,0.5)
     .custom-links
       margin: 0 0 50px
@@ -568,7 +567,7 @@ body
       text-align: center
       letter-spacing: -0.02em
       font-size: 15px
-      font-weight: 400
+      font-weight: 300
       font-style: normal
       text-decoration: none
       cursor: pointer

@@ -14,7 +14,7 @@ description: "The Document Object Model (DOM) is at the core of every HTML page.
 
 The Document Object Model (DOM) is at the core of every HTML page. In order to develop dynamic HTML pages, a front-end developer needs to understand how JavaScript connects to and controls the DOM, allowing you to create, modify, delete, and edit existing page content. This course focuses on helping you understand the DOM elements, and shows the different ways JavaScript gives you access to them and makes it easier to work with the DOM. Author Ray Villalobos covers navigating the DOM, selecting elements, modifying HTML attributes, editing nodes, and much more.
 
-### Topics include:
+### Topics include
 
 - What is the DOM?
 - Choosing and isolating elements
