@@ -3,7 +3,7 @@ layout: post
 title:  "iOS 4 Web Applications with HTML5 and CSS3"
 date:   2012-01-20 09:00:00
 categories: courses
-tags: html css html5 css3
+tags: [html, css, html5, css3]
 length: 4h 0m
 level: Intermediate
 url: http://www.lynda.com/AngularJS-tutorials/Building-Data-Driven-App-AngularJS/174237-2.html

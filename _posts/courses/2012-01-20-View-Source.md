@@ -3,7 +3,7 @@ layout: post
 title:  "View Source"
 date:   2012-01-20 09:00:00
 categories: courses
-tags: Web html css php javascript Design Projects WordPress
+tags: [Web, html, css, php, javascript, Design, Projects, WordPress]
 length: 2h 10m
 level: Intermediate
 url: "http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html"
