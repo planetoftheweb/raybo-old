@@ -14,6 +14,7 @@ cover: "/assets/images/hero.jpg" # blog cover
 name: 'Ray Villalobos'
 author: 'Ray Villalobos'
 author_image: "/assets/images/author.jpg"
+ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filter.includes=Title,ShortDescription,DurationInSeconds,URLs,ID,WelcomeVideoId,Thumbnails.filename
 
 paginate:	5
 
