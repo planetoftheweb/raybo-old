@@ -20,7 +20,7 @@ ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filte
 
 paginate:	5
 
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+url: "http://raybo.org" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
