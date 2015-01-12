@@ -3,16 +3,18 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Ray Villalobos"
+title: "Raybo.org"
 description: > # this means to ignore newlines until "email:"
-   Father of 8, Lynda.com Staff Author & Speaker
-
+  I love to help people improve their lives by learning front-end design and full stack development skills in an easy, practical way.
 email: ray@planetoftheweb.com
 logo: "/assets/images/powship.png" #blog logo
 cover: "/assets/images/hero.jpg" # blog cover
 
-name: 'Ray Villalobos'
-author: 'Ray Villalobos'
+
+author:
+  name: "Ray Villalobos"
+  bio: "Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills in an easy, practical way."
+
 author_image: "/assets/images/author.jpg"
 ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filter.includes=Title,ShortDescription,DurationInSeconds,URLs,ID,WelcomeVideoId,Thumbnails.filename
 

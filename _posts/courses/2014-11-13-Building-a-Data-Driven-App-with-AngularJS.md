@@ -10,13 +10,14 @@ tags:
 - NodeJS
 - AngularJS
 
-links:
+related:
 - github:
   url: https://github.com/planetoftheweb/angulardata
 
 - sample:
-  url: https://www.ng-book.com
+  url: http://chetkins.com
 
+links:
 - books:
   title: NG Book
   url: https://www.ng-book.com
