@@ -2,144 +2,57 @@
 ---
 <!DOCTYPE html>
 <html>
+<head>
   {% include head.html %}
+</head>
+<body class="post">
 
-  <body itemscope itemtype="http://schema.org/Article">
+<!-- Course Information -->
+{% for course in site.data.courselist %}
+{% if course.ID == page.courseid %}
+
+<header>
+  <div class="header-background" style="background-image: url({% if course.Thumbnails[17].FullURL %}{{ course.Thumbnails[17].FullURL }}{% endif %})"></div>
+  <section class="post-meta">
     {% include header.html %}
+    <h1 class="post-title">{{ course.Title }}</h1>
+    <div class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></div>
+    <div class="cf post-text">
+    {{ course.ShortDescription }}
+      <div class="author-image" style="background-image: url({{ site.author_image }})"></div>
+      <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author.name }}</h4>
+      on <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
+    </div><!-- cf post-meta-text -->
+  </section><!-- post-meta -->
+</header>
 
-    <main class="content" role="main">
-      <article class="post">
+<main class="content" role="main">
+  <div class="custom-links">
+    {% for items in post.links %}
+    {% if social.github %}
+    <a class="icon-github" href="{{ social.url }}">
+      <i class="fa fa-{{ social.icon }}"></i>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div><!-- custom-links -->
 
+  <div class="video"><iframe width='560' height='315' src='https://www.lynda.com/player/embed/{{ course.WelcomeVideoId }}?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-{{ course.WelcomeVideoId }}' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true' frameborder='0'></iframe></div>
+  <div class="course-description">{{ course.Description }}</div>
+  <div class="content">{{ content }}</div>
+</section><!-- post-content -->
+</main><!-- main class="content" -->
 
-        {% for course in site.data.courselist %}
-        {% if course.ID == page.courseid %}
+<footer class="site-footer">
+  <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}></div>
+  {% include footer.html %}
+</footer>
 
-        <!-- Course Information -->
-
-        {% if course.Thumbnails %}
-          <div class="article-image">
-            <div class="post-image-image" style="background-image: url({% if course.Thumbnails[17].FullURL %}{{ course.Thumbnails[17].FullURL }}{% endif %})">
-              Article Image
-            </div><!-- post-image-image -->
-            <div class="post-meta">
-              <h1 class="post-title">{{ course.Title }}</h1>
-              <div class="cf post-meta-text">
-                {{ course.ShortDescription }}
-                <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
-                <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
-                on <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
-                , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}
-              </div><!-- cf post-meta-text -->
-              <div class="gototop">
-                <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
-              </div><!-- gototop -->
-            </div><!-- post-meta -->
-          </div>
-        {% else %}
-          <div class="noarticleimage">
-            <div class="post-meta">
-              <h1 class="post-title">{{ course.Title }}</h1>
-              {{ course.ShortDescription }}
-              <time datetime="{{ course.DateReleasedUtc | date_to_xmlschema }}">{{ course.DateReleasedUtc | date_to_string }}</time>
-                <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
-              <div class="cf post-meta-text">
-                <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
-                <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ course.Authors[0].Fullname }}</h4>
-                on
-              </div><!-- post-meta-text -->
-            </div><!-- post-meta -->
-          </div><!-- noarticleimage -->
-        {% endif %}
+{% endif %} 
+{% endfor %} 
+<!-- Course Information -->
 
 
-        <!-- post-content -->
-        <section class="post-content">
-          <div class="post-reading"><span class="post-reading-time"></span> read</div>
-          <a name="topofpage"></a>
-
-
-          <div class="custom-links">
-            {% for items in post.links %}
-            {% if social.github %}
-            <a class="icon-github" href="{{ social.url }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;
-            {% endif %}
-            {% endfor %}
-          </div>
-
-
-
-          <iframe width='560' height='315' src='https://www.lynda.com/player/embed/{{ course.WelcomeVideoId }}?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-{{ course.WelcomeVideoId }}' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true' frameborder='0'></iframe>
-          
-
-          <p>{{ course.Description }}</p>
-
-          {{ content }}
-
-        </section><!-- post-content -->
-
-
-
-        <!-- Course Information -->
-        {% endif %}
-        {% endfor %}
-
-
-        <!-- post-footer -->
-        <footer class="post-footer">
-          <section class="share">
-          </section>
-        </footer>
-
-
-        <!-- bottom-teaser -->
-        <div class="bottom-teaser cf">
-
-          <!-- Author Credits -->
-          <div class="isLeft">
-            <h5 class="index-headline featured"><span>Written by</span></h5>
-            <section class="author">
-              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
-              <h4>{{ site.author.name }}</h4>
-              <p class="bio">{{ site.author.bio }}</p>
-              <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
-            </section>
-          </div><!-- class="isLeft" -->
-
-          <!-- Author Credits -->
-          <div class="isRight follow">
-            <h5 class="index-headline featured"><span>Follow me</span></h5>
-            <div class="custom-links">
-              {% for social in site.social %}
-              {% if social.url %}
-              <a class="icon-{{ social.icon }}" href="{{ social.url }}"><i class="fa fa-{{ social.icon }}"></i></a>
-              &nbsp;&nbsp;
-              {% endif %}
-              {% endfor %}
-            </div>
-          </div><!-- class="isRight" -->
-
-
-          {{/post}}
-
-          <!-- Social -->
-
-        </div><!-- bottom-teaser -->
-
-      </article><!-- article class="post" -->
-    </main><!-- main class="content" -->
-
-
-    <!-- bottom-closer -->
-    <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
-        Image
-      </div><!-- background-closer-image -->
-      <div class="inner">
-      </div><!-- inner -->
-    </div><!-- bottom-closer -->
-    {% include javascripts.html %}
-  </body>
+{% include javascripts.html %}
+</body>
 </html>

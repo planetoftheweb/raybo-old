@@ -4,8 +4,7 @@ highlighter: pygments
 
 # Site settings
 title: "Raybo.org"
-description: > # this means to ignore newlines until "email:"
-  I love to help people improve their lives by learning front-end design and full stack development skills in an easy, practical way.
+description: Personal website for <a href="http://lynda.com/rayvillalobos">Ray Villalobos</a>
 email: ray@planetoftheweb.com
 logo: "/assets/images/powship.png" #blog logo
 cover: "/assets/images/hero.jpg" # blog cover
@@ -13,14 +12,14 @@ cover: "/assets/images/hero.jpg" # blog cover
 
 author:
   name: "Ray Villalobos"
-  bio: "Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills in an easy, practical way."
+  bio: "Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills with a clear, practical approach."
 
 author_image: "/assets/images/author.jpg"
 ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filter.includes=Title,ShortDescription,DurationInSeconds,URLs,ID,WelcomeVideoId,Thumbnails.filename
 
 paginate:	5
 
-url: "http://raybo.org" # the base hostname & protocol for your site
+url: "/" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
