@@ -1,19 +1,21 @@
 <!-- bottom-teaser -->
-<div class="bottom-teaser cf">
+<div class="bottom-info cf">
 
 <!-- Author Credits -->
-<section class="section">
-  <h5 class="index-headline featured"><span>Written by</span></h5>
+<section class="author-info credits">
+  <h5 class="author-headline"><span>Written by</span></h5>
   <div class="author">
-    <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
-    <h4 class="author-name">{{ site.author.name }}</h4>
-    <div class="author-bio">{{ site.author.bio }}</div>
-  </div>
-</section><!-- class="isLeft" -->
+    <a href="/about/"><div class="author-image" style="background-image: url({{site.author_image}})"></div></a>
+    <div class="author-text">
+      <h4 class="author-name"><a href="/about/">{{ site.author.name }}</a></h4>
+      <div class="author-bio">{{ site.author.bio }}</div>
+    </div><!-- author-text -->
+  </div><!-- author -->
+</section><!-- class="credits" -->
 
 <!-- Author Credits -->
-<section class="section">
-  <h5 class="index-headline featured"><span>Follow me</span></h5>
+<section class="author-info social">
+  <h5 class="author-headline"><span>Follow me</span></h5>
   <div class="custom-links">
     {% for social in site.social %}
     {% if social.url %}
@@ -25,4 +27,5 @@
   <div class="feed"><a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe to my feed</span></a></div>
 
 </section><!-- class="isRight" -->
-</div><!-- bottom-teaser -->
+</div><!-- bottom-info -->
+<a href="/about/"><div class="footer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}></div></a>

@@ -1,7 +1,8 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-
+sass:
+  style: compressed
 # Site settings
 title: "Raybo.org"
 description: Personal website for <a href="http://lynda.com/rayvillalobos">Ray Villalobos</a>

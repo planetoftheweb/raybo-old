@@ -8,14 +8,14 @@
   $(document).ready(function(){
 
     var $window = $(window),
-    $image = $('.post-image-image');
+    $image = $('.header-image');
     $window.on('scroll', function() {
       var top = $window.scrollTop();
 
       if (top < 0 || top > 1500) { return; }
       $image
         .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-        .css('opacity', .8-Math.max(top/($window.height()/2), 0));
+        .css('opacity', .2-Math.max(top/($window.height()/2), 0));
     });
     $window.trigger('scroll');
 

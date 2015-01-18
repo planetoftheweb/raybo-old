@@ -1,0 +1,92 @@
+.floating-logo
+  position: fixed
+  left: 10px
+  top: 10px
+  width: $rs*3
+  height: $rs*3
+  overflow: hidden
+  z-index: 200
+  opacity: .9
+  border: 10px solid rgba(255,255,255,.2)
+  border-radius: 100%
+  .logo
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    width: $rs*3
+    height: $rs*3
+    background-size: cover
+    background-repeat: no-repeat
+
+header
+  @include box-sizing(border-box)
+  width: 100%
+  background-color: #041D24
+  @include background-image( linear-gradient(to left, #D14348, #72A65C) )
+  color: #fff
+  font-weight: 100
+  position: relative
+  font-family: $font-sans
+  font-style: normal
+  font-size: .8em
+  line-height: 130%
+  height: 450px
+  position: relative
+  overflow: hidden
+  margin-bottom: 50px
+  @include respond-to(800)
+    height: 200px
+    margin-bottom: 0
+
+  .header-image
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    overflow: hidden
+    background-size: cover
+    background-position: center
+    @include filter(blur(10px))
+    opacity: .4
+    margin: -15px -15px -5px -15px
+  .post-meta
+    position: absolute
+    bottom: $rs*5
+    left: 25%
+    right: 25%
+    @include box-sizing(border-box)
+    @include respond-to(900)
+      left: 20%
+      right: 20%
+      bottom: 10px
+    .post-text
+      @include respond-to(800)
+        display: none
+
+    .post-title
+      color: #FFCF4E
+      margin: 0
+      padding: 0
+      font-weight: normal
+      font-size: 5.5rem
+      line-height: 100%
+      margin-bottom: 16px
+      @include respond-to(800)
+        font-size: 3.5rem
+    .author-image
+      display: inline-block
+      width: 60px
+      height: 60px
+      margin-right: 8px
+      float: left
+      background-size: cover
+      border-radius: 100%
+    .author-name
+      padding-top: 5px
+      font-weight: 700
+      a
+        text-decoration: none
+        color: #FFF
+

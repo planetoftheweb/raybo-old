@@ -1,0 +1,16 @@
+.cf
+  @include clearfix
+
+$rs: 16px
+$reading-width: 700px
+
+$font-serif: Merriweather, serif
+$font-sans: 'Open Sans', sans-serif
+
+@mixin respond-to($breakpoint)
+  @media only screen and (max-width: $breakpoint + px)
+    @content
+
+%vertical-rhythm
+  margin-bottom: $rs
+
