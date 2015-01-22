@@ -8,26 +8,36 @@ layout: default
       {% if course.ID == post.courseid %}
       <article class="post-item">
         <div class="post-meta">
-          <span class="post-category">
-          {% if post.categories %}
+          {% if post.category %}
+            <span class="post-category">
 
-            {% case categories %}
+            {% case category %}
               {% when 'courses' %}
               <i class="fa fa-file-text"></i>
               {% else %}
               <i class="fa fa-graduation-cap"></i>
             {% endcase %}
 
-          {{ post.categories }}
-          {% endif %}</span>
+            {{ post.category }}
+            </span>
+          {% endif %}
           <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
-        </div>
+        </div><!-- post-meta -->
         <h2 class="post-title"><a href="{{ post.url }}">{{ course.Title }}</a></h2>
+
+        {% if post.tags %}
+        <div class="tags">
+          <h3>tags</h3>
+            <ul>
+            {% for tag in post.tags %}
+              <li>{{ tag }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
         <section class="post-description">
           <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.Thumbnails[10].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
-        </section>
-        <section class="tags">
-          
         </section>
 
 

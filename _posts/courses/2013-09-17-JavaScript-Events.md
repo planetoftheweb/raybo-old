@@ -2,5 +2,11 @@
 courseid: 140780
 layout: post
 category: courses
-tags: [ Web, Design, Projects, Development, NodeJS, AngularJS ]
+tags:
+- Web Development
+- JavaScript
+- Events
+- jQuery
+- JSON
+- DOM
 ---

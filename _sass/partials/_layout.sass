@@ -23,34 +23,23 @@
     padding: 60px 0
     @include respond-to(600)
       padding: 20px 0
-    
-    .post-meta
-      font-family: $font-sans
-      font-size: 1.5rem
-      line-height: 100%
-      .post-category
-        font-weight: bold
-        color: #E76C5A
-      .post-date
-        &:before
-          content: " | "
-  
+      
     .post-title
       font-family: $font-alternate
       font-weight: normal
       font-style: normal
-      line-height: 120%
-      padding-bottom: 10px
       font-size: 2.8rem
-      line-height: 1.1
+      line-height: 105%
       a
         color: #145A6D
         text-decoration: none
         &:hover
           color: #E76C5A
     .post-description
+      @include clearfix
       font-size: 1.9rem
       line-height: 150%
+      margin-top: 10px
 
     .list-thumb
       display: block
@@ -106,4 +95,56 @@
     font-size: 1.2rem
     top: -20rem
     vertical-align: top
+
+.tags
+  font-family: $font-sans
+  font-size: 1.2rem
+  line-height: 120%
+  margin: 5px 0
+  padding: 0
+  h3
+    margin: 0
+    padding: 0
+    float: left
+    margin-right: 5px
+    &:after
+      content: ":"
+  ul
+    @include clearfix
+    margin: 0
+    padding: 0
+  li
+    list-style: none
+    float: left
+    margin: 0
+    padding: 0 5px
+    border-right: 1px solid #999
+    &:first-child
+      padding-left: 0
+    &:last-child
+      border-right: none
+      padding-right: 0
+  @include respond-to(800)
+    display: none
+
+
+.post-meta
+  font-family: $font-sans
+  font-size: 1.5rem
+  line-height: 120%
+  @include clearfix
+
+  .post &
+    margin-bottom: 10px
+
+  .post-category
+    font-weight: bold
+    color: #E76C5A
+    .post &
+      float: left
+      padding-right: 10px
+
+  .post-date
+    &:before
+      content: " | "
 

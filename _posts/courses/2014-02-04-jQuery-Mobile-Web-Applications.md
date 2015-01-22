@@ -3,10 +3,8 @@ courseid: 156619
 layout: post
 category: courses
 tags:
-- Web
-- Design
-- Projects
+- jQuery
+- Mobile
+- Web Design
 - Development
-- NodeJS
-- AngularJS
 ---

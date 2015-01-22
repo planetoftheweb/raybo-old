@@ -3,10 +3,8 @@ courseid: 69792
 layout: post
 category: courses
 tags:
-- Web
-- Design
-- Projects
-- Development
-- NodeJS
-- AngularJS
+- HTML5
+- CSS3
+- iOS
+- Web App
 ---

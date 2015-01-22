@@ -3,10 +3,11 @@ courseid: 97617
 layout: post
 category: courses
 tags:
-- Web
-- Design
-- Projects
-- Development
-- NodeJS
-- AngularJS
+- Web Design
+- Adobe
+- Graphics
+- PNG
+- Images
+- Mockups
+- jQuery Mobile
 ---
