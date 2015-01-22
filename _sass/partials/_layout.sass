@@ -1,24 +1,3 @@
-html
-  font-size: 62.5%
-
-body
-  font-family: $font-serif
-  font-size: 2.2rem
-  line-height: 170%
-  font-weight: 300
-  color: #333
-
-  text-rendering: optimizeLegibility
-  -webkit-font-smoothing: antialiased
-  -moz-font-feature-settings: "liga=1, dlig=1"
-  -ms-font-feature-settings: "liga", "dlig"
-  -webkit-font-feature-settings: "liga", "dlig"
-  -o-font-feature-settings: "liga", "dlig"
-  font-feature-settings: "liga", "dlig"
-
-iframe
-  width: 100%
-
 .content
   width: 100%
   max-width: $reading-width
@@ -31,25 +10,93 @@ iframe
 
   .post-video
     padding-bottom: 50px
+    @include respond-to(800)
+    .video
+      width: 100%
+      height: 400px
+      @include respond-to(800)
+        height: 275px
 
-.post
-  .post-meta-text
-    color: rgba(255,255,255,0.75)
-    font-size: 14px
-    overflow: hidden
-    font-family: $font-sans
-    white-space: nowrap
-    text-overflow: ellipsis
-    a
-      color: rgba(255,255,255,0.75)
-      &:hover
-        color: #E76C5A
-  .fa-angle-down
-    font-size: 32px
-    margin: 64px auto 0
-    color: rgba(255,255,255,0.75)
+
+.post-list
+  .post-item
+    padding: 60px 0
+    @include respond-to(600)
+      padding: 20px 0
+
+    .post-title
+      font-family: $font-alternate
+      font-weight: normal
+      font-style: normal
+      line-height: 120%
+      padding-bottom: 10px
+      font-size: 2.8rem
+      line-height: 1.1
+      a
+        color: #145A6D
+        text-decoration: none
+        &:hover
+          color: #E76C5A
+    .post-date
+      font-family: $font-sans
+      font-size: 1.5rem
+      line-height: 100%
+    .post-description
+      font-size: 1.9rem
+      line-height: 150%
+
+    .list-thumb
+      display: block
+      float: left
+      width: 30%
+      min-width: 160px
+      margin-right: 2%
+      border-radius: 10px
+
+.links
+  margin-bottom: 8px
+
+.custom-links
+  display: inline-block
+  padding: 0 16px 0 0
+  font-size: 1.7rem
+
+  a
+    text-decoration: none
+    display: inline-block
+    padding: 0 15px
+    header &
+      @include respond-to(800)
+        font-size: 1.7rem
+        padding: 0 12px
+
+    footer &
+      font-size: 1.2rem
+      padding: 0 8px
+      @include respond-to(800)
+        font-size: 1.7rem
+        padding: 0 15px
+      @include respond-to(400)
+        font-size: 1.7rem
+        padding: 0 8px
+
+    color: #666
     &:hover
-      color: #fff
-  .topofpage
-    text-decoration: underline
+      color: #C4226F
+
+.pagination
+  text-align: center
+  font-family: $font-sans
+  font-size: 2.5rem
+  font-weight: 700
+  a
+    color: #666
+    &:hover
+      color: #C4226F
+  .page-number
+    display: inline-block
+    padding: 0 10px
+    font-size: 1.2rem
+    top: -20rem
+    vertical-align: top
 

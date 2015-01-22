@@ -16,7 +16,7 @@
 <!-- Author Credits -->
 <section class="author-info social">
   <h5 class="author-headline"><span>Follow me</span></h5>
-  <div class="custom-links">
+  <div class="links custom-links">
     {% for social in site.social %}
     {% if social.url %}
     <a class="icon icon-{{ social.icon }}" href="{{ social.url }}"><i class="fa fa-{{ social.icon }}"></i></a>
@@ -24,7 +24,8 @@
     {% endfor %}
   </div>
 
-  <div class="feed"><a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe to my feed</span></a></div>
+  <div class="links feed"><a class="subscribe" href="/feed.xml"><i class="fa fa-rss"></i> Subscribe to my feed</a></div>
+  <div class="links about"><a href="/about/"><i class="fa fa-user"></i> About {{ site.author.firstname }}</a></div>
 
 </section><!-- class="isRight" -->
 </div><!-- bottom-info -->

@@ -2,22 +2,40 @@
 ---
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body>
+<head>
+  {% include head.html %}
+</head>
+<body class="default home">
 
-{% include header.html %}
+<header class="header">
+  <div class="header-background" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}></div>
+  <section class="header-info">
+    {% if site.logo %}
+      <a class="header-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')"></a>
+    {% endif %}
+    <h1 class="header-title">{{ site.title }}</h1>
+    <h2 class="header-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="social-icon icon-{{ social.icon }}" href="{{ social.url }}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section><!-- post-meta -->
+</header>
 
-<!-- content start -->
 
-<div class="page-content">
-  <div class="wrapper">
-    {{ content }}
-  </div>
-</div>
+{{ content }}
 
 <!-- content end -->
 
-{% include footer.html %}
-{% include javascripts.html %}
+<footer class="site-footer">
+  {% include footer.html %}
+</footer>
+
+{% include scriptloader.html %}
 </body>
 </html>

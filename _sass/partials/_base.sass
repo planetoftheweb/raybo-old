@@ -3,9 +3,11 @@
 
 $rs: 16px
 $reading-width: 700px
+$preview-height: 400px
 
 $font-serif: Merriweather, serif
 $font-sans: 'Open Sans', sans-serif
+$font-alternate: 'Bree Serif', serif
 
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
@@ -14,3 +16,15 @@ $font-sans: 'Open Sans', sans-serif
 %vertical-rhythm
   margin-bottom: $rs
 
+html
+  font-size: 62.5%
+  font-size: 62.5%
+  -webkit-font-smoothing: antialiased !important
+
+body
+  font-family: $font-serif
+  font-size: 2.2rem
+  line-height: 170%
+  font-weight: 300
+  color: #666
+  @include transition(all 0.3s ease-out)

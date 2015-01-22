@@ -5,13 +5,14 @@ sass:
   style: compressed
 # Site settings
 title: "Raybo.org"
-description: Personal website for <a href="http://lynda.com/rayvillalobos">Ray Villalobos</a>
+description: "Helping people improve their lives by learning front-end design and development skills with a clear, practical style."
 email: ray@planetoftheweb.com
 logo: "/assets/images/powship.png" #blog logo
 cover: "/assets/images/hero.jpg" # blog cover
 
 
 author:
+  firstname: "Ray"
   name: "Ray Villalobos"
   bio: "Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills with a clear, practical approach."
 

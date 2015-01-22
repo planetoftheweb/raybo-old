@@ -5,31 +5,31 @@
 <head>
   {% include head.html %}
 </head>
-  <body itemscope itemtype="http://schema.org/Article">
-    {% include header.html %}
-    <main class="content" role="main">
-      <article class="post">
+  <body class="default home">
+ 
+<header class="header">
+  <div class="header-background" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}></div>
+  <section class="header-info">
+    {% if site.logo %}
+      <a class="header-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')"></a>
+    {% endif %}
+    <h1 class="header-title">{{ site.author.name }}</h1>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="social-icon icon-{{ social.icon }}" href="{{ social.url }}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section><!-- post-meta -->
+</header>
 
-        <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
-            Article Image
-          </div>
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
-              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
-            </div>
-          </div>
-        </div>
+<main class="content">
+ {{ content }}
+</main>
 
-        <section class="post-content">
-          {{content}}
-        </section>
-
-      </article>
-    </main>
-    <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}></div>
-    {% include javascripts.html %}
-  </body>
+{% include scriptloader.html %}
+</body>
 </html>
