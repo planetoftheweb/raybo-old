@@ -1,7 +1,7 @@
 ---
 courseid: 162449
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

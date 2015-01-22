@@ -1,7 +1,7 @@
 ---
 courseid: 133353
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

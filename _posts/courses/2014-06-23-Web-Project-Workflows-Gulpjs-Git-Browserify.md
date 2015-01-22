@@ -1,7 +1,7 @@
 ---
 courseid: 154416
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

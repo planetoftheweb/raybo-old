@@ -1,7 +1,7 @@
 ---
 courseid: 94250
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

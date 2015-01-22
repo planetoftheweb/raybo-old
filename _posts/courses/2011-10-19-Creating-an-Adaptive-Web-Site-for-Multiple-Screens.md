@@ -1,7 +1,7 @@
 ---
 courseid: 85083
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

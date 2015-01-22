@@ -1,7 +1,7 @@
 ---
 courseid: 69792
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

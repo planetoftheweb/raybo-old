@@ -1,7 +1,7 @@
 ---
 courseid: 93388
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

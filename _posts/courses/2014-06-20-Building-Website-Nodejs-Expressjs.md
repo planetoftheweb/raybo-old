@@ -1,7 +1,7 @@
 ---
 courseid: 163094
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

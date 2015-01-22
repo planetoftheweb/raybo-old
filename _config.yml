@@ -21,8 +21,7 @@ ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filte
 
 paginate:	5
 
-url: "/" # the base hostname & protocol for your site
-baseurl: ""
+url: "http://raybo.org" # the base hostname & protocol for your site
 
 # social icons and sharing options
 social:

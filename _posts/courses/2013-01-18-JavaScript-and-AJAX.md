@@ -1,7 +1,7 @@
 ---
 courseid: 114900
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

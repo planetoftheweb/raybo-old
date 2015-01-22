@@ -20,12 +20,17 @@ layout: default
 
           {{ post.categories }}
           {% endif %}</span>
-          <span class="post-date"><time datetime="{{ post.date | date: '%B %-d, %Y' }}">{{ post.date | date: '%B %-d, %Y' }}</time></span>
+          <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
         </div>
-        <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ course.Title }}</a></h2>
-        <section class="post-description" itemprop="description">
-          <a href="{{ post.url }}" itemprop="url"><img class="list-thumb" src="{{ course.Thumbnails[10].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
+        <h2 class="post-title"><a href="{{ post.url }}">{{ course.Title }}</a></h2>
+        <section class="post-description">
+          <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.Thumbnails[10].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
         </section>
+        <section class="tags">
+          
+        </section>
+
+
       </article>
       {% endif %}
       {% endfor %}

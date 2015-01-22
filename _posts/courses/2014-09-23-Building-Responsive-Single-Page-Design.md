@@ -1,7 +1,7 @@
 ---
 courseid: 182174
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design

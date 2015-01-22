@@ -1,12 +1,12 @@
 ---
 courseid: 174237
 layout: post
-categories: courses
+category: courses
 tags:
-- Web
-- Design
-- Projects
-- Development
-- NodeJS
-- AngularJS
+- web
+- design
+- projects
+- development
+- nodeJS
+- angularJS
 ---

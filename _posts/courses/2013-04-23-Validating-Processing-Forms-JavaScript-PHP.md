@@ -1,7 +1,7 @@
 ---
 courseid: 120466
 layout: post
-categories: courses
+category: courses
 tags:
 - Web
 - Design
