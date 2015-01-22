@@ -7,7 +7,21 @@ layout: default
       {% for course in site.data.courselist %}
       {% if course.ID == post.courseid %}
       <article class="post-item">
-        <time class="post-date" datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+        <div class="post-meta">
+          <span class="post-category">
+          {% if post.categories %}
+
+            {% case categories %}
+              {% when 'courses' %}
+              <i class="fa fa-file-text"></i>
+              {% else %}
+              <i class="fa fa-graduation-cap"></i>
+            {% endcase %}
+
+          {{ post.categories }}
+          {% endif %}</span>
+          <span class="post-date"><time datetime="{{ post.date | date: '%B %-d, %Y' }}">{{ post.date | date: '%B %-d, %Y' }}</time></span>
+        </div>
         <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ course.Title }}</a></h2>
         <section class="post-description" itemprop="description">
           <a href="{{ post.url }}" itemprop="url"><img class="list-thumb" src="{{ course.Thumbnails[10].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>

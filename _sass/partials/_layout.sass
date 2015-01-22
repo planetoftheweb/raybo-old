@@ -23,7 +23,18 @@
     padding: 60px 0
     @include respond-to(600)
       padding: 20px 0
-
+    
+    .post-meta
+      font-family: $font-sans
+      font-size: 1.5rem
+      line-height: 100%
+      .post-category
+        font-weight: bold
+        color: #E76C5A
+      .post-date
+        &:before
+          content: " | "
+  
     .post-title
       font-family: $font-alternate
       font-weight: normal
@@ -37,10 +48,6 @@
         text-decoration: none
         &:hover
           color: #E76C5A
-    .post-date
-      font-family: $font-sans
-      font-size: 1.5rem
-      line-height: 100%
     .post-description
       font-size: 1.9rem
       line-height: 150%

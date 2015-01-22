@@ -15,7 +15,7 @@
   <div class="header-background" style="background-image: url({% if course.Thumbnails[17].FullURL %}{{ course.Thumbnails[17].FullURL }}{% endif %})"></div>
   <section class="header-info">
     {% include header.html %}
-    <div class="header-published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></div>
+    <div class="header-published">Published <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date_to_string }}</time></div>
     <h1 class="header-title">{{ course.Title }}</h1>
     <div class="cf post-text-group">
       <a href="/about/"><div class="author-image" style="background-image: url({{ site.author_image }})"></div></a>

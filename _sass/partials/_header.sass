@@ -21,6 +21,7 @@
 
 .header
   @include box-sizing(border-box)
+  height: $preview-height
   width: 100%
   color: #fff
   font-weight: 100
@@ -29,7 +30,6 @@
   font-style: normal
   font-size: .8em
   line-height: 130%
-  height: $preview-height
   position: relative
   overflow: hidden
   bottom: $rs
@@ -43,6 +43,8 @@
     top: 0
     left: 0
     right: 0
+    @include respond-to(800)
+      height: 400px
 
   .post &
     @include background-image( linear-gradient(to left, #D14348, #72A65C) )
@@ -53,31 +55,32 @@
     top: 0
     left: 0
     right: 0
-    bottom: -30px 
+    bottom: 0 
     background-size: cover
     background-position: center
     .default &
       bottom: $rs + 220
+      @include respond-to(800)
+        bottom: $rs + 120
     .post &
       @include filter(blur(10px))
       opacity: .4
       margin: -15px -15px -5px -15px
 
   .header-info
+    @include box-sizing(border-box)
     position: absolute
     bottom: $rs*5
     left: 25%
     right: 25%
-    .default &
+    @include respond-to(800)
       bottom: 0
-    @include box-sizing(border-box)
-    @include respond-to(900)
-      left: 30%
-      right: 5%
-      default &
+    .default &
+      bottom: 5%
+      @include respond-to(800)
+        bottom: 0
         left: 0
         right: 0
-      bottom: 5%
 
     .header-logo
       display: inline-block
