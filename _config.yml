@@ -19,7 +19,7 @@ author:
 author_image: "/assets/images/author.jpg"
 ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filter.includes=Title,ShortDescription,DurationInSeconds,URLs,ID,WelcomeVideoId,Thumbnails.filename
 
-paginate:	50
+paginate:	5
 
 url: "http://raybo.org" # the base hostname & protocol for your site
 
