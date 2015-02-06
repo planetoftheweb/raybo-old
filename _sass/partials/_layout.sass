@@ -9,7 +9,7 @@
     line-height: 140%
 
   .post-links
-
+    margin-top: 10px
     ul
       @include clearfix
       margin: 0
@@ -19,19 +19,28 @@
       list-style-type: none
       li
         float: left
+        padding-right: 15px
+        line-height: 140%
+        font-size: 1.6rem
+        @include respond-to(600)
+          font-size: 1.9rem
+          width: 100%
+          line-height: 200%
+          padding-right: 0
         a
-          font-family: $font-sans
-          font-size: 1.6rem
-          font-weight: 700
-          border-radius: 50px
-          background: #5091B7
-          color: white
+          font-family: $font-alternate
+          font-weight: 400
           text-decoration: none
-          padding: 5px 15px
-          margin-right: 10px
-
+          color: #667B82
+          i
+            &
+              color: #E76C5A
+            @include respond-to(600)
+              display: inline-block
+              width: 25px
+              text-align: center
           &:hover
-            background: #E76C5A
+            color: #D14348
 
   .post-video
     padding-bottom: 50px
@@ -102,7 +111,7 @@
 
     color: #666
     &:hover
-      color: #C4226F
+      color: #E76C5A
 
 .pagination
   text-align: center

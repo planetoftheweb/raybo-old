@@ -73,11 +73,10 @@
   .header-info
     @include box-sizing(border-box)
     position: absolute
-    bottom: $rs*5
-    left: 25%
-    right: 25%
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
     @include respond-to(800)
-      bottom: 0
     .default &
       bottom: 5%
       @include respond-to(800)
@@ -97,6 +96,18 @@
       border: 6px solid #fff
 
     .post-text-group
+      @include respond-to(800)
+        display: none
+
+    .header-category
+      @include respond-to(800)
+        display: none
+
+    .header-published
+      @include respond-to(800)
+        display: none
+
+    .header-published
       @include respond-to(800)
         display: none
 
@@ -121,7 +132,7 @@
       line-height: 100%
       margin-bottom: 16px
       @include respond-to(800)
-        font-size: 3.5rem
+        font-size: 3rem
       .default &
         color: #333
         font-weight: 700

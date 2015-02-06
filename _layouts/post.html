@@ -11,14 +11,15 @@
 {% for course in site.data.courselist %}
 {% if course.ID == page.courseid %}
 
+<a href="{{ site.url }}" class="floating-logo">
+  <span class="logo" style="background-image: url({{ site.logo }})"></span>
+</a>
 <header class="header">
   <div class="header-background" style="background-image: url({% if course.Thumbnails[17].FullURL %}{{ course.Thumbnails[2].FullURL }}{% endif %})"></div>
   <section class="header-info">
 
-
-  <div class="post-meta">
   {% if page.category %}
-    <span class="post-category">
+    <span class="header-category">
 
     {% case category %}
       {% when 'courses' %}
@@ -30,8 +31,6 @@
     {{ page.category }}
     </span>
   {% endif %}
-
-  </div><!-- post-meta -->
 
 
     {% include header.html %}
@@ -48,8 +47,10 @@
 <main class="content" role="main">
   <nav class="post-links">
   <ul>
+    <li><a href="/" target="_blank"><i class="fa fa-reply"></i> home</a></li>
+    <li><a href="http://www.lynda.com{{ course.URLs["www.lynda.com"] }}" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
     {% if page.demo %}
-    <li><a href="{{ page.demo }}" target="_blank"><i class="fa fa-globe"></i> demo site</a></li>
+    <li><a href="{{ page.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
     {% endif %}
     {% if page.github %}
     <li><a href="{{ page.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
