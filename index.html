@@ -33,10 +33,10 @@ layout: default
           <li><a href="{{ post.url }}" target="_blank"><i class="fa fa-info"></i> more info</a></li>
           <li><a href="http://www.lynda.com{{ course.URLs["www.lynda.com"] }}" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
           {% if post.demo %}
-          <li><a href="{{ page.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
+          <li><a href="{{ post.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
           {% endif %}
           {% if post.github %}
-          <li><a href="{{ page.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
+          <li><a href="{{ post.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
           {% endif %}
         </ul>
         </nav><!-- custom-links -->
