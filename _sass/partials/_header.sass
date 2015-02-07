@@ -35,7 +35,6 @@
   bottom: $rs
   @include respond-to(800)
     height: 200px
-    margin-bottom: 0
   .default &
     overflow: show
     text-align: center
@@ -76,13 +75,18 @@
     left: 50%
     top: 50%
     transform: translate(-50%, -50%)
+    width: 690px
     @include respond-to(800)
+      width: 80%
+      transform: translate(-40%, -50%)
+
     .default &
-      bottom: 5%
+      bottom: 40%
       @include respond-to(800)
-        bottom: 0
         left: 0
-        right: 0
+        transform: translate(0, -50%)
+        width: 100%
+
 
     .header-logo
       display: inline-block

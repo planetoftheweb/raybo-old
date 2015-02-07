@@ -2,6 +2,7 @@
 courseid: 162449
 layout: post
 category: courses
+demo: http://iviewsource.com/exercises/d3/
 tags:
 - D3
 - JavaScript

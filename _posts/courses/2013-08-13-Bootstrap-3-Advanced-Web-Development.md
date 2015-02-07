@@ -2,6 +2,7 @@
 courseid: 124079
 layout: post
 category: courses
+demo: http://rouxstageapp.herokuapp.com/
 tags:
 - Web Development
 - PHP
