@@ -4,20 +4,24 @@ category: blog
 Title: Horizontally Centered Navigation Menu with CSS
 summary: Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy.
 heroimage: "http://i.imgur.com/KfhOpwa.png"
+video: https://www.youtube.com/watch?v=RT64aSNXnzY
+code: http://jsbin.com/popalu/12/edit?html,css,output
 tags:
 - web design
 - css
 - navigation
 ---
 
+<iframe width="700" height="450" src="https://www.youtube.com/embed/RT64aSNXnzY" frameborder="0" allowfullscreen></iframe>
+
 One of the first things you try to do when you learn CSS is to create a centered navigation menu, but it's not as straightforward as it should be. You'd think that there was some sort of center command and in the future, something like <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a> will make it a lot easier. But even flexbox is no magic bullet with poor browser support in older browsers and frankly, a somewhat confusing syntax.
 
 My current approach is to do something that ends up looking like this.
 
-<a class="jsbin-embed" href="http://jsbin.com/popalu/9/embed?output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+<a class="jsbin-embed" href="http://jsbin.com/popalu/11/embed?output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
-The HTML for this is pretty simple.
-
+## The Trick
+Since you can just read the code above or watch the video, I'll give you the highlights so you can catch the critical part.
 
 ```html
 <nav class="sitemenu">

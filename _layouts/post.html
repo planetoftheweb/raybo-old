@@ -52,6 +52,12 @@
     {% if page.demo %}
     <li><a href="{{ page.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
     {% endif %}
+    {% if page.video %}
+    <li><a href="{{ page.video }}" target="_blank"><i class="fa fa-video-camera"></i> YouTube</a></li>
+    {% endif %}
+    {% if page.code %}
+    <li><a href="{{ page.code }}" target="_blank"><i class="fa fa-code"></i> get code</a></li>
+    {% endif %}
     {% if page.github %}
     <li><a href="{{ page.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
     {% endif %}
