@@ -36,8 +36,14 @@ category: courses
               {% if post.demo %}
               <li><a href="{{ post.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
               {% endif %}
+              {% if post.video %}
+              <li><a href="{{ post.video }}" target="_blank"><i class="fa fa-video-camera"></i> watch on YouTube</a></li>
+              {% endif %}
+              {% if post.code %}
+              <li><a href="{{ post.code }}" target="_blank"><i class="fa fa-code"></i> view code</a></li>
+              {% endif %}
               {% if post.github %}
-              <li><a href="{{ post.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
+              <li><a href="{{ post.github }}" target="_blank"><i class="fa fa-github-alt"></i> view github project</a></li>
               {% endif %}
             </ul>
             </nav><!-- custom-links -->
@@ -51,6 +57,18 @@ category: courses
         <nav class="post-links">
         <ul>
           <li><a href="{{ post.url }}" target="_blank"><i class="fa fa-info"></i> read more</a></li>
+          {% if post.demo %}
+          <li><a href="{{ post.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
+          {% endif %}
+          {% if post.video %}
+          <li><a href="{{ post.video }}" target="_blank"><i class="fa fa-video-camera"></i> watch YouTube video</a></li>
+          {% endif %}
+          {% if post.code %}
+          <li><a href="{{ post.code }}" target="_blank"><i class="fa fa-code"></i> view code</a></li>
+          {% endif %}
+          {% if post.github %}
+          <li><a href="{{ post.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
+          {% endif %}
         </ul>
         </nav><!-- custom-links -->
       {% endif %}<!-- Is it a course or something else -->
