@@ -1,0 +1,30 @@
+<nav class="main">
+	<div class="navwrapper">
+		<ul>
+      {% if (page.page_id != 'home') %}
+      <li><a href="/"><i class="fa fa-home"></i> home</a></li>
+      {% endif %}
+
+    	{% for category in site.categories %}
+        {% assign cat =  category | first %}
+        <li>
+          <a href="/{{ category | first }}">
+            {% case cat %}
+            <span class="icon">
+              {% when 'speaking' %}
+              <i class="fa fa-bullhorn"></i>
+              {% when 'blog' %}
+              <i class="fa fa-file-text"></i>
+              {% when 'courses' %}
+              <i class="fa fa-graduation-cap"></i>
+              {% else %}
+              <i class="fa fa-bullseye"></i>
+            </span>
+            {% endcase %}
+      	    {{ category | first }}
+          </a>
+        </li>
+    	{% endfor %}
+		</ul>
+	</div>
+</nav>

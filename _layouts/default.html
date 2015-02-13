@@ -11,10 +11,9 @@
   <div class="header-background" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}></div>
   <section class="header-info">
     {% if site.logo %}
-      <a class="header-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')"></a>
+      <a class="header-logo" href="/" style="background-image: url('{{ site.logo }}')"></a>
     {% endif %}
     <h1 class="header-title">{{ site.title }}</h1>
-    <h2 class="header-description">{{ site.description }}</h2>
     <div class="custom-links">
       {% for social in site.social %}
         {% if social.url %}
@@ -24,8 +23,11 @@
         {% endif %}
       {% endfor %}
     </div>
+    <h2 class="header-description">{{ site.description }}</h2>
   </section><!-- post-meta -->
 </header>
+
+  {% include categorynav.html %}
 
 
 {{ content }}

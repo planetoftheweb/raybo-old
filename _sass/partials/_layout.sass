@@ -41,13 +41,6 @@
     font-size: 2rem
     line-height: 140%
 
-  .post-category
-    font-weight: bold
-    color: $hover
-    .post &
-      float: left
-      padding-right: 10px
-
   .post-links
     margin-top: 10px
     ul
@@ -89,7 +82,7 @@
 
 .post-list
   .post-item
-    padding: 60px 0
+    padding: 50px 0
     @include respond-to(600)
       padding: 20px 0
       
@@ -208,3 +201,8 @@
     &:before
       content: " | "
 
+.category
+  a
+    i
+      color: $orange
+  

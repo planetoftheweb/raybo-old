@@ -6,6 +6,8 @@
 
 {% if cat %}
 <span class="category">
+
+<a href="{{ cat }}">
   {% case cat %}
   <span class="icon">
     {% when 'speaking' %}
@@ -19,5 +21,6 @@
   </span>
   {% endcase %}
   {{ cat }}
+</a>
 </span>
 {% endif %}

@@ -15,7 +15,7 @@ $blue: #145A6D
 $yellow: #EEC856
 $gray: #586D74
 $darkorange: darken($orange, 15%)
-$darkerorange: darken($orange, 25%)
+$darkerorange: darken($orange, 20%)
 
 $light: lighten($blue, 40%)
 $medium: lighten($blue, 10%)
@@ -46,9 +46,35 @@ body
   color: #666
   @include transition(all 0.3s ease-out)
 
-  a
-    color: $links
-    text-decoration: none
-    &:hover
-      color: $hover
+a
+  color: $links
+  text-decoration: none
+  &:hover
+    color: $hover
+  &:visited
+    color: $darkerorange
+
+
+nav.main
+  font-family: $font-sans
+  font-size: 2rem
+  font-weight: bold
+  .navwrapper
+    display: table
+    margin: 0 auto
+  ul
+    @include clearfix
+    margin: 0
+    padding: 0
+    li
+      float: left
+      border-right: 1px dotted darken($yellow, 10%)
+      &:last-child
+        border-right: none
+      a
+        color: $orange
+        padding: 6px 15px
+        &:hover
+          background: lighten($yellow, 20%)
+          color: darken($orange, 10%)
 

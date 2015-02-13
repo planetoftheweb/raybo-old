@@ -47,10 +47,29 @@
 
   .post &
     @include background-image( linear-gradient(to left, #D14348, #72A65C) )
-
+    nav
+      @include clearfix
+      position: absolute
+      bottom: 0
+      width: 100%
+      .navwrapper
+        @include clearfix
+        ul
+          @include clearfix
+          margin-right: none !important
+        li
+          @include clearfix
+          margin-right: 15px
+          padding: 10px 0
+          &:last-child
+            margin-right: 0
+          a
+            padding: 10px 12px
+            background: white
+            i
 
   .custom-links
-    padding-top: 10px
+    padding: 10px 0
 
   .header-background
     background-color: #041D24
@@ -162,6 +181,7 @@
       a
         text-decoration: none
         color: lighten($yellow, 20%)
+
 
 .category
   font-weight: bold
