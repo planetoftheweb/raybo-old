@@ -1,0 +1,23 @@
+{% if post.category %}
+  {% assign cat =  post.category %}
+{% else %}
+  {% assign cat =  page.category %}
+{% endif %}
+
+{% if cat %}
+<span class="category">
+  {% case cat %}
+  <span class="icon">
+    {% when 'speaking' %}
+    <i class="fa fa-bullhorn"></i>
+    {% when 'blog' %}
+    <i class="fa fa-file-text"></i>
+    {% when 'courses' %}
+    <i class="fa fa-graduation-cap"></i>
+    {% else %}
+    <i class="fa fa-bullseye"></i>
+  </span>
+  {% endcase %}
+  {{ cat }}
+</span>
+{% endif %}

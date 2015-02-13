@@ -1,0 +1,58 @@
+<nav class="post-links">
+<ul>
+
+  {% if (page.category!='') %}
+  <li><a href="/"><i class="fa fa-reply"></i> home</a></li>
+  {% endif %}
+
+  {% if (post.category!='') %}
+  <li><a href="{{ post.url }}"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  {% endif %}
+
+  {% if course.URLs["www.lynda.com"] %}
+  <li><a href="http://www.lynda.com{{ course.URLs["www.lynda.com"] }}" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
+  {% endif %}
+
+  {% if post.demo %}
+    <li><a href="{{ post.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
+  {% elsif page.demo %}
+    <li><a href="{{ page.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
+  {% endif %}
+
+  {% if post.video %}
+    <li><a href="{{ post.video }}" target="_blank"><i class="fa fa-video-camera"></i> watch on YouTube</a></li>
+  {% elsif page.video %}
+    <li><a href="{{ page.video }}" target="_blank"><i class="fa fa-video-camera"></i> watch on YouTube</a></li>
+  {% endif %}
+
+
+  {% if post.code %}
+  <li><a href="{{ post.code }}" target="_blank"><i class="fa fa-code"></i> view code</a></li>
+  {% elsif page.code %}
+  <li><a href="{{ page.code }}" target="_blank"><i class="fa fa-code"></i> view code</a></li>
+  {% endif %}
+
+
+  {% if post.github %}
+  <li><a href="{{ post.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
+  {% elsif page.github %}
+  <li><a href="{{ page.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
+  {% endif %}
+
+
+  {% if post.conference_site %}
+    <li><a href="{{ post.conference_site }}" target="_blank"><i class="fa fa-bullhorn"></i> visit website</a></li>
+  {% elsif page.conference_site %}
+    <li><a href="{{ page.conference_site }}" target="_blank"><i class="fa fa-bullhorn"></i> visit website</a></li>
+  {% endif %}
+
+
+  {% if post.registration_info %}
+  <li><a href="{{ post.registration_info }}" target="_blank"><i class="fa fa-pencil-square-o"></i> registration info</a></li>
+  {% elsif page.registration_info %}
+  <li><a href="{{ page.registration_info }}" target="_blank"><i class="fa fa-pencil-square-o"></i> registration info</a></li>
+  {% endif %}
+
+
+</ul>
+</nav><!-- custom-links -->

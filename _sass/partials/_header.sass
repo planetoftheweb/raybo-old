@@ -48,6 +48,7 @@
   .post &
     @include background-image( linear-gradient(to left, #D14348, #72A65C) )
 
+
   .custom-links
     padding-top: 10px
 
@@ -86,7 +87,11 @@
         left: 0
         transform: translate(0, -50%)
         width: 100%
-
+  
+    .category
+      color: lighten($yellow, 20%)
+      i
+        color: $yellow
 
     .header-logo
       display: inline-block
@@ -156,5 +161,10 @@
       font-weight: 700
       a
         text-decoration: none
-        color: #FFF
+        color: lighten($yellow, 20%)
 
+.category
+  font-weight: bold
+  color: $orange
+  i
+    color: $gray

@@ -3,18 +3,21 @@
   max-width: $reading-width
   margin: 0 auto
   @include box-sizing(border-box)
-  h1,h2,h3,h4,h5,h6
+
+  h1, h2, h3, h4, h5, h6
     font-family: $font-sans
     font-weight: normal
-    color: #E15D5F
+    color: $hover
+
   h2
     font-size: 3.5rem
     font-family: $font-alternate
-    border-bottom: 1px dotted #666
     padding-bottom: 3px
     margin-bottom: 10px
+
   img
     width: 100%
+
   ul
     margin: 0
     padding: 0
@@ -22,13 +25,13 @@
     list-style-type: none
     li
       line-height: 120%
-    a
-      color: #D14348
-      font-family: $font-sans
-      font-size: 2rem
-      text-decoration: none
-      &:hover
-        color: #EEC856
+
+  a
+    color: $links
+    text-decoration: none
+    &:hover
+      color: $hover
+
   hr
     border: none
     margin: 100px 0
@@ -37,6 +40,13 @@
     padding: 0 $rs*2
     font-size: 2rem
     line-height: 140%
+
+  .post-category
+    font-weight: bold
+    color: $hover
+    .post &
+      float: left
+      padding-right: 10px
 
   .post-links
     margin-top: 10px
@@ -58,19 +68,15 @@
           line-height: 200%
           padding-right: 0
         a
-          font-family: $font-alternate
-          font-weight: 400
+          font-family: $font-sans
+          font-weight: bold
           text-decoration: none
-          color: #667B82
           i
-            &
-              color: #E76C5A
+            color: $icon_color
             @include respond-to(600)
               display: inline-block
               width: 25px
               text-align: center
-          &:hover
-            color: #D14348
 
   .post-video
     padding-bottom: 50px
@@ -90,14 +96,13 @@
     .post-title
       font-family: $font-alternate
       font-weight: normal
-      font-style: normal
       font-size: 2.8rem
       line-height: 105%
       a
-        color: #145A6D
+        color: $blue
         text-decoration: none
         &:hover
-          color: #E76C5A
+          color: $hover
     .post-description
       @include clearfix
       font-size: 1.9rem
@@ -139,9 +144,9 @@
         font-size: 1.7rem
         padding: 0 8px
 
-    color: #666
+    color: $icon_links
     &:hover
-      color: #E76C5A
+      color: $hover
 
 .pagination
   text-align: center
@@ -149,9 +154,9 @@
   font-size: 2.5rem
   font-weight: 700
   a
-    color: #666
+    color: $medium
     &:hover
-      color: #C4226F
+      color: $hover
   .page-number
     display: inline-block
     padding: 0 10px
@@ -181,7 +186,7 @@
     float: left
     margin: 0
     padding: 0 5px
-    border-right: 1px solid #999
+    border-right: 1px solid $light
     &:first-child
       padding-left: 0
     &:last-child
@@ -189,7 +194,6 @@
       padding-right: 0
   @include respond-to(800)
     display: none
-
 
 .post-meta
   font-family: $font-sans
@@ -199,13 +203,6 @@
 
   .post &
     margin-bottom: 10px
-
-  .post-category
-    font-weight: bold
-    color: #E76C5A
-    .post &
-      float: left
-      padding-right: 10px
 
   .post-date
     &:before

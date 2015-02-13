@@ -18,22 +18,9 @@
   <div class="header-background" style="background-image: url({% if course.Thumbnails[17].FullURL %}{{ course.Thumbnails[2].FullURL }}{% endif %})"></div>
   <section class="header-info">
 
-  {% if page.category %}
-    <span class="header-category">
-
-    {% case category %}
-      {% when 'courses' %}
-      <i class="fa fa-file-text"></i>
-      {% else %}
-      <i class="fa fa-graduation-cap"></i>
-    {% endcase %}
-
-    {{ page.category }}
-    </span>
-  {% endif %}
-
-
+    {% include post_categories.html %}
     {% include header.html %}
+
     <div class="header-published">Published <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date_to_string }}</time></div>
     <h1 class="header-title">{{ course.Title }}</h1>
     <div class="cf post-text-group">
@@ -45,40 +32,14 @@
 </header>
 
 <main class="content" role="main">
-  <nav class="post-links">
-  <ul>
-    <li><a href="/"><i class="fa fa-reply"></i> home</a></li>
-    <li><a href="http://www.lynda.com{{ course.URLs["www.lynda.com"] }}" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
-    {% if page.demo %}
-    <li><a href="{{ page.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
-    {% endif %}
-    {% if page.video %}
-    <li><a href="{{ page.video }}" target="_blank"><i class="fa fa-video-camera"></i> watch YouTube video</a></li>
-    {% endif %}
-    {% if page.code %}
-    <li><a href="{{ page.code }}" target="_blank"><i class="fa fa-code"></i> get code</a></li>
-    {% endif %}
-    {% if page.github %}
-    <li><a href="{{ page.github }}" target="_blank"><i class="fa fa-github-alt"></i> view github project</a></li>
-    {% endif %}
-  </ul>
-  </nav><!-- custom-links -->
 
+  {% include post_links.html %}
 
   <div class="post-video"><iframe class='video' src='https://www.lynda.com/player/embed/{{ course.WelcomeVideoId }}?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-{{ course.WelcomeVideoId }}' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true' frameborder='0'></iframe></div>
   <div class="course-description">{{ course.Description }}</div>
   <div class="content">{{ content }}</div>
 
-  {% if page.tags %}
-  <div class="tags">
-    <h3>tags</h3>
-      <ul>
-      {% for tag in page.tags %}
-        <li>{{ tag }}</li>
-      {% endfor %}
-      </ul>
-  </div><!-- tags -->
-  {% endif %}
+  {% include post_tags.html %}
 
 <a class="twitter-share-button" href="https://twitter.com/share">I'm tweeting this</a>
 <script>

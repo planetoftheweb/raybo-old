@@ -1,25 +1,15 @@
 ---
 layout: default
-category: courses
+page_id: home
 ---
 
 <main class="post-list content" role="main">
     {% for post in paginator.posts %}
     <article class="post-item">
       <div class="post-meta">
-        {% if post.category %}
-        <span class="post-category">
-        {% case post.category %}
-          {% when 'courses' %}
-          <i class="fa fa-graduation-cap"></i>
-          {% when 'blog' %}
-          <i class="fa fa-file-text"></i>
-          {% else %}
-          <i class="fa fa-file-text"></i>
-        {% endcase %}
-        {{ post.category }}
-        </span><!-- post-category -->
-        {% endif %}<!-- post.category  -->
+
+        {% include post_categories.html %}
+
         <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
       </div><!-- post-meta -->
       {% if post.courseid %}
@@ -29,24 +19,9 @@ category: courses
             <section class="post-description">
               <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.Thumbnails[10].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
             </section>
-            <nav class="post-links">
-            <ul>
-              <li><a href="{{ post.url }}" target="_blank"><i class="fa fa-info"></i> more info</a></li>
-              <li><a href="http://www.lynda.com{{ course.URLs["www.lynda.com"] }}" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
-              {% if post.demo %}
-              <li><a href="{{ post.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
-              {% endif %}
-              {% if post.video %}
-              <li><a href="{{ post.video }}" target="_blank"><i class="fa fa-video-camera"></i> watch on YouTube</a></li>
-              {% endif %}
-              {% if post.code %}
-              <li><a href="{{ post.code }}" target="_blank"><i class="fa fa-code"></i> view code</a></li>
-              {% endif %}
-              {% if post.github %}
-              <li><a href="{{ post.github }}" target="_blank"><i class="fa fa-github-alt"></i> view github project</a></li>
-              {% endif %}
-            </ul>
-            </nav><!-- custom-links -->
+
+            {% include post_links.html %}
+
           {% endif %}
         {% endfor %}
       {% else %}
@@ -54,23 +29,9 @@ category: courses
         <section class="post-description">
           <a href="{{ post.url }}"><img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail"></a><span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
         </section>
-        <nav class="post-links">
-        <ul>
-          <li><a href="{{ post.url }}" target="_blank"><i class="fa fa-info"></i> read more</a></li>
-          {% if post.demo %}
-          <li><a href="{{ post.demo }}" target="_blank"><i class="fa fa-bullseye"></i> demo website</a></li>
-          {% endif %}
-          {% if post.video %}
-          <li><a href="{{ post.video }}" target="_blank"><i class="fa fa-video-camera"></i> watch YouTube video</a></li>
-          {% endif %}
-          {% if post.code %}
-          <li><a href="{{ post.code }}" target="_blank"><i class="fa fa-code"></i> view code</a></li>
-          {% endif %}
-          {% if post.github %}
-          <li><a href="{{ post.github }}" target="_blank"><i class="fa fa-github-alt"></i> github project</a></li>
-          {% endif %}
-        </ul>
-        </nav><!-- custom-links -->
+
+      {% include post_links.html %}
+
       {% endif %}<!-- Is it a course or something else -->
       </article>
     {% endfor %}

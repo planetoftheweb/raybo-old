@@ -9,6 +9,23 @@ $font-serif: Merriweather, serif
 $font-sans: 'Open Sans', sans-serif
 $font-alternate: 'Bree Serif', serif
 
+
+$orange: #E76C5A
+$blue: #145A6D
+$yellow: #EEC856
+$gray: #586D74
+$darkorange: darken($orange, 15%)
+$darkerorange: darken($orange, 25%)
+
+$light: lighten($blue, 40%)
+$medium: lighten($blue, 10%)
+$dark: darken($blue, 30%)
+
+$links: $gray
+$hover: $darkerorange
+$icon_color: $orange
+$icon_links: $orange
+
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
     @content
@@ -28,3 +45,10 @@ body
   font-weight: 300
   color: #666
   @include transition(all 0.3s ease-out)
+
+  a
+    color: $links
+    text-decoration: none
+    &:hover
+      color: $hover
+

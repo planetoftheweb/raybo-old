@@ -1,0 +1,10 @@
+  {% if page.tags %}
+  <div class="tags">
+    <h3>tags</h3>
+      <ul>
+      {% for tag in page.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+      </ul>
+  </div><!-- tags -->
+  {% endif %}
