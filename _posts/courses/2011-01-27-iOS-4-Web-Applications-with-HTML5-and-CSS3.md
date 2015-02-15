@@ -1,6 +1,6 @@
 ---
 courseid: 69792
-layout: post
+layout: course
 category: courses
 tags:
 - HTML5

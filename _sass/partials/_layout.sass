@@ -83,6 +83,8 @@
 .post-list
   .post-item
     padding: 50px 0
+    &:first-child
+      padding-top: 0
     @include respond-to(600)
       padding: 20px 0
       
@@ -179,7 +181,6 @@
     float: left
     margin: 0
     padding: 0 5px
-    border-right: 1px solid $light
     &:first-child
       padding-left: 0
     &:last-child
@@ -202,7 +203,8 @@
       content: " | "
 
 .category
+  font-weight: bold
   a
+    color: $darkerorange
     i
-      color: $orange
-  
+      color: $gray

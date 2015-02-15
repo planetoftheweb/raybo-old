@@ -1,13 +1,11 @@
 ---
 layout: default
-page_id: speaking
+page_id: blog
 ---
-
 <main class="post-list content" role="main">
     {% for post in site.categories.blog %}
     <article class="post-item">
       <div class="post-meta">
-
         <span class="conference-date">{{ post.conference_date }}</span>
       </div><!-- post-meta -->
       {% if post.courseid %}
@@ -17,9 +15,7 @@ page_id: speaking
             <section class="post-description">
               <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.Thumbnails[10].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
             </section>
-
             {% include post_links.html %}
-
           {% endif %}
         {% endfor %}
       {% else %}
@@ -27,13 +23,10 @@ page_id: speaking
         <section class="post-description">
           <a href="{{ post.url }}"><img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail"></a><span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
         </section>
-
       {% include post_links.html %}
-
       {% endif %}<!-- Is it a course or something else -->
       </article>
     {% endfor %}
-
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
         <a class="newer-posts" href="/page{{paginator.next_page}}"><i class="fa fa-arrow-circle-o-left"></i></a>
@@ -47,5 +40,4 @@ page_id: speaking
         {% endif %}
       {% endif %}
     </nav>
-
 </main>

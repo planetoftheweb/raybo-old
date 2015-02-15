@@ -1,6 +1,6 @@
 ---
 courseid: 174237
-layout: post
+layout: course
 category: courses
 github: https://github.com/planetoftheweb/angulardata
 demo: http://chetkins.com

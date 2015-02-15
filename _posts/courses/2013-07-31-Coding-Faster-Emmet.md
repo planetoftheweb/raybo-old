@@ -1,6 +1,6 @@
 ---
 courseid: 133353
-layout: post
+layout: course
 category: courses
 tags:
 - Web Development

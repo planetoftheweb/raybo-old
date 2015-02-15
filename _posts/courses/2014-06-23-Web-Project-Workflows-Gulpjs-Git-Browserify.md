@@ -1,6 +1,6 @@
 ---
 courseid: 154416
-layout: post
+layout: course
 category: courses
 demo: http://iviewsource.com/exercises/workflows/
 github: https://github.com/planetoftheweb/workflows

@@ -1,6 +1,6 @@
 ---
 courseid: 122462
-layout: post
+layout: course
 category: courses
 demo: http://www.conf.rouxacademy.com/
 tags:

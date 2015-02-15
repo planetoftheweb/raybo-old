@@ -1,0 +1,12 @@
+<div class="header-background" style="background-image: url({% if course.Thumbnails[2].FullURL %}{{ course.Thumbnails[2].FullURL }}{% endif %}{% if page.heroimage %}{{ page.heroimage }}{% endif %})"></div>
+<section class="header-info">
+  {% include post_categories.html %}
+  <div class="header-published">Published <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date_to_string }}</time></div>
+  <h1 class="header-title">{% if course.Title %}{{ course.Title }}{% endif %}{% if page.Title %}{{ page.Title }}{% endif %}</h1>
+  <div class="cf post-text-group">
+    <a href="/about/"><div class="author-image" style="background-image: url({{ site.author_image }})"></div></a>
+    <div class="header-description">{{ course.ShortDescription }}{% if page.summary %}{{ page.summary }}{% endif %}</div>
+    <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="/about/">{{ site.author.name }}</a></h4>
+  </div><!-- post-text-group -->
+</section><!-- header-info -->
+{% include categorynav.html %}

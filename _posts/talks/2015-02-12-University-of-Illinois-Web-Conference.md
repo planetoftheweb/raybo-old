@@ -1,6 +1,6 @@
 ---
-layout: speaking
-category: speaking
+layout: talks
+category: talks
 Title: University of Illinois Web Conference
 conference_date: April 29-30 2015
 summary: Two sessions including a workshop on Building Semantic, Responsive Grids with Sass & Compass plus a talk on Turning Authorship into a Career

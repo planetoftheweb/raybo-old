@@ -1,6 +1,6 @@
 ---
 courseid: 154415
-layout: post
+layout: course
 category: courses
 demo: http://iviewsource.com/exercises/coffeescript/
 github: https://github.com/planetoftheweb/coffeescript

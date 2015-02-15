@@ -1,6 +1,6 @@
 ---
 courseid: 182174
-layout: post
+layout: course
 category: courses
 github: https://github.com/planetoftheweb/responsive
 demo: http://iviewsource.com/exercises/responsive/

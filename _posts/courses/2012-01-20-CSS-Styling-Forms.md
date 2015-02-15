@@ -1,7 +1,7 @@
 ---
 courseid: 90368
 title: "CSS: Styling Forms"
-layout: post
+layout: course
 category: courses
 tags:
 - HTML

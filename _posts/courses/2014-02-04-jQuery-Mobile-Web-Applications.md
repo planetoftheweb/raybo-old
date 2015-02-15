@@ -1,6 +1,6 @@
 ---
 courseid: 156619
-layout: post
+layout: course
 category: courses
 tags:
 - jQuery

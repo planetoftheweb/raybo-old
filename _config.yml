@@ -2,7 +2,7 @@
 markdown: redcarpet
 highlighter: pygments
 sass:
-  style: compressed
+  style: expanded
 # Site settings
 title: "Raybo.org"
 description: "Helping people improve their lives by learning front-end design and development skills with a clear, practical style."

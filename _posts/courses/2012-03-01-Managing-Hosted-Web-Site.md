@@ -1,6 +1,6 @@
 ---
 courseid: 94250
-layout: post
+layout: course
 category: courses
 tags:
 - Web Development

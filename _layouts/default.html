@@ -5,39 +5,12 @@
 <head>
   {% include head.html %}
 </head>
-<body class="default home">
-
-<header class="header">
-  <div class="header-background" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}></div>
-  <section class="header-info">
-    {% if site.logo %}
-      <a class="header-logo" href="/" style="background-image: url('{{ site.logo }}')"></a>
-    {% endif %}
-    <h1 class="header-title">{{ site.title }}</h1>
-    <div class="custom-links">
-      {% for social in site.social %}
-        {% if social.url %}
-            <a class="social-icon icon-{{ social.icon }}" href="{{ social.url }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <h2 class="header-description">{{ site.description }}</h2>
-  </section><!-- post-meta -->
-</header>
-
-  {% include categorynav.html %}
-
-
+<body class="default {{page.page_id}}">
+{% include header.html %}
 {{ content }}
-
-<!-- content end -->
-
 <footer class="site-footer">
   {% include footer.html %}
 </footer>
-
 {% include scriptloader.html %}
 </body>
 </html>

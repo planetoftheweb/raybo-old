@@ -17,11 +17,9 @@
 <section class="author-info social">
   <h5 class="author-headline"><span>Follow me</span></h5>
   <div class="links custom-links">
-    {% for social in site.social %}
-    {% if social.url %}
+{% for social in site.social %}{% if social.url %}
     <a class="icon icon-{{ social.icon }}" href="{{ social.url }}"><i class="fa fa-{{ social.icon }}"></i></a>
-    {% endif %}
-    {% endfor %}
+{% endif %}{% endfor %}
   </div>
 
   <div class="links feed"><a class="subscribe" href="/feed.xml"><i class="fa fa-rss"></i> Subscribe to my feed</a></div>

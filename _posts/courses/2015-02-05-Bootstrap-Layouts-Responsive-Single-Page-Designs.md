@@ -1,6 +1,6 @@
 ---
 courseid: 186538
-layout: post
+layout: course
 category: courses
 github: https://github.com/planetoftheweb/responsivebootstrap
 demo: http://iviewsource.com/exercises/responsivebootstrap/

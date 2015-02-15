@@ -1,6 +1,6 @@
 ---
 courseid: 85083
-layout: post
+layout: course
 category: courses
 tags:
 - HTML

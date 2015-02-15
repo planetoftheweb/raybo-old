@@ -7,10 +7,10 @@
 {% if cat %}
 <span class="category">
 
-<a href="{{ cat }}">
+<a href="/{{ cat }}">
   {% case cat %}
   <span class="icon">
-    {% when 'speaking' %}
+    {% when 'talks' %}
     <i class="fa fa-bullhorn"></i>
     {% when 'blog' %}
     <i class="fa fa-file-text"></i>

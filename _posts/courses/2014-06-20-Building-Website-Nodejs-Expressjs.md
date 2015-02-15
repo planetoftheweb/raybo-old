@@ -1,6 +1,6 @@
 ---
 courseid: 163094
-layout: post
+layout: course
 category: courses
 demo: http://rouxme.herokuapp.com/
 tags:

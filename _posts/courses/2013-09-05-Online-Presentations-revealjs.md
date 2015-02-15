@@ -1,6 +1,6 @@
 ---
 courseid: 137904
-layout: post
+layout: course
 category: courses
 tags: [ Web, Design, Projects, Development, NodeJS, AngularJS ]
 tags:

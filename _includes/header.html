@@ -1,0 +1,12 @@
+<header class="header">
+  <div class="header-background" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}></div>
+</header>
+<section class="header-info">
+  {% if site.logo %}
+    <a class="header-logo" href="/" style="background-image: url('{{ site.logo }}')"></a>
+  {% endif %}
+  <h1 class="header-title">{{ site.title }}</h1>{% if page.page_id != 'home' %}<h2 class="pageid">{{page.page_id}}</h2>{% endif %}
+	{% if (page.page_id == 'home') %}<h2 class="header-description">{{ site.description }}</h2>{% endif %}
+	{% include categorynav.html %}
+	
+</section><!-- post-meta -->

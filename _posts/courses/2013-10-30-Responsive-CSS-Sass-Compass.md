@@ -1,6 +1,6 @@
 ---
 courseid: 140777
-layout: post
+layout: course
 category: courses
 tags:
 - Web Development

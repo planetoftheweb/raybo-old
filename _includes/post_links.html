@@ -1,10 +1,6 @@
 <nav class="post-links">
 <ul>
 
-  {% if (page.category!='') %}
-  <li><a href="/"><i class="fa fa-reply"></i> home</a></li>
-  {% endif %}
-
   {% if (post.category!='') %}
   <li><a href="{{ post.url }}"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
   {% endif %}

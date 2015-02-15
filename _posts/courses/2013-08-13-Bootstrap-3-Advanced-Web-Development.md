@@ -1,6 +1,6 @@
 ---
 courseid: 124079
-layout: post
+layout: course
 category: courses
 demo: http://rouxstageapp.herokuapp.com/
 tags:

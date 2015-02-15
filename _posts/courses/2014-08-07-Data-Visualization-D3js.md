@@ -1,6 +1,6 @@
 ---
 courseid: 162449
-layout: post
+layout: course
 category: courses
 demo: http://iviewsource.com/exercises/d3/
 tags:
