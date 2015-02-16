@@ -1,5 +1,5 @@
 <header class="header">
-  <div class="header-background" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}></div>
+  <div class="header-background" style="background-image: url({% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %})"></div>
 </header>
 <section class="header-info">
   {% if site.logo %}

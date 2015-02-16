@@ -34,14 +34,14 @@
   .default &
     overflow: show
     text-align: center
-    height: 300px
+    height: 200px
     top: 0
     left: 0
     right: 0
     @include respond-to(800)
       height: 200px
   .home &
-    height: 500px
+    height: 200px
 
   .post &
     @include background-image( linear-gradient(to left, #D14348, #72A65C) )
@@ -201,7 +201,7 @@
 
   .category
     a
-      color: $darkerorange
+      color: lighten($yellow, 10%)
       i
         color: white
 
