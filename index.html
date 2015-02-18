@@ -8,7 +8,13 @@ cover: /assets/images/codemobile.jpg
     <article class="post-item">
       <div class="post-meta">
         {% include post_categories.html %}
-        <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
+        <span class="post-date">
+        {% if post.conference_date %}
+          {{post.conference_date}}
+        {% else %}
+          {{ post.date | date: '%B %-d, %Y' }}
+        {% endif %}
+        </span>
       </div><!-- post-meta -->
       {% if post.courseid %}
         {% for course in site.data.courselist %}
