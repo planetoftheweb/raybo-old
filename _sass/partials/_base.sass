@@ -44,7 +44,6 @@ body
   line-height: 170%
   font-weight: 300
   color: #666
-  @include transition(all 0.3s ease-out)
 
 a
   color: $links
@@ -55,13 +54,39 @@ a
     color: $darkerorange
 
 
+.navgroup
+  margin-top: 10px
+  margin-bottom: 0
+  padding-top: 5px
+  padding-bottom: 5px
+  padding-left: 1%
+  padding-right: 1%
+  max-width: 900px
+  margin: 0 auto
+  border-top: 1px dotted $gray
+  border-bottom: 1px dotted $gray
+  margin-bottom: 10px
+  margin-top: 10px
+  @include respond-to(620)
+    border-top: none
+    border-bottom: none
+
+
+  .header-tagline
+    @include respond-to(620)
+      width: 100%
+
 nav.main
+  @include clearfix
   font-family: $font-sans
   font-size: 1.5rem
   font-weight: bold
-  .navwrapper
+  @include respond-to(620)
     display: table
     margin: 0 auto
+  .default & .navwrapper
+    float: right
+    text-align: right
   ul
     @include clearfix
     margin: 0
@@ -73,16 +98,22 @@ nav.main
           color: darken($medium, 10%)
       .home &
         font-size: 2rem
-        
+
       float: left
       border-right: 1px dotted darken($yellow, 10%)
       &:last-child
         border-right: none
       a
+        line-height: 20px
         color: $orange
         padding: 6px 8px
         .home &
-          padding: 6px 10px
+          padding: 6px 8px
+        .categorytext.home:after
+          content: '\00a0'
+          display: inline-block
+          font-size: 0
+          width: 0
 
         &:hover
           background: lighten($yellow, 20%)

@@ -45,14 +45,15 @@
 
   .post &
     @include background-image( linear-gradient(to left, #D14348, #72A65C) )
-    nav
+    nav.main
+      width: 100%
       @include clearfix
       font-size: 1.6rem
       position: absolute
       bottom: 0
-      width: 100%
       .navwrapper
-        width: $reading-width
+        display: table
+        margin: 0 auto
         @include clearfix
         ul
           @include clearfix
@@ -77,6 +78,7 @@
             content: '\00a0'
             display: inline-block
             font-size: 0
+            width: 0
           &.active
             font-size: 2.1rem
             opacity: 1
@@ -120,10 +122,10 @@
     display: block
     background-size: cover
     border-radius: 100%
-    width: 130px
-    height: 130px
+    width: 110px
+    height: 110px
     margin: 0 auto
-    border: 8px solid white
+    border: 6px solid white
 
   .default &
     top: -80px
@@ -152,7 +154,9 @@
       display: none
 
   .header-description
+    @include clearfix
     .default &
+      text-align: center
       font-size: 1.8rem
       max-width: 540px
       margin: 0 auto
@@ -171,18 +175,21 @@
     font-weight: normal
     font-size: 5.5rem
     line-height: 100%
-    margin-bottom: 16px
+    margin-bottom: 8px
     @include respond-to(800)
       font-size: 3rem
     .default &
       text-align: center
       color: #333
       font-weight: 700
-      letter-spacing: -3px
       @include respond-to(800)
         letter-spacing: -2px
-
-
+  .header-tagline
+    font-family: $font-sans
+    text-align: center
+    font-size: 2.2rem
+    margin-top: 0
+    float: left
  
   .author-image
     display: inline-block

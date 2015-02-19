@@ -5,12 +5,12 @@ sass:
   style: expanded
 # Site settings
 title: "Raybo.org"
-description: "Helping people improve their lives by learning front-end design and development skills with a clear, practical style."
+tagline: "Learn practical web skills"
+description: "The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style."
 email: ray@planetoftheweb.com
 twitteruser: "@planetoftheweb"
 logo: "/assets/images/powship.png" #blog logo
 cover: "/assets/images/hero.jpg" # blog cover
-
 
 author:
   firstname: "Ray"
