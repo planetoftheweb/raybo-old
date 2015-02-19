@@ -197,12 +197,12 @@
   line-height: 120%
   @include clearfix
 
+.post-date
+  color: $gray
+  font-weight: bold
+
   .post &
     margin-bottom: 10px
-
-  .post-date
-    &:before
-      content: " | "
 
 .category
   font-weight: bold
@@ -210,3 +210,5 @@
     color: $darkerorange
     i
       color: $gray
+  &:after
+    content: " | "

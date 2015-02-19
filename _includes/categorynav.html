@@ -7,8 +7,7 @@
 
     	{% for category in site.categories %}
         {% assign cat =  category | first %}
-          {% if cat != page.page_id %}
-          <li {% if cat == page.category %}class="active"{% endif %}>
+          <li {% if cat == page.category or cat == page.page_id %}class="active"{% endif %}>
             <a href="/{{ category | first }}">
               {% case cat %}
               <span class="icon">
@@ -25,7 +24,6 @@
         	    <span class="categorytext {{ category | first }}">{{ category | first }}</span>
             </a>
           </li>
-        {% endif %}
     	{% endfor %}
 		</ul>
 	</div>

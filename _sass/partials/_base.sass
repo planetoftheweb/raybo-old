@@ -57,7 +57,7 @@ a
 
 nav.main
   font-family: $font-sans
-  font-size: 2rem
+  font-size: 1.5rem
   font-weight: bold
   .navwrapper
     display: table
@@ -67,13 +67,23 @@ nav.main
     margin: 0
     padding: 0
     li
+      &.active
+        font-size: 2rem
+        a
+          color: darken($medium, 10%)
+      .home &
+        font-size: 2rem
+        
       float: left
       border-right: 1px dotted darken($yellow, 10%)
       &:last-child
         border-right: none
       a
         color: $orange
-        padding: 6px 10px
+        padding: 6px 8px
+        .home &
+          padding: 6px 10px
+
         &:hover
           background: lighten($yellow, 20%)
           color: darken($orange, 10%)

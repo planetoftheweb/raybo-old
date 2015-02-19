@@ -7,6 +7,7 @@ sass:
 title: "Raybo.org"
 description: "Helping people improve their lives by learning front-end design and development skills with a clear, practical style."
 email: ray@planetoftheweb.com
+twitteruser: "@planetoftheweb"
 logo: "/assets/images/powship.png" #blog logo
 cover: "/assets/images/hero.jpg" # blog cover
 

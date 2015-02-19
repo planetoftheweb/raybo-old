@@ -1,14 +1,14 @@
 ---
-category: talks
+category: courses
 ---
 <!DOCTYPE html>
+{% for course in site.data.courselist %}
+{% if course.ID == page.courseid %}
 <html>
 <head>
   {% include head.html %}
 </head>
 <body class="post">
-{% for course in site.data.courselist %}
-{% if course.ID == page.courseid %}
 
 <a href="{{ site.url }}" class="floating-logo">
   <span class="logo" style="background-image: url({{ site.logo }})"></span>
@@ -24,8 +24,6 @@ category: talks
   <div class="course-description">{{ course.Description }}</div>
   <div class="content">{{ content }}</div>
   {% include post_tags.html %}
-{% endif %} 
-{% endfor %} 
 </main><!-- main class="content" -->
 
 <footer class="site-footer">
@@ -34,3 +32,5 @@ category: talks
 {% include scriptloader.html %}
 </body>
 </html>
+{% endif %} 
+{% endfor %} 
