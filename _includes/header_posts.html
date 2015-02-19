@@ -1,7 +1,8 @@
 <div class="header-background" style="background-image: url({% if course.Thumbnails[2].FullURL %}{{ course.Thumbnails[2].FullURL }}{% endif %}{% if page.heroimage %}{{ page.heroimage }}{% endif %})"></div>
 <section class="header-info">
   {% include post_categories.html %}
-  <div class="header-published">Published <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date_to_string }}</time></div>
+  <div class="header-published">{% if page.conference_date %}{{page.conference_date}}{% else %}Published <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date_to_string }}</time>{% endif %}</div>
+
   <h1 class="header-title">{% if course.Title %}{{ course.Title }}{% endif %}{% if page.Title %}{{ page.Title }}{% endif %}</h1>
   <div class="cf post-text-group">
     <a href="/about/"><div class="author-image" style="background-image: url({{ site.author_image }})"></div></a>
