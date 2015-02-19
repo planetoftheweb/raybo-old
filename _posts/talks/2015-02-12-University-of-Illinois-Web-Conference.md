@@ -24,8 +24,11 @@ I'm really excited to be talking at this conference two days. First, a workshop 
 
 Building responsive grids with plain CSS can be challenging. Dealing with media queries, fractional widths and browser prefixes often prevent a designer from taking advantage from newer features like Flexbox, responsive grids and with Mobile-first design. Plus, Frameworks like Bootstrap can leave undesirable non-semantic layout code in your markup. In this session, we'll build a hotel website for the Landon Hotel using Sass along with Compass and two other libraries that will make designing semantic markup faster, easier and more efficient. You'll discover that using the right tools will make designing your sites unbelievably fun again.
 
-If you're coming to this course, make sure you take a look at the [sample website](http://iviewsource.com/exercises/responsive/). This is also based on my Lynda.com course [Building a Reponsive Single Page Design](/courses/2014/09/23/Building-Responsive-Single-Page-Design.html). You can also take a look at the code for this session on this [Github page](https://github.com/planetoftheweb/responsive).
+#### Assets
 
+- <i class="fa fa-bullseye"></i> [Sample website](http://iviewsource.com/exercises/responsive/)
+- <i class="fa fa-eye"></i> [Lynda.com course](/courses/2014/09/23/Building-Responsive-Single-Page-Design.html)
+- <i class="fa fa-github-alt"></i> [Github page](https://github.com/planetoftheweb/responsive)
 
 ## Turning Authorship Into a Career
 ### BREAKOUT SESSION
