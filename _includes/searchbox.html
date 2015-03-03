@@ -6,6 +6,7 @@
     </div>
  </form>
  <div class="search-results" ng-show="query">
+  <b class="notch"></b>
   <ul class="searchlist">
     <li ng-animate="'animate'" class="search cf" ng-repeat="thing in results | filter: query">
       <a href="{% raw %}{{thing.link}}{% endraw %}">

@@ -32,8 +32,13 @@
   $("input").focus(function() {
     $('.sitesearch').addClass("focus");
   });
+
   $("input").blur(function() {
     $('.sitesearch').removeClass("focus");
+  });
+
+  $( "body" ).keypress(function() {
+    $('.sitesearch input').focus();
   });
 
   }); // document ready

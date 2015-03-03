@@ -6,6 +6,8 @@
   height: $rs*3
   overflow: hidden
   z-index: 200
+  @include respond-to(400)
+    display: none
   opacity: .9
   border: 10px solid rgba(255,255,255,.2)
   border-radius: 100%
@@ -18,3 +20,4 @@
     height: $rs*3
     background-size: cover
     background-repeat: no-repeat
+

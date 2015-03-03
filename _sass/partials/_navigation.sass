@@ -63,6 +63,17 @@ nav.main
           color: darken($orange, 10%)
 
 .sitesearch
+  .notch
+    position: absolute
+    right: 17px
+    top: -20px
+    border-top: 10px solid transparent
+    border-right: 10px solid transparent
+    border-left: 10px solid transparent
+    border-bottom: 10px solid lighten($yellow, 20%)
+    _border-right-color: pink
+    _border-left-color: pink
+    _filter: chroma(color=pink)
   background: white
   position: relative
   float: left
@@ -83,7 +94,6 @@ nav.main
     -moz-transition: all 0.30s ease-in-out
     -ms-transition: all 0.30s ease-in-out
     -o-transition: all 0.30s ease-in-out
-    height: 30px
     width: 60px
     border: 0
     background: transparent
@@ -104,6 +114,7 @@ nav.main
       li
         padding: 20px
         border-right: 0
+        margin-right: 0 !important
         &:hover
           background: lighten($yellow, 5%)
         a
@@ -139,29 +150,23 @@ nav.main
     width: 150px
 
 .post nav.main
+  margin-top: 30px
+  input
+    height: 20px
   .header-tagline
     display: none
-  width: 100%
-  @include clearfix
-  font-size: 1.6rem
-  position: absolute
-  bottom: 0
-  .sitesearch
-    margin-bottom: 5px
   .navwrapper
     display: table
     margin: 0 auto
-    @include clearfix
+    .search-results
+      left: -400px
     ul
       @include clearfix
       margin-right: none !important
     li
       @include clearfix
       border-right: none
-      display: inline-block
       margin-right: 5px
-      padding-top: 7px
-      opacity: .7
       @include respond-to(400)
         font-size: 1.4rem
 
@@ -179,7 +184,6 @@ nav.main
         width: 0
       &.active
         font-size: 2.1rem
-        padding-top: 4px
         opacity: 1
         a
           color: darken($darkorange, 20%)
