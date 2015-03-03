@@ -4,7 +4,7 @@ category: courses
 <!DOCTYPE html>
 {% for course in site.data.courselist %}
 {% if course.ID == page.courseid %}
-<html>
+<html ng-app="searchApp">
 <head>
   {% include head.html %}
 </head>
@@ -16,7 +16,6 @@ category: courses
 <header class="header">
 {% include header_posts.html %}
 </header>
-
 <main class="content" role="main">
 	{% include breadcrumbs.html %}
 <!-- Course Information -->

@@ -5,9 +5,8 @@
   {% if site.logo %}
     <a class="header-logo" href="/" style="background-image: url('{{ site.logo }}')"></a>
   {% endif %}
-  <h1 class="header-title">{{ site.title }}{% if page.page_id != 'home' %}<span class="pageid">{{page.page_id}}</span>{% endif %}</h1>
   <div class="navgroup">
-    <h2 class="header-tagline">{{ site.tagline }}</h2>
+    <h1 class="header-title">{{ site.title }}{% if page.page_id != 'home' %}<span class="pageid">{{page.page_id}}</span>{% endif %}</h1>
     {% include categorynav.html %}
   </div>
   {% if (page.page_id == 'home') %}<p class="header-description">{{ site.description }}</p>{% endif %}

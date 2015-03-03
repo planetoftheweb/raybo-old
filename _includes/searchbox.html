@@ -1,0 +1,21 @@
+<div class="sitesearch"  ng-controller="searchControllers">
+<form name="search" id="searchform">
+    <div class="input-group">
+      <input id="searchbox" placeholder="Search" ng-model="query" tabindex="1">
+	    <label for="searchbox"><i class="fa fa-search"></i></label>
+    </div>
+ </form>
+ <div class="search-results" ng-show="query">
+  <ul class="searchlist">
+    <li ng-animate="'animate'" class="search cf" ng-repeat="thing in results | filter: query">
+      <a href="{% raw %}{{thing.link}}{% endraw %}">
+        <img ng-src="{% raw %}{{thing.thumbnail}}{% endraw %}" alt="{% raw %}{{thing.title}}{% endraw %} Thumbnail">
+        <div class="info">
+          <h2>{% raw %}{{thing.title}}{% endraw %}</h2>
+          <p>{% raw %}{{thing.summary}}{% endraw %}</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+ </div>
+</div>

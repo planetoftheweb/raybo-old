@@ -29,10 +29,15 @@
       } // if replace
     }); // target links on page
 
+  $("input").focus(function() {
+    $('.sitesearch').addClass("focus");
+  });
+  $("input").blur(function() {
+    $('.sitesearch').removeClass("focus");
+  });
+
   }); // document ready
-
 }(jQuery)); // anonymous closure
-
 
 
 
