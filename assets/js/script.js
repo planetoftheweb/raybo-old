@@ -37,9 +37,18 @@
     $('.sitesearch').removeClass("focus");
   });
 
-  $( "body" ).keypress(function() {
-    $('.sitesearch input').focus();
+  $( "body" ).keypress(function(e) {
+      $('.sitesearch input').focus();
   });
+
+
+  $( "body" ).keyup(function(e) {
+    if (e.keyCode == 27) {
+      $('.sitesearch input').val(null);
+      $('.sitesearch input').blur();
+    }
+  });
+
 
   }); // document ready
 }(jQuery)); // anonymous closure
