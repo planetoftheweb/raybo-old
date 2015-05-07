@@ -1,7 +1,7 @@
 ---
 layout: talks
 category: talks
-Title: Design the Future
+Title: Fresno City College Bootcamp
 conference_date: June 01-19
 summary: Grow your knowledge in the latest Web Technologies. Join us, this summer 2015, for the first ever Web Development Bootcamp hosted at Fresno City College.
 heroimage: http://i.imgur.com/x5KhLuV.png
