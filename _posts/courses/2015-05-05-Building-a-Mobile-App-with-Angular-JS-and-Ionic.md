@@ -1,15 +1,15 @@
 ---
-courseid: 174237
+courseid: 368920
 layout: course
 category: courses
-github: https://github.com/planetoftheweb/angulardata
+github: https://github.com/planetoftheweb/angularMobile
 demo: http://chetkins.com
 tags:
 - Web Development
 - App Development
+- Mobile Development
 - JavaScript
-- Firebase
-- Databases
+- Ionic
 - Frameworks
 - AngularJS
 ---
