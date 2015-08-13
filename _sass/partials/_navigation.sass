@@ -13,8 +13,8 @@
     border-bottom: none
 
   .header-tagline
-    @include respond-to(620)
-      width: 100%
+    @include respond-to(800)
+      display: none
 
 nav.main
   display: table
@@ -147,7 +147,9 @@ nav.main
   i
     color: $orange
   input
-    width: 150px
+    width: 60px
+    @include respond-to(400)
+      width: 350px
 
 .post nav.main
   margin-top: 30px
