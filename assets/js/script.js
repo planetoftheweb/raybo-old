@@ -11,7 +11,7 @@
       if (top < 0 || top > 1500) { return; }
       $image
         .css('transform', 'translate3d(0px, '+top/2+'px, 0px)')
-        .css('opacity', 0.4-Math.max(top/($window.height()*0.5), 0));
+        .css('opacity', 1-Math.max(top/($window.height()*0.5), 0));
     });
     $window.trigger('scroll');
 

@@ -14,8 +14,8 @@ category: blog
 <header class="header">
 {% include header_posts.html %}
 </header>
+{% include categorynav.html %}
 <main class="content" role="main">
-	{% include breadcrumbs.html %}
   {% include post_links.html %}
   <div class="course-description">{{ course.summary }}</div>
   <div class="content">{{ content }}</div>

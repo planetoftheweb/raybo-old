@@ -1,5 +1,5 @@
 <!-- bottom-teaser -->
-<div class="bottom-info cf">
+<div class="bottom-info">
 
 <!-- Author Credits -->
 <section class="author-info credits">
@@ -27,4 +27,7 @@
 
 </section><!-- class="isRight" -->
 </div><!-- bottom-info -->
+
+{% if (page.page_id != 'about') %}
 <a href="/about/"><div class="footer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}></div></a>
+{% endif %}

@@ -1,13 +1,12 @@
-<div class="header-background" style="background-image: url({% if course.Thumbnails[2].FullURL %}{{ course.Thumbnails[2].FullURL }}{% endif %}{% if page.heroimage %}{{ page.heroimage }}{% endif %})"></div>
+<div class="header-background" style="background: linear-gradient(to bottom right,rgba(209, 67, 72, .5),rgba(114, 166, 92, 1)), url({% if course.Thumbnails[2].FullURL %}{{ course.Thumbnails[2].FullURL }}{% endif %}{% if page.heroimage %}{{ page.heroimage }}{% endif %}); -webkit-filter: blur(8px); filter: blur(8px);"></div>
 <section class="header-info">
   {% include post_categories.html %}
   <div class="header-published">{% if page.conference_date %}{{page.conference_date}}{% else %}Published <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date_to_string }}</time>{% endif %}</div>
 
   <h1 class="header-title">{% if course.Title %}{{ course.Title }}{% endif %}{% if page.Title %}{{ page.Title }}{% endif %}</h1>
-  <div class="cf post-text-group">
+  <div class="post-text-group">
     <a href="/about/"><div class="author-image" style="background-image: url({{ site.author_image }})"></div></a>
     <div class="header-description">{{ course.ShortDescription }}{% if page.summary %}{{ page.summary }}{% endif %}</div>
     <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="/about/">{{ site.author.name }}</a></h4>
   </div><!-- post-text-group -->
-	{% include categorynav.html %}
 </section><!-- header-info -->

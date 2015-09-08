@@ -1,6 +1,8 @@
 <nav class="main">
 	<div class="navwrapper">
+    {% if (page.page_id == 'home') %}
     <h2 class="header-tagline">{{ site.tagline }}</h2>
+    {% endif %}
 		<ul>
       {% if (page.page_id != 'home') %}
       <li><a href="/"><i class="fa fa-home"></i> <span class="categorytext home"></span></a></li>
