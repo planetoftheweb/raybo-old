@@ -30,8 +30,9 @@
       float: none
       display: table
       margin: 0 auto
+      margin-bottom: 10px
     li
-      font-size: 2rem
+      font-size: 1.8rem
       &.active a
         color: darken($medium, 10%)
       float: left
@@ -39,11 +40,10 @@
       &:last-child
         border-right: none
       a
-        line-height: 20px
         color: $orange
-        padding: 6px 8px
-        .home &
-          padding: 6px 8px
+        padding: 4px 6px
         &:hover
           background: lighten($yellow, 20%)
           color: darken($orange, 10%)
+        .fa-home
+          padding-right: 6px
