@@ -20,10 +20,12 @@ summary: Web Design and development articles from front-end development teacher 
         <section class="post-description">
           <a href="{{ post.url }}"><img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail"></a><span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
         </section>
-      {% include post_links.html %}
+        <nav class="post-links">
+        <ul>
+          <li><a href="{{ post.url }}"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+        </ul>
       </article>
     {% endfor %}
-
     {% if paginator.next_page %}
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
