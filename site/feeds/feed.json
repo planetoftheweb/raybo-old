@@ -1,5 +1,21 @@
 [
   ,{
+    "title": "AngularJS: Form Validation",
+    "link": "http://raybo.org/courses/2015/11/10/AngularJS-Form-Validation.html",
+    "thumbnail": "https://cdn.lynda.com/courses/438886-635827439080742024_88x158_thumb.jpg",
+    "date": "2015-11-10 00:00:00 -0500",
+    "category": "courses",
+    "tags": ["Web Development","Sass","CSS","Cascading Stylesheets","Stylesheets"],
+    "summary": "Learn how to implement dynamic form validation on any HTML form using the built-in validation properties and methods in AngularJS."
+  }{
+    "title": "AngularJS: Adding Registration to Your Application",
+    "link": "http://raybo.org/courses/2015/11/10/AngularJS-Adding-Registration-to-Your-Application.html",
+    "thumbnail": "https://cdn.lynda.com/courses/438887-635827438390248957_88x158_thumb.jpg",
+    "date": "2015-11-10 00:00:00 -0500",
+    "category": "courses",
+    "tags": ["Web Development","App Development","Mobile Development","JavaScript","Ionic","Frameworks","AngularJS","Sass"],
+    "summary": "Create a simple registration system that allows users to log in and out of your applications, with AngularJS and Firebase."
+  },{
     "title": "Sass Essential Training",
     "link": "http://raybo.org/courses/2015/10/06/Sass-Essential-Training.html",
     "thumbnail": "https://cdn.lynda.com/courses/375925-635797211412111970_88x158_thumb.jpg",
@@ -7,13 +23,13 @@
     "category": "courses",
     "tags": ["Web Development","Sass","CSS","Cascading Stylesheets","Stylesheets"],
     "summary": "Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features."
-  }{
+  },{
     "title": "Bootstrap 3 Essential Training",
     "link": "http://raybo.org/courses/2015/08/26/Bootstrap-3-Essential-Training.html",
     "thumbnail": "https://cdn.lynda.com/courses/417641-635760301871294629_125x224_thumb.jpg",
     "date": "2015-08-26 00:00:00 -0400",
     "category": "courses",
-    "tags": ["Web Development","Git","Github","Bootstrap","Frameworks","Layout"],
+    "tags": ["Web Development","Web Design","Bootstrap","CSS","Frameworks"],
     "summary": "Everything you need to know to get started building responsive, accessible, mobile-first websites with Bootstrap 3.</p>"
   },{
     "title": "Getting The Right Social Media Followers",

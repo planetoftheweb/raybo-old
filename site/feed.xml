@@ -5,9 +5,59 @@
     <description>The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.</description>
     <link>http://raybo.org/</link>
     <atom:link href="http://raybo.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Nov 2015 05:24:19 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2015 05:24:19 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2015 13:41:11 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2015 13:41:11 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Angularjs Form Validation</title>
+        <description></description>
+        <pubDate>Tue, 10 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://raybo.org/courses/2015/11/10/AngularJS-Form-Validation.html</link>
+        <guid isPermaLink="true">http://raybo.org/courses/2015/11/10/AngularJS-Form-Validation.html</guid>
+        
+        <category>Web Development</category>
+        
+        <category>Sass</category>
+        
+        <category>CSS</category>
+        
+        <category>Cascading Stylesheets</category>
+        
+        <category>Stylesheets</category>
+        
+        
+        <category>courses</category>
+        
+      </item>
+    
+      <item>
+        <title>Angularjs Adding Registration To Your Application</title>
+        <description></description>
+        <pubDate>Tue, 10 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://raybo.org/courses/2015/11/10/AngularJS-Adding-Registration-to-Your-Application.html</link>
+        <guid isPermaLink="true">http://raybo.org/courses/2015/11/10/AngularJS-Adding-Registration-to-Your-Application.html</guid>
+        
+        <category>Web Development</category>
+        
+        <category>App Development</category>
+        
+        <category>Mobile Development</category>
+        
+        <category>JavaScript</category>
+        
+        <category>Ionic</category>
+        
+        <category>Frameworks</category>
+        
+        <category>AngularJS</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>courses</category>
+        
+      </item>
     
       <item>
         <title>Sass Essential Training</title>
@@ -40,15 +90,13 @@
         
         <category>Web Development</category>
         
-        <category>Git</category>
-        
-        <category>Github</category>
+        <category>Web Design</category>
         
         <category>Bootstrap</category>
         
-        <category>Frameworks</category>
+        <category>CSS</category>
         
-        <category>Layout</category>
+        <category>Frameworks</category>
         
         
         <category>courses</category>
@@ -184,50 +232,6 @@
         
         
         <category>courses</category>
-        
-      </item>
-    
-      <item>
-        <title>Code Clinic Javascript</title>
-        <description></description>
-        <pubDate>Thu, 23 Apr 2015 00:00:00 -0400</pubDate>
-        <link>http://raybo.org/courses/2015/04/23/Code-Clinic-JavaScript.html</link>
-        <guid isPermaLink="true">http://raybo.org/courses/2015/04/23/Code-Clinic-JavaScript.html</guid>
-        
-        <category>Web Development</category>
-        
-        <category>App Development</category>
-        
-        <category>JavaScript</category>
-        
-        <category>C3</category>
-        
-        <category>D3</category>
-        
-        
-        <category>courses</category>
-        
-      </item>
-    
-      <item>
-        <title>Getting Started Creating Svg Graphics</title>
-        <description>A lot of data visualizations use the SVG format to create graphics, so in this article, we&#39;ll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you&#39;re using SVG based libraries and frameworks.</description>
-        <pubDate>Tue, 03 Mar 2015 00:00:00 -0500</pubDate>
-        <link>http://raybo.org/blog/2015/03/03/Getting-started-creating-SVG-Graphics.html</link>
-        <guid isPermaLink="true">http://raybo.org/blog/2015/03/03/Getting-started-creating-SVG-Graphics.html</guid>
-        
-        <category>data visualization</category>
-        
-        <category>bitmap</category>
-        
-        <category>raster graphics</category>
-        
-        <category>CiC project</category>
-        
-        <category>navigation</category>
-        
-        
-        <category>blog</category>
         
       </item>
     

@@ -1,5 +1,37 @@
 [
-  {
+    {
+      "ID": 438887,
+      "DurationInSeconds": 7678,
+      "Title": "AngularJS: Adding Registration to Your Application",
+      "ShortDescription": "Create a simple registration system that allows users to log in and out of your applications, with AngularJS and Firebase.",
+        "Thumbnails": [
+          { "FullURL": "https://cdn.lynda.com/courses/438887-635827438390248957_88x158_thumb.jpg"},
+          {"FullURL": "https://cdn.lynda.com/courses/438887-635824152732403282_338x600_thumb.jpg"}
+        ],
+      "URLs": {
+        "www.lynda.com": "/AngularJS-tutorials/AngularJS-Adding-Registration-Your-Application/438887-2.html"
+      },
+      "WelcomeVideoId": 445604
+    },
+    {
+      "ID": 438886,
+      "DurationInSeconds": 2512,
+      "Title": "AngularJS: Form Validation",
+      "ShortDescription": "Learn how to implement dynamic form validation on any HTML form using the built-in validation properties and methods in AngularJS.",
+        "Thumbnails": [
+          {
+            "FullURL": "https://cdn.lynda.com/courses/438886-635827439080742024_88x158_thumb.jpg"
+          },
+          {
+            "FullURL": "https://cdn.lynda.com/courses/438886-635814741830888421_338x600_thumb.jpg"
+          }
+        ],
+      "URLs": {
+        "www.lynda.com": "/AngularJS-tutorials/AngularJS-Form-Validation/438886-2.html"
+      },
+      "WelcomeVideoId": 445587
+    },
+    {
     "ID": 417641,
     "DurationInSeconds": 17711,
     "Title": "Bootstrap 3 Essential Training",

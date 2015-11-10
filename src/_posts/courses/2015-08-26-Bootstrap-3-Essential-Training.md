@@ -2,11 +2,11 @@
 courseid: 417641
 layout: course
 category: courses
+github: https://github.com/planetoftheweb/bootstrap
 tags:
 - Web Development
-- Git
-- Github
+- Web Design
 - Bootstrap
+- CSS
 - Frameworks
-- Layout
 ---
