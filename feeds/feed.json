@@ -5,7 +5,7 @@ layout: null
   {% for post in site.posts %}{% if post.courseid %}{% for course in site.data.courselist %}{% if course.ID == post.courseid %}{% if post.title != null and post.title != empty and post.search_omit != true %}{% if forloop.index > 1 %},{%endif%}{
     "title": "{{course.Title | replace: '"', '\"'}}",
     "link": "{{ site.url }}{{ post.url }}",
-    "thumbnail": "{{ course.Thumbnails[10].FullURL }}",
+    "thumbnail": "{{ course.Thumbnails[0].FullURL }}",
     "date": "{{ post.date }}",
     "category": "{{ post.category }}",
     {% if post.tags %}"tags": [{% for tag in post.tags %}"{{ tag }}"{% if forloop.index < forloop.length %},{%endif%}{% endfor %}]{% endif %},

@@ -16,7 +16,7 @@ summary: Upcoming talks, training sessions and conference appearances from speak
           {% if course.ID == post.courseid %}
             <h2 class="post-title"><a href="{{ post.url }}">{{ course.Title }}</a></h2>
             <section class="post-description">
-              <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.Thumbnails[10].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
+              <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.Thumbnails[0].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
             </section>
             {% include post_links.html %}
           {% endif %}
