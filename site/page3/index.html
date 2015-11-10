@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html ng-app="searchApp">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Raybo.org</title>
+  <meta name="description" content="The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://raybo.org/page3/">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="/assets/js/search.js"></script>
+
+  <link rel="stylesheet" media="screen" href="/css/main.css">
+  <link rel="stylesheet" media="print" href="/css/print.css">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@planetoftheweb">
+  <meta name="twitter:title" content="Raybo.org">
+  <meta name="twitter:description" content="The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.">  
+  <meta name="twitter:image:src" content="">
+  <meta name="twitter:player" content="">
+
+  <!-- Facebook Meta Data -->
+  <meta property="og:title" content="Raybo.org">
+  <meta property="og:description" content="The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.">  
+  <meta property="og:url" content="http://raybo.org">
+  <meta property="og:image" content="/assets/images/codemobile.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Raybo.org">
+  <meta property="og:video" content="">
+
+</head>
+<body class="default home">
+<header class="header">
+  <div class="header-background" style="background-image: url(/assets/images/codemobile.jpg)"></div>
+</header>
+<section class="header-info">
+  
+    <a class="header-logo" href="/" style="background-image: url('/assets/images/powship.png')"></a>
+  
+  <div class="navgroup">
+    <h1 class="header-title">Raybo.org</h1>
+    <nav class="main">
+	<div class="navwrapper">
+    
+    <h2 class="header-tagline">Learn practical web skills</h2>
+    
+		<ul>
+      
+
+    	
+        
+          <li >
+            <a href="/courses">
+              
+                <i class="fa fa-graduation-cap"></i>
+                
+        	    <span class="categorytext courses">courses</span>
+            </a>
+          </li>
+    	
+        
+          <li >
+            <a href="/blog">
+              
+                <i class="fa fa-file-text"></i>
+                
+        	    <span class="categorytext blog">blog</span>
+            </a>
+          </li>
+    	
+        
+          <li >
+            <a href="/talks">
+              
+                <i class="fa fa-bullhorn"></i>
+                
+        	    <span class="categorytext talks">talks</span>
+            </a>
+          </li>
+    	
+		</ul>
+    <div class="sitesearch"  ng-controller="searchControllers">
+  <div class="searchbox">
+    <form name="search" id="searchform">
+        <div class="input-group">
+          <input id="searchbox" placeholder="Search" ng-model="query" tabindex="1">
+    	    <label for="searchbox"><i class="fa fa-search"></i></label>
+        </div><!-- input-group -->
+     </form>
+  </div><!-- searchbox -->
+   <div class="search-results" ng-show="query">
+    <b class="notch"></b>
+    <ul class="searchlist">
+      <li ng-animate="'animate'" class="search" ng-repeat="thing in results | filter: query">
+        <a href="{{thing.link}}">
+          <img ng-src="{{thing.thumbnail}}" alt="{{thing.title}} Thumbnail">
+          <div class="info">
+            <h2>{{thing.title}}</h2>
+            <p>{{thing.summary}}</p>
+          </div><!-- info -->
+        </a>
+      </li>
+    </ul>
+  </div><!-- search-results -->
+</div><!-- sitesearch -->
+
+	</div>
+</nav>
+
+  </div>
+  <p class="header-description">The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.</p>
+	
+</section><!-- post-meta -->
+
+<main class="post-list content" role="main">
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/blog">
+  
+    <i class="fa fa-file-text"></i>
+    
+  blog
+</a>
+</span>
+
+        <span class="post-date">
+        
+          March 2, 2015
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        <h2 class="post-title"><a href="/blog/2015/03/02/Vector-Graphic-Formats-Used-in-data-visualizations.html">Vector Graphic Formats Used for data visualizations</a></h2>
+        <section class="post-description">
+          <a href="/blog/2015/03/02/Vector-Graphic-Formats-Used-in-data-visualizations.html"><img class="list-thumb" src="http://i.imgur.com/rBX9z0k.png" alt=" thumbnail"></a><span class="list-description">In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well...</span>
+        </section>
+        <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/blog/2015/03/02/Vector-Graphic-Formats-Used-in-data-visualizations.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/blog">
+  
+    <i class="fa fa-file-text"></i>
+    
+  blog
+</a>
+</span>
+
+        <span class="post-date">
+        
+          March 1, 2015
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        <h2 class="post-title"><a href="/blog/2015/03/01/Principles-of-online-graphic-formats.html">Principles of online graphic formats</a></h2>
+        <section class="post-description">
+          <a href="/blog/2015/03/01/Principles-of-online-graphic-formats.html"><img class="list-thumb" src="http://i.imgur.com/WxFxCZN.png" alt=" thumbnail"></a><span class="list-description">If your goal is to create visualizations for online consumption, it's good to understand the fundamentals of how graphic formats work for online delivery. In this article, I'll talk about the different bitmap/raster graphics and some of the main considerations for online delivery.</span>
+        </section>
+        <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/blog/2015/03/01/Principles-of-online-graphic-formats.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/blog">
+  
+    <i class="fa fa-file-text"></i>
+    
+  blog
+</a>
+</span>
+
+        <span class="post-date">
+        
+          February 19, 2015
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        <h2 class="post-title"><a href="/blog/2015/02/19/Understanding-Data-Formats.html">Understanding Data Formats used for Visualization Applications</a></h2>
+        <section class="post-description">
+          <a href="/blog/2015/02/19/Understanding-Data-Formats.html"><img class="list-thumb" src="http://i.imgur.com/jhsDlkX.png" alt=" thumbnail"></a><span class="list-description">In order to work with data-visualization, it's important to understand the formats commonly used to generate visual data. In this article, I'll talk about different formats for storing data plus their advantages and disadvantages and give you some resources.</span>
+        </section>
+        <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/blog/2015/02/19/Understanding-Data-Formats.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/talks">
+  
+    <i class="fa fa-bullhorn"></i>
+    
+  talks
+</a>
+</span>
+
+        <span class="post-date">
+        
+          June 22-24
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        <h2 class="post-title"><a href="/talks/2015/02/19/Design-the-future-at-Penn-State.html">Design the Future</a></h2>
+        <section class="post-description">
+          <a href="/talks/2015/02/19/Design-the-future-at-Penn-State.html"><img class="list-thumb" src="http://i.imgur.com/pTHcllj.png" alt=" thumbnail"></a><span class="list-description">A design centered conference at Penn State featuring me, Brad Frost, Tim Gunn, Andy Cohen, Debbie Millman and Josh Clark</span>
+        </section>
+        <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/talks/2015/02/19/Design-the-future-at-Penn-State.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+    <li><a href="http://webconference.psu.edu/" target="_blank"><i class="fa fa-bullhorn"></i> visit website</a></li>
+  
+
+
+  
+  <li><a href="http://webconference.psu.edu/registration" target="_blank"><i class="fa fa-pencil-square-o"></i> registration info</a></li>
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/talks">
+  
+    <i class="fa fa-bullhorn"></i>
+    
+  talks
+</a>
+</span>
+
+        <span class="post-date">
+        
+          March 28 2015
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        <h2 class="post-title"><a href="/talks/2015/02/18/Orlando-Code-Camp.html">Orlando Code Camp</a></h2>
+        <section class="post-description">
+          <a href="/talks/2015/02/18/Orlando-Code-Camp.html"><img class="list-thumb" src="http://i.imgur.com/EpANoGA.png" alt=" thumbnail"></a><span class="list-description">A session on building Responsive Single Page Layouts using the Bootstrap framework. Learn how to customize Bootstrap to create complex and modern designs.</span>
+        </section>
+        <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/talks/2015/02/18/Orlando-Code-Camp.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+    <li><a href="http://www.orlandocodecamp.com/" target="_blank"><i class="fa fa-bullhorn"></i> visit website</a></li>
+  
+
+
+  
+  <li><a href="http://www.orlandocodecamp.com/Account/LogOn" target="_blank"><i class="fa fa-pencil-square-o"></i> registration info</a></li>
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <nav class="pagination" role="navigation">
+      
+        <a class="newer-posts" href="/page4"><i class="fa fa-arrow-circle-o-left"></i></a>
+      
+      <span class="page-number">Page 3 of 9</span>
+      
+        
+          <a class="older-posts" href="/page2"><i class="fa fa-arrow-circle-o-right"></i></a>
+        
+      
+    </nav>
+</main>
+
+<footer class="site-footer">
+  <!-- bottom-teaser -->
+<div class="bottom-info">
+
+<!-- Author Credits -->
+<section class="author-info credits">
+  <h5 class="author-headline"><span>Written by</span></h5>
+  <div class="author">
+    <a href="/about/"><div class="author-image" style="background-image: url(/assets/images/author.jpg)"></div></a>
+    <div class="author-text">
+      <h4 class="author-name"><a href="/about/">Ray Villalobos</a></h4>
+      <div class="author-bio">Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills with a clear, practical approach.</div>
+    </div><!-- author-text -->
+  </div><!-- author -->
+</section><!-- class="credits" -->
+
+<!-- Author Credits -->
+<section class="author-info social">
+  <h5 class="author-headline"><span>Follow me</span></h5>
+  <div class="links custom-links">
+
+    <a class="icon icon-twitter" href="https://twitter.com/planetoftheweb"><i class="fa fa-twitter"></i></a>
+
+    <a class="icon icon-facebook" href="https://facebook.com/viewsource"><i class="fa fa-facebook"></i></a>
+
+    <a class="icon icon-linkedin" href="https://linkedin.com/in/planetoftheweb"><i class="fa fa-linkedin"></i></a>
+
+    <a class="icon icon-github" href="https://github.com/planetoftheweb"><i class="fa fa-github"></i></a>
+
+    <a class="icon icon-google-plus" href="https://plus.google.com/+RayVillalobos0"><i class="fa fa-google-plus"></i></a>
+
+    <a class="icon icon-dribbble" href="https://dribbble.com/planetoftheweb"><i class="fa fa-dribbble"></i></a>
+
+    <a class="icon icon-flickr" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/"><i class="fa fa-flickr"></i></a>
+
+    <a class="icon icon-youtube" href="https://www.youtube.com/user/planetoftheweb"><i class="fa fa-youtube"></i></a>
+
+  </div>
+
+  <div class="links feed"><a class="subscribe" href="/feed.xml"><i class="fa fa-rss"></i> Subscribe to my feed</a></div>
+  <div class="links about"><a href="/about/"><i class="fa fa-user"></i> About Ray</a></div>
+
+</section><!-- class="isRight" -->
+</div><!-- bottom-info -->
+
+
+<a href="/about/"><div class="footer-image"  style="background-image: url(/assets/images/hero.jpg)"></div></a>
+
+
+</footer>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/script.js"></script>
+<script type="text/javascript" src="/assets/js/prefixfree.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html ng-app="searchApp">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Raybo.org</title>
+  <meta name="description" content="The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://raybo.org/page6/">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="/assets/js/search.js"></script>
+
+  <link rel="stylesheet" media="screen" href="/css/main.css">
+  <link rel="stylesheet" media="print" href="/css/print.css">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@planetoftheweb">
+  <meta name="twitter:title" content="Raybo.org">
+  <meta name="twitter:description" content="The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.">  
+  <meta name="twitter:image:src" content="">
+  <meta name="twitter:player" content="">
+
+  <!-- Facebook Meta Data -->
+  <meta property="og:title" content="Raybo.org">
+  <meta property="og:description" content="The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.">  
+  <meta property="og:url" content="http://raybo.org">
+  <meta property="og:image" content="/assets/images/codemobile.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Raybo.org">
+  <meta property="og:video" content="">
+
+</head>
+<body class="default home">
+<header class="header">
+  <div class="header-background" style="background-image: url(/assets/images/codemobile.jpg)"></div>
+</header>
+<section class="header-info">
+  
+    <a class="header-logo" href="/" style="background-image: url('/assets/images/powship.png')"></a>
+  
+  <div class="navgroup">
+    <h1 class="header-title">Raybo.org</h1>
+    <nav class="main">
+	<div class="navwrapper">
+    
+    <h2 class="header-tagline">Learn practical web skills</h2>
+    
+		<ul>
+      
+
+    	
+        
+          <li >
+            <a href="/courses">
+              
+                <i class="fa fa-graduation-cap"></i>
+                
+        	    <span class="categorytext courses">courses</span>
+            </a>
+          </li>
+    	
+        
+          <li >
+            <a href="/blog">
+              
+                <i class="fa fa-file-text"></i>
+                
+        	    <span class="categorytext blog">blog</span>
+            </a>
+          </li>
+    	
+        
+          <li >
+            <a href="/talks">
+              
+                <i class="fa fa-bullhorn"></i>
+                
+        	    <span class="categorytext talks">talks</span>
+            </a>
+          </li>
+    	
+		</ul>
+    <div class="sitesearch"  ng-controller="searchControllers">
+  <div class="searchbox">
+    <form name="search" id="searchform">
+        <div class="input-group">
+          <input id="searchbox" placeholder="Search" ng-model="query" tabindex="1">
+    	    <label for="searchbox"><i class="fa fa-search"></i></label>
+        </div><!-- input-group -->
+     </form>
+  </div><!-- searchbox -->
+   <div class="search-results" ng-show="query">
+    <b class="notch"></b>
+    <ul class="searchlist">
+      <li ng-animate="'animate'" class="search" ng-repeat="thing in results | filter: query">
+        <a href="{{thing.link}}">
+          <img ng-src="{{thing.thumbnail}}" alt="{{thing.title}} Thumbnail">
+          <div class="info">
+            <h2>{{thing.title}}</h2>
+            <p>{{thing.summary}}</p>
+          </div><!-- info -->
+        </a>
+      </li>
+    </ul>
+  </div><!-- search-results -->
+</div><!-- sitesearch -->
+
+	</div>
+</nav>
+
+  </div>
+  <p class="header-description">The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.</p>
+	
+</section><!-- post-meta -->
+
+<main class="post-list content" role="main">
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/courses">
+  
+    <i class="fa fa-graduation-cap"></i>
+    
+  courses
+</a>
+</span>
+
+        <span class="post-date">
+        
+          February 4, 2014
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/courses">
+  
+    <i class="fa fa-graduation-cap"></i>
+    
+  courses
+</a>
+</span>
+
+        <span class="post-date">
+        
+          December 16, 2013
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <h2 class="post-title"><a href="/courses/2013/12/16/JavaScript-Functions.html">JavaScript: Functions</a></h2>
+            <section class="post-description">
+              <a href="/courses/2013/12/16/JavaScript-Functions.html"><img class="list-thumb" src="https://cdn.lynda.com/courses/148137-635227910315756390_163x290_thumb.jpg" alt="Thumbnail for JavaScript: Functions"></a><span class="list-description">Learn the different ways of declaring and invoking JavaScript functions, the "subprograms" that power your code.</span>
+            </section>
+            <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/courses/2013/12/16/JavaScript-Functions.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+  <li><a href="http://www.lynda.com/JavaScript-tutorials/JavaScript-Functions/148137-2.html" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/courses">
+  
+    <i class="fa fa-graduation-cap"></i>
+    
+  courses
+</a>
+</span>
+
+        <span class="post-date">
+        
+          October 30, 2013
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <h2 class="post-title"><a href="/courses/2013/10/30/Responsive-CSS-Sass-Compass.html">Responsive CSS with Sass and Compass</a></h2>
+            <section class="post-description">
+              <a href="/courses/2013/10/30/Responsive-CSS-Sass-Compass.html"><img class="list-thumb" src="https://cdn.lynda.com/courses/140777-635763590076435432_159x282_thumb.jpg" alt="Thumbnail for Responsive CSS with Sass and Compass"></a><span class="list-description">Learn how Compass (powered by Sass) can help you build a responsive layout workflow that is easier, faster, and more compatible than CSS alone.</span>
+            </section>
+            <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/courses/2013/10/30/Responsive-CSS-Sass-Compass.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+  <li><a href="http://www.lynda.com/CSS-tutorials/Responsive-CSS-Sass-Compass/140777-2.html" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/courses">
+  
+    <i class="fa fa-graduation-cap"></i>
+    
+  courses
+</a>
+</span>
+
+        <span class="post-date">
+        
+          September 17, 2013
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <h2 class="post-title"><a href="/courses/2013/09/17/JavaScript-Events.html">JavaScript: Events</a></h2>
+            <section class="post-description">
+              <a href="/courses/2013/09/17/JavaScript-Events.html"><img class="list-thumb" src="https://cdn.lynda.com/courses/140780-635150150372659321_123x218_thumb.jpg" alt="Thumbnail for JavaScript: Events"></a><span class="list-description">Learn to use JavaScript events to respond to clicks, form input, and touch gestures in your web applications.</span>
+            </section>
+            <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/courses/2013/09/17/JavaScript-Events.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+  <li><a href="http://www.lynda.com/JavaScript-tutorials/JavaScript-Events/140780-2.html" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <article class="post-item">
+      <div class="post-meta">
+        
+  
+
+
+
+<span class="category">
+
+<a href="/courses">
+  
+    <i class="fa fa-graduation-cap"></i>
+    
+  courses
+</a>
+</span>
+
+        <span class="post-date">
+        
+          September 5, 2013
+        
+        </span>
+      </div><!-- post-meta -->
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <h2 class="post-title"><a href="/courses/2013/09/05/Online-Presentations-revealjs.html">Online Presentations with reveal.js</a></h2>
+            <section class="post-description">
+              <a href="/courses/2013/09/05/Online-Presentations-revealjs.html"><img class="list-thumb" src="https://cdn.lynda.com/courses/137904-635505556385203553_134x238_thumb.jpg" alt="Thumbnail for Online Presentations with reveal.js"></a><span class="list-description">Build slideshows that harness the full power of the web with reveal.js.</span>
+            </section>
+            <nav class="post-links">
+<ul>
+
+  
+  <li><a href="/courses/2013/09/05/Online-Presentations-revealjs.html"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+  
+
+  
+  <li><a href="http://www.lynda.com/CSS-tutorials/Online-Presentations-revealjs/137904-2.html" target="_blank"><i class="fa fa-eye"></i> watch on lynda.com</a></li>
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      <!-- Is it a course or something else -->
+      </article>
+    
+    <nav class="pagination" role="navigation">
+      
+        <a class="newer-posts" href="/page7"><i class="fa fa-arrow-circle-o-left"></i></a>
+      
+      <span class="page-number">Page 6 of 9</span>
+      
+        
+          <a class="older-posts" href="/page5"><i class="fa fa-arrow-circle-o-right"></i></a>
+        
+      
+    </nav>
+</main>
+
+<footer class="site-footer">
+  <!-- bottom-teaser -->
+<div class="bottom-info">
+
+<!-- Author Credits -->
+<section class="author-info credits">
+  <h5 class="author-headline"><span>Written by</span></h5>
+  <div class="author">
+    <a href="/about/"><div class="author-image" style="background-image: url(/assets/images/author.jpg)"></div></a>
+    <div class="author-text">
+      <h4 class="author-name"><a href="/about/">Ray Villalobos</a></h4>
+      <div class="author-bio">Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills with a clear, practical approach.</div>
+    </div><!-- author-text -->
+  </div><!-- author -->
+</section><!-- class="credits" -->
+
+<!-- Author Credits -->
+<section class="author-info social">
+  <h5 class="author-headline"><span>Follow me</span></h5>
+  <div class="links custom-links">
+
+    <a class="icon icon-twitter" href="https://twitter.com/planetoftheweb"><i class="fa fa-twitter"></i></a>
+
+    <a class="icon icon-facebook" href="https://facebook.com/viewsource"><i class="fa fa-facebook"></i></a>
+
+    <a class="icon icon-linkedin" href="https://linkedin.com/in/planetoftheweb"><i class="fa fa-linkedin"></i></a>
+
+    <a class="icon icon-github" href="https://github.com/planetoftheweb"><i class="fa fa-github"></i></a>
+
+    <a class="icon icon-google-plus" href="https://plus.google.com/+RayVillalobos0"><i class="fa fa-google-plus"></i></a>
+
+    <a class="icon icon-dribbble" href="https://dribbble.com/planetoftheweb"><i class="fa fa-dribbble"></i></a>
+
+    <a class="icon icon-flickr" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/"><i class="fa fa-flickr"></i></a>
+
+    <a class="icon icon-youtube" href="https://www.youtube.com/user/planetoftheweb"><i class="fa fa-youtube"></i></a>
+
+  </div>
+
+  <div class="links feed"><a class="subscribe" href="/feed.xml"><i class="fa fa-rss"></i> Subscribe to my feed</a></div>
+  <div class="links about"><a href="/about/"><i class="fa fa-user"></i> About Ray</a></div>
+
+</section><!-- class="isRight" -->
+</div><!-- bottom-info -->
+
+
+<a href="/about/"><div class="footer-image"  style="background-image: url(/assets/images/hero.jpg)"></div></a>
+
+
+</footer>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/script.js"></script>
+<script type="text/javascript" src="/assets/js/prefixfree.min.js"></script>
+</body>
+</html>

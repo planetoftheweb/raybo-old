@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html ng-app="searchApp">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Best Google Chrome Extensions For Web Designers Or Developers--Raybo.org: blog</title>
+  <meta name="description" content="The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style.">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://raybo.org/blog/2015/02/07/Best-Google-Chrome-Extensions-for-Web-Designers-or-Developers.html">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="/assets/js/search.js"></script>
+
+  <link rel="stylesheet" media="screen" href="/css/main.css">
+  <link rel="stylesheet" media="print" href="/css/print.css">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@planetoftheweb">
+  <meta name="twitter:title" content="Best Google Chrome Extensions For Web Designers Or Developers">
+  <meta name="twitter:description" content="Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development">  
+  <meta name="twitter:image:src" content="http://i.imgur.com/bw2QkXh.png">
+  <meta name="twitter:player" content="">
+
+  <!-- Facebook Meta Data -->
+  <meta property="og:title" content="Best Google Chrome Extensions For Web Designers Or Developers">
+  <meta property="og:description" content="Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development">  
+  <meta property="og:url" content="http://raybo.org">
+  <meta property="og:image" content="http://i.imgur.com/bw2QkXh.png">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Raybo.org">
+  <meta property="og:video" content="">
+
+</head>
+<body class="post">
+
+<a href="http://raybo.org" class="floating-logo">
+  <span class="logo" style="background-image: url(/assets/images/powship.png)"></span>
+</a>
+<header class="header">
+<div class="header-background" style="background: linear-gradient(to bottom right,rgba(209, 67, 72, .5),rgba(114, 166, 92, 1)), url(http://i.imgur.com/bw2QkXh.png); -webkit-filter: blur(8px); filter: blur(8px);"></div>
+<section class="header-info">
+  
+  
+
+
+
+<span class="category">
+
+<a href="/blog">
+  
+    <i class="fa fa-file-text"></i>
+    
+  blog
+</a>
+</span>
+
+  <div class="header-published">Published <time datetime="February 07, 2015">07 Feb 2015</time></div>
+
+  <h1 class="header-title">Chrome Developer Extensions for Designers / Developers</h1>
+  <div class="post-text-group">
+    <a href="/about/"><div class="author-image" style="background-image: url(/assets/images/author.jpg)"></div></a>
+    <div class="header-description">Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development</div>
+    <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="/about/">Ray Villalobos</a></h4>
+  </div><!-- post-text-group -->
+</section><!-- header-info -->
+
+</header>
+<nav class="main">
+	<div class="navwrapper">
+    
+		<ul>
+      
+      <li><a href="/"><i class="fa fa-home"></i> <span class="categorytext home"></span></a></li>
+      
+
+    	
+        
+          <li >
+            <a href="/courses">
+              
+                <i class="fa fa-graduation-cap"></i>
+                
+        	    <span class="categorytext courses">courses</span>
+            </a>
+          </li>
+    	
+        
+          <li class="active">
+            <a href="/blog">
+              
+                <i class="fa fa-file-text"></i>
+                
+        	    <span class="categorytext blog">blog</span>
+            </a>
+          </li>
+    	
+        
+          <li >
+            <a href="/talks">
+              
+                <i class="fa fa-bullhorn"></i>
+                
+        	    <span class="categorytext talks">talks</span>
+            </a>
+          </li>
+    	
+		</ul>
+    <div class="sitesearch"  ng-controller="searchControllers">
+  <div class="searchbox">
+    <form name="search" id="searchform">
+        <div class="input-group">
+          <input id="searchbox" placeholder="Search" ng-model="query" tabindex="1">
+    	    <label for="searchbox"><i class="fa fa-search"></i></label>
+        </div><!-- input-group -->
+     </form>
+  </div><!-- searchbox -->
+   <div class="search-results" ng-show="query">
+    <b class="notch"></b>
+    <ul class="searchlist">
+      <li ng-animate="'animate'" class="search" ng-repeat="thing in results | filter: query">
+        <a href="{{thing.link}}">
+          <img ng-src="{{thing.thumbnail}}" alt="{{thing.title}} Thumbnail">
+          <div class="info">
+            <h2>{{thing.title}}</h2>
+            <p>{{thing.summary}}</p>
+          </div><!-- info -->
+        </a>
+      </li>
+    </ul>
+  </div><!-- search-results -->
+</div><!-- sitesearch -->
+
+	</div>
+</nav>
+
+<main class="content" role="main">
+  <nav class="post-links">
+<ul>
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+</ul>
+</nav><!-- custom-links -->
+  <div class="course-description"></div>
+  <div class="content"><h2 id="responsive-inspector">Responsive Inspector</h2>
+
+<p><a href="https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim"><img src="http://i.imgur.com/bw2QkXh.png" alt="Responsive Inspector"></a>
+Awesome for responsive design projects. This extension automatically analyzes a current website and shows you the media query breakpoints on that page in a nice visual display. </p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ylMHAj0OU10" frameborder="0" allowfullscreen></iframe>
+
+<p>Clicking on the bars changes you window to that size and lets you see how the layout of your site is affected by the new size. When you don&#39;t know or aren&#39;t sure what the media query points are or just don&#39;t remember, this is the best way to quickly peek into a site&#39;s layouts.</p>
+
+<p>Although the Chrome Developer tools now offer their own media query inspector, it requires a page reload and resizes your page. Plus it takes a lot of clicks to get to the right place, so sometimes, simpler is better and this extension does the job quickly.</p>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim"><i class="fa fa-external-link-square"></i> Get it on Chrome Store</a></li>
+<li><a href="http://outof.me/responsive-inspector/"><i class="fa fa-external-link-square"></i>  Developer site</a></li>
+</ul>
+
+<hr>
+
+<h2 id="what-font?">What Font?</h2>
+
+<p><a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm"><img src="http://i.imgur.com/ow5n3CS.png" alt="What Font image"></a>
+When you&#39;re navigating through different sites to take a look at font combinations, digging through the different DevTools screens to get to a font is too cumbersome. This extension makes it easy to identify fonts on sites by simply rolling your mouse over them. Clicking gives you more information about the font.</p>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm"><i class="fa fa-external-link-square"></i> Get it on Chrome Store</a></li>
+<li><a href="http://chengyinliu.com/whatfont.html"><i class="fa fa-external-link-square"></i>  Developer site</a></li>
+</ul>
+
+<hr>
+
+<h2 id="validator">Validator</h2>
+
+<p><a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm"><img src="http://i.imgur.com/RuDWEFW.png" alt="Validator"></a>
+Alghough validation is something that can be handled in many places, this extensions gives you one click access to the W3C Validator. It will help you quickly find errors which can potentially affect your scripts or CSS.</p>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm"><i class="fa fa-external-link-square"></i> Get it on Chrome Store</a></li>
+<li><a href="http://robertnyman.com/html-validator/"><i class="fa fa-external-link-square"></i>  Developer site</a></li>
+</ul>
+
+<hr>
+
+<h2 id="clear-cache">Clear Cache</h2>
+
+<p><a href="https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en&amp;gl=US"><img src="http://i.imgur.com/VtAhYdX.png" alt="Clear Cache"></a>
+To test some applications properly, it&#39;s often necessary to clear things like cookies and site caches, but the process for doing so in Chrome takes a long time. This extensions is a one click solution to quickly removing your site cache...set up some defaults and you&#39;re ready to go. Hit the button and the defaults will be applied immediately without confirmation (so be careful with this).</p>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en&amp;gl=US"><i class="fa fa-external-link-square"></i> Get it on Chrome Store</a></li>
+<li><a href="http://benjaminbojko.com/work/side-projects"><i class="fa fa-external-link-square"></i>  Developer site</a></li>
+</ul>
+</div>
+    
+  <div class="tags">
+      <ul>
+        <li><h3>tags</h3></li>
+      
+        <li>designer</li>
+      
+        <li>developer</li>
+      
+        <li>google chrome</li>
+      
+      </ul>
+  </div><!-- tags -->
+  
+
+</section><!-- post-content -->
+</main><!-- main class="content" -->
+
+<footer class="site-footer">
+  <!-- bottom-teaser -->
+<div class="bottom-info">
+
+<!-- Author Credits -->
+<section class="author-info credits">
+  <h5 class="author-headline"><span>Written by</span></h5>
+  <div class="author">
+    <a href="/about/"><div class="author-image" style="background-image: url(/assets/images/author.jpg)"></div></a>
+    <div class="author-text">
+      <h4 class="author-name"><a href="/about/">Ray Villalobos</a></h4>
+      <div class="author-bio">Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills with a clear, practical approach.</div>
+    </div><!-- author-text -->
+  </div><!-- author -->
+</section><!-- class="credits" -->
+
+<!-- Author Credits -->
+<section class="author-info social">
+  <h5 class="author-headline"><span>Follow me</span></h5>
+  <div class="links custom-links">
+
+    <a class="icon icon-twitter" href="https://twitter.com/planetoftheweb"><i class="fa fa-twitter"></i></a>
+
+    <a class="icon icon-facebook" href="https://facebook.com/viewsource"><i class="fa fa-facebook"></i></a>
+
+    <a class="icon icon-linkedin" href="https://linkedin.com/in/planetoftheweb"><i class="fa fa-linkedin"></i></a>
+
+    <a class="icon icon-github" href="https://github.com/planetoftheweb"><i class="fa fa-github"></i></a>
+
+    <a class="icon icon-google-plus" href="https://plus.google.com/+RayVillalobos0"><i class="fa fa-google-plus"></i></a>
+
+    <a class="icon icon-dribbble" href="https://dribbble.com/planetoftheweb"><i class="fa fa-dribbble"></i></a>
+
+    <a class="icon icon-flickr" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/"><i class="fa fa-flickr"></i></a>
+
+    <a class="icon icon-youtube" href="https://www.youtube.com/user/planetoftheweb"><i class="fa fa-youtube"></i></a>
+
+  </div>
+
+  <div class="links feed"><a class="subscribe" href="/feed.xml"><i class="fa fa-rss"></i> Subscribe to my feed</a></div>
+  <div class="links about"><a href="/about/"><i class="fa fa-user"></i> About Ray</a></div>
+
+</section><!-- class="isRight" -->
+</div><!-- bottom-info -->
+
+
+<a href="/about/"><div class="footer-image"  style="background-image: url(/assets/images/hero.jpg)"></div></a>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/script.js"></script>
+<script type="text/javascript" src="/assets/js/prefixfree.min.js"></script>
+</body>
+</html>
