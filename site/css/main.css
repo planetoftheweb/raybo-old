@@ -630,11 +630,14 @@ tbody {
 }
 
 @media screen and (max-width: 767px) {
-  width: 100%;
-  margin-bottom: 15px;
-  overflow-y: hidden;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  border: 1px solid #dddddd;
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dddddd;
+  }
+
   .table-responsive > .table {
     margin-bottom: 0;
   }
