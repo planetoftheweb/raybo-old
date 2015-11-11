@@ -1,8 +1,8 @@
 ---
-layout: null 
+layout: null
 ---
 [
-  {% for post in site.posts %}{% if post.courseid %}{% for course in site.data.courselist %}{% if course.ID == post.courseid %}{% if post.title != null and post.title != empty and post.search_omit != true %}{% if forloop.index > 1 %},{%endif%}{
+  {% for post in site.posts %}{% if post.courseid %}{% for course in site.data.courselist %}{% if course.ID == post.courseid %}{% if post.title != null and post.title != empty and post.search_omit != true %}{
     "title": "{{course.Title | replace: '"', '\"'}}",
     "link": "{{ site.url }}{{ post.url }}",
     "thumbnail": "{{ course.Thumbnails[0].FullURL }}",
@@ -10,7 +10,7 @@ layout: null
     "category": "{{ post.category }}",
     {% if post.tags %}"tags": [{% for tag in post.tags %}"{{ tag }}"{% if forloop.index < forloop.length %},{%endif%}{% endfor %}]{% endif %},
     "summary": "{{ course.ShortDescription | replace: '"', '\"'}}"
-  }{%endif%}{% endif %}{% endfor %}{% else %}{% if post.title != null and post.title != empty and post.search_omit != true %}{% if forloop.index > 1 %},{%endif%}{
+  },{%endif%}{% endif %}{% endfor %}{% else %}{% if post.title != null and post.title != empty and post.search_omit != true %}{
     "title": "{{ post.title | replace: '"', '\"' }}",
     "link": "{{ site.url }}{{ post.url }}",
     "thumbnail": "{{ post.heroimage }}",
@@ -18,5 +18,5 @@ layout: null
     "date": "{{ post.date }}",
     {% if post.tags %}"tags": [{% for tag in post.tags %}"{{ tag }}"{% if forloop.index < forloop.length %},{%endif%}{% endfor %}]{% endif %},
     "summary": "{{ post.summary | replace: '"', '\"'}}"
-  }{%endif%}{% endif %}{% endfor %}
+  }{% if forloop.index < forloop.length %},{%endif%}{%endif%}{% endif %}{% endfor %}
 ]
