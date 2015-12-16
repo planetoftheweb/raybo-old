@@ -3,10 +3,11 @@
       "ID": 438887,
       "DurationInSeconds": 7678,
       "Title": "AngularJS: Adding Registration to Your Application",
+      "Description": "<p>Authentication is a fundamental part of any web application, but it can be notoriously difficult to implement. In this short course, you'll create a simple registration system that allows users to log in and out of your applications. By taking advantage of Google's Firebase authentication service, you can manage registrations easily and securely. In the process, you'll explore working with the AngularJS application structure (including routes and controllers), storing user information into the Firebase NoSQL database, and creating services to manage registration information throughout different controllers. This will help you create a great registration template that you can use as a starting point in a variety of web applications.</p><p>Topics include:</p><ul><li>Adding a basic MVC structure</li><li>Using routes</li><li>Processing form input</li><li>Integrating Firebase</li><li>Storing registration information in the database</li><li>Logging users in and out of an app</li></ul>",
       "ShortDescription": "Create a simple registration system that allows users to log in and out of your applications, with AngularJS and Firebase.",
         "Thumbnails": [
           { "FullURL": "https://cdn.lynda.com/courses/438887-635827438390248957_88x158_thumb.jpg"},
-          {"FullURL": "https://cdn.lynda.com/courses/438887-635824152732403282_338x600_thumb.jpg"}
+          { "FullURL": "https://cdn.lynda.com/courses/438887-635824152732403282_338x600_thumb.jpg"}
         ],
       "URLs": {
         "www.lynda.com": "/AngularJS-tutorials/AngularJS-Adding-Registration-Your-Application/438887-2.html"
@@ -17,6 +18,7 @@
       "ID": 438886,
       "DurationInSeconds": 2512,
       "Title": "AngularJS: Form Validation",
+      "Description": "<p>Validation is key to successful online forms. Implementing dynamic form validation that reacts to input can be difficult to implement with languages like JavaScript and jQuery. However, AngularJS allows you to take advantage of two-way data-binding functionality without having to write any JavaScript code. This makes reacting to input from the user—as it happens—a breeze.</p><p>In this short course, Ray Villalobos shows how to implement form validation on any HTML form using the built-in validation properties and methods in AngularJS. Together, you'll look at how AngularJS can help style forms dynamically as the user updates the content. Plus, explore how to implement validation with JavaScript, just in case you need more fine-tuned control of form interactions.</p>",
       "ShortDescription": "Learn how to implement dynamic form validation on any HTML form using the built-in validation properties and methods in AngularJS.",
         "Thumbnails": [
           {

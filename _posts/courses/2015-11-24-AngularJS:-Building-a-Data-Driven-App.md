@@ -5,8 +5,8 @@ category: courses
 github: https://github.com/planetoftheweb/angularformvalidation
 tags:
 - Web Development
-- Full Stack Development
-- JavaScript
-- AngularJS
-- Front End Development
+- Sass
+- CSS
+- Cascading Stylesheets
+- Stylesheets
 ---
