@@ -11,18 +11,17 @@ tags:
 - google chrome
 ---
 
-
-
 ## Flexbox
 ## PostCSS
-## SVG
-## AngularJS
+## SVG, BPG
+## ES6
+## AngularJS 2
 ## Wordpress
 ## Bootstrap
 ## Ionic
 ## React
-## ES6
 ## TypeScript
 ## Responsive Images
-## BPG
 ## PHP
+## PostCSS
+## D3, C3
