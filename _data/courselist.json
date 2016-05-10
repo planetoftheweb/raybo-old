@@ -1,5 +1,55 @@
 [
   {
+    "ID": 428058,
+    "DurationInSeconds": 7411,
+    "Title": "Learn AngularJS 2: The Basics",
+    "Description": "<p>Learn AngularJS 2, the second edition of the \"superheroic\" JavaScript framework. Redesigned from the ground up by Google, AngularJS 2 provides advanced features for building single-page applications: declarative templates, two-way data binding, TypeScript support, and dependency injection. And instead of the controllers typical of MVC architecture, AngularJS 2 now offers components. It's a great update, suitable for mobile and web developers alike.</p><p>In these tutorials, Ray Villalobos shows you how to start using AngularJS 2 in your own projects. He starts by defining what exactly Angular 2 is and how it differs from AngularJS 1. Then, once the basics are out of the way, he sets up the template that will drive the project and starts coding. Ray shows how to divide your project into modules, work with events, style content with CSS, and create components and subcomponents. Plus, find out how to change content dynamically using data pipes.</p><p>The template is included as a free download for all members.</p>",
+    "ShortDescription": "Learn AngularJS 2, the \"superheroic\" JavaScript framework for building single-page mobile and web applications fast. Find out how to use AngularJS templates, create components, and work with events.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/428058-635948405690251021_88x158_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/428058/428058-635945092611324450-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html"
+    },
+    "WelcomeVideoId": 482929
+  },
+  {
+    "ID": 468147,
+    "DurationInSeconds": 7329,
+    "Title": "Learn Atom: The Basics",
+    "Description": "GitHub's Atom text editor has changed the web development landscape, providing an open-source, completely hackable editor that's powerful, easy to use, extensible, and built with common web technologies (CSS and JavaScript). Atom is Ray Villalobos's favorite editor, for working with projects of all kinds. In this course, he shows how to use Atom for web, front-end, and stack development. Learn how to customize the interface and editing experience through Atom themes, packages, and snippets (code shortcuts that expand into the correct syntax). Find out how to find and compare elements, move around your code folders, bookmark content, and use Atom's powerful Find and Replace feature. Plus, discover how Atom integrates with Git and GitHub for version control and publishing.",
+    "ShortDescription": "GitHub's Atom text editor is one of the most popular. Find out why. Learn how to navigate code, customize the interface, and use Atom packages, themes, and snippets.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/468147-635959639226639770_88x158_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/468147/468147-635959638861662691-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html"
+    },
+    "WelcomeVideoId": 486961
+  },
+
+  {
+    "ID": 372547,
+    "DurationInSeconds": 4430,
+    "Title": "Bootstrap 4: First Look",
+    "Description": "Bootstrap 4 is here, and it's an important update that touches nearly every line of code. Get your first look at the changes in this popular responsive design platform. Our resident Bootstrap expert Ray Villalobos covers Reboot.css, which standardizes a lot of the CSS in Bootstrap 4; the new card components; and changes to the grid, forms, and tables in Bootstrap. Plus, find out how to compensate for the deprecation of Glyphicons and adjust to smaller changes throughout the platform. These tips will help you avoid some of the pitfalls when it comes to upgrading your own site from Bootstrap 3\u2014and get excited about what's to come.",
+    "ShortDescription": "Get your first look at the changes\u2014including the new CSS classes in Reboot, the revised grid, and new card components\u2014in Bootstrap 4.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/372547-635983830638377650_88x158_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/372547/372547-635973594979325966-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/Bootstrap-tutorials/Bootstrap-4-First-Look/372547-2.html"
+    },
+    "WelcomeVideoId": 494826
+  },
+
+
+
+
+  {
     "ID": 417644,
     "DurationInSeconds": 8587,
     "Title": "Building a Responsive Single-Page Design with PostCSS",
