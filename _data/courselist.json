@@ -1,5 +1,35 @@
 [
   {
+    "ID": 483022,
+    "DurationInSeconds": 2410,
+    "Title": "Becoming a Web Developer: Full Stack vs Front End",
+    "Description": "Do you want to become a web developer? Nowadays, web development isn't one job. There is a range of technologies and career options to explore. The core responsibilities are split two ways—between front-end developers who specialize in websites and applications and back-end developers who work with servers and databases—but you can also become a full-stack developer who oversees all aspects of a project. This course provides an overview of the different jobs available in web development, the tools and frameworks to focus on, and the skills each job entails. Senior staff author Ray Villalobos also provides tips on finding training, getting hired, and maximizing your earning potential in this lucrative and exciting field.<h3>Topics include:</h3><ul><li>Types of web developers</li><li>The role of HTML, CSS, and JavaScript</li><li>Servers and databases</li><li>Getting web development training</li><li>Choosing the right tools</li><li>Getting a job</li></ul>",
+    "ShortDescription": "Do you want to become a web developer? Learn about the skills and tools you need to get a job as a front-end, back-end, or full-stack web developer.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/483022-636022683156957451_88x158_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/483022/483022-636021036741093668-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/Web-tutorials/Becoming-Web-Developer-Full-Stack-vs-Front-End/483022-2.html"
+    },
+    "WelcomeVideoId": 505731
+  },
+  {
+    "ID": 495271,
+    "DurationInSeconds": 4902,
+    "Title": "Building a Web Interface with React.js",
+    "Description": "<p>React is a JavaScript library for creating user interfaces that display dynamic data. Because of its reusable components and unique data rendering approach, the web interfaces you create with React are flexible, fast, and lightweight. Need another reason to choose React? It's also easy to learn, with these lessons from staff author Ray Villalobos. Join Ray as he reviews React's component architecture and covers key skills such as handling events, breaking code into custom subcomponents, managing form fields with references, and setting up sorting and search. Every lesson is focused on the specifics of creating web interfaces with React, so you'll be able to easily transition the techniques to your own projects.</p><h3>Topics include:</h3><ul><li>Using components and subcomponents</li><li>Working with state</li>Handling events<li><li>Creating subcomponents</li><li>Using references</li><li>Sorting and updating views, events, and search results</li></ul>",
+    "ShortDescription": "Learn how to create flexible, fast, and lightweight web interfaces, including web forms, with React.js.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/495271-636051285014885892_88x158_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/495271/495271-636051283523699944-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/React-js-tutorials/Building-Web-Interface-React-js/495271-2.html"
+    },
+    "WelcomeVideoId": 511713
+  },
+  {
     "ID": 428058,
     "DurationInSeconds": 7411,
     "Title": "Learn AngularJS 2: The Basics",
@@ -14,7 +44,7 @@
     },
     "WelcomeVideoId": 482929
   },
-  {
+    {
     "ID": 468147,
     "DurationInSeconds": 7329,
     "Title": "Learn Atom: The Basics",
