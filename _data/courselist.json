@@ -75,10 +75,6 @@
     },
     "WelcomeVideoId": 494826
   },
-
-
-
-
   {
     "ID": 417644,
     "DurationInSeconds": 8587,
@@ -306,23 +302,25 @@
     "WelcomeVideoId": 193650
   },
   {
-    "ID": 163094,
-    "DurationInSeconds": 10010,
+    "ID": 519122,
+    "DurationInSeconds": 11760,
     "Title": "Building a Website with Node.js and Express.js",
-    "Description": "<p>JavaScript is the language for adding interactivity to a website, but there's so much more it can do. Enter Node.js and Express.js, two technologies that extend the capabilities of JavaScript. The Node platform allows you to develop server-side applications with JavaScript that you can then easily publish as websites with the Express framework. In this course, Ray Villalobos walks through the entire process of creating a website on a server with Node.js and Express.js. After going over the installation process, Ray shows how to build a basic application, control the state of an application with routing, and use templates and partials. Then he demonstrates how to quickly structure a site with Express Generator, work with models and views, and publish the final website using Heroku.</p><p>Note: This course is intended for intermediate front-end web developers who are familiar with creating web projects and understand JavaScript basics.",
-    "ShortDescription": "Find out how to develop server-side JavaScript applications with the Node platform that you can then easily publish as websites with the Express framework.</p>",
+    "Description": "<p>Interested in building JavaScript websites that do more? Node.js and Express.js are a perfect match. Express is a fast, minimalist framework that sits on top of Node.js and allows you to build powerful single- and multi-page web applications and websites.</p><p>In this course, Ray Villalobos walks through the process of creating full-featured websites with these technologies. First, find out how to install each package and leverage Node.js features from within Express. Then learn how to build a basic application with templating engines like EJS; create more flexible, modular code with includes and conditional statements; build APIs to manage HTTP requests to add and delete content dynamically; and configure more complex routing. Along the way, Ray implements features like customer feedback forms and real-time live chat, so you can see exactly what Node.js and Express are capable of.</p><h3>Topics include:</h3><ul>
+    <li>Handling HTTP requests with Node.js and Express
+    <li>Creating and modularizing routes</li><li>Using templates</li><li>Building flexible views</li><li>Creating an API route</li><li>Dealing with POST and DELETE requests</li><li>Creating live chat features with Socket.IO</li></ul>",
+    "ShortDescription": "Build JavaScript websites that do more. Learn how to use Node.js and Express to build multi-page websites and applications with features like feedback forms and live chat.",
     "Thumbnails": [
       {
-        "FullURL": "https://cdn.lynda.com/courses/163094-635388588783769151_131x232_thumb.jpg"
+        "FullURL": "https://cdn.lynda.com/courses/502310-636071995894767664_88x158_thumb.jpg"
       },
       {
-        "FullURL": "https://cdn.lynda.com/courses/163094-635621317414729372_1800x3200_thumb.jpg"
+        "FullURL": "https://cdn.lynda.com/course/502310/502310-636070288437663461-16x9.jpg"
       }
     ],
     "URLs": {
-      "www.lynda.com": "/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"
+      "www.lynda.com": "/Express-js-tutorials/Building-Website-Node-js-Express-js-REVISION-Q3-2016/502310-2.html"
     },
-    "WelcomeVideoId": 179059
+    "WelcomeVideoId": 519122
   },
   {
     "ID": 369707,

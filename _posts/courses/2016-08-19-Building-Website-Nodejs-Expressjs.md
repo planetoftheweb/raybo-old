@@ -2,7 +2,8 @@
 courseid: 163094
 layout: course
 category: courses
-demo: http://rouxme.herokuapp.com/
+github: https://github.com/planetoftheweb/expressjs
+demo: https://expressjs-jkyzfdtuoy.now.sh/
 tags:
 - NodeJS
 - ExpressJS
