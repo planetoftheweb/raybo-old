@@ -1,5 +1,65 @@
 [
   {
+    "ID": 560052,
+    "DurationInSeconds": 2410,
+    "Title": "AngularJS 1: Adding Registration to Your Application",
+    "Description": "<p>Registration is a fundamental part of any web application, but it can be notoriously difficult to implement. In this short course, we'll create a simple and straightforward registration system that allows users to log in and log out of an application. The techniques use AngularJS and Google Firebase, a mobile development platform that makes registration easy and secure. In the process, you'll explore the basics of AngularJS MVC architecture and the steps to storing custom user information in the Firebase NoSQL database. Learn how to create basic routes to load different content depending on the target URL, and create basic controllers to tie templates to code.</p><p>At the end of the course, you'll have a great template that you can use as a starting point for a registration system in any of your own web applications.</p><h3>Topics include</h3><li>Adding a basic MVC structure</li><li>Using routes</li><li>Creating controllers</li><li>Processing form input</li><li>Integrating Firebase</li><li>Storing registration information in the database</li><li>Logging users in and out of an app</li><li>Improving registration flow</li></ul>",
+    "ShortDescription": " ",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/560052-636174819451647972_270x480_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/560052/560052-636174819444616619-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/AngularJS-tutorials/AngularJS-1-Adding-Registration-Your-Application/560052-2.html"
+    },
+    "WelcomeVideoId": 571697
+  },
+  {
+    "ID": 518052,
+    "DurationInSeconds": 2410,
+    "Title": "Building a Progressive Web App",
+    "Description": "<p>Native apps do things like work offline and load on a device's home screen. Until now, mobile web apps accessed in a browser lacked those features. Progressive web apps correct these shortcomings. A progressive web app—like the one you build in this course—is 1) fast loading 2) responsive 3) able to work offline using service workers, 4) secure using HTTPS, and 5) installable using a special manifest.</p><p>Ray Villalobos takes you the extra steps to make your web apps progressive, using a custom version of the Bootstrap framework and modals and templating system called Handlebars. Follow along to learn how to create interactive navigation, dynamic and responsive content such as carousels and multimedia, offline capabilities with service workers, and a more integrated launch experience with an app manifest file.</p><h3>Topics include</h3><li>Using a progressive workflow</li><li>Adding navigation HTML</li><li>Making navigation interactive</li><li>Adding data via templates</li><li>Adding Bootstrap modals</li><li>Adding a service worker</li><li>Deploying your app</li></ul>",
+    "ShortDescription": "Make your mobile web apps act like native iOS, Android, or Windows Phone applications. Make them progressive! Learn techniques to make web apps responsive and secure, work offline, and launch from the home screen.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/518052-636172348144737121_270x480_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/518052/518052-636168860191295173-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/CSS-tutorials/Building-Progressive-Web-App/518052-2.html"
+    },
+    "WelcomeVideoId": 505731
+  },
+  {
+    "ID": 518051,
+    "DurationInSeconds": 2410,
+    "Title": "Electron: Building Cross Platform Desktop Apps",
+    "Description": "<p>Electron is an open-source framework for creating desktop applications with your favorite web technologies: JavaScript, HTML, and CSS. It makes it easy to create a simple app with a few lines of code, using languages you already know. Want to learn more?</p><p>Join Ray Villalobos as he walks through the techniques you need to master cross-platform desktop development with Electron. Learn how to configure and communicate between app windows (aka webpages) via the main and renderer processes, and integrate the React and Bootstrap frameworks to build interfaces with multiple panels and custom menus. As a final step, Ray shows how to package your project into a standalone, clickable app that can be run on Windows, Mac, or Linux machines.</p><h3>Topics include</h3><li>Creating your first app</li><li>Configuring multiple windows and window events</li><li>Integrating React.js</li><li>Creating external components</li><li>Passing events through props</li><li>Saving data</li><li>Using Bootstrap components in Electron</li><li>Creating a multipanel app</li><li>Creating custom menus</li><li>Packaging the application</li></ul>",
+    "ShortDescription": "Create compelling cross-platform desktop apps with a few lines of JavaScript, HTML, and CSS code with Electron.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/518051-636148182091787979_270x480_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/518051/518051-636148182081162829-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/Electron-tutorials/Electron-Building-Cross-Platform-Desktop-Apps/518051-2.html"
+    },
+    "WelcomeVideoId": 559703
+  },
+  {
+    "ID": 495275,
+    "DurationInSeconds": 2410,
+    "Title": "Tooling with NPM Scripts",
+    "Description": "<p>While Gulp, Grunt, and Bower are great tools, Node.js offers an alternative for implementing build processes: npm and your package.json file. npm (node package manager) is all about creating custom scripts for common development and production tasks. You can write npm scripts to process and compress code, create services, minify images, and automate all sorts of build tasks. This course shows you how.</p><p>Join Ray Villalobos as he walks through the advantages—and few disadvantages—of working with npm scripts and the steps for scripting different development and build tasks. Even if you don't use npm for your own processes, many Node.js packages come with npm scripts built in. This is a great course to help you understand how they work.</p><h3>Topics include:</h3><ul><li>Creating an npm script</li><li>Managing script types</li><li>Processing Sass</li><li>Transpiling ES6</li><li>Organizing scripts</li><li>Recompressing for production</li></ul>",
+    "ShortDescription": "Looking for an alternative build tool? Try npm, the node package manager. Learn how to create npm scripts to automate all sorts of build tasks.",
+      "Thumbnails": [
+        { "FullURL": "https://cdn.lynda.com/courses/495275-636105687571093841_270x480_thumb.jpg"},
+        { "FullURL": "https://cdn.lynda.com/course/495275/495275-636105687487933049-16x9.jpg"}
+      ],
+    "URLs": {
+      "www.lynda.com": "/NPM-tutorials/Tooling-NPM-Scripts/495275-2.html"
+    },
+    "WelcomeVideoId": 536120
+  },
+  {
     "ID": 483022,
     "DurationInSeconds": 2410,
     "Title": "Becoming a Web Developer: Full Stack vs Front End",
@@ -134,21 +194,6 @@
       "www.lynda.com": "/AngularJS-tutorials/AngularJS-Building-Data-Driven-App/421230-2.html"
     },
     "WelcomeVideoId": 450977
-  },
-  {
-    "ID": 438887,
-    "DurationInSeconds": 7678,
-    "Title": "AngularJS: Adding Registration to Your Application",
-    "Description": "<p>Authentication is a fundamental part of any web application, but it can be notoriously difficult to implement. In this short course, you'll create a simple registration system that allows users to log in and out of your applications. By taking advantage of Google's Firebase authentication service, you can manage registrations easily and securely. In the process, you'll explore working with the AngularJS application structure (including routes and controllers), storing user information into the Firebase NoSQL database, and creating services to manage registration information throughout different controllers. This will help you create a great registration template that you can use as a starting point in a variety of web applications.</p><p>Topics include:</p><ul><li>Adding a basic MVC structure</li><li>Using routes</li><li>Processing form input</li><li>Integrating Firebase</li><li>Storing registration information in the database</li><li>Logging users in and out of an app</li></ul>",
-    "ShortDescription": "Create a simple registration system that allows users to log in and out of your applications, with AngularJS and Firebase.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/438887-635827438390248957_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/courses/438887-635824152732403282_338x600_thumb.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/AngularJS-tutorials/AngularJS-Adding-Registration-Your-Application/438887-2.html"
-    },
-    "WelcomeVideoId": 445604
   },
     {
       "ID": 438886,
@@ -305,8 +350,7 @@
     "ID": 519122,
     "DurationInSeconds": 11760,
     "Title": "Building a Website with Node.js and Express.js",
-    "Description": "<p>Interested in building JavaScript websites that do more? Node.js and Express.js are a perfect match. Express is a fast, minimalist framework that sits on top of Node.js and allows you to build powerful single- and multi-page web applications and websites.</p><p>In this course, Ray Villalobos walks through the process of creating full-featured websites with these technologies. First, find out how to install each package and leverage Node.js features from within Express. Then learn how to build a basic application with templating engines like EJS; create more flexible, modular code with includes and conditional statements; build APIs to manage HTTP requests to add and delete content dynamically; and configure more complex routing. Along the way, Ray implements features like customer feedback forms and real-time live chat, so you can see exactly what Node.js and Express are capable of.</p><h3>Topics include:</h3><ul>
-    <li>Handling HTTP requests with Node.js and Express
+    "Description": "<p>Interested in building JavaScript websites that do more? Node.js and Express.js are a perfect match. Express is a fast, minimalist framework that sits on top of Node.js and allows you to build powerful single- and multi-page web applications and websites.</p><p>In this course, Ray Villalobos walks through the process of creating full-featured websites with these technologies. First, find out how to install each package and leverage Node.js features from within Express. Then learn how to build a basic application with templating engines like EJS; create more flexible, modular code with includes and conditional statements; build APIs to manage HTTP requests to add and delete content dynamically; and configure more complex routing. Along the way, Ray implements features like customer feedback forms and real-time live chat, so you can see exactly what Node.js and Express are capable of.</p><h3>Topics include:</h3><ul><li>Handling HTTP requests with Node.js and Express
     <li>Creating and modularizing routes</li><li>Using templates</li><li>Building flexible views</li><li>Creating an API route</li><li>Dealing with POST and DELETE requests</li><li>Creating live chat features with Socket.IO</li></ul>",
     "ShortDescription": "Build JavaScript websites that do more. Learn how to use Node.js and Express to build multi-page websites and apps with features like creating an API, Reading and writing files, HTTP verbs like GET, POST and DELETE, plus creating a live chat with Socket.IO.",
     "Thumbnails": [

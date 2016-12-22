@@ -1,15 +1,11 @@
 ---
-courseid: 438887
+courseid: 560052
 layout: course
 category: courses
 github: https://github.com/planetoftheweb/angularregistration
 tags:
 - Web Development
-- App Development
-- Mobile Development
 - JavaScript
-- Ionic
 - Frameworks
 - AngularJS
-- Sass
 ---
