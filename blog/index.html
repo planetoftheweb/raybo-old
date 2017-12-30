@@ -5,7 +5,7 @@ cover: /assets/images/keyboard.jpg
 summary: Web Design and development articles from front-end development teacher and author Ray Villalobos.
 ---
 <main class="post-list content" role="main">
-    {% for post in site.categories.blog %}
+  {% for post in site.categories.blog %}
     <article class="post-item">
       <div class="post-meta">
         <span class="post-date">
@@ -16,14 +16,38 @@ summary: Web Design and development articles from front-end development teacher 
         {% endif %}
         </span>
       </div><!-- post-meta -->
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.Title }}</a></h2>
+        
+
+         {% if post.extURL %}
+      
+        <h2 class="post-title"><a href="{{ post.extURL }}" target="_blank">{{ post.Title }}</a></h2>
         <section class="post-description">
-          <a href="{{ post.url }}"><img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail"></a><span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
+          <a href="{{ post.extURL }}" target="_blank"><img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail"></a><span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
         </section>
         <nav class="post-links">
         <ul>
-          <li><a href="{{ post.url }}"><i class="fa fa-arrow-circle-right"></i> read more</a></li>
+          <li><a href="{{ post.extURL }}" target="_blank"><i class="fa fa-arrow-circle-right"></i> read external</a></li>
         </ul>
+
+         {% else %}
+        <h2 class="post-title">
+          <a href="{{ post.url }}">{{ post.Title }}</a>
+        </h2>
+        <section class="post-description">
+          <a href="{{ post.url }}">
+            <img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail">
+          </a>
+          <span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
+        </section>
+        <nav class="post-links">
+          <ul>
+            <li>
+              <a href="{{ post.url }}">
+                <i class="fa fa-arrow-circle-right"></i> read more</a>
+            </li>
+          </ul>
+         {% endif %}
+
       </article>
     {% endfor %}
     {% if paginator.next_page %}
@@ -40,5 +64,5 @@ summary: Web Design and development articles from front-end development teacher 
         {% endif %}
       {% endif %}
     </nav>
-    {% endif %}
+  {% endif %}
 </main>

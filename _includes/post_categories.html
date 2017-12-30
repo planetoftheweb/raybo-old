@@ -10,14 +10,8 @@
 <a href="/{{ cat }}">
   {% case cat %}
   <span class="icon">
-    {% when 'talks' %}
-    <i class="fa fa-bullhorn"></i>
     {% when 'blog' %}
-    <i class="fa fa-file-text"></i>
-    {% when 'courses' %}
-    <i class="fa fa-graduation-cap"></i>
-    {% else %}
-    <i class="fa fa-bullseye"></i>
+    <i class="fas fa-align-left"></i>
   </span>
   {% endcase %}
   {{ cat }}

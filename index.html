@@ -21,30 +21,47 @@ cover: /assets/images/codemobile.jpg
           {% if course.ID == post.courseid %}
             <h2 class="post-title"><a href="{{ post.url }}">{{ course.Title }}</a></h2>
             <section class="post-description">
-              <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.Thumbnails[0].FullURL }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
+              <a href="{{ post.url }}"><img class="list-thumb" src="{{ course.images.thumb }}" alt="Thumbnail for {{ course.Title }}"></a><span class="list-description">{{ course.ShortDescription | strip_html | truncatewords: 50 }}</span>
             </section>
             {% include post_links.html %}
           {% endif %}
         {% endfor %}
       {% else %}
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.Title }}</a></h2>
-        <section class="post-description">
-          <a href="{{ post.url }}"><img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail"></a><span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
-        </section>
+
+        
+        {% if post.extURL %}
+          <h2 class="post-title"><a href="{{ post.extURL }}" target="_blank">{{ post.Title }}</a></h2>
+          <section class="post-description">
+            <a href="{{ post.extURL }}"><img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail"></a><span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
+          </section>
+        {% else %}
+          <h2 class="post-title">
+            <a href="{{ post.url }}">{{ post.Title }}</a>
+          </h2>
+          <section class="post-description">
+            <a href="{{ post.url }}">
+              <img class="list-thumb" src="{{ post.heroimage }}" alt="{{ course.Title }} thumbnail">
+            </a>
+            <span class="list-description">{{ post.summary | strip_html | truncatewords: 50 }}</span>
+          </section>
+        {% endif %}
+
+        
+
         {% include post_links.html %}
       {% endif %}<!-- Is it a course or something else -->
       </article>
     {% endfor %}
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
-        <a class="newer-posts" href="/page{{paginator.next_page}}"><i class="fa fa-arrow-circle-o-left"></i></a>
+        <a class="newer-posts" href="/page{{paginator.next_page}}"><i class="fas fa-arrow-circle-left"></i></a>
       {% endif %}
       <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
       {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
-          <a class="older-posts" href="/"><i class="fa fa-arrow-circle-o-right"></i></a>
+          <a class="older-posts" href="/"><i class="fas fa-arrow-circle-right"></i></a>
         {% else %}
-          <a class="older-posts" href="/page{{paginator.previous_page}}"><i class="fa fa-arrow-circle-o-right"></i></a>
+          <a class="older-posts" href="/page{{paginator.previous_page}}"><i class="fas fa-arrow-circle-right"></i></a>
         {% endif %}
       {% endif %}
     </nav>

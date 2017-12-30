@@ -8,6 +8,7 @@ description: "The website for Ray Villalobos, helping improve lives by teaching 
 email: ray@planetoftheweb.com
 twitteruser: "@planetoftheweb"
 logo: "/assets/images/powship.png" #blog logo
+trk: "?trk=insiders_6787408_learning"
 cover: "/assets/images/hero.jpg" # blog cover
 
 author:
@@ -18,7 +19,9 @@ author:
 author_image: "/assets/images/author.jpg"
 ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filter.includes=Title,ShortDescription,DurationInSeconds,URLs,ID,WelcomeVideoId,Thumbnails.filename
 
-paginate:	5
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
 
 url: "http://raybo.org" # the base hostname & protocol for your site
 

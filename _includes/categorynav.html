@@ -7,6 +7,12 @@
       {% if (page.page_id != 'home') %}
       <li><a href="/"><i class="fa fa-home"></i> <span class="categorytext home"></span></a></li>
       {% endif %}
+      <li>
+        <a href="/courses">
+          <i class="fa fa-graduation-cap"></i>
+          <span class="categorytext home">courses</span>
+        </a>
+      </li>
 
     	{% for category in site.categories %}
         {% assign cat =  category | first %}
@@ -14,14 +20,8 @@
             <a href="/{{ category | first }}">
               {% case cat %}
               <span class="icon">
-                {% when 'talks' %}
-                <i class="fa fa-bullhorn"></i>
                 {% when 'blog' %}
-                <i class="fa fa-file-text"></i>
-                {% when 'courses' %}
-                <i class="fa fa-graduation-cap"></i>
-                {% else %}
-                <i class="fa fa-bullseye"></i>
+                <i class="fa fa-align-left"></i>
               </span>
               {% endcase %}
         	    <span class="categorytext {{ category | first }}">{{ category | first }}</span>
@@ -29,6 +29,5 @@
           </li>
     	{% endfor %}
 		</ul>
-    {% include searchbox.html %}
 	</div>
 </nav>

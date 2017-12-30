@@ -1,861 +1,612 @@
 [
   {
-    "ID": 560052,
-    "DurationInSeconds": 2410,
-    "Title": "AngularJS 1: Adding Registration to Your Application",
-    "Description": "<p>Registration is a fundamental part of any web application, but it can be notoriously difficult to implement. In this short course, we'll create a simple and straightforward registration system that allows users to log in and log out of an application. The techniques use AngularJS and Google Firebase, a mobile development platform that makes registration easy and secure. In the process, you'll explore the basics of AngularJS MVC architecture and the steps to storing custom user information in the Firebase NoSQL database. Learn how to create basic routes to load different content depending on the target URL, and create basic controllers to tie templates to code.</p><p>At the end of the course, you'll have a great template that you can use as a starting point for a registration system in any of your own web applications.</p><h3>Topics include</h3><li>Adding a basic MVC structure</li><li>Using routes</li><li>Creating controllers</li><li>Processing form input</li><li>Integrating Firebase</li><li>Storing registration information in the database</li><li>Logging users in and out of an app</li><li>Improving registration flow</li></ul>",
-    "ShortDescription": " ",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/560052-636174819451647972_270x480_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/560052/560052-636174819444616619-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/AngularJS-tutorials/AngularJS-1-Adding-Registration-Your-Application/560052-2.html"
-    },
-    "WelcomeVideoId": 571697
-  },
-  {
-    "ID": 518052,
-    "DurationInSeconds": 2410,
-    "Title": "Building a Progressive Web App",
-    "Description": "<p>Native apps do things like work offline and load on a device's home screen. Until now, mobile web apps accessed in a browser lacked those features. Progressive web apps correct these shortcomings. A progressive web app—like the one you build in this course—is 1) fast loading 2) responsive 3) able to work offline using service workers, 4) secure using HTTPS, and 5) installable using a special manifest.</p><p>Ray Villalobos takes you the extra steps to make your web apps progressive, using a custom version of the Bootstrap framework and modals and templating system called Handlebars. Follow along to learn how to create interactive navigation, dynamic and responsive content such as carousels and multimedia, offline capabilities with service workers, and a more integrated launch experience with an app manifest file.</p><h3>Topics include</h3><li>Using a progressive workflow</li><li>Adding navigation HTML</li><li>Making navigation interactive</li><li>Adding data via templates</li><li>Adding Bootstrap modals</li><li>Adding a service worker</li><li>Deploying your app</li></ul>",
-    "ShortDescription": "Make your mobile web apps act like native iOS, Android, or Windows Phone applications. Make them progressive! Learn techniques to make web apps responsive and secure, work offline, and launch from the home screen.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/518052-636172348144737121_270x480_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/518052/518052-636168860191295173-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/CSS-tutorials/Building-Progressive-Web-App/518052-2.html"
-    },
-    "WelcomeVideoId": 505731
-  },
-  {
-    "ID": 518051,
-    "DurationInSeconds": 2410,
-    "Title": "Electron: Building Cross Platform Desktop Apps",
-    "Description": "<p>Electron is an open-source framework for creating desktop applications with your favorite web technologies: JavaScript, HTML, and CSS. It makes it easy to create a simple app with a few lines of code, using languages you already know. Want to learn more?</p><p>Join Ray Villalobos as he walks through the techniques you need to master cross-platform desktop development with Electron. Learn how to configure and communicate between app windows (aka webpages) via the main and renderer processes, and integrate the React and Bootstrap frameworks to build interfaces with multiple panels and custom menus. As a final step, Ray shows how to package your project into a standalone, clickable app that can be run on Windows, Mac, or Linux machines.</p><h3>Topics include</h3><li>Creating your first app</li><li>Configuring multiple windows and window events</li><li>Integrating React.js</li><li>Creating external components</li><li>Passing events through props</li><li>Saving data</li><li>Using Bootstrap components in Electron</li><li>Creating a multipanel app</li><li>Creating custom menus</li><li>Packaging the application</li></ul>",
-    "ShortDescription": "Create compelling cross-platform desktop apps with a few lines of JavaScript, HTML, and CSS code with Electron.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/518051-636148182091787979_270x480_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/518051/518051-636148182081162829-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/Electron-tutorials/Electron-Building-Cross-Platform-Desktop-Apps/518051-2.html"
-    },
-    "WelcomeVideoId": 559703
-  },
-  {
-    "ID": 495275,
-    "DurationInSeconds": 2410,
-    "Title": "Tooling with NPM Scripts",
-    "Description": "<p>While Gulp, Grunt, and Bower are great tools, Node.js offers an alternative for implementing build processes: npm and your package.json file. npm (node package manager) is all about creating custom scripts for common development and production tasks. You can write npm scripts to process and compress code, create services, minify images, and automate all sorts of build tasks. This course shows you how.</p><p>Join Ray Villalobos as he walks through the advantages—and few disadvantages—of working with npm scripts and the steps for scripting different development and build tasks. Even if you don't use npm for your own processes, many Node.js packages come with npm scripts built in. This is a great course to help you understand how they work.</p><h3>Topics include:</h3><ul><li>Creating an npm script</li><li>Managing script types</li><li>Processing Sass</li><li>Transpiling ES6</li><li>Organizing scripts</li><li>Recompressing for production</li></ul>",
-    "ShortDescription": "Looking for an alternative build tool? Try npm, the node package manager. Learn how to create npm scripts to automate all sorts of build tasks.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/495275-636105687571093841_270x480_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/495275/495275-636105687487933049-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/NPM-tutorials/Tooling-NPM-Scripts/495275-2.html"
-    },
-    "WelcomeVideoId": 536120
-  },
-  {
-    "ID": 483022,
-    "DurationInSeconds": 2410,
-    "Title": "Becoming a Web Developer: Full Stack vs Front End",
-    "Description": "Do you want to become a web developer? Nowadays, web development isn't one job. There is a range of technologies and career options to explore. The core responsibilities are split two ways—between front-end developers who specialize in websites and applications and back-end developers who work with servers and databases—but you can also become a full-stack developer who oversees all aspects of a project. This course provides an overview of the different jobs available in web development, the tools and frameworks to focus on, and the skills each job entails. Senior staff author Ray Villalobos also provides tips on finding training, getting hired, and maximizing your earning potential in this lucrative and exciting field.<h3>Topics include:</h3><ul><li>Types of web developers</li><li>The role of HTML, CSS, and JavaScript</li><li>Servers and databases</li><li>Getting web development training</li><li>Choosing the right tools</li><li>Getting a job</li></ul>",
-    "ShortDescription": "Do you want to become a web developer? Learn about the skills and tools you need to get a job as a front-end, back-end, or full-stack web developer.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/483022-636022683156957451_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/483022/483022-636021036741093668-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/Web-tutorials/Becoming-Web-Developer-Full-Stack-vs-Front-End/483022-2.html"
-    },
-    "WelcomeVideoId": 505731
-  },
-  {
-    "ID": 495271,
-    "DurationInSeconds": 4902,
-    "Title": "Building a Web Interface with React.js",
-    "Description": "<p>React is a JavaScript library for creating user interfaces that display dynamic data. Because of its reusable components and unique data rendering approach, the web interfaces you create with React are flexible, fast, and lightweight. Need another reason to choose React? It's also easy to learn, with these lessons from staff author Ray Villalobos. Join Ray as he reviews React's component architecture and covers key skills such as handling events, breaking code into custom subcomponents, managing form fields with references, and setting up sorting and search. Every lesson is focused on the specifics of creating web interfaces with React, so you'll be able to easily transition the techniques to your own projects.</p><h3>Topics include:</h3><ul><li>Using components and subcomponents</li><li>Working with state</li>Handling events<li><li>Creating subcomponents</li><li>Using references</li><li>Sorting and updating views, events, and search results</li></ul>",
-    "ShortDescription": "Learn how to create flexible, fast, and lightweight web interfaces, including web forms, with React.js.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/495271-636051285014885892_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/495271/495271-636051283523699944-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/React-js-tutorials/Building-Web-Interface-React-js/495271-2.html"
-    },
-    "WelcomeVideoId": 511713
-  },
-  {
-    "ID": 428058,
-    "DurationInSeconds": 7411,
-    "Title": "Learn AngularJS 2: The Basics",
-    "Description": "<p>Learn AngularJS 2, the second edition of the \"superheroic\" JavaScript framework. Redesigned from the ground up by Google, AngularJS 2 provides advanced features for building single-page applications: declarative templates, two-way data binding, TypeScript support, and dependency injection. And instead of the controllers typical of MVC architecture, AngularJS 2 now offers components. It's a great update, suitable for mobile and web developers alike.</p><p>In these tutorials, Ray Villalobos shows you how to start using AngularJS 2 in your own projects. He starts by defining what exactly Angular 2 is and how it differs from AngularJS 1. Then, once the basics are out of the way, he sets up the template that will drive the project and starts coding. Ray shows how to divide your project into modules, work with events, style content with CSS, and create components and subcomponents. Plus, find out how to change content dynamically using data pipes.</p><p>The template is included as a free download for all members.</p>",
-    "ShortDescription": "Learn AngularJS 2, the \"superheroic\" JavaScript framework for building single-page mobile and web applications fast. Find out how to use AngularJS templates, create components, and work with events.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/428058-635948405690251021_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/428058/428058-635945092611324450-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html"
-    },
-    "WelcomeVideoId": 482929
-  },
-    {
-    "ID": 468147,
-    "DurationInSeconds": 7329,
-    "Title": "Learn Atom: The Basics",
-    "Description": "GitHub's Atom text editor has changed the web development landscape, providing an open-source, completely hackable editor that's powerful, easy to use, extensible, and built with common web technologies (CSS and JavaScript). Atom is Ray Villalobos's favorite editor, for working with projects of all kinds. In this course, he shows how to use Atom for web, front-end, and stack development. Learn how to customize the interface and editing experience through Atom themes, packages, and snippets (code shortcuts that expand into the correct syntax). Find out how to find and compare elements, move around your code folders, bookmark content, and use Atom's powerful Find and Replace feature. Plus, discover how Atom integrates with Git and GitHub for version control and publishing.",
-    "ShortDescription": "GitHub's Atom text editor is one of the most popular. Find out why. Learn how to navigate code, customize the interface, and use Atom packages, themes, and snippets.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/468147-635959639226639770_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/468147/468147-635959638861662691-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html"
-    },
-    "WelcomeVideoId": 486961
-  },
-
-  {
-    "ID": 372547,
-    "DurationInSeconds": 4430,
-    "Title": "Bootstrap 4: First Look",
-    "Description": "Bootstrap 4 is here, and it's an important update that touches nearly every line of code. Get your first look at the changes in this popular responsive design platform. Our resident Bootstrap expert Ray Villalobos covers Reboot.css, which standardizes a lot of the CSS in Bootstrap 4; the new card components; and changes to the grid, forms, and tables in Bootstrap. Plus, find out how to compensate for the deprecation of Glyphicons and adjust to smaller changes throughout the platform. These tips will help you avoid some of the pitfalls when it comes to upgrading your own site from Bootstrap 3\u2014and get excited about what's to come.",
-    "ShortDescription": "Get your first look at the changes\u2014including the new CSS classes in Reboot, the revised grid, and new card components\u2014in Bootstrap 4.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/372547-635983830638377650_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/course/372547/372547-635973594979325966-16x9.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/Bootstrap-tutorials/Bootstrap-4-First-Look/372547-2.html"
-    },
-    "WelcomeVideoId": 494826
-  },
-  {
-    "ID": 417644,
-    "DurationInSeconds": 8587,
-    "Title": "Building a Responsive Single-Page Design with PostCSS",
-    "Description": "<p>Learn how to create responsive single-page websites with PostCSS, the CSS post-processor engine that extends the power of CSS through JavaScript. These step-by-step instructions take existing HTML markup and add style, animation, and responsive navigation. This combination allows for dynamic one-page sites—a popular design that's now even faster and easier to create with PostCSS. Along the way, Ray Villalobos introduces some handy plugins, tips for integrating PostCSS into a Gulp-based workflow, and techniques for making layouts more responsive with Flexbox.</p><p>Topics include:</p><ul><li>Structuring the HTML markup for a single-page design</li><li>Using PreCSS Sass-like imports in PostCSS</li><li>Creating Sass-like variables with PreCSS</li><li>Building styles</li><li>Creating a layout for the header and navigation with Flexbox</li><li>Creating and styling sections</li><li>Animating page elements with PostCSS</li></ul>",
-    "ShortDescription": "Learn how to create animated single-page websites with PostCSS, the CSS post-processor that extends the power of CSS through JavaScript.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/417644-635889646848456428_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/courses/417644-635876857491580371_338x600_thumb.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/CSS-tutorials/Building-Responsive-Single-Page-Design-PostCSS/417644-2.html"
-    },
-    "WelcomeVideoId": 461848
-  },
-  {
-    "ID": 442850,
-    "DurationInSeconds": 3068,
-    "Title": "PostCSS: First Look",
-    "Description": "<p>PostCSS is a CSS post-processor engine that allows you to transform regular CSS through JavaScript plugins. Like LESS, Sass, and Stylus, these plugins allow you to use CSS in new and exciting ways like automatically prefixing your CSS for older browsers; adding variables, conditionals, or nesting; and even transpiling next-generation CSS so that it works in older browsers today. PostCSS can be 3–30 times faster than other pre-processors and offers a modular approach, so you can install just the plugins you want to use.</p><p>In this short course, you'll learn how to set up a workflow for Gulp.jsusing PostCSS, which can speed up the way you build websites and change the way you write CSS. Author Ray Villalobos will also introduce the most useful PostCSS plugins, including cssnano, Autoprefixer, cssnext, and PreCSS.</p>",
-    "ShortDescription": "Want to write CSS faster and more efficiently? Get a first look at PostCSS, the engine for processing CSS with JavaScript.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/442850-635858446414277504_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/courses/442850-635858437278152267_338x600_thumb.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/CSS-tutorials/PostCSS-First-Look/442850-2.html"
-    },
-    "WelcomeVideoId": 458544
-  },
-  {
-    "ID": 438888,
-    "DurationInSeconds": 4024,
-    "Title": "Up and Running with Markdown",
-    "Description": "<p>Markdown is a lightweight text format that allows you to create documents, rich text, or HTML markup using any plain text editor. It's easy to read, easy to write, and easy to convert into formats like PDF, Word, or HTML. It's fast becoming a standard for writers who want to focus on creating documents\u2014not worrying about proprietary document formats.</p><p>In this course, Ray Villalobos shows how to write common markdown syntax to create headlines, lists, tables, links, images, and block quotes. Then explore some of the different implementations of the language, including GitHub Flavored Markdown, MultiMarkdown, R Markdown, CommonMark, and Babelmark.</p>",
-    "ShortDescription": "Get started with Markdown, the lightweight text format that allows you to create documents, rich text, or HTML markup using any plain text editor.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/438888-635863726972665665_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/courses/438888-635861073411347997_338x600_thumb.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/Web-Development-tutorials/Up-Running-Markdown/438888-2.html"
-    },
-    "WelcomeVideoId": 456707
-  },
-  {
-    "ID": 421230,
-    "DurationInSeconds": 7678,
-    "Title": "AngularJS: Building a Data Driven Application",
-    "Description": "<p>Want to create data-driven web applications? AngularJS is a great choice. With these tutorials, you'll learn to build apps that allow multiple users to push and pull data at the same time, in real time. Ray Villalobos starts the course where AngularJS: Adding Registration to Your Application left off: a simple application that checks users in and out of meetings. Ray then shows you how to enhance the existing app with new views and controllers and reward random checked-in users with prizes.</p><p>Although it's easy to learn, AngularJS can be hard to master. With these project-based lessons, you'll learn how the framework works in the real world, and see how data-driven programming can help your apps react to real-time data streams.</p><h3>Topics include:</h3><ul><li>Creating a new view</li><li>Adding, showing, and deleting database records</li><li>Using events to track meetings</li><li>Adding a form to the app</li><li>Controlling views with classes</li></ul>",
-    "ShortDescription": "Learn how to add data-driven functionality to your web applications with AngularJS. This project shows you how to check users in and out of a system and randomly select checked-in users to reward with prizes.",
-      "Thumbnails": [
-        { "FullURL": "https://cdn.lynda.com/courses/421230-635839537167918779_88x158_thumb.jpg"},
-        { "FullURL": "https://cdn.lynda.com/courses/421230-635838772473481231_338x600_thumb.jpg"}
-      ],
-    "URLs": {
-      "www.lynda.com": "/AngularJS-tutorials/AngularJS-Building-Data-Driven-App/421230-2.html"
-    },
-    "WelcomeVideoId": 450977
-  },
-    {
-      "ID": 438886,
-      "DurationInSeconds": 2512,
-      "Title": "AngularJS: Form Validation",
-      "Description": "<p>Validation is key to successful online forms. Implementing dynamic form validation that reacts to input can be difficult to implement with languages like JavaScript and jQuery. However, AngularJS allows you to take advantage of two-way data-binding functionality without having to write any JavaScript code. This makes reacting to input from the user—as it happens—a breeze.</p><p>In this short course, Ray Villalobos shows how to implement form validation on any HTML form using the built-in validation properties and methods in AngularJS. Together, you'll look at how AngularJS can help style forms dynamically as the user updates the content. Plus, explore how to implement validation with JavaScript, just in case you need more fine-tuned control of form interactions.</p>",
-      "ShortDescription": "Learn how to implement dynamic form validation on any HTML form using the built-in validation properties and methods in AngularJS.",
-        "Thumbnails": [
-          {
-            "FullURL": "https://cdn.lynda.com/courses/438886-635827439080742024_88x158_thumb.jpg"
-          },
-          {
-            "FullURL": "https://cdn.lynda.com/courses/438886-635814741830888421_338x600_thumb.jpg"
-          }
-        ],
-      "URLs": {
-        "www.lynda.com": "/AngularJS-tutorials/AngularJS-Form-Validation/438886-2.html"
+    "title": "AngularJS 1: Adding Registration to Your Application",
+    "release_date": "2016-12-21",
+    "summary": "In this short course, we'll create a simple and straightforward registration system that allows users to log in and log out of an application. The techniques use AngularJS and Google Firebase, a mobile development platform that makes registration easy and secure.",
+      "images": {
+        "thumb": "https://cdn.lynda.com/courses/560052-636174819451647972_270x480_thumb.jpg",
+        "highres": "https://cdn.lynda.com/course/560052/560052-636174819444616619-16x9.jpg"
       },
-      "WelcomeVideoId": 445587
-    },
-    {
-    "ID": 417641,
-    "DurationInSeconds": 17711,
-    "Title": "Bootstrap 3 Essential Training",
-    "Description": "<p>Bootstrap is a popular framework designed for building responsive, accessible, and mobile-ready websites. An open-source platform using HTML5, CSS3, and jQuery, it features a 12-column grid, icons you can incorporate into your designs, and fully functional JavaScript components that are ready to use.</p><p>This course provides everything you need to know to get started building websites with Bootstrap, and is built with our new practice environments in mind, which let you develop your code along with author Ray Villalobos. Ray will review Bootstrap's grid, CSS classes, and JavaScript components (dropdowns, modals, carousels, and more), and help you integrate them into your own sophisticated websites.",
-    "ShortDescription": "Everything you need to know to get started building responsive, accessible, mobile-first websites with Bootstrap 3.</p>",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/417641-635760301871294629_125x224_thumb.jpg"
-      },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/417641-635762922777948496_1380x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Bootstrap-tutorials/Bootstrap-3-Essential-Training/417641-2.html"
+      "LDC": "https://www.lynda.com/AngularJS-tutorials/AngularJS-1-Adding-Registration-Your-Application/560052-2.html",
+      "LI": "https://www.linkedin.com/learning/angularjs-1-adding-registration-to-your-application-2"
+    }
+  },
+  {
+    "title": "Building a Progressive Web App",
+    "release_date":"2016-12-13",
+    "summary": "Make your mobile web apps act like native iOS, Android, or Windows Phone applications. Make them progressive! Learn techniques to make web apps responsive and secure, work offline, and launch from the home screen.",
+      "images": {
+        "thumb": "https://cdn.lynda.com/courses/518052-636172348144737121_270x480_thumb.jpg",
+        "highres": "https: //cdn.lynda.com/course/518052/518052-636168860191295173-16x9.jpg"
+      },
+    "URLs": {
+      "LDC": "https://www.lynda.com/CSS-tutorials/Building-Progressive-Web-App/518052-2.html",
+      "LI": "https://www.linkedin.com/learning/building-a-progressive-web-app"
+    }
+  },
+  {
+    "title": "Electron: Building Cross Platform Desktop Apps",
+    "release_date":"2016-11-17",
+    "summary": "Create compelling cross-platform desktop apps with a few lines of JavaScript, HTML, and CSS code with Electron.",
+      "images": {
+          "thumb": "https://cdn.lynda.com/courses/518051-636148182091787979_270x480_thumb.jpg",
+          "highres": "https://cdn.lynda.com/course/518051/518051-636148182081162829-16x9.jpg"
+      },
+    "URLs": {
+      "LDC": "https://www.lynda.com/Electron-tutorials/Electron-Building-Cross-Platform-Desktop-Apps/518051-2.html",
+      "LI": "https://www.linkedin.com/learning/electron-building-cross-platform-desktop-apps"
+    }
+  },
+  {
+    "title": "Tooling with NPM Scripts",
+    "release_date":"2016-09-29",
+    "summary": "Looking for an alternative build tool? Try npm, the node package manager. Learn how to create npm scripts to automate all sorts of build tasks.",
+      "images": {
+          "thumb": "https://cdn.lynda.com/courses/495275-636105687571093841_270x480_thumb.jpg",
+          "highres": "https://cdn.lynda.com/course/495275/495275-636105687487933049-16x9.jpg"
+      },
+    "URLs": {
+      "LDC": "https://www.lynda.com/NPM-tutorials/Tooling-NPM-Scripts/495275-2.html",
+      "LI":"https://www.linkedin.com/learning/tooling-with-npm-scripts"
+    }
+  },
+  {
+    "title": "Web Development Foundations: Full-Stack vs Front-End",
+    "release_date":"2016-06-23",
+    "summary": "Do you want to become a web developer? Learn about the skills and tools you need to get a job as a front-end, back-end, or full-stack web developer.",
+      "images": {
+        "thumb": "https://cdn.lynda.com/courses/483022-636022683156957451_88x158_thumb.jpg",
+        "highres": "https://cdn.lynda.com/course/483022/483022-636021036741093668-16x9.jpg"
+      },
+    "URLs": {
+      "LDC": "https://www.lynda.com/Web-tutorials/Becoming-Web-Developer-Full-Stack-vs-Front-End/483022-2.html",
+      "LI":"https://www.linkedin.com/learning/web-development-foundations-full-stack-vs-front-end"
+    }
+  },
+  {
+    "title": "Building a Web Interface with React.js",
+    "release_date":"2016-07-26",
+    "summary": "Learn how to create flexible, fast, and lightweight web interfaces, including web forms, with React.js.",
+      "images": {
+        "thumb": "https://cdn.lynda.com/courses/495271-636051285014885892_88x158_thumb.jpg",
+        "highres": "https://cdn.lynda.com/course/495271/495271-636051283523699944-16x9.jpg"
+      },
+    "URLs": {
+      "LDC": "https://www.lynda.com/React-js-tutorials/Building-Web-Interface-React-js/495271-2.html",
+      "LI":"https://www.linkedin.com/learning/building-a-web-interface-with-react-js"
+    }
+  },
+  {
+    "title": "Learning Angular JS 2",
+    "release_date":"2017-02-08",
+    "summary": "Learn AngularJS 2, the \"superheroic\" JavaScript framework for building single-page mobile and web applications fast. Find out how to use AngularJS templates, create components, and work with events.",
+      "images": {
+        "thumb": "https://cdn.lynda.com/courses/428058-635948405690251021_88x158_thumb.jpg",
+        "highres": "https://cdn.lynda.com/course/428058/428058-635945092611324450-16x9.jpg"
+      },
+    "URLs": {
+      "LDC": "https://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html",
+      "LI":"https://www.linkedin.com/learning/learning-angularjs-2"
+    }
+  },
+    {
+    "title": "Learn Atom: The Basics",
+    "release_date": "2016-04-11",
+    "summary": "GitHub's Atom text editor is one of the most popular. Find out why. Learn how to navigate code, customize the interface, and use Atom packages, themes, and snippets.",
+    "images": {
+      "thumb": "https://cdn.lynda.com/courses/468147-635959639226639770_88x158_thumb.jpg",
+      "highres": "https://cdn.lynda.com/course/468147/468147-635959638861662691-16x9.jpg"
     },
-    "WelcomeVideoId": 429420
-  },  {
-      "ID": 375925,
-      "DurationInSeconds": 7492,
-      "Title": "Sass Essential Training",
-      "Description": "<p>Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features. Ray Villalobos shows you the best way to install Sass and work with its main features: variables, nesting, partials, and mixins. Plus, learn how to use SassScript to create complex functions from Sass lists and control statements.</p><p>Topics include:</p><ul><li>Working with variables</li><li>Nesting styles</li><li>Creating mixins</li><li>Conditional statements and loops in SassScript</li><li>Extending your mixins</li><li>Working with lists and maps</li></ul>",
-      "ShortDescription": "Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features.",
-      "Thumbnails": [
-        {
-          "FullURL": "https://cdn.lynda.com/courses/375925-635797211412111970_88x158_thumb.jpg"
+    "URLs": {
+      "LDC": "https://www.lynda.com/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html",
+      "LI":"https://www.linkedin.com/learning/learning-atom"
+    }
+  },
+  {
+    "title": "Building a Responsive Single-Page Design with PostCSS",
+    "release_date":"2016-01-22",
+    "summary": "Learn how to create animated single-page websites with PostCSS, the CSS post-processor that extends the power of CSS through JavaScript.",
+    "images": {
+      "thumb": "https://cdn.lynda.com/courses/417644-635889646848456428_88x158_thumb.jpg",
+      "highres": "https://cdn.lynda.com/courses/417644-635876857491580371_338x600_thumb.jpg"
+    },
+    "URLs": {
+      "LDC": "https://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design-PostCSS/417644-2.html",
+      "LI":"https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-postcss"
+    }
+  },
+  {
+    "title": "PostCSS: First Look",
+    "release_date":"2016-01-14",
+    "summary": "Want to write CSS faster and more efficiently? Get a first look at PostCSS, the engine for processing CSS with JavaScript.",
+    "images": {
+      "thumb": "https://cdn.lynda.com/courses/442850-635858446414277504_88x158_thumb.jpg",
+      "highres": "https://cdn.lynda.com/courses/442850-635858437278152267_338x600_thumb.jpg"
+    },
+    "URLs": {
+      "LDC": "https://www.lynda.com/CSS-tutorials/PostCSS-First-Look/442850-2.html",
+      "LI":"https://www.linkedin.com/learning/postcss-first-look/what-is-postcss"
+    }
+  },
+  {
+    "title": "Learning Markdown",
+    "release_date":"2015-12-23",
+    "summary": "Get started with Markdown, the lightweight text format that allows you to create documents, rich text, or HTML markup using any plain text editor.",
+    "images": {
+      "thumb": "https://cdn.lynda.com/courses/438888-635863726972665665_88x158_thumb.jpg",
+      "highres": "https://cdn.lynda.com/courses/438888-635861073411347997_338x600_thumb.jpg"
+    },
+    "URLs": {
+      "LDC": "https://www.lynda.com/Web-Development-tutorials/Up-Running-Markdown/438888-2.html",
+      "LI": "https://www.linkedin.com/learning/learning-markdown/what-is-markdown"
+    }
+  },
+  {
+    "title": "AngularJS: Building a Data Driven Application",
+    "release_date":"2017-01-24",
+    "summary": "Learn how to add data-driven functionality to your web applications with AngularJS. This project shows you how to check users in and out of a system and randomly select checked-in users to reward with prizes.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/421230-635839537167918779_88x158_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/421230-635838772473481231_338x600_thumb.jpg"
+    },
+    "URLs": {
+      "LDC": "https://www.lynda.com/AngularJS-tutorials/AngularJS-Building-Data-Driven-App/421230-2.html",
+      "LI":"https://www.linkedin.com/learning/angularjs-1-building-a-data-driven-app-2"
+    }
+  },
+    {
+      "title": "AngularJS: Form Validation",
+      "release_date":"2015-11-10",
+      "summary": "Learn how to implement dynamic form validation on any HTML form using the built-in validation properties and methods in AngularJS.",
+      "images": {
+          "thumb": "https://cdn.lynda.com/courses/438886-635827439080742024_88x158_thumb.jpg",
+          "highres": "https://cdn.lynda.com/courses/438886-635814741830888421_338x600_thumb.jpg"
         },
-        {
-          "FullURL": "https://cdn.lynda.com/courses/375925-635791240452214933_338x600_thumb.jpg"
-        }
-      ],
       "URLs": {
-        "www.lynda.com": "/Sass-tutorials/Sass-Essential-Training/375925-2.html"
+        "LDC": "https://www.lynda.com/AngularJS-tutorials/AngularJS-Form-Validation/438886-2.html",
+        "LI":"https://www.linkedin.com/learning/angularjs-1-form-validation"
+      }
+    },
+    {
+    "title": "Bootstrap 3 Essential Training",
+    "release_date":"2015-08-26",
+    "summary": "Everything you need to know to get started building responsive, accessible, mobile-first websites with Bootstrap 3.</p>",
+    "images": {
+      "thumb": "https://cdn.lynda.com/courses/417641-635760301871294629_125x224_thumb.jpg",
+      "highres": "https://cdn.lynda.com/courses/417641-635762922777948496_1380x2160_thumb.jpg"
+    },
+    "URLs": {
+      "LDC": "https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-Essential-Training/417641-2.html",
+      "LI": "https://www.linkedin.com/learning/bootstrap-3-essential-training"
+    }
+  },  {
+      "title": "Sass Essential Training",
+      "release_date": "2015-10-06",
+      "summary": "Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features.",
+      "images": {
+        "thumb": "https://cdn.lynda.com/courses/375925-635797211412111970_88x158_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/375925-635791240452214933_338x600_thumb.jpg"
       },
-      "WelcomeVideoId": 435554
+      "URLs": {
+        "LDC": "https://www.lynda.com/Sass-tutorials/Sass-Essential-Training/375925-2.html",
+        "LI":"https://www.linkedin.com/learning/sass-essential-training"
+      }
     },
   {
-    "ID": 124079,
-    "DurationInSeconds": 12528,
-    "Title": "Bootstrap 3: Advanced Web Development",
-    "Description": "Generate your own interactive website from scratch with Bootstrap, the mobile-friendly framework from Twitter, in this start-to-finish course with developer and author Ray Villalobos. First, you'll plan and prototype the interface with MindMaps and Balsamiq Mockups. Next, download Bootstrap and dive into organizing your site structure with its scaffolding feature—adding PHP includes to break your code into reusable modules and building in the core navigation. Ray then shows you how to build interactive carousels, modal features, and forms, and control these features with JavaScript. Finally, learn to style it all with LESS and prepare to publish the results online.",
-    "ShortDescription": "Generate an interactive website from scratch with Bootstrap.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/124079-635383264168096755_138x244_thumb.jpg"
+    "title": "Bootstrap 3: Advanced Web Development",
+    "release_date": "2013-08-13",
+    "summary": "Generate an interactive website from scratch with Bootstrap.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/124079-635383264168096755_138x244_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/124079-635466752190145759_1440x2560_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/124079-635466752190145759_1440x2560_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Bootstrap-tutorials/Bootstrap-3-Advanced-Web-Development/124079-2.html"
-    },
-    "WelcomeVideoId": 145007
+      "LDC": "https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-Advanced-Web-Development/124079-2.html",
+      "LI":"https://www.linkedin.com/learning/bootstrap-3-advanced-web-development"
+    }
   },
   {
-    "ID": 138156,
-    "DurationInSeconds": 2817,
-    "Title": "Bootstrap 3: New Features and Migration",
-    "Description": "Bootstrap 3 is here, and it supports mobile design and responsive CSS better than ever. Join author Ray Villalobos for an overview of the new classes, mobile-first approach, and other enhancements in Bootstrap 3, and learn how to migrate your sites and files to the new framework. Find out about the new installation options, updates to grids and scaffolding, and changes to the handling of type, images, and JavaScript. Then learn to integrate the new list group and panel components into your workflow. The course closes with a look at migrating a sample site from Bootstrap 2.3 to 3.0, from replacing template files to tweaking your grid, navigation, and images.",
-    "ShortDescription": "Learn about the new CSS classes, mobile-first approach, and other enhancements in Bootstrap 3.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/138156-635383799816665334_128x227_thumb.jpg"
+    "title": "Bootstrap 3: New Features and Migration",
+    "release_date":"2013-08-08",
+    "summary": "Learn about the new CSS classes, mobile-first approach, and other enhancements in Bootstrap 3.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/138156-635383799816665334_128x227_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/138156-635400835638025199_1046x1858_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/138156-635400835638025199_1046x1858_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Bootstrap-tutorials/Bootstrap-3-New-Features-Migration/138156-2.html"
-    },
-    "WelcomeVideoId": 144516
+      "LDC": "https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-New-Features-Migration/138156-2.html",
+      "LI":"https://www.linkedin.com/learning/bootstrap-3-new-features-and-migration"
+    }
   },
   {
-    "ID": 186538,
-    "DurationInSeconds": 11940,
-    "Title": "Bootstrap Layouts: Responsive Single-Page Design",
-    "Description": "Find out how Bootstrap can transform your standard HTML websites into inspired single-page designs. This course is a project-based approach to learning how to manipulate website layouts with the Bootstrap framework. Staff author Ray Villalobos tackles Bootstrap's layout classes, like containers, rows, and columns, and shows what it takes to customize Bootstrap's CSS and address layout challenges like multiple grids and columns. Plus, learn how to track navigation as users scroll, with the ScrollSpy plugin, and create a full-screen, responsive image carousel.",
-    "ShortDescription": "Find out how Bootstrap can transform your standard HTML websites into inspired single-page designs.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/186538-635721225380088463_129x228_thumb.jpg"
+    "title": "Bootstrap Layouts: Responsive Single-Page Design",
+    "release_date":"2015-02-15",
+    "summary": "Find out how Bootstrap can transform your standard HTML websites into inspired single-page designs.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/186538-635721225380088463_129x228_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/186538-635603121825190026_1470x2352_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/186538-635603121825190026_1470x2352_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Bootstrap-tutorials/Bootstrap-Layouts-Responsive-Single-Page-Design/186538-2.html"
-    },
-    "WelcomeVideoId": 371573
+      "LDC": "https://www.lynda.com/Bootstrap-tutorials/Bootstrap-Layouts-Responsive-Single-Page-Design/186538-2.html",
+      "LI": "https://www.linkedin.com/learning/bootstrap-layouts-responsive-single-page-design"
+    }
   },
   {
-    "ID": 368920,
-    "DurationInSeconds": 12679,
-    "Title": "Building a Mobile App with AngularJS and Ionic",
-    "Description": "Creating hybrid mobile applications is a great way to leverage your knowledge of web languages like HTML5, CSS, and JavaScript. Modern frameworks such as AngularJS and Ionic make it easier with pre-built templates and components. In this course, staff author Ray Villalobos shows how to install the Ionic framework and set up a development environment suitable for building web-based apps. He reviews the core Ionic components: prebuilt, easy-to-use features such as buttons, lists, tabs, and forms. Then Ray shows how to combine these components with Angular.js models, views, and controllers to build a single page app with sliders, pull-to-refresh functionality, and search. The training culminates in building a multi-page app, which you'll learn how to customize with CSS.",
-    "ShortDescription": "Learn to build native-style applications that leverage your existing knowledge of HTML5, JavaScript, and CSS by using AngularJS and the Ionic framework.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/368920-635664455141474470_139x247_thumb.jpg"
+    "title": "Building a Mobile App with AngularJS and Ionic",
+    "release_date":"2015-05-05",
+    "summary": "Learn to build native-style applications that leverage your existing knowledge of HTML5, JavaScript, and CSS by using AngularJS and the Ionic framework.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/368920-635664455141474470_139x247_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/368920-635711120105758473_1440x2160_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/368920-635711120105758473_1440x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/AngularJS-tutorials/Building-Mobile-App-AngularJS-Ionic/368920-2.html"
-    },
-    "WelcomeVideoId": 386098
+      "LDC": "https://www.lynda.com/AngularJS-tutorials/Building-Mobile-App-AngularJS-Ionic/368920-2.html",
+      "LI":"https://www.linkedin.com/learning/building-a-mobile-app-with-angularjs-1-and-ionic"
+    }
   },
   {
-    "ID": 182174,
-    "DurationInSeconds": 17736,
-    "Title": "Building a Responsive Single-Page Design",
-    "Description": "<p>Learn how to build dynamic, responsive single-page designs with HTML, JavaScript, and CSS. The website featured in this course combines docking navigation, columns that adjust without cluttering your site layout or HTML markup, and animated scrolling effects that respond to user direction. Author Ray Villalobos shows you how to build it. He starts with a lean, easy-to-read template, and then explains how to add the features that make single-page designs so great, with these frameworks: Compass, whose Sass mixins help you leverage CSS3 features like Flexbox; Susy 2, the framework that \"subtracts\" the math from responsive grid design; ScrollMagic, for adding \"magical\" scroll effects; Breakpoint, which makes writing media queries in Sass a snap; But this course isn't just about the tools. It's a realistic project that epitomizes many of the design challenges website developers face in the real world. Start watching now and learn how to use HTML, jQuery, and CSS to build your own dynamic, deeply responsive designs.",
-    "ShortDescription": "Learn how to build responsive single-page websites (with animation and scrolling effects) using frameworks like Compass, Susy, and Breakpoint.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/182174-635771061565171730_130x230_thumb.jpg"
+    "title": "Building a Responsive Single-Page Design with Sass",
+    "release_date":"2014-09-23",
+    "summary": "Learn how to build responsive single-page websites (with animation and scrolling effects) using frameworks like Compass, Susy, and Breakpoint.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/182174-635771061565171730_130x230_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/182174-635621719148154009_1200x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/182174-635621719148154009_1200x1920_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/CSS-tutorials/Building-Responsive-Single-Page-Design/182174-2.html"
-    },
-    "WelcomeVideoId": 193650
+      
+      "LDC": "https://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design/182174-2.html",
+      "LI":"https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-sass"
+    }
   },
   {
-    "ID": 519122,
-    "DurationInSeconds": 11760,
-    "Title": "Building a Website with Node.js and Express.js",
-    "Description": "<p>Interested in building JavaScript websites that do more? Node.js and Express.js are a perfect match. Express is a fast, minimalist framework that sits on top of Node.js and allows you to build powerful single- and multi-page web applications and websites.</p><p>In this course, Ray Villalobos walks through the process of creating full-featured websites with these technologies. First, find out how to install each package and leverage Node.js features from within Express. Then learn how to build a basic application with templating engines like EJS; create more flexible, modular code with includes and conditional statements; build APIs to manage HTTP requests to add and delete content dynamically; and configure more complex routing. Along the way, Ray implements features like customer feedback forms and real-time live chat, so you can see exactly what Node.js and Express are capable of.</p><h3>Topics include:</h3><ul><li>Handling HTTP requests with Node.js and Express
-    <li>Creating and modularizing routes</li><li>Using templates</li><li>Building flexible views</li><li>Creating an API route</li><li>Dealing with POST and DELETE requests</li><li>Creating live chat features with Socket.IO</li></ul>",
-    "ShortDescription": "Build JavaScript websites that do more. Learn how to use Node.js and Express to build multi-page websites and apps with features like creating an API, Reading and writing files, HTTP verbs like GET, POST and DELETE, plus creating a live chat with Socket.IO.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/502310-636071995894767664_88x158_thumb.jpg"
+    "title": "Building a Website with Node.js and Express.js",
+    "release_date":"2016-09-19",
+    "summary": "Build JavaScript websites that do more. Learn how to use Node.js and Express to build multi-page websites and apps with features like creating an API, Reading and writing files, HTTP verbs like GET, POST and DELETE, plus creating a live chat with Socket.IO.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/502310-636071995894767664_88x158_thumb.jpg",
+        "highres": "https://cdn.lynda.com/course/502310/502310-636070288437663461-16x9.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/course/502310/502310-636070288437663461-16x9.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Express-js-tutorials/Building-Website-Node-js-Express-js-REVISION-Q3-2016/502310-2.html"
-    },
-    "WelcomeVideoId": 519122
+      "LDC": "https://www.lynda.com/Express-js-tutorials/Building-Website-Node-js-Express-js-REVISION-Q3-2016/502310-2.html",
+      "LI":"https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js"
+    }
   },
   {
-    "ID": 369707,
-    "DurationInSeconds": 13123,
-    "Title": "Code Clinic: JavaScript",
-    "Description": "<p>Successful programmers know more than a computer language. They also know how to think about solving problems. They use \"computational thinking\": breaking a problem down into segments that lend themselves to technical solutions. Code Clinic is a series of ten courses where lynda.com authors solve the same problems using different programming languages. Here, Ray Villalobos works with JavaScript.</p><p>Ray introduces challenges and then provides an overview of his solutions in JavaScript. Challenges include topics such as statistical analysis, searching directories for images, and accessing peripheral devices.</p>",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/369707-635708746319705336_137x242_thumb.jpg"
+    "title": "Code Clinic: JavaScript",
+    "release_date": "2015-06-25",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/369707-635708746319705336_137x242_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/369707-635711716696716488_1440x2160_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/369707-635711716696716488_1440x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/JavaScript-tutorials/Code-Clinic-JavaScript/369707-2.html"
-    },
-    "WelcomeVideoId": 414856
+      "LDC": "https://www.lynda.com/JavaScript-tutorials/Code-Clinic-JavaScript/369707-2.html",
+      "LI":"https://www.linkedin.com/learning/code-clinic-javascript"
+    }
   },
   {
-    "ID": 133353,
-    "DurationInSeconds": 3192,
-    "Title": "Coding Faster with Emmet",
-    "Description": "Looking for a tool to make you a faster and more efficient programmer? Emmet provides a shortcut language for writing HTML, XML, and CSS, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules. Let Ray Villalobos show you how to install the Emmet plugin for your favorite text editor and start using its handy shortcuts for making copies of elements; climbing, grouping, and numbering; matching tags; and even complex CSS3 features like gradients.",
-    "ShortDescription": "Learn to use Emmet's abbreviated shortcuts to write full-fledged HTML, XML, CSS, and code faster and more efficiently.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/133353-635117586295533184_134x240_thumb.jpg"
+    "title": "Coding Faster with Emmet",
+    "release_date":"2013-07-31",
+    "summary": "Learn to use Emmet's abbreviated shortcuts to write full-fledged HTML, XML, CSS, and code faster and more efficiently.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/133353-635117586295533184_134x240_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/133353-635742364939773831_1332x2160_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/133353-635742364939773831_1332x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Emmet-tutorials/Coding-Faster-Emmet/133353-2.html"
-    },
-    "WelcomeVideoId": 143856
+      "LDC": "https://www.lynda.com/Emmet-tutorials/Coding-Faster-Emmet/133353-2.html",
+      "LI":"https://www.linkedin.com/learning/coding-faster-with-emmet"
+    }
   },
   {
-    "ID": 85083,
-    "DurationInSeconds": 11370,
-    "Title": "Creating an Adaptive Web Site for Multiple Screens",
-    "Description": "This course demonstrates how to build a web site that automatically adapts its layout to various screen sizes, orientations, and resolutions. Ray Villalobos shows how designers and developers can create a single HTML document and customize its display for desktop browsers and mobile devices such as the iPhone, Android phones, and tablets. The course covers creating a basic HTML5 structure and using reset templates, and styling the site with CSS. ",
-    "ShortDescription": "How to build a web site that automatically adapts its layout to various screen sizes, orientations, and resolutions on desktop browsers and mobile devices.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/85083-635337788203299682_135x241_thumb.jpg"
+    "title": "Creating an Adaptive Web Site for Multiple Screens",
+    "release_date":"2011-11-19",
+    "summary": "How to build a web site that automatically adapts its layout to various screen sizes, orientations, and resolutions on desktop browsers and mobile devices.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/85083-635337788203299682_135x241_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/85083-635746783911079929_1047x1860_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/85083-635746783911079929_1047x1860_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/HTML-tutorials/Creating-an-Adaptive-Web-Site-for-Multiple-Screens/85083-2.html"
-    },
-    "WelcomeVideoId": 92075
+      "LDC": "https://www.lynda.com/HTML-tutorials/Creating-an-Adaptive-Web-Site-for-Multiple-Screens/85083-2.html",
+      "LI":"https://www.linkedin.com/learning/creating-an-adaptive-web-site-for-multiple-screens"
+    }
   },
   {
-    "ID": 90368,
-    "DurationInSeconds": 14481,
-    "Title": "CSS: Styling Forms",
-    "Description": "This course covers CSS best practices and techniques for styling and structuring forms. Author Ray Villalobos explains how forms work, best practices for structuring HTML, new additions to forms in HTML5, and how to style individual elements. The course discusses how to use CSS to style traditional and custom elements and reviews browser discrepancies, custom elements, and custom fonts and how to style for different types of user feedback. Advanced CSS layouts and design patterns and issues specific to styling for handhelds are also covered. ",
-    "ShortDescription": "CSS best practices and techniques for styling and structuring HTML and HTML5 forms.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/90368-635628933755693361_130x231_thumb.jpg"
+    "title": "CSS: Styling Forms",
+    "release_date":"2012-01-20",
+    "summary": "CSS best practices and techniques for styling and structuring HTML and HTML5 forms.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/90368-635628933755693361_130x231_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/90368-635709985353942954_1440x2160_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/90368-635709985353942954_1440x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Web-Interactive-CSS-tutorials/CSS-Styling-Forms/90368-2.html"
-    },
-    "WelcomeVideoId": 97106
+      "LDC": "https://www.lynda.com/Web-Interactive-CSS-tutorials/CSS-Styling-Forms/90368-2.html",
+      "LI":"https://www.linkedin.com/learning/css-styling-forms"
+    }
   },
   {
-    "ID": 162449,
-    "DurationInSeconds": 12027,
-    "Title": "Data Visualization with D3.js",
-    "Description": "Creating data-driven visualizations and infographics that run on multiple devices responsively is a tough challenge. The D3.js library has revolutionized visualization by making it easier to parse your data and add meaningful interactivity. All you need to bring your data to life is D3, plus a bit of HTML, CSS, and JavaScript, and some SVG graphics. In this course staff author Ray Villalobos explores how the D3 library works, and how you can use it to parse data from different sources and create interactive, visually exciting infographics and visualizations. He'll review the basics—controlling HTML with jQuery-esque selections and customizing attributes with D3's CSS-like language—before moving on to working with SVG graphics, the best choice for graphics in D3 visualizations. He'll also cover working with D3 methods like scaling, events, transitions, and animations; data manipulation (including connecting to external data sources); and creating different types of layouts, including a draggable force-driven layout.",
-    "ShortDescription": "Bring your data to life with D3.js. Create interactive, visually exciting infographics and visualizations with HTML, CSS, JavaScript, and SVG graphics.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/162449-635430357764050013_132x234_thumb.jpg"
+    "title": "Learning Data Visualization with D3.js",
+    "release_date":"2017-05-25",
+    "summary": "Bring your data to life with D3.js. Create interactive, visually exciting infographics and visualizations with HTML, CSS, JavaScript, and SVG graphics.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/162449-635430357764050013_132x234_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/162449-635472336058471848_1080x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/162449-635472336058471848_1080x1920_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/D3js-tutorials/Data-Visualization-D3js/162449-2.html"
-    },
-    "WelcomeVideoId": 185042
+      "LDC": "https://www.lynda.com/D3js-tutorials/Data-Visualization-D3js/162449-2.html",
+      "LI":"https://www.linkedin.com/learning/learning-data-visualization-with-d3-js"
+    }
   },
   {
-    "ID": 108135,
-    "DurationInSeconds": 5337,
-    "Title": "EaselJS First Look",
-    "Description": "EaselJS is a free JavaScript library that makes creating interactive web content for HTML5 more straightforward and intuitive. This course transitions web designers, animators, and content creators who may be used to working with Adobe Flash and ActionScript to this new open web standard. Author Ray Villalobos first explains the capabilities of the EaselJS framework and the HTML5 Canvas element, and what they mean for web design. The rest of the course shows how to use EaselJS's helper classes and hierarchal display list to load images, draw, animate, and handle mouse input from visitors.",
-    "ShortDescription": "Introduces the EaselJS framework and the HTML5 Canvas element, and shows how to create interactive web content with this open web standard.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/108135-635709949952942759_133x236_thumb.jpg"
+    "title": "Fireworks CS6 Essential Training",
+    "release_date":"2012-05-06",
+    "summary": "Shows how to create custom web graphics and web site mockups with Fireworks CS6.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/97617-635405373311925526_131x232_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/97617-635749262608197536_1080x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/108135-635733936055626989_1047x1860_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/CreateJS-tutorials/EaselJS-First-Look/108135-2.html"
-    },
-    "WelcomeVideoId": 112940
+      "LDC": "https://www.lynda.com/Fireworks-tutorials/Fireworks-CS6-Essential-Training/97617-2.html",
+      "LI":"https://www.linkedin.com/learning/fireworks-cs6-essential-training"
+    }
   },
   {
-    "ID": 103686,
-    "DurationInSeconds": 6982,
-    "Title": "Edge First Look Preview 6",
-    "Description": "This course takes a first look at Edge, a new tool from Adobe for creating interactive animations, which utilizes the latest web standards including HTML5, JavaScript, and jQuery. This course covers how to create and build interactivity into motion content in an easy-to-use, timeline-based interface. Author Ray Villalobos also explains the possibilities Edge offers web designers and developers, including drawing and animating with Edge, working with the timeline, exploring symbols, and creating interactivity with timeline triggers and scripts.",
-    "ShortDescription": "Take a first look at Edge, a new tool from Adobe for creating interactive motion graphics, which utilizes the latest web standards including HTML5, JavaScript, and jQuery.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/103686-635472412877473333_132x234_thumb.jpg"
+    "title": "JavaScript and AJAX",
+    "release_date":"2013-01-18",
+    "summary": "Explore how to load dynamic content from JavaScript and jQuery using AJAX methods.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/114900-635409160791727412_130x231_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/114900-635649229559678570_1440x2160_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/103686-635637048104645841_1046x1858_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Edge-tutorials/Edge-First-Look-Preview-6/103686-2.html"
-    },
-    "WelcomeVideoId": 107139
+      "LDC": "https://www.lynda.com/Developer-tutorials/JavaScript-and-AJAX/114900-2.html",
+      "LI":"https://www.linkedin.com/learning/javascript-and-ajax-integration-techniques"
+    }
   },
   {
-    "ID": 97617,
-    "DurationInSeconds": 19344,
-    "Title": "Fireworks CS6 Essential Training",
-    "Description": "Join Ray Villalobos in this course, Fireworks CS6 Essential Training, as he shows how to create custom web graphics and web site mockups with Adobe Fireworks CS6. The initial chapters explain the basics: how to get around in the interface and create and organize documents. The course proceeds to cover all the essential drawing features in Fireworks, from drawing simple lines and shapes to applying fills, strokes, and opacity values to objects. The course also covers how to move, scale, and otherwise transform text and images as well as create symbols, use sprites, and integrate CSS and jQuery Mobile.",
-    "ShortDescription": "Shows how to create custom web graphics and web site mockups with Fireworks CS6.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/97617-635405373311925526_131x232_thumb.jpg"
+    "title": "JavaScript and JSON",
+    "release_date":"2013-03-15",
+    "summary": "Explore how the JavaScript Object Notation (JSON) format works and how you can use it to read and share data in your web projects.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/114901-635383115549312995_134x238_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/114901-635660370865750711_2016x3584_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/97617-635749262608197536_1080x1920_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Fireworks-tutorials/Fireworks-CS6-Essential-Training/97617-2.html"
-    },
-    "WelcomeVideoId": 104321
+      "LDC": "https://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html",
+      "LI":"https://www.linkedin.com/learning/javascript-and-json-integration-techniques"
+    }
   },
   {
-    "ID": 97616,
-    "DurationInSeconds": 3658,
-    "Title": "Fireworks CS6 New Features",
-    "Description": "Join Ray Villalobos as he explores the new features and enhancements to Fireworks, the Adobe web graphic and prototyping application. The course covers color workflow improvements, such as quicker access to colors and new stroke and fill opacity controls, and user experience improvements, such as an expanded UI, an updated file naming convention, and sprite generation. The course also explores the addition of CSS and jQuery, which enhance the interactivity of documents created in Fireworks, and the addition of CSS properties and jQuery Mobile templates, which help integrate Fireworks into web design and development workflows.",
-    "ShortDescription": "Explore the new features and enhancements to Fireworks, the Adobe web graphic and prototyping application.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/97616-635399071095804579_132x234_thumb.jpg"
+    "title": "JavaScript: Enhancing the DOM",
+    "release_date":"2013-06-10",
+    "summary": "Learn to modify the DOM (Document Object Model), one of the core components of every HTML page, with JavaScript.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/122462-635382114048231779_137x243_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/122462-635660340074429332_2016x3584_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/97616-635748884547950209_1080x1920_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Fireworks-tutorials/Fireworks-CS6-New-Features/97616-2.html"
-    },
-    "WelcomeVideoId": 102798
+      "LDC": "https://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html",
+      "LI":"https://www.linkedin.com/learning/javascript-enhancing-the-dom"
+    }
   },
   {
-    "ID": 69792,
-    "DurationInSeconds": 12389,
-    "Title": "iOS 4 Web Applications with HTML5 and CSS3",
-    "Description": "iOS 4 Web Applications with HTML5 and CSS3 with Ray Villalobos teaches web developers how to leverage their existing CSS and HTML knowledge to create content that displays on iOS devices. The course covers creating animation to produce powerful interactive content, including a photo gallery and a video player. Cutting edge HTML5 and CSS3 techniques for formatting type, creating list driven menus, toggle buttons, and more are also included. The resulting web content will be tailored for viewing on the iPhone and the iPad, but will also work on websites viewed with browsers on other platforms as well. Exercise files are included with the course.",
-    "ShortDescription": "Teaches Shows web developers how to leverage their existing CSS and HTML knowledge to create content that displays on iOS devices.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/69792-635400465092454159_150x265_thumb.jpg"
+    "title": "JavaScript: Events",
+    "summary": "Learn to use JavaScript events to respond to clicks, form input, and touch gestures in your web applications.",
+    "release_date":"2013-09-17",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/140780-635150150372659321_123x218_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/140780-635772723652550747_1080x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/69792-635444965403457868_1046x1858_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/HTML-5-tutorials/ios-4-web-applications-with-html5-and-css3/69792-2.html"
-    },
-    "WelcomeVideoId": 79343
+      "LDC": "https://www.lynda.com/JavaScript-tutorials/JavaScript-Events/140780-2.html",
+      "LI":"https://www.linkedin.com/learning/javascript-events"
+    }
   },
   {
-    "ID": 114900,
-    "DurationInSeconds": 4376,
-    "Title": "JavaScript and AJAX",
-    "Description": "The ability to read data and communicate information asynchronously is fundamental to modern web applications. In this course, author Ray Villalobos takes a look at integrating AJAX (Asynchronous JavaScript and XML) with JavaScript and jQuery—a combination that makes it easy to work with dynamic data and reduces the number of requests to the server. The course first explains what AJAX is, and shows how to load and reload pages with pure JavaScript, update the DOM, and read and parse data in the XML and JSON formats. Next, learn how to read and write information between the server and the client with AJAX methods in jQuery, and build a dynamic search application that updates search results as you type.",
-    "ShortDescription": "Explore how to load dynamic content from JavaScript and jQuery using AJAX methods.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/114900-635409160791727412_130x231_thumb.jpg"
+    "title": "JavaScript: Functions",
+    "release_date":"2013-12-16",
+    "summary": "Learn the different ways of declaring and invoking JavaScript functions, the \"subprograms\" that power your code.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/148137-635227910315756390_163x290_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/148137-635539959374603285_1440x2560_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/114900-635649229559678570_1440x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Developer-tutorials/JavaScript-and-AJAX/114900-2.html"
-    },
-    "WelcomeVideoId": 120859
+      "LDC": "https://www.lynda.com/JavaScript-tutorials/JavaScript-Functions/148137-2.html",
+      "LI":"https://www.linkedin.com/learning/javascript-functions"
+    }
   },
   {
-    "ID": 114901,
-    "DurationInSeconds": 4325,
-    "Title": "JavaScript and JSON",
-    "Description": "JavaScript Object Notation (JSON) has replaced XML as the core way of sharing data, especially when it comes to JavaScript, since it's so much faster, sleeker, and easier to parse. In this course, dive into working with JSON tools, designing JSON objects, and using different ways to handling JSON data. Author Ray Villalobos also shows how to use AJAX and jQuery to parse your data and feeds, and shows JavaScript and JSON in action in a real-world practical application.",
-    "ShortDescription": "Explore how the JavaScript Object Notation (JSON) format works and how you can use it to read and share data in your web projects.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/114901-635383115549312995_134x238_thumb.jpg"
+    "title": "Online Presentations with reveal.js",
+    "release_date":"2013-09-05",
+    "summary": "Build slideshows that harness the full power of the web with reveal.js.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/137904-635505556385203553_134x238_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/137904-635735961746038712_1200x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/114901-635660370865750711_2016x3584_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/JavaScript-tutorials/JavaScript-JSON/114901-2.html"
-    },
-    "WelcomeVideoId": 125757
+      "LDC": "https://www.lynda.com/CSS-tutorials/Online-Presentations-revealjs/137904-2.html",
+      "LI":"https://www.linkedin.com/learning/reveal-js-online-presentations"
+    }
   },
   {
-    "ID": 122462,
-    "DurationInSeconds": 7423,
-    "Title": "JavaScript: Enhancing the DOM",
-    "Description": "The Document Object Model (DOM) is at the core of every HTML page. In order to develop dynamic HTML pages, a front-end developer needs to understand how JavaScript connects to and controls the DOM, allowing you to create, modify, delete, and edit existing page content. This course focuses on helping you understand the DOM elements, and shows the different ways JavaScript gives you access to them and makes it easier to work with the DOM. Author Ray Villalobos covers navigating the DOM, selecting elements, modifying HTML attributes, editing nodes, and much more.",
-    "ShortDescription": "Learn to modify the DOM (Document Object Model), one of the core components of every HTML page, with JavaScript.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/122462-635382114048231779_137x243_thumb.jpg"
+    "title": "Responsive CSS with Sass and Compass",
+    "release_date":"2013-10-30",
+    "summary": "Learn how Compass (powered by Sass) can help you build a responsive layout workflow that is easier, faster, and more compatible than CSS alone.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/140777-635763590076435432_159x282_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/140777-635579866350756880_1080x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/122462-635660340074429332_2016x3584_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html"
-    },
-    "WelcomeVideoId": 137612
+      "LDC": "https://www.lynda.com/CSS-tutorials/Responsive-CSS-Sass-Compass/140777-2.html",
+      "LI":"https://www.linkedin.com/learning/responsive-css-with-sass-and-compass"
+    }
   },
   {
-    "ID": 140780,
-    "DurationInSeconds": 7860,
-    "Title": "JavaScript: Events",
-    "Description": "Learn about the different types of JavaScript events available to use in your applications, including traditional events like mouse, form, and window events, plus events that allow you to manage the DOM and HTML5 events that deal with media. Author Ray Villalobos shows how to propagate and register events during the capturing and bubbling phases, cancel an event or default behavior, and respond to clicks, mouse-overs, right-clicks, following the mouse, and loading images. Plus, Ray demos an audio jukebox project and a drag-and-drop game that shows JavaScript desktop and touch events in action.",
-    "ShortDescription": "Learn to use JavaScript events to respond to clicks, form input, and touch gestures in your web applications.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/140780-635150150372659321_123x218_thumb.jpg"
+    "title": "Learning Angular JS 1",
+    "release_date":"2017-11-08",
+    "summary": "AngularJS is still a major player in the web dev world. Learn how to quickly build full-featured web applications with this important JavaScript framework.",
+    "images": {
+        "thumb": "https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=GEfXKzi6CDSsIegFVBXgtC4FWVk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nXy2j_tWfZnPhcMPfZLSiolkScSsAlwAyf-arRjTiFI69LcLmY4Yx3A",
+        "highres": "https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=YnuHOMOMmky3gvaKUxtocy%2B2%2FUo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nXy2j_tWfZnPhcMPfZLSiolkScSsAlwAyf-arRjTiFI69LcLmY4Yx3A"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/140780-635772723652550747_1080x1920_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/JavaScript-tutorials/JavaScript-Events/140780-2.html"
-    },
-    "WelcomeVideoId": 148710
+      "LDC": "https://www.lynda.com/Angular-tutorials/Learning-AngularJS-1/648940-2.html",
+      "LI": "https://www.linkedin.com/learning/learning-angularjs-1-2"
+    }
   },
   {
-    "ID": 148137,
-    "DurationInSeconds": 5130,
-    "Title": "JavaScript: Functions",
-    "Description": "What are JavaScript functions? They're the \"subprograms\" that power your code. You truly master the use of JavaScript once you learn how to work with functions. In this course, author Ray Villalobos explains how functions work, how they're declared, and how they're invoked, and then issues a challenge exercise that allows you to test your knowledge. In the third and final chapter, he'll show you how to set up anonymous closures and create JavaScript modules that make your code easier to reuse.",
-    "ShortDescription": "Learn the different ways of declaring and invoking JavaScript functions, the \"subprograms\" that power your code.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/148137-635227910315756390_163x290_thumb.jpg"
+    "title": "Learning CoffeeScript",
+    "release_date":"2014-03-28",
+    "summary": "Learn about CoffeeScript, a language that compiles into JavaScript and allows you to write fast, efficient, and beautiful JavaScript code.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/154415-635750995995763290_253x449_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/154415-635588852672887369_1440x2160_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/148137-635539959374603285_1440x2560_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/JavaScript-tutorials/JavaScript-Functions/148137-2.html"
-    },
-    "WelcomeVideoId": 158386
+      "LDC": "https://www.lynda.com/Developer-Web-Design-tutorials/Up-Running-CoffeeScript/154415-2.html",
+      "LI":"https://www.linkedin.com/learning/learning-coffeescript"
+    }
   },
   {
-    "ID": 94250,
-    "DurationInSeconds": 6088,
-    "Title": "Managing a Hosted Web Site",
-    "Description": "Managing a Hosted Web Site shows how to set up a web site on a host's server and perform common server tasks. Working in two web hosting utilities, cPanel and Plesk, as well as in a custom control panel, author Ray Villalobos explores purchasing a domain, setting up FTP accounts, and configuring web mail. The course also explains setting up password protection, creating a MySQL database, and working with subdomains. ",
-    "ShortDescription": "Shows how to set up a site with a web host and perform common server tasks.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/94250-635459884140782358_138x244_thumb.jpg"
+    "title": "Up and Running with Git and GitHub",
+    "release_date":"2015-07-06",
+    "summary":"Learning Git and GitHubPreviewLearn to work with the most common Git commands, and use GitHub to clone, explore, and create templates from existing projects.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/409275-635721397427583922_152x270_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/409275-635724498203640784_1440x2160_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/94250-635594447357179980_1152x2048_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/cPanel-tutorials/Managing-Hosted-Web-Site/94250-2.html"
-    },
-    "WelcomeVideoId": 99904
+      "LDC": "https://www.lynda.com/Git-tutorials/Up-Running-Git-GitHub/409275-2.html",
+      "LI":"https://www.linkedin.com/learning/learning-git-and-github"
+    }
   },
   {
-    "ID": 137904,
-    "DurationInSeconds": 7344,
-    "Title": "Online Presentations with reveal.js",
-    "Description": "For web designers and developers, tools like PowerPoint and Keynote lack the power that's available to web browsers. Reveal.js allows you to create presentations that use the full power of the web, providing syntax highlighting for code, mobile pinch and swipe support, CSS theming, and the ability to integrate with other libraries and frameworks like jQuery and EaselJS. Explore reveal.js with Ray Villalobos, as he shows how to build slideshows with a text editor and a browser, and incorporate audio and video, animation, and CSS styling.",
-    "ShortDescription": "Build slideshows that harness the full power of the web with reveal.js.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/137904-635505556385203553_134x238_thumb.jpg"
+    "title": "Learning NPM, the Node Package Manager",
+    "release_date":"2016-09-29",
+    "summary": "Learn how to install and work with NPM, the Node Package Manager that allows JavaScript developers to share and reuse code.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/409274-635715109130106049_214x379_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/409274-635718294766410378_1080x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/137904-635735961746038712_1200x1920_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/CSS-tutorials/Online-Presentations-revealjs/137904-2.html"
-    },
-    "WelcomeVideoId": 147625
+      "LDC": "https://www.lynda.com/Developer-Web-Development-tutorials/Up-Running-NPM-Node-Package-Manager/409274-2.html",
+      "LI":"https://www.linkedin.com/learning/learning-npm-the-node-package-manager"
+    }
   },
   {
-    "ID": 140777,
-    "DurationInSeconds": 12139,
-    "Title": "Responsive CSS with Sass and Compass",
-    "Description": "Using a framework helps simplify your workflow and makes writing CSS fun again. Learn how Compass (powered by Sass) can help you build responsive layouts that are easier, faster, and more compatible than using CSS alone. In this course, Ray Villalobos shows how to automate your workflow with Grunt.js, scaffold your HTML, modularize your Sass with partials, and get started styling with variables and mixins. Plus, learn how to create a mobile-first grid with Susy—without adding nonsemantic HTML markup.",
-    "ShortDescription": "Learn how Compass (powered by Sass) can help you build a responsive layout workflow that is easier, faster, and more compatible than CSS alone.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/140777-635763590076435432_159x282_thumb.jpg"
+    "title": "Validating and Processing Forms with JavaScript and PHP",
+    "release_date":"2013-04-23",
+    "summary": "Learn how to ensure the data submitted to your web forms is complete, accurate, and nonmalicious with HTML5, JavaScript, jQuery, and PHP form processing and validation.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/120466-635718044006401212_141x250_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/120466-635627706096574111_1440x2560_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/140777-635579866350756880_1080x1920_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/CSS-tutorials/Responsive-CSS-Sass-Compass/140777-2.html"
-    },
-    "WelcomeVideoId": 153456
+      "LDC": "https://www.lynda.com/Developer-Databases-tutorials/Validating-Processing-Forms-JavaScript-PHP/120466-2.html",
+      "LI":"https://www.linkedin.com/learning/validating-and-processing-forms-with-javascript-and-php"
+    }
   },
   {
-    "ID": 154414,
-    "DurationInSeconds": 4720,
-    "Title": "Up and Running with AngularJS",
-    "Description": "Get a fresh look at AngularJS, a \"superheroic\" framework for building single-page web applications fast. Ray Villalobos shows you how to understand the practical uses of AngularJS with a directory search project—a traditional type of web app you can add to your existing sites. He defines the MVC architecture underlying AngularJS: the model (your data), views (how data is flowed into your template), and controllers (the JavaScript that links the two together). You then learn how to divide your project into modules; work with services like $http, $routeProvider, and animation; and set up deep linking and navigation. Start now, and learn the simple way to build your own complex web application.",
-    "ShortDescription": "Get a fresh look at AngularJS, a framework for building single-page web applications fast.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/154414-635384894078922070_207x368_thumb.jpg"
+    "title": "View Source",
+    "release_date":"2012-05-25",
+    "summary": "Ten-minute projects on intermediate and advanced web design topics, covering technologies such as HTML, PHP, jQuery, and CSS, as well as content management solutions like WordPress and integration with Twitter, YouTube, and more.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/93388-635439659316669881_137x242_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/93388-635439227074069976_1046x1858_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/154414-635649045809406384_1440x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html"
-    },
-    "WelcomeVideoId": 167514
+      "LDC": "https://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html",
+      "LI":"https://www.linkedin.com/learning/view-source"
+    }
   },
   {
-    "ID": 154415,
-    "DurationInSeconds": 6498,
-    "Title": "Up and Running with CoffeeScript",
-    "Description": "Learning CoffeeScript allows front-end developers to write JavaScript more beautifully and efficiently. It gives your code an extra zing. This course teaches the best features from the CoffeeScript language, like splats and ranges, plus how to write common JavaScript commands more efficiently using CoffeeScript. Author Ray Villalobos also shows how to work with Gulp.js, a streaming build system for not only CoffeeScript, but also Sass, LESS, JavaScript, and CSS.",
-    "ShortDescription": "Learn about CoffeeScript, a language that compiles into JavaScript and allows you to write fast, efficient, and beautiful JavaScript code.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/154415-635750995995763290_253x449_thumb.jpg"
+    "title": "Web Project Workflows with Gulp.js, Git, and Browserify",
+    "release_date":"2014-06-23",
+    "summary": "Learn how to generate a workflow that makes it easier to build your own websites, track and share project files, and leverage JavaScript and jQuery code libraries.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/154416-635391992384001097_133x235_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/154416-635756223839330941_1089x1936_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/154415-635588852672887369_1440x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Developer-Web-Design-tutorials/Up-Running-CoffeeScript/154415-2.html"
-    },
-    "WelcomeVideoId": 168010
+      "LDC": "https://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html",
+      "LI":"https://www.linkedin.com/learning/gulp-js-git-and-browserify-web-project-workflows"
+    }
   },
   {
-    "ID": 409275,
-    "DurationInSeconds": 4911,
-    "Title": "Up and Running with Git and GitHub",
-    "Description": "Version control is an essential skill for developers to master, and Git is by far the most popular version control system on the web. In this fast-paced course, author Ray Villalobos shows you how to install Git and use the fundamental commands you need to work with Git projects: moving files, managing logs, and working with branches. Plus, you'll learn how to work with the popular GitHub website to explore existing projects, clone them to your local hard drive, and use them as templates for your new projects. Get started now.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/409275-635721397427583922_152x270_thumb.jpg"
+    "title": "Web Workflows with Grunt.js",
+    "release_date":"2015-06-13",
+    "summary": "Program, test, and deploy your web applications more easily and efficiently with a Grunt.js development workflow.",
+    "images": {
+        "thumb": "https://cdn.lynda.com/courses/368921-635724216433889982_133x236_thumb.jpg",
+        "highres": "https://cdn.lynda.com/courses/368921-635761060525266192_1128x1920_thumb.jpg"
       },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/409275-635724498203640784_1440x2160_thumb.jpg"
-      }
-    ],
     "URLs": {
-      "www.lynda.com": "/Git-tutorials/Up-Running-Git-GitHub/409275-2.html"
-    },
-    "WelcomeVideoId": 416541
+      "LDC": "https://www.lynda.com/Grunt.js-tutorials/Web-Workflows-Grunt.js/368921-2.html",
+      "LI":"https://www.linkedin.com/learning/grunt-js-web-workflows"
+    }
   },
   {
-    "ID": 409274,
-    "DurationInSeconds": 2114,
-    "Title": "Up and Running with NPM, the Node Package Manager",
-    "Description": "Imagine being able to share and reuse common JavaScript libraries like Grunt, Gulp, and Underscore, in addition to custom code. With the Node Package Manager, reusing code is a snap, making it an indispensible part of every developer's toolbox. In this course, Ray Villalobos shows experienced developers how to install NPM on Macs and PCs, and use NPM commands and packages to track project dependencies and control installations.",
-    "ShortDescription": "Learn how to install and work with NPM, the Node Package Manager that allows JavaScript developers to share and reuse code.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/409274-635715109130106049_214x379_thumb.jpg"
-      },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/409274-635718294766410378_1080x1920_thumb.jpg"
-      }
-    ],
-    "URLs": {
-      "www.lynda.com": "/Developer-Web-Development-tutorials/Up-Running-NPM-Node-Package-Manager/409274-2.html"
+    "title": "Mastering Web Developer Interview Code",
+    "release_date": "2017-12-19",
+    "summary": "In this weekly series, senior staff author explores front-end and full-stack coding concepts that every developer should have in their toolkit. Tune in every Tuesday for a new tip.",
+    "images": {
+      "thumb": "https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=HQ7FHgAv4sM2hT%2Ff0gtbzbmlZN4%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-kUyWs_NafZX_pf8HcZLSiol4TcSoJlAA7feevRznjFI69LcLmY4Yx3A",
+      "highres": "https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=XutUSjKycXac0vqSZuNUXGoUHOg%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-kUyWs_NafZX_pf8HcZLSiol4TcSoJlAA7feevRznjFI69LcLmY4Yx3A"
     },
-    "WelcomeVideoId": 415859
+    "URLs": {
+      "LDC": "https://www.lynda.com/Web-Development-tutorials/Mastering-Web-Developer-Interview-Code",
+      "LI": "https://www.linkedin.com/learning/mastering-web-developer-interview-code"
+    }
   },
   {
-    "ID": 120466,
-    "DurationInSeconds": 10265,
-    "Title": "Validating and Processing Forms with JavaScript and PHP",
-    "Description": "Validating web forms is a critical skill for any web developer, ensuring that the data that's submitted is complete, accurate, and nonmalicious before it's sent off to the server. Join author Ray Villalobos in this course as he shows how to validate input from site visitors with HTML5, JavaScript, and jQuery and then process the data with PHP. Plus, learn how to email form data and save it in a MySQL database so that it's ready for other applications.",
-    "ShortDescription": "Learn how to ensure the data submitted to your web forms is complete, accurate, and nonmalicious with HTML5, JavaScript, jQuery, and PHP form processing and validation.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/120466-635718044006401212_141x250_thumb.jpg"
-      },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/120466-635627706096574111_1440x2560_thumb.jpg"
-      }
-    ],
-    "URLs": {
-      "www.lynda.com": "/Developer-Databases-tutorials/Validating-Processing-Forms-JavaScript-PHP/120466-2.html"
+    "title": "Vue.js: Building an Interface",
+    "release_date":"2017-10-11",
+    "summary": "The perfect way to learn Vue.js is to use Vue.js. Learn to create an application interface for a product rating system using this flexible JavaScript library.",
+    "images": {
+      "thumb": "https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=M3iEyrp%2BRejXN%2BEBc0luPuDMaxk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nWyyq-NCfZnfgecXaZLSiolkVeS8JmQUxf--vRznnFY69LcLmY4Yx3A",
+      "highres": "https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=lbRZPbyY8ZAxN3VHQVQAuO9cmfo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nWyyq-NCfZnfgecXaZLSiolkVeS8JmQUxf--vRznnFY69LcLmY4Yx3A"
     },
-    "WelcomeVideoId": 133550
+    "URLs": {
+      "LDC": "https://www.lynda.com/JavaScript-tutorials/Vue-js-Building-Interface/609025-2.html",
+      "LI": "https://www.linkedin.com/learning/vue-js-building-an-interface/creating-a-named-component"
+    }
   },
   {
-    "ID": 93388,
-    "DurationInSeconds": 7803,
-    "Title": "View Source",
-    "Description": "The View Source weekly series offers 10-minute projects on intermediate and advanced web design topics, covering technologies such as HTML, PHP, jQuery, and CSS, as well as content management solutions like WordPress and integration with Twitter, YouTube, and more. Each movie in the course is self-contained and shows how to accomplish an interesting effect and/or technique. Example projects include creating datepickers and custom photo galleries, and mapping and geotagging with Google Maps. ",
-    "ShortDescription": "Ten-minute projects on intermediate and advanced web design topics, covering technologies such as HTML, PHP, jQuery, and CSS, as well as content management solutions like WordPress and integration with Twitter, YouTube, and more.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/93388-635439659316669881_137x242_thumb.jpg"
-      },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/93388-635439227074069976_1046x1858_thumb.jpg"
-      }
-    ],
-    "URLs": {
-      "www.lynda.com": "/Web-Interactive-Projects-tutorials/View-Source/93388-2.html"
+    "title": "Next Generation CSS Design with PostCSS and CSSNext",
+    "release_date": "2017-04-28",
+    "summary": "Learn how to work with PostCSS and CSSNext. Discover how to create a realistic single-page site that uses cutting-edge CSS features while maintaining compatibility with older browsers",
+    "images": {
+      "thumb": "https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=iXpBmxgXBHavdqk6Fp%2FHBY4Zn9I%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUyaq-NGfZH_qecXbZLSiol8ecC4FlAE6fO-qQjfkEI69LcLmY4Yx3A",
+      "highres": "https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=Df60%2FO0xXmWCdpBVw5M99GF6AZ0%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUyaq-NGfZH_qecXbZLSiol8ecC4FlAE6fO-qQjfkEI69LcLmY4Yx3A"
     },
-    "WelcomeVideoId": 106323
+    "URLs": {
+      "LDC": "https://www.lynda.com/CSS-tutorials/Next-Generation-CSS-Design-PostCSS-CSSNext/483024-2.html",
+      "LI": "https://www.linkedin.com/learning/next-generation-css-design-with-postcss-and-cssnext"
+    }
   },
   {
-    "ID": 154416,
-    "DurationInSeconds": 9652,
-    "Title": "Web Project Workflows with Gulp.js, Git, and Browserify",
-    "Description": "Modern front-end development means more than just writing HTML, CSS, and JavaScript. Developing an efficient workflow will help you write better code and test and deploy your web applications easily and efficiently. Staff author Ray Villalobos is here to show you how to generate a workflow that makes it easier to build websites with processed languages like Sass, Compass, and CoffeeScript. He'll show how to automate development and production versions of your sites, track and share project files with Git and GitHub, and add libraries like jQuery and Mustache.js with Browserify. All of these techniques should easily translate to building your own web projects.",
-    "ShortDescription": "Learn how to generate a workflow that makes it easier to build your own websites, track and share project files, and leverage JavaScript and jQuery code libraries.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/154416-635391992384001097_133x235_thumb.jpg"
-      },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/154416-635756223839330941_1089x1936_thumb.jpg"
-      }
-    ],
-    "URLs": {
-      "www.lynda.com": "/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html"
+    "title": "Bootstrap 4 Migration",
+    "release_date":"2017-03-31",
+    "summary": "Discover how to make the switch to Bootstrap 4. Learn about the new features and changes you can access in this upgrade, as well as how to tackle the migration process.",
+    "images": {
+      "thumb": "https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=TC8eUoBB3RgpFbLF3shsffdCZdo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUiCo_dWfZH7se8DfZLSiol8QeyUClQQxf-yqRTTpFI69LcLmY4Yx3A",
+      "highres": "https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=LYq8UQQePXFMrknqx1NQM13RQwY%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUiCo_dWfZH7se8DfZLSiol8QeyUClQQxf-yqRTTpFI69LcLmY4Yx3A"
     },
-    "WelcomeVideoId": 179252
+    "URLs": {
+      "LDC": "https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Migration/495270-2.html",
+      "LI": "https://www.linkedin.com/learning/bootstrap-4-migration"
+    }
   },
   {
-    "ID": 368921,
-    "DurationInSeconds": 4632,
-    "Title": "Web Workflows with Grunt.js",
-    "Description": "Developing a workflow will help you program, test, and deploy your web applications more easily and efficiently. Tools like Grunt.js make generating workflows as easy as writing a setup file. Here Ray Villalobos covers the key steps in creating a Grunt-based web workflow, from creating tasks to process Sass and combine scripts to automating the entire workflow. He also shows how to use Bower.io to quickly load frameworks such as Bootstrap, jQuery, and Mustache.js.",
-    "ShortDescription": "Program, test, and deploy your web applications more easily and efficiently with a Grunt.js development workflow.",
-    "Thumbnails": [
-      {
-        "FullURL": "https://cdn.lynda.com/courses/368921-635724216433889982_133x236_thumb.jpg"
-      },
-      {
-        "FullURL": "https://cdn.lynda.com/courses/368921-635761060525266192_1128x1920_thumb.jpg"
-      }
-    ],
-    "URLs": {
-      "www.lynda.com": "/Grunt.js-tutorials/Web-Workflows-Grunt.js/368921-2.html"
+    "title": "Bootstrap 4 Essential Training",
+    "release_date":"2017-03-31",
+    "summary": "Learn the essentials of Bootstrap. Discover how to work with this popular front-end framework to quickly and easily build responsive, mobile-ready websites that are cross-browser compatible",
+    "images": {
+      "thumb": "https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=1wF2RFbOWNGzz8jERPKUOVv4tts%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A",
+      "highres": "https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=KVLRopcdZaCdLg0HcOPNC5Db4o8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A"
     },
-    "WelcomeVideoId": 418525
+    "URLs": {
+      "LDC": "https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html",
+      "LI": "https://www.linkedin.com/learning/bootstrap-4-essential-training"
+    }
   }
 ]

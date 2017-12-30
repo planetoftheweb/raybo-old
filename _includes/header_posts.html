@@ -3,10 +3,10 @@
   {% include post_categories.html %}
   <div class="header-published">{% if page.conference_date %}{{page.conference_date}}{% else %}Published <time datetime="{{ page.date | date: '%B %d, %Y' }}">{{ page.date | date_to_string }}</time>{% endif %}</div>
 
-  <h1 class="header-title">{% if course.Title %}{{ course.Title }}{% endif %}{% if page.Title %}{{ page.Title }}{% endif %}</h1>
+  <h1 class="header-title">{% if course.title %}{{ course.title }}{% endif %}{% if page.title %}{{ page.title }}{% endif %}</h1>
   <div class="post-text-group">
     <a href="/about/"><div class="author-image" style="background-image: url({{ site.author_image }})"></div></a>
-    <div class="header-description">{{ course.ShortDescription }}{% if page.summary %}{{ page.summary }}{% endif %}</div>
+    <div class="header-description">{{ course.summary }}{% if page.summary %}{{ page.summary }}{% endif %}</div>
     <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="/about/">{{ site.author.name }}</a></h4>
   </div><!-- post-text-group -->
 </section><!-- header-info -->
