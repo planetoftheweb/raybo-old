@@ -1,6 +1,7 @@
 # Build settings
-sass:
-  style: expanded
+source: ./src
+destination: ./dist
+
 # Site settings
 title: "Raybo.org"
 tagline: "Learn practical web skills"
@@ -20,7 +21,7 @@ author_image: "/assets/images/author.jpg"
 ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filter.includes=Title,ShortDescription,DurationInSeconds,URLs,ID,WelcomeVideoId,Thumbnails.filename
 
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 
 url: "http://raybo.org" # the base hostname & protocol for your site

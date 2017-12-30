@@ -1,0 +1,14 @@
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{% if page.title %}{{ page.title  | strip_html }}{% else %}{{ site.title | strip_html }}{% endif %}{% if page.category %}--{{site.title}}: {{page.category}}{% endif %}</title>
+  <meta name="description" content="{{ site.description  | strip_html }}">
+
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Open+Sans" rel="stylesheet">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="stylesheet" href="{{ " /assets/css/bootstrap.min.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" media="screen" href="{{ "/assets/css/main.css"  | prepend: site.baseurl  }}">
+  <link rel="stylesheet" media="print" href="{{ "/assets/css/print.css"  | prepend: site.baseurl  }}">

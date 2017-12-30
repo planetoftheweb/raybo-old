@@ -1,0 +1,80 @@
+body {
+  font-family: 'Open sans', serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased !important;
+  color: #666;
+}
+
+a {
+  color: rgb(20, 90, 109);
+}
+
+a:hover {
+
+}
+
+.post-meta {
+  font-family: "Open Sans";
+  font-size: .95rem;
+}
+
+.posts {
+  font-size: 1.1em;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;  
+}
+
+.post {
+  margin-top: 3rem;
+}
+
+.sidebar {
+  border-left: 1px dotted gray;
+}
+
+.sidebar .sidebar-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.courses  .post {
+  font-size: .9em;
+  margin-top: 2rem;  
+}
+
+.posts .post:first-child, .courses .post:first-child {
+  margin-top: 0;
+}
+
+.post-title {
+  font-family: 'Bree Serif';
+  font-weight: 300;
+  font-size: 1.7rem;
+  line-height: 105%;
+  margin-bottom: 1rem;
+}
+
+.courses .post-title {
+  font-size: 1.5rem;
+}
+
+.courses .post-img {
+  margin-bottom: 1rem;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+  .courses .post-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .courses  .post {
+    margin-top: 0;  
+  }  
+  .courses .post-meta {
+    font-size: .7rem;
+  }
+}

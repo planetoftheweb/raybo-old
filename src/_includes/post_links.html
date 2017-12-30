@@ -1,0 +1,66 @@
+  {% if (post.category!='') %}
+    {% if (post.extURL) %}
+      <a href="{{ post.extURL }}" target="_blank"><i class="fas fa-arrow-circle-right"></i> read external</a>
+     {% else %}
+       {% if (post.category!='courses') %}
+        
+          <a href="{{ post.url }}" target="_blank">
+            <i class="fas fa-arrow-circle-right"></i> read more</a>
+        
+       {% endif %}
+     {% endif %}
+
+  {% endif %}
+
+   {% if course.URLs.LI %}
+  
+    <a href="{{ course.URLs.LI }}{{ site.trk }}" target="_blank">
+      <i class="fab fa-linkedin"></i> on LinkedIn</a>
+  
+  {% endif %}
+   {% if course.URLs.LDC %}
+  
+    <a href="{{ course.URLs.LDC }}" target="_blank">
+      <i class="fab fa-youtube"></i> on lynda.com</a>
+  
+  {% endif %}
+
+  {% if post.demo %}
+    <a href="{{ post.demo }}" target="_blank"><i class="fas fa-bullseye"></i> demo</a>
+  {% elsif page.demo %}
+    <a href="{{ page.demo }}" target="_blank"><i class="fas fa-bullseye"></i> demo</a>
+  {% endif %}
+
+  {% if post.video %}
+    <a href="{{ post.video }}" target="_blank"><i class="fas fa-video-camera"></i> on YouTube</a>
+  {% elsif page.video %}
+    <a href="{{ page.video }}" target="_blank"><i class="fas fa-video-camera"></i> on YouTube</a>
+  {% endif %}
+
+
+  {% if post.code %}
+  <a href="{{ post.code }}" target="_blank"><i class="fsa fa-code"></i> view code</a>
+  {% elsif page.code %}
+  <a href="{{ page.code }}" target="_blank"><i class="fsa fa-code"></i> view code</a>
+  {% endif %}
+
+
+  {% if post.github %}
+  <a href="{{ post.github }}" target="_blank"><i class="fas fa-github-alt"></i> github project</a>
+  {% elsif page.github %}
+  <a href="{{ page.github }}" target="_blank"><i class="fas fa-github-alt"></i> github project</a>
+  {% endif %}
+
+
+  {% if post.conference_site %}
+    <a href="{{ post.conference_site }}" target="_blank"><i class="fas fa-bullhorn"></i> visit website</a>
+  {% elsif page.conference_site %}
+    <a href="{{ page.conference_site }}" target="_blank"><i class="fas fa-bullhorn"></i> visit website</a>
+  {% endif %}
+
+
+  {% if post.registration_info %}
+  <a href="{{ post.registration_info }}" target="_blank"><i class="fas fa-pencil-square-o"></i> registration info</a>
+  {% elsif page.registration_info %}
+  <a href="{{ page.registration_info }}" target="_blank"><i class="fas fa-pencil-square-o"></i> registration info</a>
+  {% endif %}
