@@ -1,12 +1,16 @@
+{% assign content = item.content | strip_newlines %}
+{% if content != "" %}{% assign url = item.url %}
+{% else %}{% assign url = item.links.linkedin %}{% endif %}
+
 <article class="item row">
   <div class="item-meta col-12">
     <span class="item-date">{{ item.date | date: '%B %-d, %Y' }}</span>
   </div>
   <!-- item-meta -->
   <div class="col-12 item-title">
-    <a href="{{ item.url }}">{{ item.title }}</a>
+    <a href="{{ url }}">{{ item.title }}</a> 
   </div>
-  <a class="col-lg-4 col-xl-3 item-link" href="{{ item.url }}">
+  <a class="col-lg-4 col-xl-3 item-link" href="{{ url }}">
     <img class="img-fluid rounded item-img" src="{% if item.images.thumb %}{{ item.images.thumb }}{% else %}{{ item.images.hero }}{% endif %}"
       alt="{{ item.title }} thumbnail">
   </a>

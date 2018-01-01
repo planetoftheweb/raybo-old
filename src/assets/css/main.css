@@ -13,102 +13,15 @@ a:hover {
   color: #E76C5A;
 }
 
-.item-meta {
-  font-family: "Open Sans";
-  font-size: .95rem;
-}
-
-.posts {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;  
-}
-
-.posts .item-links {
-  text-align: right;
-}
-
-.sidebar .item-links {
-  text-align: left;
-}
-
-.item {
-  font-size: 1.1em;  
-  margin-top: 2.5em;
-}
-
-.item-links {
+.btn-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em;
+  background-color: rgb(20, 90, 109);
+  border-color: rgb(12, 55, 66);
+  font-weight: 700;
 }
 
-.sidebar {
-  border-left: 1px dotted gray;
-  font-size: .9rem;
-}
-
-
-.sidebar .sidebar-title {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  margin-bottom: .5rem;
-  color: #bf311c;
-}
-
-.sidebar .item-links {
-  margin-top: 1em;
-}
-
-.sidebar .item-description {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.2em;
-}
-
-.sidebar .item-links a {
-  display: block;
-  font-weight: 400;
-}
-
-.sidebar a {
-  color: #666;
-}
-
-.courses .item {
-  font-size: .9rem;
-  margin-top: 2rem;  
-}
-
-.posts .item:first-child, .courses .item:first-child {
-  margin-top: 0;
-}
-
-.item-title {
-  font-family: 'Bree Serif';
-  font-weight: 300;
-  font-size: 1.7em;
-  line-height: 105%;
-  margin-bottom: 1em;
-}
-
-.courses .item-title {
-  font-size: 1.5em;
-}
-
-.courses .item-img {
-  margin-bottom: 1em;
-}
-
-@media (min-width: 768px) and (max-width: 979px) { 
-  .courses .item-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-  }
-  .courses .item {
-    margin-top: 0;  
-  }  
-  .courses .item-meta {
-    font-size: .7em;
-  }
+.btn-primary:hover {
+  background-color: rgb(25, 113, 138);
 }
 
 .header-background {
@@ -155,3 +68,117 @@ img.navbar-logo {
 .navigation-top .navbar-nav .nav-link:hover {
   color: #bf311c;  
 }
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  width: 1em;
+  overflow: visible;
+  vertical-align: -.125em;  
+  text-rendering: auto;
+  
+}
+
+.icon-lynda {
+  background: url('/assets/images/icon-lynda.png') no-repeat center center;
+  background-size: contain;
+}
+
+.item-meta {
+  font-family: "Open Sans";
+  font-size: .95rem;
+}
+
+.item-links {
+  text-align: right;
+}
+
+.item {
+  font-size: 1.3em;  
+  margin-top: 2.5em;
+}
+
+.item-links {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.main {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;  
+}
+
+.sidebar {
+  border-left: 1px dotted gray;
+  font-size: .9rem;
+}
+
+.sidebar .item-links {
+  text-align: left;
+}
+
+.sidebar .sidebar-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  color: #bf311c;
+}
+
+.sidebar .item-links {
+  margin-top: 1em;
+}
+
+.sidebar .item-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.sidebar .item-links a {
+  display: block;
+  font-weight: 400;
+}
+
+.sidebar a {
+  color: #666;
+}
+
+.sidebar .item {
+  font-size: .9rem;
+  margin-top: 2rem;  
+}
+
+.item:first-child {
+  margin-top: 0;
+}
+
+.item-title {
+  font-family: 'Bree Serif';
+  font-weight: 300;
+  font-size: 1.7em;
+  line-height: 105%;
+  margin-bottom: 1em;
+}
+
+.sidebar .item-title {
+  font-size: 1.5em;
+}
+
+.sidebar .item-img {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+  .sidebar .item-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .sidebar .item {
+    margin-top: 0;  
+  }  
+  .sidebar .item-meta {
+    font-size: .7em;
+  }
+}
+

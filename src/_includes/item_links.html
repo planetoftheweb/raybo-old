@@ -1,10 +1,10 @@
-{% assign content = post.content | strip_newlines %}
-{% if content != "" %}<a href="{{ post.url }}" target="_blank"><i class="fas fa-arrow-circle-right"></i> read more</a>{% endif %}
-{% if post.links.linkedin or course.links.linkedin %}<a href="{{ course.links.linkedin }}{{ site.trk }}" target="_blank"><i class="fab fa-linkedin"></i> on LinkedIn</a>{% endif %}
-{% if post.links.lynda or course.links.lynda %}<a href="{{ course.links.lynda }}" target="_blank"><i class="fab fa-youtube"></i> on lynda.com</a>{% endif %}
-{% if post.links.demo or course.links.demo %}<a href="{{ post.demo }}" target="_blank"><i class="fas fa-bullseye"></i> demo</a>{% endif %}
-{% if post.links.video or course.links.video %}<a href="{{ post.links.video }}" target="_blank"><i class="fas fa-video-camera"></i> on YouTube</a>{% endif %}
-{% if post.links.code or course.links.code %}<a href="{{ post.code }}" target="_blank"><i class="fsa fa-code"></i> view code</a>{% endif %}
-{% if post.links.github or course.links.github %}<a href="{{ post.github }}" target="_blank"><i class="fas fa-github-alt"></i> github project</a>{% endif %}
-{% if post.links.conference or course.links.conference %}<a href="{{ post.conference_site }}" target="_blank"><i class="fas fa-bullhorn"></i> visit website</a>{% endif %}
-{% if post.links.registration or course.links.registration %}<a href="{{ post.registration_info }}" target="_blank"><i class="fas fa-pencil-square-o"></i> register</a>{% endif %}
+{% assign content = item.content | strip_newlines %}
+{% if content != "" %}<a href="{{ item.url }}" target="_blank"><i class="fas fa-arrow-circle-right"></i> read more</a>{% endif %}
+{% if item.links.linkedin %}<a href="{{ item.links.linkedin }}{{ site.trk }}" target="_blank"><i class="fab fa-linkedin"></i> on LinkedIn</a>{% endif %}
+{% if item.links.lynda %}<a href="{{ item.links.lynda }}" target="_blank"><i class="icon icon-lynda"></i> on lynda.com</a>{% endif %}
+{% if item.links.demo %}<a href="{{ item.demo }}" target="_blank"><i class="fas fa-bullseye"></i> demo</a>{% endif %}
+{% if item.links.video %}<a href="{{ item.links.video }}" target="_blank"><i class="fab fa-youtube"></i> on youtube</a>{% endif %}
+{% if item.links.code %}<a href="{{ item.code }}" target="_blank"><i class="fas fa-code"></i> view code</a>{% endif %}
+{% if item.links.github %}<a href="{{ item.github }}" target="_blank"><i class="fas fa-github-alt"></i> github project</a>{% endif %}
+{% if item.links.conference %}<a href="{{ item.conference_site }}" target="_blank"><i class="fas fa-bullhorn"></i> visit website</a>{% endif %}
+{% if item.links.registration %}<a href="{{ item.registration_info }}" target="_blank"><i class="fas fa-pencil-square-o"></i> register</a>{% endif %}

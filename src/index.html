@@ -3,25 +3,28 @@ layout: default
 page_id: 'home'
 cover: /assets/images/codemobile.jpg
 ---
-<main class="container posts">
+<div class="container">
   <div class="row">
-    <div class="col-12 col-md-9 posts" id="posts">
-      {% assign sorted_items = site.data.courses | sort: 'date' | reverse %}
-      {% for item in sorted_items limit: 30 %}
-      {% assign item_index = forloop.index %}
-        {% include items_main.html %}
-      {% endfor %}
-    </div>
-    <sidebar class="col-md-3 d-none d-md-block sidebar">
-      <div class="sidebar-title">Latest Articles</div>
-      <div class="courses">
+    <main class="main col-12 col-md-9">
+      <div class="main-items">
         {% assign sorted_items = site.posts | sort: 'date' | reverse %}
+        {% for item in sorted_items  limit: 10 %}
+          {% assign itemIndex = forloop.index %}
+          {% include items_main.html %}
+        {% endfor %}
+      </div>
+      <a href="/items" class="main-link btn btn-primary mt-5 text-white">more articles</a>
+    </main>
+    <sidebar class="sidebar col-md-3 d-none d-md-block">
+      <div class="sidebar-title">Latest Courses</div>
+      <div class="sidebar-items">
+        {% assign sorted_items = site.data.courses | sort: 'date' | reverse %}
         {% for item in sorted_items limit: 30 %}
-        {% assign item_index = forloop.index %}
+          {% assign itemIndex = forloop.index %}
           {% include items_sidebar.html %}
         {% endfor %}
       </div>
-      <a href="/items" class="sidebar-link">all Courses</a>
+      <a href="/items" class="sidebar-link btn btn-primary mt-5 text-white">more courses</a>
     </sidebar>
   </div>
-</main>
+</div>
