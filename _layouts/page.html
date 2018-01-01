@@ -6,12 +6,35 @@ page_id: about
 <head>
   {% include head.html %}
 </head>
-<body class="default {{page.page_id}}">
+<body class="page {{page.page_id}}">
 {% include header.html %}
 <div class="content">
-  {{ content }}
+
+<div class="container">
+  <div class="row">
+    <main class="main col-12 col-md-9">
+      <span class="page-date">{{ page.date | date: '%B %-d, %Y' }}</span>
+      <!-- page-meta -->
+      <h2 class="page-title">{{ page.title }}</h2>
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </main>
+    <sidebar class="sidebar col-md-3 d-none d-md-block">
+      <div class="sidebar-title">Latest Courses</div>
+      <div class="sidebar-items">
+        {% assign sorted_items = site.data.courses | sort: 'date' | reverse %} {% for item in sorted_items limit: 20 %} {% assign
+        itemIndex = forloop.index %} {% include items_sidebar.html %} {% endfor %}
+      </div>
+      <a href="/items" class="sidebar-link btn btn-primary mt-5 text-white">more courses</a>
+    </sidebar>
+  </div>
 </div>
-<footer class="site-footer">
+
+
+
+</div>
+<footer class="footer">
   {% include footer.html %}
 </footer>
 {% include scriptloader.html %}

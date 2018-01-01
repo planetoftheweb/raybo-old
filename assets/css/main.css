@@ -168,6 +168,30 @@ img.navbar-logo {
   margin-bottom: 1em;
 }
 
+.page-title {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.8em;
+  margin-bottom: .8em;
+}
+
+.page-content {
+  font-size: 1.2em;
+}
+
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+} 
+
+.page-content p {
+  margin-top: 2rem auto;
+}
+
+.page-content iframe, .page-content .embed-responsive {
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 768px) and (max-width: 979px) { 
   .sidebar .item-title {
     font-family: 'Open Sans', sans-serif;
