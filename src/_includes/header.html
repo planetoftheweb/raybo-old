@@ -1,14 +1,17 @@
-<header class="header">
-  <div class="header-background" style="background-image: url({% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %})"></div>
-</header>
-<section class="header-info">
-  {% if site.logo %}
-    <a class="header-logo" href="/" style="background-image: url('{{ site.logo }}')"></a>
-  {% endif %}
-  <div class="navgroup">
-    <h1 class="header-title">{{ site.title }}{% if page.page_id != 'home' %}<span class="pageid">{{page.page_id}}</span>{% endif %}</h1>
+  <div class="header-background">
+    <div class="header-background" style="background-image: url({% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %})"></div>
+  </div>
+  <div class="header-info container text-center">
+    {% if site.logo %}
+      <a href="/"><img class="header-info-logo" src="{{ site.logo }}" alt="Site Logo"></a>
+    {% endif %}
+    <h1 class="header-title">{{ site.title }}{% if page.page_id != 'home' %}
+    <span class="pageid">{{page.page_id}}</span>{% endif %}</h1>
+  </div>
+  <div class="header-navigation navigation-top sticky-top">
     {% include categorynav.html %}
   </div>
-  {% if (page.page_id == 'home') %}<p class="header-description">{{ site.description }}</p>{% endif %}
-	{% if page.summary %}<p class="header-description">{{ page.summary }}</p>{% endif %}
-</section><!-- post-meta -->
+  <div class="header-text container text-center">
+    {% if (page.page_id == 'home') %}<p class="header-description">{{ site.description }}</p>{% endif %}
+    {% if page.summary %}<p class="header-description">{{ page.summary }}</p>{% endif %}
+  </div>

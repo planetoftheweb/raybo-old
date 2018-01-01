@@ -1,32 +1,49 @@
 <!-- bottom-teaser -->
-<div class="bottom-info">
+<footer class="footer container mt-3 my-5 p-2 p-md-5">
+<div class="row justify-content-center">
 
-<!-- Author Credits -->
-<section class="author-info credits">
-  <h5 class="author-headline"><span>Written by</span></h5>
-  <div class="author">
-    <a href="/about/"><div class="author-image" style="background-image: url({{site.author_image}})"></div></a>
-    <div class="author-text">
+<section class="col-md-8 col-lg-8 author-info credits">
+  <h5 class="author-headline">
+    <span>Written by</span>
+  </h5>
+  <div class="row author">
+    <a class="col-3" href="/about/"><img class="img-fluid rounded-circle" src="{{site.author_image}}" alt="Author Photo"></a>
+    <div class="col-9 author-text">
       <h4 class="author-name"><a href="/about/">{{ site.author.name }}</a></h4>
-      <div class="author-bio">{{ site.author.bio }}</div>
-    </div><!-- author-text -->
-  </div><!-- author -->
-</section><!-- class="credits" -->
+      <p class="author-bio">{{ site.author.bio }}</p>
+    </div>
+    <!-- author-text -->
+  </div>
+  <!-- author -->
+</section>
+<!-- class="credits" -->
 
-<!-- Author Credits -->
-<section class="author-info social">
-  <h5 class="author-headline"><span>Follow me</span></h5>
-  <div class="links custom-links">
-{% for social in site.social %}{% if social.url %}
-    <a class="icon icon-{{ social.icon }}" href="{{ social.url }}"><i class="fab fa-{{ social.icon }}"></i></a>
-{% endif %}{% endfor %}
+<!-- Author social -->
+<section class="col-md-4 col-lg-4 mt-3author-info social">
+  <h5 class="author-headline">
+    <span>Follow me</span>
+  </h5>
+  <div class="links custom-links d-flex justify-content-between my-3">
+    {% for social in site.social %}{% if social.url %}
+    <a class="mt-2 icon icon-{{ social.icon }}" href="{{ social.url }}">
+      <i class="fab fa-{{ social.icon }}"></i>
+    </a>
+    {% endif %}{% endfor %}
   </div>
 
-  <div class="links feed"><a class="subscribe" href="/feed.xml"><i class="fa fa-rss"></i> Subscribe to my feed</a></div>
-  <div class="links about"><a href="/about/"><i class="fa fa-user"></i> About {{ site.author.firstname }}</a></div>
+  <div class="links feed">
+    <a class="subscribe" href="/feed.xml">
+      <i class="fa fa-rss"></i> Subscribe to my feed</a>
+  </div>
+  <div class="links about">
+    <a href="/about/">
+      <i class="fa fa-user"></i> About {{ site.author.firstname }}</a>
+  </div>
 
-</section><!-- class="isRight" -->
-</div><!-- bottom-info -->
+</section>
+</div>
+
+</footer><!-- bottom-info -->
 
 {% if (page.page_id != 'about') %}
 <a href="/about/"><div class="footer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}></div></a>

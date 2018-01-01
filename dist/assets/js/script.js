@@ -1,45 +1,6 @@
-(function ($) {
-    "use strict";
-    $(document).ready(function(){
+$(document).ready(function(){
 
-    var $window = $(window),
-    $image = $('.post .header-background');
-
-    $window.on('scroll', function() {
-      var top = $window.scrollTop();
-
-      if (top < 0 || top > 1500) { return; }
-      $image
-        .css('transform', 'translate3d(0px, '+top/2+'px, 0px)')
-        .css('opacity', 1-Math.max(top/($window.height()*0.5), 0));
-    });
-    $window.trigger('scroll');
-
-    $('.post-content').css('padding-top', $window.height() + 'px');
-
-    $("input").focus(function() {
-      $('.sitesearch').addClass("focus");
-    });
-
-    $("input").blur(function() {
-      $('.sitesearch').removeClass("focus");
-    });
-
-    $( "body" ).keypress(function(e) {
-        $('.sitesearch input').focus();
-    });
-
-
-    $( "body" ).keyup(function(e) {
-      if (e.keyCode == 27) {
-        $('.sitesearch input').val(null);
-        $('.sitesearch input').blur();
-      }
-    });
-
-  }); // document ready
-}(jQuery)); // anonymous closure
-
+}); // document ready
 
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

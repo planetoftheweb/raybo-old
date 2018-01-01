@@ -1,33 +1,26 @@
-<nav class="main">
-	<div class="navwrapper">
-    {% if (page.page_id == 'home') %}
-    <h2 class="header-tagline">{{ site.tagline }}</h2>
-    {% endif %}
-		<ul>
-      {% if (page.page_id != 'home') %}
-      <li><a href="/"><i class="fa fa-home"></i> <span class="categorytext home"></span></a></li>
-      {% endif %}
-      <li>
-        <a href="/courses">
-          <i class="fa fa-graduation-cap"></i>
-          <span class="categorytext home">courses</span>
-        </a>
-      </li>
+<nav id="navbar-site" class="navbar navbar-light navbar-expand">
+  <div class="container justify-content-center">
+    <div class="navbar-brand d-none d-md-block">
+      <img class="navbar-logo img-fluid" src="{{ site.logo }}" alt="Site Logo"> Learn practical web skills</div>
+    <div class="navbar-nav">
+      <a class="nav-link nav-item" href="/courses">
+        <i class="fa fa-graduation-cap"></i>
+        <span class="categorytext home">courses</span>
+      </a>
 
-    	{% for category in site.categories %}
-        {% assign cat =  category | first %}
-          <li {% if cat == page.category or cat == page.page_id %}class="active"{% endif %}>
-            <a href="/{{ category | first }}">
-              {% case cat %}
-              <span class="icon">
-                {% when 'blog' %}
-                <i class="fa fa-align-left"></i>
-              </span>
-              {% endcase %}
-        	    <span class="categorytext {{ category | first }}">{{ category | first }}</span>
-            </a>
-          </li>
-    	{% endfor %}
-		</ul>
-	</div>
+      {% for category in site.categories %} {% assign cat = category | first %}
+      <a class="nav-link nav-item" {% if cat==page.category or cat==page.page_id %}active {% endif %} href="/{{ category | first }}">
+        {% case cat %}
+        <span class="icon">
+          {% when 'blog' %}
+          <i class="fa fa-align-left"></i>
+        </span>
+        {% endcase %}
+        <span class="categorytext {{ category | first }}">{{ category | first }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    <!-- navbar-nav -->
+  </div>
+  <!-- container -->
 </nav>

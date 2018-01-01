@@ -1,36 +1,16 @@
 ---
-category: courses
 ---
 <!DOCTYPE html>
-{% for course in site.data.courselist %}
-{% if course.ID == page.courseid %}
 <html ng-app="searchApp">
 <head>
   {% include head.html %}
 </head>
-<body class="post">
-
-<a href="{{ site.url }}" class="floating-logo">
-  <span class="logo" style="background-image: url({{ site.logo }})"></span>
-</a>
-<header class="header">
-{% include header_posts.html %}
-</header>
-<main class="content" role="main">
-	{% include breadcrumbs.html %}
-<!-- Course Information -->
-  {% include post_links.html %}
-  <div class="post-video"><iframe class='video' src='https://www.lynda.com/player/embed/{{ course.WelcomeVideoId }}?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-{{ course.WelcomeVideoId }}' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true' frameborder='0'></iframe></div>
-  <div class="course-description">{{ course.Description }}</div>
-  <div class="content">{{ content }}</div>
-  {% include post_tags.html %}
-</main><!-- main class="content" -->
-
+<body class="default {{page.page_id}}">
+{% include header.html %}
+{{ content }}
 <footer class="site-footer">
   {% include footer.html %}
 </footer>
 {% include scriptloader.html %}
 </body>
 </html>
-{% endif %} 
-{% endfor %} 

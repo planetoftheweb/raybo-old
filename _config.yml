@@ -5,10 +5,10 @@ destination: ./dist
 # Site settings
 title: "Raybo.org"
 tagline: "Learn practical web skills"
-description: "The website for Ray Villalobos, helping improve lives by teaching front-end web skills with a clear, practical style."
+description: "Learn full-stack developer skills with a clear, practical style."
 email: ray@planetoftheweb.com
 twitteruser: "@planetoftheweb"
-logo: "/assets/images/powship.png" #blog logo
+logo: "/assets/images/powship.svg" #blog logo
 trk: "?trk=insiders_6787408_learning"
 cover: "/assets/images/hero.jpg" # blog cover
 

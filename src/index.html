@@ -5,39 +5,23 @@ cover: /assets/images/codemobile.jpg
 ---
 <main class="container posts">
   <div class="row">
-    <div class="col-12 col-md-9 posts">
-      {% for post in paginator.posts %}
-      <article class="post row">
-        <div class="post-meta col-12">
-          <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
-        </div>
-        <!-- post-meta -->
-        <div class="col-12 post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
-        <a class="col-lg-4 col-xl-3 post-link" href="{{ post.url }}"><img class="img-fluid rounded post-img" src="{{ post.heroimage }}" alt="{{ course.title }} thumbnail"></a>
-        <p class="col-lg-8 col-xl-9 post-description pt-3 pt-md-0">{{ post.summary | strip_html | truncatewords: 50 }}</p>
-        <nav class="col-12 post-links">{% include post_links.html %}</nav>
-        <!-- Is it a course or something else -->
-      </article>
+    <div class="col-12 col-md-9 posts" id="posts">
+      {% assign sorted_items = site.data.courses | sort: 'date' | reverse %}
+      {% for item in sorted_items limit: 30 %}
+      {% assign item_index = forloop.index %}
+        {% include items_main.html %}
       {% endfor %}
     </div>
     <sidebar class="col-md-3 d-none d-md-block sidebar">
-      <div class="sidebar-title">Latest Courses</div>
+      <div class="sidebar-title">Latest Articles</div>
       <div class="courses">
-        {% assign sorted_courses = site.data.courselist | sort: 'release_date' | reverse %}
-        {% for course in sorted_courses limit: 30 %}
-        {% assign postIndex = forloop.index %}
-        <article class="post row {% if postIndex > 6 %} d-block d-lg-none {% endif %}">
-          <div class="post-meta col-12"><span class="post-date">{{ course.release_date | date: '%B %-d, %Y' }}</span></div>
-          <!-- post-meta -->
-          <div class="post-title col-12"><a href="{{ course.URLs.LI }}" target="_blank">{{ course.title }}</a></div>
-          <a class="col-12 d-none d-lg-block" href="{{ course.URLs.LI }}"><img class="img-fluid rounded post-img" src="{{ course.images.thumb }}" alt="Thumbnail for {{ course.title }}"></a>
-          <div class="col-12 post-description d-none d-lg-block">{{ course.summary | strip_html | truncatewords: 25 }}</div>
-          <nav class="col-12 post-links d-none d-lg-block">{% include post_links.html %}</nav>
-        </article>
+        {% assign sorted_items = site.posts | sort: 'date' | reverse %}
+        {% for item in sorted_items limit: 30 %}
+        {% assign item_index = forloop.index %}
+          {% include items_sidebar.html %}
         {% endfor %}
       </div>
-      <a href="/courses" class="sidebar-link">all Courses</div>
+      <a href="/items" class="sidebar-link">all Courses</a>
     </sidebar>
   </div>
-
 </main>

@@ -2,9 +2,11 @@
 layout: blog
 category: blog
 title: Front End Developer/Javascript Technologies to learn and explore in 2016
-extURL: https://www.linkedin.com/pulse/front-end-developerjavascript-technologies-learn-2016-ray-villalobos
 summary: 2015 is officially over, and most of us are back at work. If you're a front end developer, it's time to start thinking about what you could be focusing on in the new year. Here's a look at the technologies that I'm really excited about and plan to spend some time on in the coming year.
-heroimage: "http://i.imgur.com/51knJUl.jpg"
+images:
+  hero: "http://i.imgur.com/51knJUl.jpg"
+links:
+  linkedin: https://www.linkedin.com/pulse/front-end-developerjavascript-technologies-learn-2016-ray-villalobos
 tags:
 - front-end developer
 - full-stack developer

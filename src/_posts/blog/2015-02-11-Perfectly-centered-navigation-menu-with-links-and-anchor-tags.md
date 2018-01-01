@@ -2,10 +2,12 @@
 layout: blog
 category: blog
 title: Horizontally Centered Navigation Menu with CSS
-summary: Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy.
-heroimage: "http://i.imgur.com/KfhOpwa.png"
-video: https://www.youtube.com/watch?v=RT64aSNXnzY
-code: http://jsbin.com/popalu/12/edit?html,css,output
+summary: "Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy."
+images:
+  hero: "http://i.imgur.com/KfhOpwa.png"
+links:
+  video: https://www.youtube.com/watch?v=RT64aSNXnzY
+  code: http://jsbin.com/popalu/12/edit?html,css,output
 tags:
 - web design
 - css

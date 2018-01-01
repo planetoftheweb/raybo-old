@@ -2,8 +2,9 @@
 layout: blog
 category: blog
 title: Vector Graphic Formats Used for data visualizations
-summary: In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead. 
-heroimage: "http://i.imgur.com/rBX9z0k.png"
+summary: In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead.
+images:
+  hero: "http://i.imgur.com/rBX9z0k.png"
 tags:
 - data visualization
 - bitmap

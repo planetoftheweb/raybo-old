@@ -1,0 +1,15 @@
+<article class="item row {% if itemIndex > 6 %} d-block d-lg-none {% endif %}">
+  <div class="item-meta col-12">
+    <span class="item-date">{{ item.date | date: '%B %-d, %Y' }}</span>
+  </div>
+  <!-- item-meta -->
+  <div class="item-title col-12">
+    <a href="{{ item.links.linkedin }}" target="_blank">{{ item.title }}</a>
+  </div>
+  <a class="col-12 d-none d-lg-block" href="{{ item.links.linkedin }}">
+    <img class="img-fluid rounded item-img" src="{% if item.images.thumb %}{{ item.images.thumb }}{% else %}{{ item.images.hero }}{% endif %}"
+      alt="Thumbnail for {{ item.title }}">
+  </a>
+  <div class="col-12 item-description d-none d-lg-block">{{ item.summary | strip_html | truncatewords: 25 }}</div>
+  <nav class="col-12 item-links d-none d-lg-block">{% include item_links.html %}</nav>
+</article>

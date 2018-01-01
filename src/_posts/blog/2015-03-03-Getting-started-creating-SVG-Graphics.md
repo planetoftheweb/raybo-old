@@ -1,9 +1,10 @@
 ---
 layout: blog
 category: blog
-title: Getting started creating SVG Graphics
-summary: A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks.
-heroimage: "http://i.imgur.com/rBX9z0k.png"
+title: "Getting started creating SVG Graphics"
+summary: "A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks."
+images:
+  hero: "http://i.imgur.com/rBX9z0k.png"
 tags:
 - data visualization
 - bitmap

@@ -1,0 +1,470 @@
+---
+
+- title: 'AngularJS 1: Adding Registration to Your Application'
+  date: '2016-12-21'
+  summary: In this short course, we'll create a simple and straightforward registration system that allows users to log in and log out of an application. The techniques use AngularJS and Google Firebase, a mobile development platform that makes registration easy and secure.
+  images:
+    thumb: https://cdn.lynda.com/courses/560052-636174819451647972_270x480_thumb.jpg
+    hero: https://cdn.lynda.com/course/560052/560052-636174819444616619-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/AngularJS-tutorials/AngularJS-1-Adding-Registration-Your-Application/560052-2.html
+    linkedin: https://www.linkedin.com/learning/angularjs-1-adding-registration-to-your-application-2
+
+- title: Building a Progressive Web App
+  date: '2016-12-13'
+  summary: Make your mobile web apps act like native iOS, Android, or Windows Phone applications. Make them progressive! Learn techniques to make web apps responsive and secure, work offline, and launch from the home screen.
+  images:
+    thumb: https://cdn.lynda.com/courses/518052-636172348144737121_270x480_thumb.jpg
+    hero: 'https: //cdn.lynda.com/course/518052/518052-636168860191295173-16x9.jpg'
+  links:
+    lynda: https://www.lynda.com/CSS-tutorials/Building-Progressive-Web-App/518052-2.html
+    linkedin: https://www.linkedin.com/learning/building-a-progressive-web-app
+
+- title: 'Electron: Building Cross Platform Desktop Apps'
+  date: '2016-11-17'
+  summary: Create compelling cross-platform desktop apps with a few lines of JavaScript, HTML, and CSS code with Electron.
+  images:
+    thumb: https://cdn.lynda.com/courses/518051-636148182091787979_270x480_thumb.jpg
+    hero: https://cdn.lynda.com/course/518051/518051-636148182081162829-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/Electron-tutorials/Electron-Building-Cross-Platform-Desktop-Apps/518051-2.html
+    linkedin: https://www.linkedin.com/learning/electron-building-cross-platform-desktop-apps
+
+- title: Tooling with NPM Scripts
+  date: '2016-09-29'
+  summary: Looking for an alternative build tool? Try npm, the node package manager. Learn how to create npm scripts to automate all sorts of build tasks.
+  images:
+    thumb: https://cdn.lynda.com/courses/495275-636105687571093841_270x480_thumb.jpg
+    hero: https://cdn.lynda.com/course/495275/495275-636105687487933049-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/NPM-tutorials/Tooling-NPM-Scripts/495275-2.html
+    linkedin: https://www.linkedin.com/learning/tooling-with-npm-scripts
+
+- title: 'Web Development Foundations: Full-Stack vs Front-End'
+  date: '2016-06-23'
+  summary: Do you want to become a web developer? Learn about the skills and tools you need to get a job as a front-end, back-end, or full-stack web developer.
+  images:
+    thumb: https://cdn.lynda.com/courses/483022-636022683156957451_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/course/483022/483022-636021036741093668-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/Web-tutorials/Becoming-Web-Developer-Full-Stack-vs-Front-End/483022-2.html
+    linkedin: https://www.linkedin.com/learning/web-development-foundations-full-stack-vs-front-end
+
+- title: Building a Web Interface with React.js
+  date: '2016-07-26'
+  summary: Learn how to create flexible, fast, and lightweight web interfaces, including web forms, with React.js.
+  images:
+    thumb: https://cdn.lynda.com/courses/495271-636051285014885892_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/course/495271/495271-636051283523699944-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/React-js-tutorials/Building-Web-Interface-React-js/495271-2.html
+    linkedin: https://www.linkedin.com/learning/building-a-web-interface-with-react-js
+
+- title: Learning Angular JS 2
+  date: '2017-02-08'
+  summary: Learn AngularJS 2, the "superheroic" JavaScript framework for building single-page mobile and web applications fast. Find out how to use AngularJS templates, create components, and work with events.
+  images:
+    thumb: https://cdn.lynda.com/courses/428058-635948405690251021_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/course/428058/428058-635945092611324450-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html
+    linkedin: https://www.linkedin.com/learning/learning-angularjs-2
+
+- title: 'Learn Atom: The Basics'
+  date: '2016-04-11'
+  summary: GitHub's Atom text editor is one of the most popular. Find out why. Learn how to navigate code, customize the interface, and use Atom packages, themes, and snippets.
+  images:
+    thumb: https://cdn.lynda.com/courses/468147-635959639226639770_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/course/468147/468147-635959638861662691-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html
+    linkedin: https://www.linkedin.com/learning/learning-atom
+
+- title: Building a Responsive Single-Page Design with PostCSS
+  date: '2016-01-22'
+  summary: Learn how to create animated single-page websites with PostCSS, the CSS post-processor that extends the power of CSS through JavaScript.
+  images:
+    thumb: https://cdn.lynda.com/courses/417644-635889646848456428_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/courses/417644-635876857491580371_338x600_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design-PostCSS/417644-2.html
+    linkedin: https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-postcss
+
+- title: 'PostCSS: First Look'
+  date: '2016-01-14'
+  summary: Want to write CSS faster and more efficiently? Get a first look at PostCSS, the engine for processing CSS with JavaScript.
+  images:
+    thumb: https://cdn.lynda.com/courses/442850-635858446414277504_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/courses/442850-635858437278152267_338x600_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/CSS-tutorials/PostCSS-First-Look/442850-2.html
+    linkedin: https://www.linkedin.com/learning/postcss-first-look/what-is-postcss
+
+- title: Learning Markdown
+  date: '2015-12-23'
+  summary: Get started with Markdown, the lightweight text format that allows you to create documents, rich text, or HTML markup using any plain text editor.
+  images:
+    thumb: https://cdn.lynda.com/courses/438888-635863726972665665_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/courses/438888-635861073411347997_338x600_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Web-Development-tutorials/Up-Running-Markdown/438888-2.html
+    linkedin: https://www.linkedin.com/learning/learning-markdown/what-is-markdown
+
+- title: 'AngularJS: Building a Data Driven Application'
+  date: '2017-01-24'
+  summary: Learn how to add data-driven functionality to your web applications with AngularJS. This project shows you how to check users in and out of a system and randomly select checked-in users to reward with prizes.
+  images:
+    thumb: https://cdn.lynda.com/courses/421230-635839537167918779_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/courses/421230-635838772473481231_338x600_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/AngularJS-tutorials/AngularJS-Building-Data-Driven-App/421230-2.html
+    linkedin: https://www.linkedin.com/learning/angularjs-1-building-a-data-driven-app-2
+
+- title: 'AngularJS: Form Validation'
+  date: '2015-11-10'
+  summary: Learn how to implement dynamic form validation on any HTML form using the built-in validation properties and methods in AngularJS.
+  images:
+    thumb: https://cdn.lynda.com/courses/438886-635827439080742024_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/courses/438886-635814741830888421_338x600_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/AngularJS-tutorials/AngularJS-Form-Validation/438886-2.html
+    linkedin: https://www.linkedin.com/learning/angularjs-1-form-validation
+
+- title: Bootstrap 3 Essential Training
+  date: '2015-08-26'
+  summary: Everything you need to know to get started building responsive, accessible, mobile-first websites with Bootstrap 3.</p>
+  images:
+    thumb: https://cdn.lynda.com/courses/417641-635760301871294629_125x224_thumb.jpg
+    hero: https://cdn.lynda.com/courses/417641-635762922777948496_1380x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-Essential-Training/417641-2.html
+    linkedin: https://www.linkedin.com/learning/bootstrap-3-essential-training
+
+- title: Sass Essential Training
+  date: '2015-10-06'
+  summary: Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features.
+  images:
+    thumb: https://cdn.lynda.com/courses/375925-635797211412111970_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/courses/375925-635791240452214933_338x600_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Sass-tutorials/Sass-Essential-Training/375925-2.html
+    linkedin: https://www.linkedin.com/learning/sass-essential-training
+
+- title: 'Bootstrap 3: Advanced Web Development'
+  date: '2013-08-13'
+  summary: Generate an interactive website from scratch with Bootstrap.
+  images:
+    thumb: https://cdn.lynda.com/courses/124079-635383264168096755_138x244_thumb.jpg
+    hero: https://cdn.lynda.com/courses/124079-635466752190145759_1440x2560_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-Advanced-Web-Development/124079-2.html
+    linkedin: https://www.linkedin.com/learning/bootstrap-3-advanced-web-development
+
+- title: 'Bootstrap 3: New Features and Migration'
+  date: '2013-08-08'
+  summary: Learn about the new CSS classes, mobile-first approach, and other enhancements in Bootstrap 3.
+  images:
+    thumb: https://cdn.lynda.com/courses/138156-635383799816665334_128x227_thumb.jpg
+    hero: https://cdn.lynda.com/courses/138156-635400835638025199_1046x1858_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-New-Features-Migration/138156-2.html
+    linkedin: https://www.linkedin.com/learning/bootstrap-3-new-features-and-migration
+
+- title: 'Bootstrap Layouts: Responsive Single-Page Design'
+  date: '2015-02-15'
+  summary: Find out how Bootstrap can transform your standard HTML websites into inspired single-page designs.
+  images:
+    thumb: https://cdn.lynda.com/courses/186538-635721225380088463_129x228_thumb.jpg
+    hero: https://cdn.lynda.com/courses/186538-635603121825190026_1470x2352_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-Layouts-Responsive-Single-Page-Design/186538-2.html
+    linkedin: https://www.linkedin.com/learning/bootstrap-layouts-responsive-single-page-design
+
+- title: Building a Mobile App with AngularJS and Ionic
+  date: '2015-05-05'
+  summary: Learn to build native-style applications that leverage your existing knowledge of HTML5, JavaScript, and CSS by using AngularJS and the Ionic framework.
+  images:
+    thumb: https://cdn.lynda.com/courses/368920-635664455141474470_139x247_thumb.jpg
+    hero: https://cdn.lynda.com/courses/368920-635711120105758473_1440x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/AngularJS-tutorials/Building-Mobile-App-AngularJS-Ionic/368920-2.html
+    linkedin: https://www.linkedin.com/learning/building-a-mobile-app-with-angularjs-1-and-ionic
+
+- title: Building a Responsive Single-Page Design with Sass
+  date: '2014-09-23'
+  summary: Learn how to build responsive single-page websites (with animation and scrolling effects) using frameworks like Compass, Susy, and Breakpoint.
+  images:
+    thumb: https://cdn.lynda.com/courses/182174-635771061565171730_130x230_thumb.jpg
+    hero: https://cdn.lynda.com/courses/182174-635621719148154009_1200x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design/182174-2.html
+    linkedin: https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-sass
+
+- title: Building a Website with Node.js and Express.js
+  date: '2016-09-19'
+  summary: Build JavaScript websites that do more. Learn how to use Node.js and Express to build multi-page websites and apps with features like creating an API, Reading and writing files, HTTP verbs like GET, POST and DELETE, plus creating a live chat with Socket.IO.
+  images:
+    thumb: https://cdn.lynda.com/courses/502310-636071995894767664_88x158_thumb.jpg
+    hero: https://cdn.lynda.com/course/502310/502310-636070288437663461-16x9.jpg
+  links:
+    lynda: https://www.lynda.com/Express-js-tutorials/Building-Website-Node-js-Express-js-REVISION-Q3-2016/502310-2.html
+    linkedin: https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js
+
+- title: 'Code Clinic: JavaScript'
+  date: '2015-06-25'
+  images:
+    thumb: https://cdn.lynda.com/courses/369707-635708746319705336_137x242_thumb.jpg
+    hero: https://cdn.lynda.com/courses/369707-635711716696716488_1440x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/JavaScript-tutorials/Code-Clinic-JavaScript/369707-2.html
+    linkedin: https://www.linkedin.com/learning/code-clinic-javascript
+
+- title: Coding Faster with Emmet
+  date: '2013-07-31'
+  summary: Learn to use Emmet's abbreviated shortcuts to write full-fledged HTML, XML, CSS, and code faster and more efficiently.
+  images:
+    thumb: https://cdn.lynda.com/courses/133353-635117586295533184_134x240_thumb.jpg
+    hero: https://cdn.lynda.com/courses/133353-635742364939773831_1332x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Emmet-tutorials/Coding-Faster-Emmet/133353-2.html
+    linkedin: https://www.linkedin.com/learning/coding-faster-with-emmet
+
+- title: Creating an Adaptive Web Site for Multiple Screens
+  date: '2011-11-19'
+  summary: How to build a web site that automatically adapts its layout to various screen sizes, orientations, and resolutions on desktop browsers and mobile devices.
+  images:
+    thumb: https://cdn.lynda.com/courses/85083-635337788203299682_135x241_thumb.jpg
+    hero: https://cdn.lynda.com/courses/85083-635746783911079929_1047x1860_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/HTML-tutorials/Creating-an-Adaptive-Web-Site-for-Multiple-Screens/85083-2.html
+    linkedin: https://www.linkedin.com/learning/creating-an-adaptive-web-site-for-multiple-screens
+
+- title: 'CSS: Styling Forms'
+  date: '2012-01-20'
+  summary: CSS best practices and techniques for styling and structuring HTML and HTML5 forms.
+  images:
+    thumb: https://cdn.lynda.com/courses/90368-635628933755693361_130x231_thumb.jpg
+    hero: https://cdn.lynda.com/courses/90368-635709985353942954_1440x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Web-Interactive-CSS-tutorials/CSS-Styling-Forms/90368-2.html
+    linkedin: https://www.linkedin.com/learning/css-styling-forms
+
+- title: Learning Data Visualization with D3.js
+  date: '2017-05-25'
+  summary: Bring your data to life with D3.js. Create interactive, visually exciting infographics and visualizations with HTML, CSS, JavaScript, and SVG graphics.
+  images:
+    thumb: https://cdn.lynda.com/courses/162449-635430357764050013_132x234_thumb.jpg
+    hero: https://cdn.lynda.com/courses/162449-635472336058471848_1080x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/D3js-tutorials/Data-Visualization-D3js/162449-2.html
+    linkedin: https://www.linkedin.com/learning/learning-data-visualization-with-d3-js
+
+- title: Fireworks CS6 Essential Training
+  date: '2012-05-06'
+  summary: Shows how to create custom web graphics and web site mockups with Fireworks CS6.
+  images:
+    thumb: https://cdn.lynda.com/courses/97617-635405373311925526_131x232_thumb.jpg
+    hero: https://cdn.lynda.com/courses/97617-635749262608197536_1080x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Fireworks-tutorials/Fireworks-CS6-Essential-Training/97617-2.html
+    linkedin: https://www.linkedin.com/learning/fireworks-cs6-essential-training
+
+- title: JavaScript and AJAX
+  date: '2013-01-18'
+  summary: Explore how to load dynamic content from JavaScript and jQuery using AJAX methods.
+  images:
+    thumb: https://cdn.lynda.com/courses/114900-635409160791727412_130x231_thumb.jpg
+    hero: https://cdn.lynda.com/courses/114900-635649229559678570_1440x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Developer-tutorials/JavaScript-and-AJAX/114900-2.html
+    linkedin: https://www.linkedin.com/learning/javascript-and-ajax-integration-techniques
+
+- title: JavaScript and JSON
+  date: '2013-03-15'
+  summary: Explore how the JavaScript Object Notation (JSON) format works and how you can use it to read and share data in your web projects.
+  images:
+    thumb: https://cdn.lynda.com/courses/114901-635383115549312995_134x238_thumb.jpg
+    hero: https://cdn.lynda.com/courses/114901-635660370865750711_2016x3584_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html
+    linkedin: https://www.linkedin.com/learning/javascript-and-json-integration-techniques
+
+- title: 'JavaScript: Enhancing the DOM'
+  date: '2013-06-10'
+  summary: Learn to modify the DOM (Document Object Model), one of the core components of every HTML page, with JavaScript.
+  images:
+    thumb: https://cdn.lynda.com/courses/122462-635382114048231779_137x243_thumb.jpg
+    hero: https://cdn.lynda.com/courses/122462-635660340074429332_2016x3584_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html
+    linkedin: https://www.linkedin.com/learning/javascript-enhancing-the-dom
+
+- title: 'JavaScript: Events'
+  summary: Learn to use JavaScript events to respond to clicks, form input, and touch gestures in your web applications.
+  date: '2013-09-17'
+  images:
+    thumb: https://cdn.lynda.com/courses/140780-635150150372659321_123x218_thumb.jpg
+    hero: https://cdn.lynda.com/courses/140780-635772723652550747_1080x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/JavaScript-tutorials/JavaScript-Events/140780-2.html
+    linkedin: https://www.linkedin.com/learning/javascript-events
+
+- title: 'JavaScript: Functions'
+  date: '2013-12-16'
+  summary: Learn the different ways of declaring and invoking JavaScript functions, the "subprograms" that power your code.
+  images:
+    thumb: https://cdn.lynda.com/courses/148137-635227910315756390_163x290_thumb.jpg
+    hero: https://cdn.lynda.com/courses/148137-635539959374603285_1440x2560_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/JavaScript-tutorials/JavaScript-Functions/148137-2.html
+    linkedin: https://www.linkedin.com/learning/javascript-functions
+
+- title: Online Presentations with reveal.js
+  date: '2013-09-05'
+  summary: Build slideshows that harness the full power of the web with reveal.js.
+  images:
+    thumb: https://cdn.lynda.com/courses/137904-635505556385203553_134x238_thumb.jpg
+    hero: https://cdn.lynda.com/courses/137904-635735961746038712_1200x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/CSS-tutorials/Online-Presentations-revealjs/137904-2.html
+    linkedin: https://www.linkedin.com/learning/reveal-js-online-presentations
+
+- title: Responsive CSS with Sass and Compass
+  date: '2013-10-30'
+  summary: Learn how Compass (powered by Sass) can help you build a responsive layout workflow that is easier, faster, and more compatible than CSS alone.
+  images:
+    thumb: https://cdn.lynda.com/courses/140777-635763590076435432_159x282_thumb.jpg
+    hero: https://cdn.lynda.com/courses/140777-635579866350756880_1080x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/CSS-tutorials/Responsive-CSS-Sass-Compass/140777-2.html
+    linkedin: https://www.linkedin.com/learning/responsive-css-with-sass-and-compass
+
+- title: Learning Angular JS 1
+  date: '2017-11-08'
+  summary: AngularJS is still a major player in the web dev world. Learn how to quickly build full-featured web applications with this important JavaScript framework.
+  images:
+    thumb: https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=GEfXKzi6CDSsIegFVBXgtC4FWVk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nXy2j_tWfZnPhcMPfZLSiolkScSsAlwAyf-arRjTiFI69LcLmY4Yx3A
+    hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=YnuHOMOMmky3gvaKUxtocy%2B2%2FUo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nXy2j_tWfZnPhcMPfZLSiolkScSsAlwAyf-arRjTiFI69LcLmY4Yx3A
+  links:
+    lynda: https://www.lynda.com/Angular-tutorials/Learning-AngularJS-1/648940-2.html
+    linkedin: https://www.linkedin.com/learning/learning-angularjs-1-2
+
+- title: Learning CoffeeScript
+  date: '2014-03-28'
+  summary: Learn about CoffeeScript, a language that compiles into JavaScript and allows you to write fast, efficient, and beautiful JavaScript code.
+  images:
+    thumb: https://cdn.lynda.com/courses/154415-635750995995763290_253x449_thumb.jpg
+    hero: https://cdn.lynda.com/courses/154415-635588852672887369_1440x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Developer-Web-Design-tutorials/Up-Running-CoffeeScript/154415-2.html
+    linkedin: https://www.linkedin.com/learning/learning-coffeescript
+
+- title: Up and Running with Git and GitHub
+  date: '2015-07-06'
+  summary: Learning Git and GitHubPreviewLearn to work with the most common Git commands, and use GitHub to clone, explore, and create templates from existing projects.
+  images:
+    thumb: https://cdn.lynda.com/courses/409275-635721397427583922_152x270_thumb.jpg
+    hero: https://cdn.lynda.com/courses/409275-635724498203640784_1440x2160_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Git-tutorials/Up-Running-Git-GitHub/409275-2.html
+    linkedin: https://www.linkedin.com/learning/learning-git-and-github
+
+- title: Learning NPM, the Node Package Manager
+  date: '2016-09-29'
+  summary: Learn how to install and work with NPM, the Node Package Manager that allows JavaScript developers to share and reuse code.
+  images:
+    thumb: https://cdn.lynda.com/courses/409274-635715109130106049_214x379_thumb.jpg
+    hero: https://cdn.lynda.com/courses/409274-635718294766410378_1080x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Developer-Web-Development-tutorials/Up-Running-NPM-Node-Package-Manager/409274-2.html
+    linkedin: https://www.linkedin.com/learning/learning-npm-the-node-package-manager
+
+- title: Validating and Processing Forms with JavaScript and PHP
+  date: '2013-04-23'
+  summary: Learn how to ensure the data submitted to your web forms is complete, accurate, and nonmalicious with HTML5, JavaScript, jQuery, and PHP form processing and validation.
+  images:
+    thumb: https://cdn.lynda.com/courses/120466-635718044006401212_141x250_thumb.jpg
+    hero: https://cdn.lynda.com/courses/120466-635627706096574111_1440x2560_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Developer-Databases-tutorials/Validating-Processing-Forms-JavaScript-PHP/120466-2.html
+    linkedin: https://www.linkedin.com/learning/validating-and-processing-forms-with-javascript-and-php
+
+- title: View Source
+  date: '2012-05-25'
+  summary: Ten-minute projects on intermediate and advanced web design topics, covering technologies such as HTML, PHP, jQuery, and CSS, as well as content management solutions like WordPress and integration with Twitter, YouTube, and more.
+  images:
+    thumb: https://cdn.lynda.com/courses/93388-635439659316669881_137x242_thumb.jpg
+    hero: https://cdn.lynda.com/courses/93388-635439227074069976_1046x1858_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html
+    linkedin: https://www.linkedin.com/learning/view-source
+
+- title: Web Project Workflows with Gulp.js, Git, and Browserify
+  date: '2014-06-23'
+  summary: Learn how to generate a workflow that makes it easier to build your own websites, track and share project files, and leverage JavaScript and jQuery code libraries.
+  images:
+    thumb: https://cdn.lynda.com/courses/154416-635391992384001097_133x235_thumb.jpg
+    hero: https://cdn.lynda.com/courses/154416-635756223839330941_1089x1936_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html
+    linkedin: https://www.linkedin.com/learning/gulp-js-git-and-browserify-web-project-workflows
+
+- title: Web Workflows with Grunt.js
+  date: '2015-06-13'
+  summary: Program, test, and deploy your web applications more easily and efficiently with a Grunt.js development workflow.
+  images:
+    thumb: https://cdn.lynda.com/courses/368921-635724216433889982_133x236_thumb.jpg
+    hero: https://cdn.lynda.com/courses/368921-635761060525266192_1128x1920_thumb.jpg
+  links:
+    lynda: https://www.lynda.com/Grunt.js-tutorials/Web-Workflows-Grunt.js/368921-2.html
+    linkedin: https://www.linkedin.com/learning/grunt-js-web-workflows
+
+- title: Mastering Web Developer Interview Code
+  date: '2017-12-19'
+  summary: In this weekly series, senior staff author explores front-end and full-stack coding concepts that every developer should have in their toolkit. Tune in every Tuesday for a new tip.
+  images:
+    thumb: https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=HQ7FHgAv4sM2hT%2Ff0gtbzbmlZN4%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-kUyWs_NafZX_pf8HcZLSiol4TcSoJlAA7feevRznjFI69LcLmY4Yx3A
+    hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=XutUSjKycXac0vqSZuNUXGoUHOg%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-kUyWs_NafZX_pf8HcZLSiol4TcSoJlAA7feevRznjFI69LcLmY4Yx3A
+  links:
+    lynda: https://www.lynda.com/Web-Development-tutorials/Mastering-Web-Developer-Interview-Code
+    linkedin: https://www.linkedin.com/learning/mastering-web-developer-interview-code
+
+- title: 'Vue.js: Building an Interface'
+  date: '2017-10-11'
+  summary: The perfect way to learn Vue.js is to use Vue.js. Learn to create an application interface for a product rating system using this flexible JavaScript library.
+  images:
+    thumb: https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=M3iEyrp%2BRejXN%2BEBc0luPuDMaxk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nWyyq-NCfZnfgecXaZLSiolkVeS8JmQUxf--vRznnFY69LcLmY4Yx3A
+    hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=lbRZPbyY8ZAxN3VHQVQAuO9cmfo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nWyyq-NCfZnfgecXaZLSiolkVeS8JmQUxf--vRznnFY69LcLmY4Yx3A
+  links:
+    lynda: https://www.lynda.com/JavaScript-tutorials/Vue-js-Building-Interface/609025-2.html
+    linkedin: https://www.linkedin.com/learning/vue-js-building-an-interface/creating-a-named-component
+
+- title: Next Generation CSS Design with PostCSS and CSSNext
+  date: '2017-04-28'
+  summary: Learn how to work with PostCSS and CSSNext. Discover how to create a realistic single-page site that uses cutting-edge CSS features while maintaining compatibility with older browsers
+  images:
+    thumb: https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=iXpBmxgXBHavdqk6Fp%2FHBY4Zn9I%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUyaq-NGfZH_qecXbZLSiol8ecC4FlAE6fO-qQjfkEI69LcLmY4Yx3A
+    hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=Df60%2FO0xXmWCdpBVw5M99GF6AZ0%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUyaq-NGfZH_qecXbZLSiol8ecC4FlAE6fO-qQjfkEI69LcLmY4Yx3A
+  links:
+    lynda: https://www.lynda.com/CSS-tutorials/Next-Generation-CSS-Design-PostCSS-CSSNext/483024-2.html
+    linkedin: https://www.linkedin.com/learning/next-generation-css-design-with-postcss-and-cssnext
+
+- title: Bootstrap 4 Migration
+  date: '2017-03-31'
+  summary: Discover how to make the switch to Bootstrap 4. Learn about the new features and changes you can access in this upgrade, as well as how to tackle the migration process.
+  images:
+    thumb: https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=TC8eUoBB3RgpFbLF3shsffdCZdo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUiCo_dWfZH7se8DfZLSiol8QeyUClQQxf-yqRTTpFI69LcLmY4Yx3A
+    hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=LYq8UQQePXFMrknqx1NQM13RQwY%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUiCo_dWfZH7se8DfZLSiol8QeyUClQQxf-yqRTTpFI69LcLmY4Yx3A
+  links:
+    lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Migration/495270-2.html
+    linkedin: https://www.linkedin.com/learning/bootstrap-4-migration
+
+- title: Bootstrap 4 Essential Training
+  date: '2017-03-31'
+  summary: Learn the essentials of Bootstrap. Discover how to work with this popular front-end framework to quickly and easily build responsive, mobile-ready websites that are cross-browser compatible
+  images:
+    thumb: https://media-exp2.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=1wF2RFbOWNGzz8jERPKUOVv4tts%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A
+    hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=KVLRopcdZaCdLg0HcOPNC5Db4o8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A
+  links:
+    lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html
+    linkedin: https://www.linkedin.com/learning/bootstrap-4-essential-training
