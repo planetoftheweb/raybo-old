@@ -1,7 +1,3 @@
-# Build settings
-source: ./src
-destination: ./dist
-
 # Site settings
 title: "Raybo.org"
 tagline: "Learn practical web skills"
