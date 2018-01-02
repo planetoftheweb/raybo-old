@@ -1,16 +1,15 @@
 ---
-page_id: about
+page_id: details-page
 ---
 <!DOCTYPE html>
-<html ng-app="searchApp">
+<html>
 <head>
-  {% include head.html %}
+{% include site_head.html %}
 </head>
 <body class="page {{page.page_id}}">
-{% include header.html %}
-<div class="content">
+{% include site_header.html %}
 
-<div class="container">
+<div class="content container">
   <div class="row">
     <main class="main col-12 col-md-9">
       <span class="page-date">{{ page.date | date: '%B %-d, %Y' }}</span>
@@ -28,15 +27,9 @@ page_id: about
       </div>
       <a href="/items" class="sidebar-link btn btn-primary mt-5 text-white">more courses</a>
     </sidebar>
-  </div>
-</div>
-
-
-
-</div>
-<footer class="footer">
-  {% include footer.html %}
-</footer>
-{% include scriptloader.html %}
+  </div><!-- row -->
+</div><!-- container -->
+{% include site_footer.html %}
+{% include site_scripts.html %}
 </body>
 </html>

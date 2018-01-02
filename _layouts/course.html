@@ -1,16 +1,17 @@
 ---
 ---
 <!DOCTYPE html>
-<html ng-app="searchApp">
+<html>
+
 <head>
-  {% include head.html %}
+{% include site_head.html %}
 </head>
-<body class="default {{page.page_id}}">
-{% include header.html %}
-{{ content }}
-<footer class="site-footer">
-  {% include footer.html %}
-</footer>
-{% include scriptloader.html %}
-</body>
+
+<body class="page-{{page.page_id}}">
+  {% include site_header.html %}
+  {{ content }}
+  {% include site_footer.html %}
+  {% include site_scripts.html %}
+  </body>
+
 </html>

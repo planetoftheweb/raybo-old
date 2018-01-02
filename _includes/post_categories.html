@@ -1,8 +1,4 @@
-{% if post.category %}
-  {% assign cat =  post.category %}
-{% else %}
-  {% assign cat =  page.category %}
-{% endif %}
+{% assign cat =  page.category %}
 
 {% if cat %}
 <span class="category">

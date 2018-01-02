@@ -5,8 +5,7 @@
     {% if site.logo %}
       <a href="/"><img class="header-info-logo" src="{{ site.logo }}" alt="Site Logo"></a>
     {% endif %}
-    <h1 class="header-title">{{ site.title }}{% if page.page_id != 'home' %}
-    <span class="pageid">{{page.page_id}}</span>{% endif %}</h1>
+    <h1 class="header-title">{{ site.title }}{% if page.page_id != 'home' %}</h1>
   </div>
   <div class="header-navigation navigation-top sticky-top">
     {% include categorynav.html %}
