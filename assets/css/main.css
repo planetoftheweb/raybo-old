@@ -30,7 +30,6 @@ a:hover {
   bottom: 0;
 }
 
-
 .btn-primary {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(20, 90, 109);
@@ -66,6 +65,7 @@ a:hover {
 
 .header-description {
   font-size: 1.8em;
+  line-height: 105%;
   margin: 3rem auto;
 }
 

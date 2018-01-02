@@ -3,14 +3,14 @@
 </div>
 
 
-  <div class="header-info container text-center">
+  <div class="header-info container text-center d-none d-sm-block">
     {% if site.logo %}<a href="/"><img class="header-info-logo" src="{{ site.logo }}" alt="Site Logo"></a>{% endif %}
     <h1 class="header-title">{{ site.title }}</h1>
   </div>
   <div class="header-navigation navigation-top sticky-top">
     {% include site_navigation.html %}
   </div>
-  <div class="header-text container text-center">
+  <div class="header-text container text-center d-none d-sm-block">
     {% if (page.page_id == 'home') %}<p class="header-description">{{ site.description }}</p>{% endif %}
     {% if page.summary %}
       <p class="header-description">

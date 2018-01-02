@@ -2,9 +2,9 @@
   <div class="container justify-content-center">
     <div class="navbar-brand">
       <a href="/"><img class="navbar-logo img-fluid" src="{{ site.logo }}" alt="Site Logo"></a>
-        <a href="#top" class="d-none d-md-inline-block">
+        <a href="#top" >
         {% if page.page_id == "home" %}
-          {{site.tagline}}
+          <span class="d-none d-md-inline-block">{{site.tagline}}</span>
         {% else %}
           {{page.page_id}}
         {% endif %}
