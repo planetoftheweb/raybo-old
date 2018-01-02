@@ -1,6 +1,7 @@
 {% assign content = item.content | strip_newlines %}
 {% if content != "" %}<a href="{{ item.url }}" target="_blank"><i class="fas fa-arrow-circle-right"></i> read more</a>{% endif %}
-{% if item.links.linkedin %}<a href="{{ item.links.linkedin }}{{ site.trk }}" target="_blank"><i class="fab fa-linkedin"></i> on LinkedIn</a>{% endif %}
+{% if item.links.lil %}<a href="{{ item.links.lil }}{{ site.trk }}" target="_blank"><i class="icon icon-lil"></i> on linkedIn learning</a>{% endif %}
+{% if item.links.linkedin %}<a href="{{ item.links.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i> on linkedin</a>{% endif %}
 {% if item.links.lynda %}<a href="{{ item.links.lynda }}" target="_blank"><i class="icon icon-lynda"></i> on lynda.com</a>{% endif %}
 {% if item.links.demo %}<a href="{{ item.demo }}" target="_blank"><i class="fas fa-bullseye"></i> demo</a>{% endif %}
 {% if item.links.video %}<a href="{{ item.links.video }}" target="_blank"><i class="fab fa-youtube"></i> on youtube</a>{% endif %}

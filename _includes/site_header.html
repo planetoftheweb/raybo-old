@@ -1,16 +1,19 @@
-  <div class="header-background">
-    <div class="header-background" style="background-image: url({% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %})"></div>
-  </div>
+<div class="header-background">
+  <div class="background-image" style="background-image: url({% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %})"></div>
+</div>
+
+
   <div class="header-info container text-center">
-    {% if site.logo %}
-      <a href="/"><img class="header-info-logo" src="{{ site.logo }}" alt="Site Logo"></a>
-    {% endif %}
-    <h1 class="header-title">{{ site.title }}{% if page.page_id != 'home' %}</h1>
+    {% if site.logo %}<a href="/"><img class="header-info-logo" src="{{ site.logo }}" alt="Site Logo"></a>{% endif %}
+    <h1 class="header-title">{{ site.title }}</h1>
   </div>
   <div class="header-navigation navigation-top sticky-top">
-    {% include categorynav.html %}
+    {% include site_navigation.html %}
   </div>
   <div class="header-text container text-center">
     {% if (page.page_id == 'home') %}<p class="header-description">{{ site.description }}</p>{% endif %}
-    {% if page.summary %}<p class="header-description">{{ page.summary }}</p>{% endif %}
+    {% if page.summary %}
+      <p class="header-description">
+      {{ page.summary }}</p>
+    {% endif %}
   </div>

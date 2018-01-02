@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 category: blog
 title: Getting to Love Learning ReactJS
 summary: There's a lot of resistance to learning the ReactJS library. That's because there are two main concepts that make it a tough sell for traditional developers. So let's take a look at what's been holding back most developers from learning ReactJS.

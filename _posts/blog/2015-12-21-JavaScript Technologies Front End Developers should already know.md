@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 category: blog
 title: 6 JavaScript technologies Front-end developers should already know
 summary: Life's tough for a front end developer because the pace of learning moves so fast. Today's developer needs to be familiar with a number of libraries, frameworks and processes in order to be successful. Here's my list of JavaScript technologies that you should already be familiar if you're a professional front end developer.

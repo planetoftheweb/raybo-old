@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 category: blog
 title: Before your learn a new JavaScript framework, make sure you've mastered these essential techniques
 extURL: https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray

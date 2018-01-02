@@ -1,0 +1,40 @@
+<nav id="navbar-site" class="navbar navbar-light navbar-expand">
+  <div class="container justify-content-center">
+    <div class="navbar-brand">
+      <a href="/"><img class="navbar-logo img-fluid" src="{{ site.logo }}" alt="Site Logo"></a>
+        <a href="#top" class="d-none d-md-inline-block">
+        {% if page.page_id == "home" %}
+          {{site.tagline}}
+        {% else %}
+          {{page.page_id}}
+        {% endif %}
+        </a>
+    </div>
+    <div class="navbar-nav">
+      {% if page.page_id != "courses" %}
+      <a class="nav-link nav-item" href="/courses">
+        <i class="fas fa-graduation-cap"></i>
+        <span class="categorytext home">courses</span>
+      </a>
+      {% endif %}
+
+      {% for category in site.categories %}
+      {% assign cat = category | first %}
+
+        {% if page.page_id != cat %}
+          <a class="nav-link nav-item {% if cat==page.page_id %}active {% endif %}" href="/{{ category | first }}">
+          {% case cat %}
+            <span class="icon">
+              {% when 'blog' %}
+                <i class="fas fa-align-left"></i>
+            </span>
+          {% endcase %}
+            <span class="categorytext {{ category | first }}">{{ category | first }}</span>
+          </a>
+          {% endif %}
+        {% endfor %}
+        </div>
+    <!-- navbar-nav -->
+  </div>
+  <!-- container -->
+</nav>

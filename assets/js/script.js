@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+  $(window).on('scroll', function() {
+    var top = $(window).scrollTop();
+    $('.background-image')
+    .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+    .css('opacity', 1 - Math.max(top/700, 0));
+    });
+
+    $(window).trigger('scroll');
+
 }); // document ready
 
 

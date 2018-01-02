@@ -1,6 +1,8 @@
 {% assign content = item.content | strip_newlines %}
 {% if content != "" %}{% assign url = item.url %}
-{% else %}{% assign url = item.links.linkedin %}{% endif %}
+{% elsif item.links.linkedin %}{% assign url = item.links.linkedin %}
+{% elsif item.links.lil %}{% capture url %}{{ item.links.lil }}{{ site.trk }}{% endcapture %}
+{% endif %}
 
 <article class="item row">
   <div class="item-meta col-12">
@@ -8,13 +10,13 @@
   </div>
   <!-- item-meta -->
   <div class="col-12 item-title">
-    <a href="{{ url }}">{{ item.title }}</a> 
+      <a href="{{ url }}">{{ item.title }}</a> 
   </div>
   <a class="col-lg-4 col-xl-3 item-link" href="{{ url }}">
     <img class="img-fluid rounded item-img" src="{% if item.images.thumb %}{{ item.images.thumb }}{% else %}{{ item.images.hero }}{% endif %}"
       alt="{{ item.title }} thumbnail">
   </a>
   <p class="col-lg-8 col-xl-9 item-description pt-3 pb-0 pt-md-0">{{ item.summary | strip_html | truncatewords: 50 }}</p>
-  <nav class="col-12 item-links">{% include item_links.html %}</nav>
+  <nav class="col-12 item-links d-sm-flex justify-content-end">{% include item_links.html %}</nav>
   <!-- Is it a course or something else -->
 </article>

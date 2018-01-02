@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 category: blog
 links:
   linkedin: https://www.linkedin.com/pulse/crafting-effective-video-embed-campaign-linkedin-ray-villalobos

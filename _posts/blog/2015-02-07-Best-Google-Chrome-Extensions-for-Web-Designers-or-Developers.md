@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 category: blog
 title: Chrome Developer Extensions for Designers / Developers
 summary: Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development

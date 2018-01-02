@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 category: blog
 title: Understanding Data Formats used for Visualization Applications
 summary: In order to work with data-visualization, it's important to understand the formats commonly used to generate visual data. In this article, I'll talk about different formats for storing data plus their advantages and disadvantages and give you some resources.

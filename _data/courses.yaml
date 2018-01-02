@@ -8,7 +8,7 @@
     hero: https://cdn.lynda.com/course/560052/560052-636174819444616619-16x9.jpg
   links:
     lynda: https://www.lynda.com/AngularJS-tutorials/AngularJS-1-Adding-Registration-Your-Application/560052-2.html
-    linkedin: https://www.linkedin.com/learning/angularjs-1-adding-registration-to-your-application-2
+    lil: https://www.linkedin.com/learning/angularjs-1-adding-registration-to-your-application-2
 
 - title: Building a Progressive Web App
   date: '2016-12-13'
@@ -18,7 +18,7 @@
     hero: 'https: //cdn.lynda.com/course/518052/518052-636168860191295173-16x9.jpg'
   links:
     lynda: https://www.lynda.com/CSS-tutorials/Building-Progressive-Web-App/518052-2.html
-    linkedin: https://www.linkedin.com/learning/building-a-progressive-web-app
+    lil: https://www.linkedin.com/learning/building-a-progressive-web-app
 
 - title: 'Electron: Building Cross Platform Desktop Apps'
   date: '2016-11-17'
@@ -28,7 +28,7 @@
     hero: https://cdn.lynda.com/course/518051/518051-636148182081162829-16x9.jpg
   links:
     lynda: https://www.lynda.com/Electron-tutorials/Electron-Building-Cross-Platform-Desktop-Apps/518051-2.html
-    linkedin: https://www.linkedin.com/learning/electron-building-cross-platform-desktop-apps
+    lil: https://www.linkedin.com/learning/electron-building-cross-platform-desktop-apps
 
 - title: Tooling with NPM Scripts
   date: '2016-09-29'
@@ -38,7 +38,7 @@
     hero: https://cdn.lynda.com/course/495275/495275-636105687487933049-16x9.jpg
   links:
     lynda: https://www.lynda.com/NPM-tutorials/Tooling-NPM-Scripts/495275-2.html
-    linkedin: https://www.linkedin.com/learning/tooling-with-npm-scripts
+    lil: https://www.linkedin.com/learning/tooling-with-npm-scripts
 
 - title: 'Web Development Foundations: Full-Stack vs Front-End'
   date: '2016-06-23'
@@ -48,7 +48,7 @@
     hero: https://cdn.lynda.com/course/483022/483022-636021036741093668-16x9.jpg
   links:
     lynda: https://www.lynda.com/Web-tutorials/Becoming-Web-Developer-Full-Stack-vs-Front-End/483022-2.html
-    linkedin: https://www.linkedin.com/learning/web-development-foundations-full-stack-vs-front-end
+    lil: https://www.linkedin.com/learning/web-development-foundations-full-stack-vs-front-end
 
 - title: Building a Web Interface with React.js
   date: '2016-07-26'
@@ -58,7 +58,7 @@
     hero: https://cdn.lynda.com/course/495271/495271-636051283523699944-16x9.jpg
   links:
     lynda: https://www.lynda.com/React-js-tutorials/Building-Web-Interface-React-js/495271-2.html
-    linkedin: https://www.linkedin.com/learning/building-a-web-interface-with-react-js
+    lil: https://www.linkedin.com/learning/building-a-web-interface-with-react-js
 
 - title: Learning Angular JS 2
   date: '2017-02-08'
@@ -68,7 +68,7 @@
     hero: https://cdn.lynda.com/course/428058/428058-635945092611324450-16x9.jpg
   links:
     lynda: https://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html
-    linkedin: https://www.linkedin.com/learning/learning-angularjs-2
+    lil: https://www.linkedin.com/learning/learning-angularjs-2
 
 - title: 'Learn Atom: The Basics'
   date: '2016-04-11'
@@ -78,7 +78,7 @@
     hero: https://cdn.lynda.com/course/468147/468147-635959638861662691-16x9.jpg
   links:
     lynda: https://www.lynda.com/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html
-    linkedin: https://www.linkedin.com/learning/learning-atom
+    lil: https://www.linkedin.com/learning/learning-atom
 
 - title: Building a Responsive Single-Page Design with PostCSS
   date: '2016-01-22'
@@ -88,7 +88,7 @@
     hero: https://cdn.lynda.com/courses/417644-635876857491580371_338x600_thumb.jpg
   links:
     lynda: https://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design-PostCSS/417644-2.html
-    linkedin: https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-postcss
+    lil: https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-postcss
 
 - title: 'PostCSS: First Look'
   date: '2016-01-14'
@@ -98,7 +98,7 @@
     hero: https://cdn.lynda.com/courses/442850-635858437278152267_338x600_thumb.jpg
   links:
     lynda: https://www.lynda.com/CSS-tutorials/PostCSS-First-Look/442850-2.html
-    linkedin: https://www.linkedin.com/learning/postcss-first-look/what-is-postcss
+    lil: https://www.linkedin.com/learning/postcss-first-look/what-is-postcss
 
 - title: Learning Markdown
   date: '2015-12-23'
@@ -108,7 +108,7 @@
     hero: https://cdn.lynda.com/courses/438888-635861073411347997_338x600_thumb.jpg
   links:
     lynda: https://www.lynda.com/Web-Development-tutorials/Up-Running-Markdown/438888-2.html
-    linkedin: https://www.linkedin.com/learning/learning-markdown/what-is-markdown
+    lil: https://www.linkedin.com/learning/learning-markdown/what-is-markdown
 
 - title: 'AngularJS: Building a Data Driven Application'
   date: '2017-01-24'
@@ -118,7 +118,7 @@
     hero: https://cdn.lynda.com/courses/421230-635838772473481231_338x600_thumb.jpg
   links:
     lynda: https://www.lynda.com/AngularJS-tutorials/AngularJS-Building-Data-Driven-App/421230-2.html
-    linkedin: https://www.linkedin.com/learning/angularjs-1-building-a-data-driven-app-2
+    lil: https://www.linkedin.com/learning/angularjs-1-building-a-data-driven-app-2
 
 - title: 'AngularJS: Form Validation'
   date: '2015-11-10'
@@ -128,7 +128,7 @@
     hero: https://cdn.lynda.com/courses/438886-635814741830888421_338x600_thumb.jpg
   links:
     lynda: https://www.lynda.com/AngularJS-tutorials/AngularJS-Form-Validation/438886-2.html
-    linkedin: https://www.linkedin.com/learning/angularjs-1-form-validation
+    lil: https://www.linkedin.com/learning/angularjs-1-form-validation
 
 - title: Bootstrap 3 Essential Training
   date: '2015-08-26'
@@ -138,7 +138,7 @@
     hero: https://cdn.lynda.com/courses/417641-635762922777948496_1380x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-Essential-Training/417641-2.html
-    linkedin: https://www.linkedin.com/learning/bootstrap-3-essential-training
+    lil: https://www.linkedin.com/learning/bootstrap-3-essential-training
 
 - title: Sass Essential Training
   date: '2015-10-06'
@@ -148,7 +148,7 @@
     hero: https://cdn.lynda.com/courses/375925-635791240452214933_338x600_thumb.jpg
   links:
     lynda: https://www.lynda.com/Sass-tutorials/Sass-Essential-Training/375925-2.html
-    linkedin: https://www.linkedin.com/learning/sass-essential-training
+    lil: https://www.linkedin.com/learning/sass-essential-training
 
 - title: 'Bootstrap 3: Advanced Web Development'
   date: '2013-08-13'
@@ -158,7 +158,7 @@
     hero: https://cdn.lynda.com/courses/124079-635466752190145759_1440x2560_thumb.jpg
   links:
     lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-Advanced-Web-Development/124079-2.html
-    linkedin: https://www.linkedin.com/learning/bootstrap-3-advanced-web-development
+    lil: https://www.linkedin.com/learning/bootstrap-3-advanced-web-development
 
 - title: 'Bootstrap 3: New Features and Migration'
   date: '2013-08-08'
@@ -168,7 +168,7 @@
     hero: https://cdn.lynda.com/courses/138156-635400835638025199_1046x1858_thumb.jpg
   links:
     lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-New-Features-Migration/138156-2.html
-    linkedin: https://www.linkedin.com/learning/bootstrap-3-new-features-and-migration
+    lil: https://www.linkedin.com/learning/bootstrap-3-new-features-and-migration
 
 - title: 'Bootstrap Layouts: Responsive Single-Page Design'
   date: '2015-02-15'
@@ -178,7 +178,7 @@
     hero: https://cdn.lynda.com/courses/186538-635603121825190026_1470x2352_thumb.jpg
   links:
     lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-Layouts-Responsive-Single-Page-Design/186538-2.html
-    linkedin: https://www.linkedin.com/learning/bootstrap-layouts-responsive-single-page-design
+    lil: https://www.linkedin.com/learning/bootstrap-layouts-responsive-single-page-design
 
 - title: Building a Mobile App with AngularJS and Ionic
   date: '2015-05-05'
@@ -188,7 +188,7 @@
     hero: https://cdn.lynda.com/courses/368920-635711120105758473_1440x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/AngularJS-tutorials/Building-Mobile-App-AngularJS-Ionic/368920-2.html
-    linkedin: https://www.linkedin.com/learning/building-a-mobile-app-with-angularjs-1-and-ionic
+    lil: https://www.linkedin.com/learning/building-a-mobile-app-with-angularjs-1-and-ionic
 
 - title: Building a Responsive Single-Page Design with Sass
   date: '2014-09-23'
@@ -198,7 +198,7 @@
     hero: https://cdn.lynda.com/courses/182174-635621719148154009_1200x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design/182174-2.html
-    linkedin: https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-sass
+    lil: https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-sass
 
 - title: Building a Website with Node.js and Express.js
   date: '2016-09-19'
@@ -208,7 +208,7 @@
     hero: https://cdn.lynda.com/course/502310/502310-636070288437663461-16x9.jpg
   links:
     lynda: https://www.lynda.com/Express-js-tutorials/Building-Website-Node-js-Express-js-REVISION-Q3-2016/502310-2.html
-    linkedin: https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js
+    lil: https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js
 
 - title: 'Code Clinic: JavaScript'
   date: '2015-06-25'
@@ -217,7 +217,7 @@
     hero: https://cdn.lynda.com/courses/369707-635711716696716488_1440x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/JavaScript-tutorials/Code-Clinic-JavaScript/369707-2.html
-    linkedin: https://www.linkedin.com/learning/code-clinic-javascript
+    lil: https://www.linkedin.com/learning/code-clinic-javascript
 
 - title: Coding Faster with Emmet
   date: '2013-07-31'
@@ -227,7 +227,7 @@
     hero: https://cdn.lynda.com/courses/133353-635742364939773831_1332x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/Emmet-tutorials/Coding-Faster-Emmet/133353-2.html
-    linkedin: https://www.linkedin.com/learning/coding-faster-with-emmet
+    lil: https://www.linkedin.com/learning/coding-faster-with-emmet
 
 - title: Creating an Adaptive Web Site for Multiple Screens
   date: '2011-11-19'
@@ -237,7 +237,7 @@
     hero: https://cdn.lynda.com/courses/85083-635746783911079929_1047x1860_thumb.jpg
   links:
     lynda: https://www.lynda.com/HTML-tutorials/Creating-an-Adaptive-Web-Site-for-Multiple-Screens/85083-2.html
-    linkedin: https://www.linkedin.com/learning/creating-an-adaptive-web-site-for-multiple-screens
+    lil: https://www.linkedin.com/learning/creating-an-adaptive-web-site-for-multiple-screens
 
 - title: 'CSS: Styling Forms'
   date: '2012-01-20'
@@ -247,7 +247,7 @@
     hero: https://cdn.lynda.com/courses/90368-635709985353942954_1440x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/Web-Interactive-CSS-tutorials/CSS-Styling-Forms/90368-2.html
-    linkedin: https://www.linkedin.com/learning/css-styling-forms
+    lil: https://www.linkedin.com/learning/css-styling-forms
 
 - title: Learning Data Visualization with D3.js
   date: '2017-05-25'
@@ -257,7 +257,7 @@
     hero: https://cdn.lynda.com/courses/162449-635472336058471848_1080x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/D3js-tutorials/Data-Visualization-D3js/162449-2.html
-    linkedin: https://www.linkedin.com/learning/learning-data-visualization-with-d3-js
+    lil: https://www.linkedin.com/learning/learning-data-visualization-with-d3-js
 
 - title: Fireworks CS6 Essential Training
   date: '2012-05-06'
@@ -267,7 +267,7 @@
     hero: https://cdn.lynda.com/courses/97617-635749262608197536_1080x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/Fireworks-tutorials/Fireworks-CS6-Essential-Training/97617-2.html
-    linkedin: https://www.linkedin.com/learning/fireworks-cs6-essential-training
+    lil: https://www.linkedin.com/learning/fireworks-cs6-essential-training
 
 - title: JavaScript and AJAX
   date: '2013-01-18'
@@ -277,7 +277,7 @@
     hero: https://cdn.lynda.com/courses/114900-635649229559678570_1440x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/Developer-tutorials/JavaScript-and-AJAX/114900-2.html
-    linkedin: https://www.linkedin.com/learning/javascript-and-ajax-integration-techniques
+    lil: https://www.linkedin.com/learning/javascript-and-ajax-integration-techniques
 
 - title: JavaScript and JSON
   date: '2013-03-15'
@@ -287,7 +287,7 @@
     hero: https://cdn.lynda.com/courses/114901-635660370865750711_2016x3584_thumb.jpg
   links:
     lynda: https://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html
-    linkedin: https://www.linkedin.com/learning/javascript-and-json-integration-techniques
+    lil: https://www.linkedin.com/learning/javascript-and-json-integration-techniques
 
 - title: 'JavaScript: Enhancing the DOM'
   date: '2013-06-10'
@@ -297,7 +297,7 @@
     hero: https://cdn.lynda.com/courses/122462-635660340074429332_2016x3584_thumb.jpg
   links:
     lynda: https://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html
-    linkedin: https://www.linkedin.com/learning/javascript-enhancing-the-dom
+    lil: https://www.linkedin.com/learning/javascript-enhancing-the-dom
 
 - title: 'JavaScript: Events'
   summary: Learn to use JavaScript events to respond to clicks, form input, and touch gestures in your web applications.
@@ -307,7 +307,7 @@
     hero: https://cdn.lynda.com/courses/140780-635772723652550747_1080x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/JavaScript-tutorials/JavaScript-Events/140780-2.html
-    linkedin: https://www.linkedin.com/learning/javascript-events
+    lil: https://www.linkedin.com/learning/javascript-events
 
 - title: 'JavaScript: Functions'
   date: '2013-12-16'
@@ -317,7 +317,7 @@
     hero: https://cdn.lynda.com/courses/148137-635539959374603285_1440x2560_thumb.jpg
   links:
     lynda: https://www.lynda.com/JavaScript-tutorials/JavaScript-Functions/148137-2.html
-    linkedin: https://www.linkedin.com/learning/javascript-functions
+    lil: https://www.linkedin.com/learning/javascript-functions
 
 - title: Online Presentations with reveal.js
   date: '2013-09-05'
@@ -327,7 +327,7 @@
     hero: https://cdn.lynda.com/courses/137904-635735961746038712_1200x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/CSS-tutorials/Online-Presentations-revealjs/137904-2.html
-    linkedin: https://www.linkedin.com/learning/reveal-js-online-presentations
+    lil: https://www.linkedin.com/learning/reveal-js-online-presentations
 
 - title: Responsive CSS with Sass and Compass
   date: '2013-10-30'
@@ -337,7 +337,7 @@
     hero: https://cdn.lynda.com/courses/140777-635579866350756880_1080x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/CSS-tutorials/Responsive-CSS-Sass-Compass/140777-2.html
-    linkedin: https://www.linkedin.com/learning/responsive-css-with-sass-and-compass
+    lil: https://www.linkedin.com/learning/responsive-css-with-sass-and-compass
 
 - title: Learning Angular JS 1
   date: '2017-11-08'
@@ -347,7 +347,7 @@
     hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=YnuHOMOMmky3gvaKUxtocy%2B2%2FUo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nXy2j_tWfZnPhcMPfZLSiolkScSsAlwAyf-arRjTiFI69LcLmY4Yx3A
   links:
     lynda: https://www.lynda.com/Angular-tutorials/Learning-AngularJS-1/648940-2.html
-    linkedin: https://www.linkedin.com/learning/learning-angularjs-1-2
+    lil: https://www.linkedin.com/learning/learning-angularjs-1-2
 
 - title: Learning CoffeeScript
   date: '2014-03-28'
@@ -357,7 +357,7 @@
     hero: https://cdn.lynda.com/courses/154415-635588852672887369_1440x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/Developer-Web-Design-tutorials/Up-Running-CoffeeScript/154415-2.html
-    linkedin: https://www.linkedin.com/learning/learning-coffeescript
+    lil: https://www.linkedin.com/learning/learning-coffeescript
 
 - title: Up and Running with Git and GitHub
   date: '2015-07-06'
@@ -367,7 +367,7 @@
     hero: https://cdn.lynda.com/courses/409275-635724498203640784_1440x2160_thumb.jpg
   links:
     lynda: https://www.lynda.com/Git-tutorials/Up-Running-Git-GitHub/409275-2.html
-    linkedin: https://www.linkedin.com/learning/learning-git-and-github
+    lil: https://www.linkedin.com/learning/learning-git-and-github
 
 - title: Learning NPM, the Node Package Manager
   date: '2016-09-29'
@@ -377,7 +377,7 @@
     hero: https://cdn.lynda.com/courses/409274-635718294766410378_1080x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/Developer-Web-Development-tutorials/Up-Running-NPM-Node-Package-Manager/409274-2.html
-    linkedin: https://www.linkedin.com/learning/learning-npm-the-node-package-manager
+    lil: https://www.linkedin.com/learning/learning-npm-the-node-package-manager
 
 - title: Validating and Processing Forms with JavaScript and PHP
   date: '2013-04-23'
@@ -387,7 +387,7 @@
     hero: https://cdn.lynda.com/courses/120466-635627706096574111_1440x2560_thumb.jpg
   links:
     lynda: https://www.lynda.com/Developer-Databases-tutorials/Validating-Processing-Forms-JavaScript-PHP/120466-2.html
-    linkedin: https://www.linkedin.com/learning/validating-and-processing-forms-with-javascript-and-php
+    lil: https://www.linkedin.com/learning/validating-and-processing-forms-with-javascript-and-php
 
 - title: View Source
   date: '2012-05-25'
@@ -397,7 +397,7 @@
     hero: https://cdn.lynda.com/courses/93388-635439227074069976_1046x1858_thumb.jpg
   links:
     lynda: https://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html
-    linkedin: https://www.linkedin.com/learning/view-source
+    lil: https://www.linkedin.com/learning/view-source
 
 - title: Web Project Workflows with Gulp.js, Git, and Browserify
   date: '2014-06-23'
@@ -407,7 +407,7 @@
     hero: https://cdn.lynda.com/courses/154416-635756223839330941_1089x1936_thumb.jpg
   links:
     lynda: https://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html
-    linkedin: https://www.linkedin.com/learning/gulp-js-git-and-browserify-web-project-workflows
+    lil: https://www.linkedin.com/learning/gulp-js-git-and-browserify-web-project-workflows
 
 - title: Web Workflows with Grunt.js
   date: '2015-06-13'
@@ -417,7 +417,7 @@
     hero: https://cdn.lynda.com/courses/368921-635761060525266192_1128x1920_thumb.jpg
   links:
     lynda: https://www.lynda.com/Grunt.js-tutorials/Web-Workflows-Grunt.js/368921-2.html
-    linkedin: https://www.linkedin.com/learning/grunt-js-web-workflows
+    lil: https://www.linkedin.com/learning/grunt-js-web-workflows
 
 - title: Mastering Web Developer Interview Code
   date: '2017-12-19'
@@ -427,7 +427,7 @@
     hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=XutUSjKycXac0vqSZuNUXGoUHOg%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-kUyWs_NafZX_pf8HcZLSiol4TcSoJlAA7feevRznjFI69LcLmY4Yx3A
   links:
     lynda: https://www.lynda.com/Web-Development-tutorials/Mastering-Web-Developer-Interview-Code
-    linkedin: https://www.linkedin.com/learning/mastering-web-developer-interview-code
+    lil: https://www.linkedin.com/learning/mastering-web-developer-interview-code
 
 - title: 'Vue.js: Building an Interface'
   date: '2017-10-11'
@@ -437,7 +437,7 @@
     hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=lbRZPbyY8ZAxN3VHQVQAuO9cmfo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-nWyyq-NCfZnfgecXaZLSiolkVeS8JmQUxf--vRznnFY69LcLmY4Yx3A
   links:
     lynda: https://www.lynda.com/JavaScript-tutorials/Vue-js-Building-Interface/609025-2.html
-    linkedin: https://www.linkedin.com/learning/vue-js-building-an-interface/creating-a-named-component
+    lil: https://www.linkedin.com/learning/vue-js-building-an-interface/creating-a-named-component
 
 - title: Next Generation CSS Design with PostCSS and CSSNext
   date: '2017-04-28'
@@ -447,7 +447,7 @@
     hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=Df60%2FO0xXmWCdpBVw5M99GF6AZ0%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUyaq-NGfZH_qecXbZLSiol8ecC4FlAE6fO-qQjfkEI69LcLmY4Yx3A
   links:
     lynda: https://www.lynda.com/CSS-tutorials/Next-Generation-CSS-Design-PostCSS-CSSNext/483024-2.html
-    linkedin: https://www.linkedin.com/learning/next-generation-css-design-with-postcss-and-cssnext
+    lil: https://www.linkedin.com/learning/next-generation-css-design-with-postcss-and-cssnext
 
 - title: Bootstrap 4 Migration
   date: '2017-03-31'
@@ -457,7 +457,7 @@
     hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=LYq8UQQePXFMrknqx1NQM13RQwY%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-lUiCo_dWfZH7se8DfZLSiol8QeyUClQQxf-yqRTTpFI69LcLmY4Yx3A
   links:
     lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Migration/495270-2.html
-    linkedin: https://www.linkedin.com/learning/bootstrap-4-migration
+    lil: https://www.linkedin.com/learning/bootstrap-4-migration
 
 - title: Bootstrap 4 Essential Training
   date: '2017-03-31'
@@ -467,4 +467,4 @@
     hero: https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=KVLRopcdZaCdLg0HcOPNC5Db4o8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A
   links:
     lynda: https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html
-    linkedin: https://www.linkedin.com/learning/bootstrap-4-essential-training
+    lil: https://www.linkedin.com/learning/bootstrap-4-essential-training

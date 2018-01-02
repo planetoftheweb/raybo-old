@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 category: blog
 title: "Tooling with NPM Scripts...is it worth it?"
 summary: Running Scripts and Builds using the Node Package Manager's Script functionality is become more and more popular these days, but it it the best approach?
