@@ -41,19 +41,19 @@ $spacers: (
 
 $grid-gutter-width: 16px;
 
-$pagination-bg: $special;
+$pagination-bg: lighten($alternate, 10%);
 $pagination-color: darken($primary, 20%);
 $pagination-border-color: darken($body-bg, 7%);
 
 $pagination-active-color: $body-bg;
-$pagination-active-bg: $secondary;
+$pagination-active-bg: $special;
 $pagination-active-border-color: darken($body-bg, 7%);
 
 $pagination-disabled-bg: darken($body-bg, 3%);
 $pagination-disabled-border-color: darken($body-bg, 7%);
 
 $pagination-hover-color: $body-bg;
-$pagination-hover-bg: $special;
+$pagination-hover-bg: $alternate;
 $pagination-hover-color: $white;
 $pagination-hover-border-color: darken($body-bg, 7%);
 

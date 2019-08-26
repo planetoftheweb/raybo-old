@@ -65,7 +65,7 @@ a.text-primary:hover {
 }
 
 .main-sidebar {
-  @include font-size(0.7em);
+  @include font-size(0.8em);
 }
 
 time {
@@ -102,4 +102,5 @@ pre[class*='language-'] code {
 
 .item-links {
   font-family: $font-family-sans-serif;
+  @include font-size(0.8em);
 }
