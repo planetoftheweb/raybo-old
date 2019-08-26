@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico" />
 
     {% if myProject.environment == "production" %}
     <link rel="stylesheet" href="/css/style.css" type="text/css">
@@ -20,6 +21,15 @@
     {% else %}
       <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
     {% endif %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-58547762-1');
+    </script>
 
     <script src="/js/script.js"></script>
   <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">

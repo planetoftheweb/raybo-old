@@ -1,13 +1,13 @@
 {
-  "title": "Seven",
-  "description": "<p class=\"page-section-text text-light\">An <a class=\"text-warning font-weight-bold\" href=\"https://www.11ty.io/\">eleventy</a> template based on <a class=\"text-warning font-weight-bold\" href=\"http://www.raybo.org/bootstrap4layouts/\">bootstrap4layouts</a>. Includes webpack, sass version of bootstrap, vue.js powered search and a whole lot more.</p><div><a class=\"btn btn-lg btn-outline-light\" href=\"https://github.com/planetoftheweb/seven\">Github Repo</a></div>'",
-  "url": "seventy.tech",
+  "title": "Raybo",
+  "description": "The online blog for Ray Villalobos.",
+  "url": "raybo.org",
   "feed": {
-    "summary": "An Eleventy theme based on <a href=\"http://getbootstrap.com/\">bootstrap</a> and bootstrap4layouts",
+    "summary": "The online blog for Ray Villalobos.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://raybo.org/seven/feed/feed.xml",
-    "id": "https://raybo.org/seven"
+    "url": "https://raybo.org/feed/feed.xml",
+    "id": "https://raybo.org"
   },
   "author": {
     "name": "Ray Villalobos",

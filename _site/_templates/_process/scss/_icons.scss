@@ -1,0 +1,19 @@
+.icon-lil {
+  background: url(/images/icons/icon-lil.png) no-repeat center center;
+  background-size: contain;
+}
+
+.icon-pow {
+  background: url(/images/logos/powship-logo-bluedot.svg) no-repeat center
+    center;
+}
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  width: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  text-rendering: auto;
+}

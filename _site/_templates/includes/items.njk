@@ -6,7 +6,7 @@
     {% if item.data.thumb %}
       <div class="col-md-3">
         <a href="{{ defaultURL | url }}" class="d-block mb-1"  {% if external %}target="_blank"{% endif %}>
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} image">
+          <img class="item-title w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} image">
         </a>
       <time class="item-date small d-block text-body" datetime="{{ item.date | simpleDate | safe }}">{{ item.date | simpleDate | safe }}</time>
       </div>

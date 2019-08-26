@@ -1,7 +1,7 @@
 {
-  "name": "seventy",
-  "version": "1.2.1",
-  "description": "Blogging template for the 11ty.io static site generator.",
+  "name": "raybo",
+  "version": "2.0.0",
+  "description": "Blog of Ray Villalobos",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
     "dev:del": "rimraf dist",
