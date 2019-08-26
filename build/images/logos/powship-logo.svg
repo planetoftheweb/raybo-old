@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 198.1 141.1" style="enable-background:new 0 0 198.1 141.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FED600;}
+	.st1{opacity:0.8;fill:#FFFFFF;enable-background:new    ;}
+	.st2{fill:#B41F24;}
+	.st3{fill:#ED1C24;}
+</style>
+<g id="background">
+</g>
+<g>
+	<g id="clippedship">
+		<g>
+			<g id="ship">
+				<path id="shipshape" d="M198.1,84c0-12.8-19.9-24-49.5-30C147.2,24,126.2,0,100.6,0c-25.5,0-46.4,23.7-48,53.5
+					C21.3,59.3,0,70.7,0,84c0,13.6,22.5,25.4,55.4,31l-4.9,26h7.2l10.8-24.1c9.7,1,19.9,1.7,30.6,1.7c10.4,0,20.4-0.6,29.8-1.6
+					l10.7,24.1h7.2l-4.8-25.9C175.2,109.5,198.1,97.8,198.1,84z M56.4,52.8c2.7-26.2,21.4-46.6,44.2-46.6c23,0,41.7,20.6,44.3,47.2
+					c-13.8-2.4-29.3-4-45.8-4C83.8,49.5,69.3,50.7,56.4,52.8z"/>
+				<ellipse id="shipcolor" class="st0" cx="99.1" cy="80.9" rx="89" ry="24.8"/>
+				<ellipse id="alien" cx="88.7" cy="32.7" rx="12.7" ry="11.9"/>
+				<path id="shiphighlight" class="st1" d="M110.8,12c0,0,28.2,10.5,28.2,34.4h-15.5C123.5,46.4,125.7,21.4,110.8,12z"/>
+				<ellipse id="light1" class="st2" cx="22.6" cy="80.6" rx="8.2" ry="7.7"/>
+				<ellipse id="light2" class="st3" cx="43" cy="86.6" rx="8.2" ry="7.7"/>
+				<ellipse id="light3" cx="63.9" cy="90.9" rx="8.2" ry="7.7"/>
+				<ellipse id="light4" cx="86.2" cy="92.5" rx="8.2" ry="7.7"/>
+				<ellipse id="light5" cx="108.6" cy="92.5" rx="8.2" ry="7.7"/>
+				<ellipse id="light6" cx="129" cy="90.9" rx="8.2" ry="7.7"/>
+				<path id="light7" d="M158.4,87.2c0,4.2-3.7,7.7-8.2,7.7c-4.5,0-8.2-3.4-8.2-7.7c0-4.2,3.7-7.7,8.2-7.7
+					C154.8,79.6,158.4,83,158.4,87.2z"/>
+				<ellipse id="light8" cx="170.8" cy="81.8" rx="8.2" ry="7.7"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
