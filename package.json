@@ -4,7 +4,6 @@
   "description": "Personal website and blog for Ray Villalobos",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "dev:del": "rimraf dist",
     "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
     "dev:webpack": "webpack --config webpack.dev.js",
     "build": "run-s prod:*",
