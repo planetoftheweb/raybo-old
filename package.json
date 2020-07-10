@@ -9,9 +9,8 @@
     "dev:webpack": "webpack --config webpack.dev.js",
     "build": "run-s prod:*",
     "now-build": "run-s prod:*",
-    "prod:del": "rimraf build",
     "prod:webpack": "webpack -p --config webpack.prod.js",
-    "prod:serve": "ELEVENTY_ENV=production eleventy --output=./build"
+    "prod:serve": "ELEVENTY_ENV=production eleventy --output=./docs"
   },
   "repository": {
     "type": "git",
