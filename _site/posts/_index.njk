@@ -1,6 +1,6 @@
 ---
-layout: layouts/page.njk
-hero: /images/backgrounds/keyboard.jpg
+layout: page.njk
+hero: https://lil-cdn.com/585273/computing-apps-top-227241901.jpg
 tags:
   - nav
 iconclass: far fa-file-alt
@@ -8,6 +8,10 @@ pagination:
   data: collections.posts
   size: 10
 navtitle: Posts
+eleventyNavigation:
+  key: posts
+  parent: main
+  order: 1
 permalink: /posts/{{pagination.pageNumber}}/
 ---
 

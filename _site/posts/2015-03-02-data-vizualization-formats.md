@@ -1,11 +1,10 @@
 ---
-layout: layouts/post.njk
-title: "Vector Graphic Formats Used for data visualizations"
+layout: post.njk
+title: 'Vector Graphic Formats Used for data visualizations'
 summary: "In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead."
 hero: /images/posts/vector.png
 thumb: /images/posts/vector_tn.png
 tags:
-  - post
   - data visualization
   - svg
 ---
@@ -57,10 +56,10 @@ The commands for drawing are also more like commands than objects. Here's an exa
 
 ```javascript
 function drawRect() {
-  var canvas = document.getElementById("rect");
-  var context = canvas.getContext("2d");
-  context.fillStyle = "rgb(233,192,117)";
-  context.fillRect(0, 0, 100, 100);
+  var canvas = document.getElementById('rect')
+  var context = canvas.getContext('2d')
+  context.fillStyle = 'rgb(233,192,117)'
+  context.fillRect(0, 0, 100, 100)
 }
 ```
 

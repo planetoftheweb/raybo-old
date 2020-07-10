@@ -1,13 +1,17 @@
 ---
-layout: layouts/post-sidebar.njk
+layout: post-sidebar.njk
 title: Features
 summary: A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more."
-tags:
-  - project
-  - rayveal
+sidebar: rayveal
+eleventyNavigation:
+  key: features
+  title: 'Features'
+  parent: rayveal
+  order: 2
 ---
 
 # Features
+
 Although RayVeal was designed to compatible with reveal.js, there are some important differences between the two.
 
 ## Persistent toolbar

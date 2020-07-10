@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather+Sans:300,800|Merriweather:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700|Roboto+Slab:300');
 
 // Import our custom variables
 @import './custom';
-@import './navigation';
-@import './icons';
 
 // Manual Bootstrap Import
 
@@ -46,8 +44,7 @@
 
 //Import Animate.css custom animations
 @import '../../../../node_modules/animate.css/source/base';
-@import '../../../../node_modules/animate.css/source/fading_entrances/fadeInUpBig';
-@import '../../../../node_modules/animate.css/source/fading_entrances/fadeInDownBig';
+@import '../../../../node_modules/animate.css/source/fading_entrances/fadeInUp';
 
 //Import coding color in prism folder
 @import '../prism/prism-xonokai';

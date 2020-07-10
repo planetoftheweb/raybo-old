@@ -1,7 +1,13 @@
 ---
-layout: layouts/post-sidebar.njk
+layout: post-sidebar.njk
 title: Site
 summary: A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more."
+sidebar: seven
+eleventyNavigation:
+  key: site
+  title: 'Site'
+  parent: seven
+  order: 4
 tags:
   - project
   - rayveal

@@ -1,11 +1,10 @@
 ---
-layout: layouts/post.njk
-title: "Principles of online graphic formats"
+layout: post.njk
+title: 'Principles of online graphic formats'
 summary: "If your goal is to create visualizations for online consumption, it's good to understand the fundamentals of how graphic formats work for online delivery. In this article, I'll talk about the different bitmap/raster graphics and some of the main considerations for online delivery."
 hero: /images/posts/graphics.png
 thumb: /images/posts/graphics_tn.png
 tags:
-  - post
   - web design
   - web development
 ---

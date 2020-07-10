@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+
+    <title>Raybo.org</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    
+
+    <script src="/js/script.js"></script>
+    </head>
+  <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-brand text-uppercase">
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
+    </div>
+
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
+        
+        <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+        
+          <a class="nav-item nav-link" href="/courses/0/">courses</a>
+          
+          <a class="nav-item nav-link" href="/posts/0/">posts</a>
+          <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+
+
+
+
+          <a class="dropdown-item text-capitalize text-normal" href="/projects/seven/"><i class="fas fa-atom"></i> seven</a><a class="dropdown-item text-capitalize text-normal" href="/projects/rayveal/"><i class="fas fa-atom"></i> rayveal</a></div>
+        </div>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
+            <i class="fab fa-github text-secondary mr-2"></i>github
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
+            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
+            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.instagram.com/iviewsource">
+            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
+          </a></div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-left" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
+<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(http://pixelprowess.com/i/2020-07-08_10-01-52.png); height: 100%; width: 100%;  filter: blur(3px);" ></section>
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h2 class="page-section-title text-light">How to eliminate the terror of a live coding demo training tutorial</h2>
+        <p class="page-section-text text-light d-none d-md-block">
+          I've prepared dozens of project based online tutorials and given as many live training sessions featuring the dreaded 'live coding' demo. It can be embarrasing when you type in a comma instead of a semicolon. Here's a process for having a flawless demo.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</header> 
+
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0">
+<p>Lets take a look at how I would approach strucuring and buildling a repo for a live demo, which is similar to how I create many online training courses.</p>
+<h2 id="committing-our-finished-state">Committing our finished state <a class="direct-link" href="#committing-our-finished-state"> </a></h2>
+<p>First, I use Git to mark out what my code is supposed to look like when it's finished. Git has a feature called <code>diff</code> that lets you compare your current code to a branch. So if you create a branch that has how some code is supposed to look at the end of a demo, you can back up to a previous point and use this trick.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> init</span><br><span class="highlight-line"><span class="token function">git</span> <span class="token function">add</span> -A</span><br><span class="highlight-line"><span class="token function">git</span> commit -m <span class="token string">"finished state"</span></span></code></pre>
+<p>Now let's delete some code here so that my state shows what my code is going to look like at the beginning of my demo.</p>
+<p>Now, if I wanted to see what I'm missing in this code, I would do a git diff command.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> <span class="token function">diff</span></span></code></pre>
+<p>Unfortunately, this is real confusing because we're using the terminal, so it's not that helpful.</p>
+<h2 id="using-visual-studio-code">Using Visual Studio Code <a class="direct-link" href="#using-visual-studio-code"> </a></h2>
+<p>However, if you're using Visual Studio Code, you get the same thing integrated into the editor.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-07_20-52-47.png" alt="hover on this triangle to see the difference between your finished code and what you have"></p>
+<p>Notice the small triangle next to where the new code should be. When you hover on this triangle a line should appear next to it. If you click on it, you can see the code you're supposed to type.</p>
+<h3 id="using-the-shortcut-icons">Using the shortcut icons <a class="direct-link" href="#using-the-shortcut-icons"> </a></h3>
+<p><img src="http://pixelprowess.com/i/2020-07-08_08-53-09.png" alt="You can see the missing line that's on the finished version"></p>
+<p>You can use the icons on the right hand side to perform git functions. From the left.</p>
+<ul>
+<li>The <code>plus sign</code> will <strong>stage</strong> the change</li>
+<li>The <code>rotated arrow</code> will <strong>revert</strong> the change...in our case, that would put the finished code back on the page;</li>
+<li>The <code>up</code> and <code>down</code> arrows will move up and down the code</li>
+<li>The <code>x</code> will close the window.</li>
+</ul>
+<h3 id="typing-in-new-code">Typing in new code <a class="direct-link" href="#typing-in-new-code"> </a></h3>
+<p>The nice thing is that if you type in some code, the view will update as well, telling you where code than is different that you should have typed is.</p>
+<p>Let's go to the bottom of the page so we can type in the script for a notification.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_09-22-32.png" alt="Here's some longer code at the bottom of the screen"></p>
+<p>Let's add some code at the bottom of the screen so that we can see how it works when we're demoing our code.</p>
+<pre class="language-js"><code class="language-js"><span class="highlight-line"><span class="token operator">&lt;</span>script<span class="token operator">></span></span><br><span class="highlight-line"><span class="token keyword">let</span> notyf <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Notyf</span><span class="token punctuation">(</span><span class="token punctuation">{</span></span><br><span class="highlight-line">  duration<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  dismissible<span class="token operator">:</span> <span class="token boolean">true</span></span><br><span class="highlight-line"><span class="token punctuation">}</span><span class="token punctuation">)</span></span><br><span class="highlight-line">notyf<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span><span class="token string">'Way to go Bud'</span><span class="token punctuation">)</span></span><br><span class="highlight-line"><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span></span></code></pre>
+<p><img src="http://pixelprowess.com/i/2020-07-08_09-39-51.png" alt="http://pixelprowess.com/i/2020-07-08_09-39-51.png"></p>
+<p>Take a peek at your editor now. You can see that It's showing you some lines where some of the code you've typed is different than the code you're supposed to type.</p>
+<h3 id="debugging-mistakes">Debugging mistakes <a class="direct-link" href="#debugging-mistakes"> </a></h3>
+<p>Let's make a mistake on purpose. I'll get rid of the <code>{</code> at the end of my Notyf call. You should see a new line appear and if you click on that line you'll see where your mistake is.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_09-53-10.png" alt="http://pixelprowess.com/i/2020-07-08_09-53-10.png"></p>
+<p><strong>VS Code</strong> is giving you all types of help here. It's highlighted where the missing curly brace is and showing you the line you typed underneath. Notice there's a little <strong>lightbulb</strong> to the left. If you click on that you can also copy a specific line. That's good if you don't want to revert a bunch of lines.</p>
+<h2 id="using-the-github-desktop-app">Using the Github Desktop app <a class="direct-link" href="#using-the-github-desktop-app"> </a></h2>
+<p>Now sometimes this view can be distracting during a demo, so you can use an external tool that shows you what you need to type during the demo. A super nice and free option is the <a href="https://desktop.github.com/">Github Desktop Application</a>. You can visually see the changes there.</p>
+<p>Make sure you've saved the document before you open up the Github Desktop App; there will be some setup required. Once you've run the app go to the <strong>file</strong> menu and open the file or folder with your project.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_10-01-52.png" alt="Using the Github Desktop Application."></p>
+<p>This is a great overview that you can have in a separate window when doing your demo. You can also send a screenshot of this and put it on an ipad that you can reference.</p>
+<h2 id="using-separate-branches">Using Separate Branches <a class="direct-link" href="#using-separate-branches"> </a></h2>
+<p>What if you have a lot of code in different files, or you have a lot of code that you don't want to do all at once? In that case, you can create branches to separate each step. You'll need to think about what you want to show in each step though and create a starting version of your code.</p>
+<h3 id="creating-a-starting-state">Creating a starting state <a class="direct-link" href="#creating-a-starting-state"> </a></h3>
+<p>For my code, I want just a simple template with the bootstrap css and no script tags.</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span><br><span class="highlight-line">      <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span></span><br><span class="highlight-line">      <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css<span class="token punctuation">"</span></span></span><br><span class="highlight-line">      <span class="token attr-name">integrity</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I<span class="token punctuation">"</span></span></span><br><span class="highlight-line">      <span class="token attr-name">crossorigin</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>anonymous<span class="token punctuation">"</span></span></span><br>    <span class="token punctuation">/></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Headline<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa</span><br><span class="highlight-line">        officiis, velit minus deserunt est suscipit. Consequuntur laboriosam</span><br><span class="highlight-line">        est, illum totam voluptates tempore commodi ut, molestiae nulla vel</span><br><span class="highlight-line">        dicta aperiam tenetur?</span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      ...</span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></span></code></pre>
+<p>That seems like a good start. Let's <strong>save</strong> this and create a branch for our starting point.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> checkout -b step00</span><br><span class="highlight-line"><span class="token function">git</span> <span class="token function">add</span> -A</span><br><span class="highlight-line"><span class="token function">git</span> commit -m <span class="token string">"step00"</span></span></code></pre>
+<h3 id="building-step-01">Building Step 01 <a class="direct-link" href="#building-step-01"> </a></h3>
+<p>Now we need to modify this to add what would make a good step one. However, you'll notice that our helpful triangles and lines are gone, since as far as Git knows, our commit locked in our changes. This is where Github Desktop is going to come in handy again.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_12-11-49.png" alt="The History Section"></p>
+<p>The desktop app saves our history, so make sure you go to the history tab and you should see your changes from the original. The nice thing is that we can copy and paste code from here as well. Let's go ahead and copy the link to the Notyf css here as well as the basic most basic code to create a notification.</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    ...</span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span><br><span class="highlight-line">      <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span></span><br><span class="highlight-line">      <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css<span class="token punctuation">"</span></span></span><br>    <span class="token punctuation">/></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    ...</span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br><span class="highlight-line">      <span class="token operator">+</span></span><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="highlight-line"></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br><span class="highlight-line">      <span class="token keyword">let</span> notyf <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Notyf</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><br><span class="highlight-line">      notyf<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span><span class="token string">'Way to go Bud'</span><span class="token punctuation">)</span></span><br><span class="highlight-line">      notyf<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">'Oh...fudge'</span><span class="token punctuation">)</span></span><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></span></code></pre>
+<p>I also added an error notification because it'd be nice at this point to show the two options. That looks good for a step01</p>
+<ol>
+<li><strong>Save</strong> your file</li>
+<li>Checkout a new branch</li>
+<li><strong>Add</strong> and <strong>Commit</strong> the branch</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> checkout -b step01</span><br><span class="highlight-line"><span class="token function">git</span> <span class="token function">add</span> -A</span><br><span class="highlight-line"><span class="token function">git</span> commit -m <span class="token string">"step01"</span></span></code></pre>
+<h3 id="adding-another-step">Adding another step <a class="direct-link" href="#adding-another-step"> </a></h3>
+<p>For the next step, we're going to show some of the options available with the library.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br><span class="highlight-line">  <span class="token keyword">let</span> notyf <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Notyf</span><span class="token punctuation">(</span><span class="token punctuation">{</span></span><br><span class="highlight-line">    duration<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    dismissible<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    position<span class="token operator">:</span> <span class="token punctuation">{</span> x<span class="token operator">:</span> <span class="token string">'right'</span><span class="token punctuation">,</span> y<span class="token operator">:</span> <span class="token string">'top'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token punctuation">}</span><span class="token punctuation">)</span></span><br><span class="highlight-line">  notyf<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span><span class="token string">'Way to go Bud'</span><span class="token punctuation">)</span></span><br></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<ol>
+<li><strong>Save</strong> your file</li>
+<li>Checkout a new branch</li>
+<li><strong>Add</strong> and <strong>Commit</strong> the branch</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> checkout -b step02</span><br><span class="highlight-line"><span class="token function">git</span> <span class="token function">add</span> -A</span><br><span class="highlight-line"><span class="token function">git</span> commit -m <span class="token string">"step02"</span></span></code></pre>
+<h3 id="looking-at-your-progress">Looking at your progress <a class="direct-link" href="#looking-at-your-progress"> </a></h3>
+<p>For our next step, let's show how to create a custom notification.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br><span class="highlight-line">  <span class="token keyword">let</span> notyf <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Notyf</span><span class="token punctuation">(</span><span class="token punctuation">{</span></span><br><span class="highlight-line">    duration<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    dismissible<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    position<span class="token operator">:</span> <span class="token punctuation">{</span> x<span class="token operator">:</span> <span class="token string">'right'</span><span class="token punctuation">,</span> y<span class="token operator">:</span> <span class="token string">'top'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    types<span class="token operator">:</span> <span class="token punctuation">[</span></span><br><span class="highlight-line">      <span class="token punctuation">{</span></span><br><span class="highlight-line">        type<span class="token operator">:</span> <span class="token string">'home'</span><span class="token punctuation">,</span></span><br><span class="highlight-line">        background<span class="token operator">:</span> <span class="token string">'#d33682'</span><span class="token punctuation">,</span></span><br><span class="highlight-line">      <span class="token punctuation">}</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    <span class="token punctuation">]</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token punctuation">}</span><span class="token punctuation">)</span></span><br><span class="highlight-line">  notyf<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span><span class="token string">'Way to go Bud'</span><span class="token punctuation">)</span></span><br><span class="highlight-line">  notyf<span class="token punctuation">.</span><span class="token function">open</span><span class="token punctuation">(</span><span class="token punctuation">{</span></span><br><span class="highlight-line">    type<span class="token operator">:</span> <span class="token string">'home'</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    message<span class="token operator">:</span> <span class="token string">'Welcome Home'</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token punctuation">}</span><span class="token punctuation">)</span></span><br></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
+<p>Now we'll create the branch for this.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> checkout -b step03</span><br><span class="highlight-line"><span class="token function">git</span> <span class="token function">add</span> -A</span><br><span class="highlight-line"><span class="token function">git</span> commit -m <span class="token string">"step03"</span></span></code></pre>
+<p>If you haven't noticed yet, what this is doing is creating a history for each of our steps and if you look at the Github Desktop App and click on the different steps you can see the progress. Notice that every step will show you what you've changed and the line numbers at which the changes were made, which again can be helpful while doing the demo.</p>
+<p><img src="2020-07-08_13-05-07.gif" alt="http://pixelprowess.com/i/2020-07-08_13-05-07%20(2).gif"></p>
+<h3 id="our-last-step">Our last step <a class="direct-link" href="#our-last-step"> </a></h3>
+<p>Our last step will take place in a couple of lines. First we need to add the link tag to the top of the screen under our bootstrap call.</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://unpkg.com/css.gg/icons/all.css<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></span></code></pre>
+<p>And we'll need to add the icon tag to the type:</p>
+<pre class="language-js"><code class="language-js"><span class="highlight-line">icon<span class="token operator">:</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  className<span class="token operator">:</span> <span class="token string">'gg-home text-white d-inline-block'</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  tagName<span class="token operator">:</span> <span class="token string">'i'</span><span class="token punctuation">,</span></span><br><span class="highlight-line"><span class="token punctuation">}</span><span class="token punctuation">,</span></span></code></pre>
+<p>Once again, let's create the branch for that step.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> checkout -b step04</span><br><span class="highlight-line"><span class="token function">git</span> <span class="token function">add</span> -A</span><br><span class="highlight-line"><span class="token function">git</span> commit -m <span class="token string">"step04"</span></span></code></pre>
+<h2 id="the-new-demo">The new demo <a class="direct-link" href="#the-new-demo"> </a></h2>
+<p>So that's the end of splitting our code into different steps, but how does that change the structure of our demo? Clearly the Github Desktop App can be helpful here, we have the full history of our demo here neatly placed in different branches. But let's say we want to work on a specific step. For example, say we want to demo what we did on Step 02.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> checkout step02</span></code></pre>
+<p><img src="http://pixelprowess.com/i/2020-07-08_15-08-24.png" alt="Step 2 with the latest changes"></p>
+<p>In the Github Desktop App, this shows us the code at the end of step02 and what changes we made from step01 to get to that point. But, if I'm starting to record, then I want to be able to rewind the code so that I'm looking at step 01's version.</p>
+<h3 id="a-little-bit-of-git-fu">A little bit of git-fu <a class="direct-link" href="#a-little-bit-of-git-fu"> </a></h3>
+<p>This is going to take a few steps, but it'll be worth it. First we can use a command called <code>cherry-pick</code> to rewind our code to what was happening in another branch.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> cherry-pick step01 -n</span></code></pre>
+<p>Cherry pick loads up and normally commits another branch or a commit from your commit log, but since we used the <code>-n</code> option here, it won't commit the changes. The problem now is that Visual Studio code being careful and all wants to make sure that since we're changing things we approve the changes.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_15-27-17.png" alt="Results of cherry picking"></p>
+<p>Mercifully we can just accept all incoming changes using Visual Studio Code's command palette. Chooose <code>View:Command palette</code> or use the equivalent command key equivalent, then type in <code>incoming</code> and choose <code>Merge Conflict Accept All Incoming</code>.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_15-28-56.png" alt="Accepting Incomming changes"></p>
+<p>Now your code should look like <code>step01</code>, but we've lost our beautiful diff squares. To bring those back…</p>
+<ol>
+<li>First make sure you <code>save</code> your changes, then let's reset the HEAD pointer quietly.</li>
+<li>Reset the HEAD pointer quietly.</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> reset HEAD -q</span></code></pre>
+<p>Now our beautiful triangles/lines are there again showing you what you should be typing and you can go on with the demo for that. The Github Desktop App still has our previews, so if you want to have an overview of what you need to do, you can take a peek.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_15-41-17.png" alt="The Github Desktop App"></p>
+<h2 id="posting-your-demo-to-github">Posting your demo to Github <a class="direct-link" href="#posting-your-demo-to-github"> </a></h2>
+<p>But, what about your students. What if they want to follow along with what you're doing or have access to your repo. Let's post this on Github as a Repo. There's a few ways you can do this, but the easiest is to use the <strong>Github Desktop App</strong>.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_15-56-27.png" alt="Publish repos from the Github Desktop App"></p>
+<p>You can name your app here, add a description and choose wether to create a public or private repository. Now, this is only going to publish the branch that you're on; in our case that's <strong>step02</strong>. If you want to publish all branches.</p>
+<ol>
+<li>Go back to <strong>Visual Studio Code</strong> and issue a command to push ALL branches.</li>
+<li>Issue a <code>git push</code> command</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> push --all</span></code></pre>
+<p><img src="http://pixelprowess.com/i/2020-07-08_16-00-43.png" alt="Push all branches"></p>
+<h2 id="compare-branches-with-github">Compare branches with Github <a class="direct-link" href="#compare-branches-with-github"> </a></h2>
+<p>Having all of your branches in Github gives you one more super power, the ability to compare branches and link to that comparison. Let's say that you want to send students a link to the changes happening between <a href="https://github.com/planetoftheweb/demo-notyf/compare/step01..step02">Step 01 and Step 02</a>.</p>
+<p><img src="http://pixelprowess.com/i/2020-07-08_16-13-28.png" alt="Git Comparison"></p>
+<p>The formula for building those comparisons are as follows:</p>
+<ol>
+<li>The URL of your repo: <a href="https://github.com/planetoftheweb/demo-notyf/">https://github.com/planetoftheweb/demo-notyf/</a></li>
+<li>Add the word <code>compare</code> at the end</li>
+<li>Add the name of the first branch you're comparing from <code>step01</code></li>
+<li>Add two periods <code>..</code></li>
+<li>Add the name of the second branch you're comparing to <code>step02</code></li>
+</ol>
+<p>So you can use this formula to compare any two branches.</p>
+<h2 id="changing-the-default-branch">Changing the default branch <a class="direct-link" href="#changing-the-default-branch"> </a></h2>
+<p>If someone clones this repo, they will clone the first branch you pushed, you can change the default branch to our <strong>step00</strong> branch, which has the beginning version of our code. You could set a different branch to be the default if you wanted students to start at a specific step or make the <strong>master</strong> branch the default and it would have the finished version of the code.</p>
+<ol>
+<li>Look for the branches link.</li>
+</ol>
+<p><img src="http://pixelprowess.com/i/2020-07-08_16-41-07.png" alt="Click on the branches link"></p>
+<ol start="2">
+<li>Click on the <strong>change default</strong> branch button</li>
+<li>Choose the branch you want to set up as your default branch</li>
+<li>Click on the <strong>update button</strong></li>
+</ol>
+<p><img src="http://pixelprowess.com/i/2020-07-08_17-13-15.png" alt="Change the default branch"></p>
+<ol start="5">
+<li>Click on the <strong>I understand...</strong> button</li>
+</ol>
+<p><img src="http://pixelprowess.com/i/2020-07-08_16-45-18.png" alt="I understand"></p>
+<pre><code>Note: It might be a good idea to add a README.md file to give a description of your project.
+</code></pre>
+<h2 id="the-advantages-of-publishing">The advantages of publishing <a class="direct-link" href="#the-advantages-of-publishing"> </a></h2>
+<p>The big advantage here is that each branch gives you a way to take a peek and what you're going to be typing and with Github Desktop, an overview of what you need to do. Hopefully that will put you at ease and help you do your live demos with confidence.</p>
+
+</main>
+</article>
+
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+    </footer>
+  </body>
+
+</html>

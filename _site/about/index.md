@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 title: About Me
 carousel:
   fade: true

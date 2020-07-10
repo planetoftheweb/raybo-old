@@ -1,28 +1,27 @@
-$font-family-sans-serif: 'Merriweather Sans', -apple-system, BlinkMacSystemFont,
-  'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+$font-family-sans-serif: Asap, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
 
-$font-family-base: 'Merriweather', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+$font-family-base: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
   'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
 
 $headings-font-family: $font-family-sans-serif;
-$headings-font-weight: 800;
+$headings-font-weight: 700;
 $line-height-base: 1.4;
 
-$primary: #1a7d9b;
-$secondary: #cd2c24;
-$body-bg: #f0efe0;
-$text-body: #515a60;
+$primary: rgb(10, 79, 111);
+$secondary: #bf311c;
+$body-bg: #fff;
+$text-body: #3e3f41;
 $body-color: $text-body;
 $border-radius: 8px;
-$special: #f2594b;
-$alternate: #ffb03b;
+$special: #f4dca0;
 $black: #000;
 $white: #fff;
 
 $theme-colors: (
-  'special': $special
+  'special': $special,
 );
 
 $enable-responsive-font-sizes: true;
@@ -35,25 +34,25 @@ $spacer: 1rem;
 
 $spacers: (
   huge: (
-    $spacer * 4
-  )
+    $spacer * 6,
+  ),
 );
 
 $grid-gutter-width: 16px;
 
-$pagination-bg: lighten($alternate, 10%);
+$pagination-bg: $primary;
 $pagination-color: darken($primary, 20%);
 $pagination-border-color: darken($body-bg, 7%);
 
 $pagination-active-color: $body-bg;
-$pagination-active-bg: $special;
+$pagination-active-bg: $secondary;
 $pagination-active-border-color: darken($body-bg, 7%);
 
 $pagination-disabled-bg: darken($body-bg, 3%);
 $pagination-disabled-border-color: darken($body-bg, 7%);
 
 $pagination-hover-color: $body-bg;
-$pagination-hover-bg: $alternate;
+$pagination-hover-bg: $special;
 $pagination-hover-color: $white;
 $pagination-hover-border-color: darken($body-bg, 7%);
 
@@ -74,4 +73,6 @@ $link-color: $primary;
 $link-hover-color: lighten($link-color, 10%);
 $link-hover-decoration: none;
 
-$badge-font-weight: 100;
+$badge-font-weight: 400;
+
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.4);
