@@ -1,8 +1,6 @@
 ---
 layout: base.njk
 headerHeight: 50vh
-carousel:
-  fade: true
 eleventyNavigation:
   key: main
 ---
@@ -11,7 +9,29 @@ eleventyNavigation:
 {% set courselist = collections.courses | head(6) %}
 {% set carouselPosts = collections.posts | head(3) %}
 
-{% include "header-carousel-posts.njk" %}
+
+{% if hero %}
+<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %} site-header" style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '50vh'}};">
+<section class="layout-hero position-absolute d-flex align-items-center" {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url({{ hero }}); height: 100%; width: 100%; filter: blur({{(blur) if blur else '0'}});" {% endif %}></section>
+<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h1 class="page-section-title text-light">{{metadata.title}}</h1>
+        <p class="page-section-text text-light">
+          {{metadata.description}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+{% else %}
+  <header id="page-hero">
+  {% include "header-carousel-posts.njk" %}
+  </header>
+{% endif %}
+
 
 <article id="main-content" class="page-home site-main container"
 {% if carouselPosts==null and hero==null%}style="padding-top: 60px"{%endif%}

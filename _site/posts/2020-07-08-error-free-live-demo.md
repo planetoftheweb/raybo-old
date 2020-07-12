@@ -1,5 +1,5 @@
 ---
-layout: post.njk
+layout: post
 title: 'How to eliminate the terror of a live coding demo training tutorial'
 summary: "I've prepared dozens of project based online tutorials and given as many live training sessions featuring the dreaded 'live coding' demo. It can be embarrasing when you type in a comma instead of a semicolon. Here's a process for having a flawless demo."
 hero: /images/posts/markus-spiske-Skf7HxARcoc-unsplash.jpg
@@ -207,7 +207,7 @@ git commit -m "step02"
 
 For our next step, let's show how to create a custom notification.
 
-```html
+```html/1
 <script>
   let notyf = new Notyf({
     duration: 0,
@@ -238,7 +238,7 @@ git commit -m "step03"
 
 If you haven't noticed yet, what this is doing is creating a history for each of our steps and if you look at the Github Desktop App and click on the different steps you can see the progress. Notice that every step will show you what you've changed and the line numbers at which the changes were made, which again can be helpful while doing the demo.
 
-![http://pixelprowess.com/i/2020-07-08_13-05-07%20(2).gif](2020-07-08_13-05-07.gif)
+![http://pixelprowess.com/i/2020-07-08_13-05-07.gif](http://pixelprowess.com/i/2020-07-08_13-05-07.gif)
 
 ### Our last step
 

@@ -16,7 +16,7 @@ $body-bg: #f3e9ca;
 $text-body: #3e3f41;
 $body-color: $text-body;
 $border-radius: 8px;
-$special: #bf471b;
+$special: rgb(192, 179, 132);
 $black: #000;
 $white: #fff;
 
@@ -34,13 +34,13 @@ $spacer: 1rem;
 
 $spacers: (
   huge: (
-    $spacer * 6,
+    $spacer * 5,
   ),
 );
 
 $grid-gutter-width: 16px;
 
-$pagination-bg: $primary;
+$pagination-bg: $special;
 $pagination-color: darken($primary, 20%);
 $pagination-border-color: darken($body-bg, 7%);
 

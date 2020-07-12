@@ -13,6 +13,22 @@
   font-weight: 400;
 }
 
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  width: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  text-rendering: auto;
+}
+
+.icon-pow {
+  background: url(/images/site/powship.svg) no-repeat center center;
+  background-size: contain;
+  width: 2em;
+}
+
 h1,
 .h1 {
   color: $primary;
@@ -144,7 +160,7 @@ time {
 }
 
 pre code {
-  font-size: 1.5em !important;
+  font-size: 0.8em !important;
   margin: 0;
 }
 
@@ -168,4 +184,19 @@ pre code {
 
 .badge {
   color: $body-bg;
+}
+
+.article-content {
+  p {
+    margin: 2.5em auto;
+  }
+
+  img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px #92865c;
+  }
 }

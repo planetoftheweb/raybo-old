@@ -1,12 +1,15 @@
 const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
-const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const pluginTOC = require('eleventy-plugin-nesting-toc')
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss)
-  eleventyConfig.addPlugin(pluginSyntaxHighlight)
+
+  eleventyConfig.addPlugin(syntaxHighlight)
+
+  eleventyConfig.addWatchTarget('_process/scss')
 
   eleventyConfig.addFilter('simpleDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
