@@ -42,6 +42,6 @@
   </div>
 </header>
 {% elif hero %}
-<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %}site-header" {% if hero %} style="width: 100vw; background-size: cover; background-position: center center; background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }}); min-height: {{(headerHeight) if headerHeight else '50vh'}};"> {% endif %}
+<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %}site-header" {% if hero %} style="width: 100vw; background-size: cover; background-position: center center; background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }});  background-repeat: no-repeat; background-size: cover; min-height: {{(headerHeight) if headerHeight else '50vh'}};"> {% endif %}
 </header>
 {% endif %}
