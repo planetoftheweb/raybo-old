@@ -72,7 +72,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection(
     'tagList',
-    require('./_site/_templates/getTagList')
+    require('./_site/_includes/getTagList')
   )
 
   /* Markdown Plugins */
@@ -102,7 +102,7 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: 'njk',
     dir: {
       input: '_site',
-      includes: '_templates',
+      templates: '_includes',
       layouts: '_layouts',
       data: '_data',
       output: 'dist',

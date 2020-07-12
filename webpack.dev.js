@@ -1,6 +1,7 @@
 const path = require('path')
 const merge = require('webpack-merge')
 const common = require('./webpack.common.js')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = merge(common, {
   mode: 'development',
@@ -9,6 +10,11 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/script.js',
   },
+  plugins: [
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: [], // disables cleanOnceBeforeBuildPatterns
+    }),
+  ],
   module: {
     rules: [
       { test: /\.js$/, loader: 'babel-loader' },

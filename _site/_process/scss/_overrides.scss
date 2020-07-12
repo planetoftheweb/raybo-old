@@ -41,7 +41,7 @@ h3,
 }
 
 .header-content {
-  text-shadow: 1px 1px 5px darken($body-bg, 50%);
+  text-shadow: 1px 1px 5px $black;
 }
 
 .site-nav {
@@ -92,7 +92,7 @@ a.text-primary:hover {
 }
 
 .site-main {
-  @include font-size(1.2rem);
+  @include font-size(1rem);
 }
 
 .lead {
@@ -100,11 +100,11 @@ a.text-primary:hover {
 }
 
 .item-title {
-  @include font-size(2rem);
+  @include font-size(1.5rem);
 }
 
 .item-summary {
-  @include font-size(1.3rem);
+  @include font-size(1rem);
 }
 
 .main-sidebar {
@@ -159,9 +159,13 @@ pre code {
   }
 
   p {
-    margin: 2em auto;
+    margin: 0em auto;
   }
   img {
     max-width: 100%;
   }
+}
+
+.badge {
+  color: $body-bg;
 }

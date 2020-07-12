@@ -3,10 +3,20 @@ layout: page.njk
 title: About Me
 carousel:
   fade: true
+  indicators: false
+  controls: false
   items:
-    - image: http://pixelprowess.com/i/raybo01.jpg
-    - image: http://pixelprowess.com/i/raybo02.jpg
-    - image: http://pixelprowess.com/i/raybo03.jpg
+    - url: 'http://raybo.org'
+      data:
+        hero: 'http://pixelprowess.com/i/raybo01.jpg'
+
+    - url: 'http://bbb.com'
+      data:
+        hero: 'http://pixelprowess.com/i/raybo02.jpg'
+    - url: 'http://ccc.com'
+      data:
+        hero: 'http://pixelprowess.com/i/raybo03.jpg'
+
 navtitle: About
 ---
 

@@ -15,7 +15,7 @@ eleventyNavigation:
 permalink: /posts/{{pagination.pageNumber}}/
 ---
 
-{% include "includes/pagination.njk" %}
+{% include "pagination.njk" %}
 
 {%- for item in pagination.items %}
   {% set defaultURL = '' %}
@@ -27,9 +27,9 @@ permalink: /posts/{{pagination.pageNumber}}/
       {% set defaultURL = item.url %}
   {% endif %}
 
-  {% include "includes/items.njk" %}
+  {% include "items.njk" %}
 
 {% endfor -%}
 
-{% include "includes/pagination.njk" %}
+{% include "pagination.njk" %}
 

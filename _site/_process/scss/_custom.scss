@@ -10,13 +10,13 @@ $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
 $line-height-base: 1.4;
 
-$primary: rgb(10, 79, 111);
-$secondary: #bf311c;
-$body-bg: #fff;
+$primary: #025e73;
+$secondary: #bf471b;
+$body-bg: #f3e9ca;
 $text-body: #3e3f41;
 $body-color: $text-body;
 $border-radius: 8px;
-$special: #f4dca0;
+$special: #bf471b;
 $black: #000;
 $white: #fff;
 
@@ -25,7 +25,7 @@ $theme-colors: (
 );
 
 $enable-responsive-font-sizes: true;
-$rfs-base-font-size: 1rem;
+$rfs-base-font-size: 0.8rem;
 $enable-caret: false;
 
 $enable-shadows: true;
@@ -60,12 +60,12 @@ $card-border-radius: 0;
 $list-group-bg: $body-bg;
 $list-group-active-bg: $secondary;
 
-$dropdown-bg: $body-bg;
+$dropdown-bg: $white;
 $dropdown-divider-bg: darken($text-body, 15%);
 $dropdown-link-color: $text-body;
 $dropdown-item-padding-y: 0.15rem;
 $dropdown-item-padding-x: 1rem;
-$dropdown-link-hover-color: $text-body;
+$dropdown-link-hover-color: $white;
 $dropdown-link-hover-bg: darken($body-bg, 5%);
 $nav-divider-margin-y: 0.3rem;
 
