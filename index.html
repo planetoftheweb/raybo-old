@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
-
+ 
     <title>Raybo.org</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 
@@ -29,8 +29,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
+    <div class="navbar-brand text-lowercase">
+      <a class="text-light" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
 
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
@@ -110,43 +110,106 @@
 
     
 
-<header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
-<section class="layout-hero position-absolute d-flex align-items-center"  style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(https://lil-cdn.com/585273/computing-apps-threequarter-211095871.jpg); height: 100%; width: 100%; filter: blur(0);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
-        <h1 class="page-section-title text-light">Raybo.org</h1>
-        <p class="page-section-text text-light">
-          An <a class="text-warning font-weight-bold" href="https://www.11ty.io/">eleventy</a> template based on <a class="text-warning font-weight-bold" href="http://www.raybo.org/bootstrap4layouts/">bootstrap4layouts</a>. Includes webpack, sass version of bootstrap, vue.js powered search and a whole lot more.
-        </p>
-        <div><a class="btn btn-lg btn-outline-light" href="https://github.com/planetoftheweb/seven">Github Repo</a></div>
-      </div>
+
+
+
+
+
+  <header id="page-hero">
+  <header id="layout-carousel" style="width: 100vw;"
+  class="carousel d-none d-sm-flex justify-content-center align-items-center slide
+  carousel-fade"
+  
+   
+  data-ride="carousel"
+  >
+  <div class="carousel-inner" style="max-height: 50vh;" >
+
+
+    
+    <ol class="carousel-indicators">
+      
+        <li data-target="#layout-carousel" class="active" data-slide-to="0"></li>
+      
+        <li data-target="#layout-carousel"  data-slide-to="1"></li>
+      
+        <li data-target="#layout-carousel"  data-slide-to="2"></li>
+      
+    </ol>
+    
+
+    
+    <div class="carousel-item active" >
+      <a href="/posts/2020-07-08-error-free-live-demo/">
+        <div class="d-block w-100" style="background-image: linear-gradient(  rgba(0, 0, 0, .7), transparent 30%, rgba(0, 0, 0, .9)), url(/images/posts/markus-spiske-Skf7HxARcoc-unsplash.jpg); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="How to eliminate the terror of a live coding demo training tutorial"></div>
+        <div class="carousel-caption">
+          <div class="container">
+          <h4 class="text-white">How to eliminate the terror of a live coding demo training tutorial</h4>
+          <p class="d-none d-md-block" style="font-size: .9em">I&#39;ve prepared dozens of project based online tutorials and given as many live training sessions featuring the dreaded &#39;live coding&#39; demo. It can be embarrasing when you type in a comma instead of a semicolon. Here&#39;s a process for having a flawless demo.</p>
+          </div>
+        </div>
+      </a>
     </div>
+    
+    <div class="carousel-item " >
+      <a href="/posts/2018-10-12-json-tutorial/">
+        <div class="d-block w-100" style="background-image: linear-gradient(  rgba(0, 0, 0, .7), transparent 30%, rgba(0, 0, 0, .9)), url(/images/posts/json.png); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="A JSON Tutorial. Getting started with JSON using JavaScript and jQuery"></div>
+        <div class="carousel-caption">
+          <div class="container">
+          <h4 class="text-white">A JSON Tutorial. Getting started with JSON using JavaScript and jQuery</h4>
+          <p class="d-none d-md-block" style="font-size: .9em">Javascript has grown from a way to add interactivity on your page, to a language that lets you perform tasks that once belonged to servers. JSON provides for an easy way to create and store data structures within JavaScript. It’s super popular and a great alternative to XML.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <div class="carousel-item " >
+      <a href="/posts/2018-03-28-resiliency-9-bosses-5-years/">
+        <div class="d-block w-100" style="background-image: linear-gradient(  rgba(0, 0, 0, .7), transparent 30%, rgba(0, 0, 0, .9)), url(/images/posts/resiliency.png); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="What I learned about resiliency working for 9 bosses in 5 years"></div>
+        <div class="carousel-caption">
+          <div class="container">
+          <h4 class="text-white">What I learned about resiliency working for 9 bosses in 5 years</h4>
+          <p class="d-none d-md-block" style="font-size: .9em">Getting a new boss can be really stressful. To paraphrase the great philosopher F. Gump, you usually have little input into who that is, so you don’t know what you&#39;re going to get until you&#39;ve had the time to work with them. I should know.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+
+    
+      <a class="carousel-control-prev" href="#layout-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="sr-only">Previous</span>
+        </span>
+      </a>
+
+      <a class="carousel-control-next" href="#layout-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+          <span class="sr-only">Previous</span>
+        </span>
+      </a>
+    
   </div>
-</div>
 </header>
+  </header>
+
 
 
 <article id="main-content" class="page-home site-main container"
 
 >
-
-
-
-
 <div class="row">
   <div class="main-content col-md-9">
-    <h4 class="family-sans text-secondary mt-2 mb-4 px-3 px-sm-0">Latest Posts</h4>
+    <h6 class="family-sans text-secondary mt-3 mb-2 px-3 px-sm-0">Latest Posts</h6>
     
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  mb-3 ">
+  <div class="row justify-content-center px-3 px-sm-0  mb-3 ">
     
       <div class="col-md-3">
         <a href="/posts/2020-07-08-error-free-live-demo/" class="d-block mb-1"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/posts/weekly-worksmarter_tn.png" alt="How to eliminate the terror of a live coding demo training tutorial image">
+          <img class="item-title  w-100 img-fluid rounded" src="/images/posts/markus-spiske-Skf7HxARcoc-unsplash_tn.png" alt="How to eliminate the terror of a live coding demo training tutorial image">
         </a>
       <time class="item-date small d-block text-body" datetime="Jul 08, 2020">Jul 08, 2020</time>
       </div>
@@ -172,7 +235,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="/posts/2018-10-12-json-tutorial/" class="d-block mb-1"  >
@@ -204,7 +267,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/what-i-learned-resiliency-working-9-bosses-5-years-ray-villalobos/" class="d-block mb-1"  target="_blank">
@@ -248,7 +311,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="d-block mb-1"  target="_blank">
@@ -292,7 +355,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/looking-microsoft-ignite-first-time-attendee-journey-find-villalobos" class="d-block mb-1"  target="_blank">
@@ -333,7 +396,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/three-things-i-learned-from-six-years-teacher-ray-villalobos" class="d-block mb-1"  target="_blank">
@@ -376,7 +439,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/crafting-effective-video-embed-campaign-linkedin-ray-villalobos" class="d-block mb-1"  target="_blank">
@@ -419,7 +482,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/five-weekly-series-help-you-work-smarter-more-your-ray-villalobos/" class="d-block mb-1"  target="_blank">
@@ -459,7 +522,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/get-challenged-professional-photographers-motion-10-video-villalobos" class="d-block mb-1"  target="_blank">
@@ -501,7 +564,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/10-minute-weekly-courses-can-help-you-become-better-ray-villalobos" class="d-block mb-1"  target="_blank">
@@ -544,7 +607,7 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/nine-weekly-series-help-you-master-3-d-animation-ray-villalobos" class="d-block mb-1"  target="_blank">
@@ -582,7 +645,7 @@
   </div>
     </div>
   <div class="main-sidebar col-md-3">
-    <h4 class="text-secondary mt-2 mb-4 px-3 px-sm-0">Latest Courses</h4>
+    <h6 class="text-secondary mt-3 mb-4 px-3 px-sm-0">Latest Courses</h6>
     
     
     
@@ -770,40 +833,10 @@
     <a href="/tags/git/" class="badge badge-special">git</a>
 </div></div>
 </div>
-    
-    
-
-<div class="px-3 px-sm-0  my-3 my-md-5 ">
-  
-  
-  <a href="https://www.linkedin.com/learning/gulp-js-web-project-workflows/" class="w-100 d-none d-lg-block mb-1" ><img class="w-100   img-fluid rounded" src="/images/courses/gulp_tn.jpg" alt="Gulp.js: Web Project Workflows photo"></a>
-  
-  <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Oct 31, 2019</time>
-  <a href="https://www.linkedin.com/learning/gulp-js-web-project-workflows/" class="h4 d-block my-1" >Gulp.js: Web Project Workflows</a>
-  <p class="mb-1  text-body d-none d-lg-block">Developing an efficient workflow will help you write better code and test and deploy your web applications easily and efficiently. Gulp.js make setting up compression, minification, preprocessing, and other common tasks easy.</p>
-  
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-  </div>
-  
-
-  <div class="mt-1"><div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/careers/" class="badge badge-special">careers</a>
-    <a href="/tags/full stack/" class="badge badge-special">full stack</a>
-    <a href="/tags/web development/" class="badge badge-special">web development</a>
-    <a href="/tags/gulp/" class="badge badge-special">gulp</a>
-    <a href="/tags/build tools/" class="badge badge-special">build tools</a>
-</div></div>
-</div>
     </div>
 </div>
 </article>
+
 
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
       <div class="layout-social container d-flex justify-content-center">

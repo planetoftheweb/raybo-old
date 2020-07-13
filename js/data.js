@@ -72,7 +72,7 @@
   "title": "How to eliminate the terror of a live coding demo training tutorial",
   "date" : "Jul 08, 2020",
   "summary" : "I&#39;ve prepared dozens of project based online tutorials and given as many live training sessions featuring the dreaded &#39;live coding&#39; demo. It can be embarrasing when you type in a comma instead of a semicolon. Here&#39;s a process for having a flawless demo.",
-  "thumbnail": "/images/posts/weekly-worksmarter_tn.png",
+  "thumbnail": "/images/posts/markus-spiske-Skf7HxARcoc-unsplash_tn.png",
   "url": "/posts/2020-07-08-error-free-live-demo/",
   "tags" : "tutorial,web development"
 },{
