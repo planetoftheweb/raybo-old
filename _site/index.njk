@@ -45,12 +45,14 @@ eleventyNavigation:
     {% include "items.njk" %}
     {% endfor -%}
   </div>
-  <div class="main-sidebar col-md-3">
-    <h6 class="text-secondary mt-3 mb-4 px-3 px-sm-0">Latest Courses</h6>
+  <div class="col-md-3">
+    <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Courses</h6>
+    <div class="main-sidebar">
     {% set itemList = courselist %}
     {% for item in itemList %}
     {% include "sidebar.njk" %}
     {% endfor -%}
+    </div>
   </div>
 </div>
 </article>

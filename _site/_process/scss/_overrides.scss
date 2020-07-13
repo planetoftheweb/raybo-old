@@ -135,7 +135,36 @@ a.text-primary:hover {
 }
 
 .main-sidebar {
-  font-family: $font-family-sans-serif;
+  ::selection {
+    background: lighten($dark-blue, 20%);
+  }
+
+  @include font-size(0.9em);
+  padding: 15px 1em 5px 1em;
+  background: $dark-blue;
+  border-radius: 10px;
+  color: $light-beige;
+
+  a.h4 {
+    color: darken($light-beige, 20%);
+    font-size: 1.5em;
+  }
+
+  .text-body {
+    color: lighten($text-body, 20%) !important;
+  }
+
+  .badge-primary {
+    background-color: darken($brighter-beige, 30%) !important;
+  }
+
+  .text-secondary {
+    color: lighten($neutral-blue, 30%) !important;
+  }
+
+  .item-links {
+    font-size: 0.95em;
+  }
 }
 
 time {

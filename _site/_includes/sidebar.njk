@@ -7,7 +7,8 @@
   {% endif %}
   <time class="small d-none d-lg-block text-body" datetime="{{ date | simpleDate }}">{{ item.date | simpleDate }}</time>
   <a href="{{ defaultURL | url }}" class="h4 d-block my-1" {% if external %}target="_blank"{% endif %}>{{item.data.title}}{% if external %}<i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .6em;"></i>{% endif %}</a>
-  <p class="mb-1  text-body d-none d-lg-block">{{ item.data.summary }}</p>
+  <p class="mb-1  text-body d-none d-lg-block">{{ item.data.summary }}
   {% include "links.njk" %}
+  </p>
   <div class="mt-1">{% include "tags.njk" %}</div>
 </div>

@@ -10,11 +10,33 @@ tags:
   - web development
 ---
 
-Lets take a look at how I would approach strucuring and buildling a repo for a live demo, which is similar to how I create many online training courses.
+The process I use for doing a live demo is similar to how I create online training courses. Our goal is to be able to see the code for the finished version of the lesson and compare it to what we're typing during the demo. If we make a mistake, we can see where we've missed or mistyped code. We can do that using features in Visual Studio Code, Git and Github. How you approach it depends on how complex your demo is going to be.
 
-## Committing our finished state
+## A simple demo
 
-First, I use Git to mark out what my code is supposed to look like when it's finished. Git has a feature called `diff` that lets you compare your current code to a branch. So if you create a branch that has how some code is supposed to look at the end of a demo, you can back up to a previous point and use this trick.
+First, let's take a look at how we would approach this with a simpler demo; perhaps a single file without a lot of code. To get started, I'm going to clone a github repo I've prepared. It's the same repo we'll publish later, I'm **only** going to download a specific branch.
+
+```bash
+cd ~/Desktop ## put it wherever you want, The desktop for me
+git clone --single-branch --branch master https://github.com/planetoftheweb/demo-notyf
+```
+
+Now that's going to get a copy of the repo, but only the master branch (You'll see later that our default branch will eventually be different) let's assume that I don't want any sort of git history to begin with so we'll clear that.
+
+```bash
+cd demo-notyf
+rm -dfr .git
+```
+
+This will remove the git tracking and just leave the directory with an **index.html** file. Open that up with Visual Studio Code, so I can just run a code command on the current folder.
+
+```bash
+code ./
+```
+
+### Committing our finished state
+
+The first step is for our project to write the finished version of the code, which we've done by cloning our repo. You can use Git to make a commit with this finished version.
 
 ```bash
 git init
@@ -22,17 +44,17 @@ git add -A
 git commit -m "finished state"
 ```
 
-Let's delete some code here so that my state shows what my code is going to look like at the beginning of my demo. If I wanted to see what I'm missing in this code, I would do a git diff command.
+Now, delete some code so that it shows the file at the beginning of my demo. That's all you need to do for this simple version. Once I begin my demo, if I want to see what I'm missing in this code, I could do a git diff command.
 
 ```bash
 git diff
 ```
 
-Unfortunately, this is real confusing because we're using the terminal, so it's not that helpful.
+Unfortunately, this is confusing because we're using the terminal, so it's not that helpful.
 
-## Using Visual Studio Code
+### Using Visual Studio Code
 
-However, if you're using Visual Studio Code, you get the same thing integrated into the editor.
+If you're using Visual Studio Code, you get the same thing integrated into the editor.
 
 ![hover on this triangle to see the difference between your finished code and what you have](http://pixelprowess.com/i/2020-07-07_20-52-47.png)
 
@@ -81,7 +103,7 @@ Let's make a mistake on purpose. I'll get rid of the `{` at the end of my Notyf 
 
 **VS Code** is giving you all types of help here. It's highlighted where the missing curly brace is and showing you the line you typed underneath. Notice there's a little **lightbulb** to the left. If you click on that you can also copy a specific line. That's good if you don't want to revert a bunch of lines.
 
-## Using the Github Desktop app
+### Using the Github Desktop app
 
 Now sometimes this view can be distracting during a demo, so you can use an external tool that shows you what you need to type during the demo. A super nice and free option is the [Github Desktop Application](https://desktop.github.com/). You can visually see the changes there.
 
@@ -90,6 +112,8 @@ Make sure you've saved the document before you open up the Github Desktop App; t
 ![Using the Github Desktop Application.](http://pixelprowess.com/i/2020-07-08_10-01-52.png)
 
 This is a great overview that you can have in a separate window when doing your demo. You can also send a screenshot of this and put it on an ipad that you can reference.
+
+---
 
 ## Using Separate Branches
 
