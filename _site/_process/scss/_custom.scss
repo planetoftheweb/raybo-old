@@ -8,17 +8,23 @@ $font-family-base: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
 
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
-$line-height-base: 1.4;
+$line-height-base: 1.6;
 
-$primary: #025e73;
-$secondary: #bf471b;
-$body-bg: #f3e9ca;
-$text-body: #3e3f41;
-$body-color: $text-body;
-$border-radius: 8px;
-$special: rgb(192, 179, 132);
+$light-beige: #f3e9ca;
+$dark-red: #bf471b;
+$dark-blue: #3e4653;
+$neutral-blue: #646569;
 $black: #000;
 $white: #fff;
+$brighter-beige: #ddd4ba;
+
+$primary: $dark-blue;
+$secondary: $dark-red;
+$body-bg: $light-beige;
+$text-body: $neutral-blue;
+$body-color: $text-body;
+$border-radius: 8px;
+$special: darken($body-bg, 50%);
 
 $theme-colors: (
   'special': $special,
@@ -40,12 +46,12 @@ $spacers: (
 
 $grid-gutter-width: 16px;
 
-$pagination-bg: $special;
-$pagination-color: darken($primary, 20%);
+$pagination-bg: lighten($special, 30%);
+$pagination-color: darken($body-bg, 10%);
 $pagination-border-color: darken($body-bg, 7%);
 
 $pagination-active-color: $body-bg;
-$pagination-active-bg: $secondary;
+$pagination-active-bg: lighten($special, 5%);
 $pagination-active-border-color: darken($body-bg, 7%);
 
 $pagination-disabled-bg: darken($body-bg, 3%);

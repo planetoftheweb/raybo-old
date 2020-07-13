@@ -1,15 +1,14 @@
 ::selection {
-  background: $special;
-  color: $white;
+  background: $brighter-beige;
 }
 
 .page-section-title {
-  @include font-size(2.5rem);
+  @include font-size(1.5rem);
 }
 
 .page-section-text {
   font-family: $font-family-sans-serif;
-  @include font-size(1.5rem);
+  @include font-size(1rem);
   font-weight: 400;
 }
 
@@ -23,6 +22,18 @@
   text-rendering: auto;
 }
 
+code {
+  color: $body-bg;
+  background-color: lighten(theme-color('special'), 20%);
+  padding: 0 8px;
+  border-radius: 5px;
+}
+
+ul li,
+ol li {
+  padding-bottom: 0.5em;
+}
+
 .icon-pow {
   background: url(/images/site/powship.svg) no-repeat center center;
   background-size: contain;
@@ -31,7 +42,7 @@
 
 h1,
 .h1 {
-  color: $primary;
+  color: lighten(theme-color('special'), 20%);
 }
 
 h2,
@@ -159,44 +170,45 @@ time {
   font-family: $font-family-sans-serif;
 }
 
-pre code {
-  font-size: 0.8em !important;
-  margin: 0;
+.badge {
+  color: $body-bg;
 }
 
 .article-content {
+  line-height: 180%;
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    margin-top: 2em;
+    margin-top: 1em;
   }
 
   p {
-    margin: 0em auto;
+    margin: 1.5em auto;
   }
-  img {
-    max-width: 100%;
-  }
-}
 
-.badge {
-  color: $body-bg;
-}
-
-.article-content {
-  p {
-    margin: 2.5em auto;
+  ul li,
+  ol li {
+    line-height: 150%;
   }
 
   img {
     width: 100%;
     max-width: 800px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 10px 10px 20px #92865c;
+  }
+
+  pre {
+    display: inline-block;
+    box-shadow: 10px 10px 20px #92865c;
+  }
+
+  pre code {
+    font-size: 0.8em !important;
+    margin: 0;
   }
 }

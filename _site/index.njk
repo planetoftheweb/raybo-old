@@ -1,6 +1,8 @@
 ---
 layout: base.njk
 headerHeight: 50vh
+carousel:
+  fade: true
 eleventyNavigation:
   key: main
 ---
@@ -38,13 +40,13 @@ eleventyNavigation:
 >
 <div class="row">
   <div class="main-content col-md-9">
-    <h4 class="family-sans text-secondary mt-2 mb-4 px-3 px-sm-0">Latest Posts</h4>
+    <h6 class="family-sans text-secondary mt-3 mb-2 px-3 px-sm-0">Latest Posts</h6>
     {%- for item in postslist %}
     {% include "items.njk" %}
     {% endfor -%}
   </div>
   <div class="main-sidebar col-md-3">
-    <h4 class="text-secondary mt-2 mb-4 px-3 px-sm-0">Latest Courses</h4>
+    <h6 class="text-secondary mt-3 mb-4 px-3 px-sm-0">Latest Courses</h6>
     {% set itemList = courselist %}
     {% for item in itemList %}
     {% include "sidebar.njk" %}

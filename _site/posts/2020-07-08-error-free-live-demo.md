@@ -22,9 +22,7 @@ git add -A
 git commit -m "finished state"
 ```
 
-Now let's delete some code here so that my state shows what my code is going to look like at the beginning of my demo.
-
-Now, if I wanted to see what I'm missing in this code, I would do a git diff command.
+Let's delete some code here so that my state shows what my code is going to look like at the beginning of my demo. If I wanted to see what I'm missing in this code, I would do a git diff command.
 
 ```bash
 git diff
@@ -142,7 +140,7 @@ Now we need to modify this to add what would make a good step one. However, you'
 
 The desktop app saves our history, so make sure you go to the history tab and you should see your changes from the original. The nice thing is that we can copy and paste code from here as well. Let's go ahead and copy the link to the Notyf css here as well as the basic most basic code to create a notification.
 
-```html
+```html/12-15
 <html>
   <head>
     ...
@@ -153,10 +151,7 @@ The desktop app saves our history, so make sure you go to the history tab and yo
   </head>
   <body>
     ...
-    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js">
-      +
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
     <script>
       let notyf = new Notyf()
       notyf.success('Way to go Bud')
@@ -207,7 +202,7 @@ git commit -m "step02"
 
 For our next step, let's show how to create a custom notification.
 
-```html/1
+```html/1,3-5
 <script>
   let notyf = new Notyf({
     duration: 0,
