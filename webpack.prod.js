@@ -8,7 +8,7 @@ module.exports = merge(common, {
   mode: 'production',
   watch: false,
   output: {
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'js/script.js',
   },
 

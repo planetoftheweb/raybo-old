@@ -1,69 +1,69 @@
 [{
   "title": "Seven: An Eleventy Template",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   "summary" : "A Bootstrap Based template for the awesome Eleventy static site generator.",
   
   "url": "/projects/seven/",
   "tags" : ""
 },{
   "title": "Building",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   
   
   "url": "/projects/seven/06_Building/","icon": "<i class=\"fas fa-project-diagram\"></i>",
   "tags" : "project,rayveal"
 },{
   "title": "Configuration",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   
   
   "url": "/projects/seven/05_Configuration/","icon": "<i class=\"fas fa-project-diagram\"></i>",
   "tags" : "project,rayveal"
 },{
   "title": "Site",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   "summary" : "A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more.&quot;",
   
   "url": "/projects/seven/04_Site/","icon": "<i class=\"fas fa-project-diagram\"></i>",
   "tags" : "project,rayveal"
 },{
   "title": "Scripts",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   
   
   "url": "/projects/seven/03_Scripts/","icon": "<i class=\"fas fa-project-diagram\"></i>",
   "tags" : "project,rayveal"
 },{
   "title": "Seven: Styles",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   
   
   "url": "/projects/seven/02_Styles/","icon": "<i class=\"fas fa-project-diagram\"></i>",
   "tags" : "project,rayveal"
 },{
   "title": "RavVeal: Introduction",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   "summary" : "A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more.&quot;",
   
   "url": "/projects/rayveal/",
   "tags" : ""
 },{
   "title": "Templates",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   "summary" : "A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more.&quot;",
   
   "url": "/projects/rayveal/04_Templates/",
   "tags" : ""
 },{
   "title": "Features",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   "summary" : "A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more.&quot;",
   
   "url": "/projects/rayveal/03_Features/",
   "tags" : ""
 },{
   "title": "Setup Instructions",
-  "date" : "Jul 09, 2020",
+  "date" : "Jul 13, 2020",
   "summary" : "A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more.&quot;",
   
   "url": "/projects/rayveal/02_Instructions/","icon": "<i class=\"fas fa-project-diagram\"></i>",
